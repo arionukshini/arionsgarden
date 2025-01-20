@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/fizik/lista-e-temave/"}
 ---
 
-# Pjeasa e pare:
+# Pjesa e pare:
 
 Sistemi SI, nënfishat dhe shumëfishit
 Elementet e lëvizjes
