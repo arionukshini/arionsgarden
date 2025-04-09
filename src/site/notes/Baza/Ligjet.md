@@ -37,4 +37,18 @@ Duke analizuar rezultatet e fituara në lidhje me fushat magnetike, Bio dhe Sava
 # Ligji i pergjithesuar i Amperit
 
 
+Për të përcaktuar fushën magnetike të një sistemi të rrymave mikroskopike, e cila në tërësi ose pjesërisht krijohet në materie, nuk mund të zbatohet drejtpërdrejt as ligji i Bio-Savarit e as ai i Amperit, si pasojë e paraqitjes së mikrorrymave të Amperit.
 
+Le të vërehet në fushën magnetike një konturë K e cila pjesërisht ose e tëra shtrihet në materie. Ligji i Amperit për konturin K, në këtë rast e ka trajtën: 
+
+![Pasted image 20250409231806.png](/img/user/Pasted%20image%2020250409231806.png)
+
+Shprehja e mësipërme nuk është edhe aq e lehtë për zbatim, sepse sikur të kërkohet saktësi e madhe në llogaritje, do të duhet të merren të gjtha mikro rrymat e Amperit të secilit elektron të atomeve të materies nëpër trajektoren orbtale të cilit kalon kontura K., gjë është e pamundur të bëhet.
+
+Por, nëse në vend se të merret parasysh secili elektron, materia ndahet në pjesë të vogla në formë të paralelopipedave, sikurse paraprakisht.
+
+![Pasted image 20250409232210.png](/img/user/Pasted%20image%2020250409232210.png) ![Pasted image 20250409232353.png](/img/user/Pasted%20image%2020250409232353.png)
+
+Shprehja paraqet ligjin e përgjithësuar të Amperit. Duke e përkufizuar një madhësi të re ![Pasted image 20250409232259.png](/img/user/Pasted%20image%2020250409232259.png) 
+e cila quhet intensitet i fushës magnetike, ligji i përgjithësuar i Amperit merr trajtën: ![Pasted image 20250409232318.png](/img/user/Pasted%20image%2020250409232318.png) 
+ku S është cilado sipërfaqe e mbështetur mbi konturin K.
