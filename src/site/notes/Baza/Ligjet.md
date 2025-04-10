@@ -14,7 +14,6 @@ Prandaj, edhe fusha magnetike e rrymës së këtillë do të karakterizohet me i
 
 Fushën magnetike e shkakton rryma elektrike.
 
-Kjo konstatohet duke e konstatuar forcën, me të cilin mjedisi përreth përçuesve me rryma elektrike vepron në secilin përçues tjetër me rrymë elektrike që vendoset në atë mjedis.
 Duke bërë matje në rastin e fushës magnetike të rrymës elektrike në një përçues vijëdrejtë, me gjatësi shumë të madhe, Bio dhe Savar, përfunduan se:
 Vijat e vektorit B të kësaj fushe magnetike janë rrethore, me qendër në boshtin e përçuesit.
 Gishti i madh e paraqet kahun e rrymes dhe gishtat e tjere kahun e induksionit magnetik.
@@ -52,3 +51,16 @@ Por, nëse në vend se të merret parasysh secili elektron, materia ndahet në p
 Shprehja paraqet ligjin e përgjithësuar të Amperit. Duke e përkufizuar një madhësi të re ![Pasted image 20250409232259.png](/img/user/Pasted%20image%2020250409232259.png) 
 e cila quhet intensitet i fushës magnetike, ligji i përgjithësuar i Amperit merr trajtën: ![Pasted image 20250409232318.png](/img/user/Pasted%20image%2020250409232318.png) 
 ku S është cilado sipërfaqe e mbështetur mbi konturin K.
+
+# Zbatimi i ligjit te Amperit
+
+Ligji i Amperit, ngjashëm sikurse ligji i Gausit në elektrostatikë, ka rëndësi praktike, sepse mundëson përcaktimin e lehtë të fushës magnetike te disa raste të veçanta me një simetri të theksuar.
+
+Ligji i Amperit mundëson zgjidhjen shumë të lehtë të disa problemeve në fushën magnetike të cilat shumë vështirë do të zgjidheshin duke e zbatuar ligjin e Bio-Savarit.
+Le të vështrohet një përçues masiv, cilindrik me gjatësi të pakufizuar, dhe me rrymë I, fig.
+
+Fillimisht le të supozohet se dendësia e rrymës është homogjene, andaj për shkak të simetrisë së përçuesit duhet pritur që vijat e fushës magnetike, brenda dhe jashtë tij, të jenë rrathë koncentrik  në rrafshe që janë normal në boshtin e përçuesit.
+
+Eshtë e njohur që vektori B është tangjentë në vijat e fushës magnetike, dhe ka intensitet të njëjtë në secilën pikë të një vije të fushës magnetike.
+
+![Pasted image 20250410144943.png](/img/user/Pasted%20image%2020250410144943.png) ![Pasted image 20250410145017.png](/img/user/Pasted%20image%2020250410145017.png)
