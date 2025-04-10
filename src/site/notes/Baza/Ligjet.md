@@ -17,7 +17,7 @@ Fushën magnetike e shkakton rryma elektrike.
 Kjo konstatohet duke e konstatuar forcën, me të cilin mjedisi përreth përçuesve me rryma elektrike vepron në secilin përçues tjetër me rrymë elektrike që vendoset në atë mjedis.
 Duke bërë matje në rastin e fushës magnetike të rrymës elektrike në një përçues vijëdrejtë, me gjatësi shumë të madhe, Bio dhe Savar, përfunduan se:
 Vijat e vektorit B të kësaj fushe magnetike janë rrethore, me qendër në boshtin e përçuesit.
-Gishti i madh e paraqet kahun e rrymes dhe gjishtat e tjere kahun e induksionit magnetik.
+Gishti i madh e paraqet kahun e rrymes dhe gishtat e tjere kahun e induksionit magnetik.
 
 ![Pasted image 20250409230642.png](/img/user/Pasted%20image%2020250409230642.png) ![Pasted image 20250409230651.png](/img/user/Pasted%20image%2020250409230651.png)
 
