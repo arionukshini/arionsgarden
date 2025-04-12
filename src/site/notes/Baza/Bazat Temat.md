@@ -96,20 +96,19 @@ Kur në fushën magnetike vendoset një sipërfaqe, nëpër të depërtojnë vij
 
 Numri i vijave që depërtojnë nëpër sipërfaqe, si dhe këndi me të cilin ato depërtojnë, kanë rëndësi për nga shumë efekte të fushës magnetike.
 
-Pasi nga kjo varet fluksi magnetik, del se
+Pasi nga kjo varet fluksi magnetik, del se efektet e fushës magnetike varen nga fluksi magnetik nëpër sipërfaqe dhe mund të shprehen nëpërmjet tij.
 
-efektet e fushës magnetike varen nga fluksi magnetik nëpër sipërfaqe
-
-dhe mund të shprehen nëpërmjet tij.
-Megjithatë mund të flitet edhe mbi fluksin magnetik nëpër një konturë.
-
-Natyrisht ky nuk do të jetë përkufizim i ri i fluksit magnetik, i ndryshëm nga ai nëpër një sipërfaqe.
-
-Edhe më tej ngel fakti se ekziston kuptimi vetëm i fluksit magnetik nëpër sipërfaqe.
-
-Kjo do të thotë praktikisht se fluksi magnetik nëpër sipërfaqe të caktuar do të mund të quhet fluks nëpër konturë. Le të paramendohet një kontur K arbitrar në fushën magnetike me induksion B, fig.
-Që të flitet për një fluks magnetik, duhet të mendohet një sipërfaqe S1, e cila është mbështetur në konturin K (fig.b).
+Kjo do të thotë praktikisht se fluksi magnetik nëpër sipërfaqe të caktuar do të mund të quhet fluks nëpër konturë. Le të paramendohet një kontur K arbitrar në fushën magnetike me induksion B.
+Që të flitet për një fluks magnetik, duhet të mendohet një sipërfaqe S1, e cila është mbështetur në konturin K.
 
 Për të llogaritur fluksin magnetik nëpër sipërfaqen S1, të mbështetur mbi konturin K, sipërfaqja S1 ndahet në elemente të vogla të cilat paraqiten nëpërmjet vektorëve dS.
-Për këtë qëllim konturi K orientohet sipas dëshirës, p.sh. si në fig.
-![Pasted image 20250412132842.png](/img/user/Pasted%20image%2020250412132842.png)
+Për këtë qëllim konturi K orientohet sipas dëshirës.
+Elementet dS poashtu orientohen ashtu që këto të përputhen me orientimin e konturit K.
+
+Fluksi magnetik nëpër sipërfaqen S1 do të jetë:
+![Pasted image 20250412133339.png](/img/user/Pasted%20image%2020250412133339.png)
+
+![Pasted image 20250412133652.png](/img/user/Pasted%20image%2020250412133652.png)
+Nga rezultati i fituar përfundohet se: fluksi magnetik nëpër një sipërfaqe të mbështetur mbi konturin e caktuar nuk varet nga sipërfaqja e mbështetur.
+
+Ai është i njëjtë nëpër të gjitha sipërfaqet që mund të mbështeten mbi atë kontur. Prandaj, fluksi magnetik nëpër një sipërfaqe të hapur mund të quhet fluks magnetik nëpër konturin e saj.
