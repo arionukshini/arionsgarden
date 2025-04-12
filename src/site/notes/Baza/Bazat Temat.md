@@ -108,7 +108,21 @@ Elementet dS poashtu orientohen ashtu që këto të përputhen me orientimin e k
 Fluksi magnetik nëpër sipërfaqen S1 do të jetë:
 ![Pasted image 20250412133339.png](/img/user/Pasted%20image%2020250412133339.png)
 
+Per shkak qe vlen ligji i ruajtjes se fluksit atehere:
+
 ![Pasted image 20250412133652.png](/img/user/Pasted%20image%2020250412133652.png)
 Nga rezultati i fituar përfundohet se: fluksi magnetik nëpër një sipërfaqe të mbështetur mbi konturin e caktuar nuk varet nga sipërfaqja e mbështetur.
 
 Ai është i njëjtë nëpër të gjitha sipërfaqet që mund të mbështeten mbi atë kontur. Prandaj, fluksi magnetik nëpër një sipërfaqe të hapur mund të quhet fluks magnetik nëpër konturin e saj.
+
+# Induksioni elektromagnetik statik
+
+Eksperimentet e Faradejit tregojnë se induksioni elektromagnetik, paraqitet edhe atëherë kur konturi nuk është në lëvizje por ai ndodhet në fushën magnetike të ndryshueshme - induksioni elektromagnetik statik.
+
+Edhe forca elektrolëvizore (elektromotore) e shkaktuar nga ky induksion mund të shprehet me ligjin e Faradejit,
+![Pasted image 20250412134134.png](/img/user/Pasted%20image%2020250412134134.png)
+ku ndryshimin e fluksit magnetik e shkakton ndryshimi i fushës magnetike me kohën.
+
+Faktikisht forcën elektrolëvizore të induktuar në konturë e shkakton fusha elektrike e induktuar për shkak të ndryshimit të fushës magnetike gjatë kohës dhe se ajo mund të llogaritet edhe nga shprehja
+![Pasted image 20250412134205.png](/img/user/Pasted%20image%2020250412134205.png) 
+Nëse merret parasysh shprehja për llogaritjen e fluksit magnetik, ![Pasted image 20250412134236.png](/img/user/Pasted%20image%2020250412134236.png) atëherë ligji i Faradejit merr trajtën, ![Pasted image 20250412134247.png](/img/user/Pasted%20image%2020250412134247.png) Meqë në rastin e induksionit elektromagnetik statik vetëm induksioni magnetik ndryshon me kohën, ndërsa konturi K dhe sipërfaqja në të cilën mbështetur ajo, nuk ndryshojnë, atëherë ana e djathtë e shprehjes mund të shkruhet në trajtën. Në shprehjen e fundit është përdorë shprehja për diferencim parcial, meqë vektori  B është funksion i koordinatave hapësinore dhe kohës t.
