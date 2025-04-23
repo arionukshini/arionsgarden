@@ -4,13 +4,15 @@
 
 # Pjesa e pare:
 
-Sistemi SI, nënfishat dhe shumëfishit
-Elementet e lëvizjes
-Vektori i pozitës, zhvendosja dhe rruga
-Koha dhe intervali kohor
-Shpejtësia lineare
-Nxitimi linear
-Perioda dhe frekuenca
+> [!Vetem ne liber kto, se mdoket ste kokan te ligjeratat]
+> Sistemi SI, nënfishat dhe shumëfishit
+> Elementet e lëvizjes
+> Vektori i pozitës, zhvendosja dhe rruga
+> Koha dhe intervali kohor
+> Shpejtësia lineare
+> Nxitimi linear
+> Perioda dhe frekuenca
+
 Kuptimi i vektorit të shpejtësisë dhe nxitimit
 Nxitimi mesatar dhe i çastit
 Ndarja e lëvizjeve
@@ -113,3 +115,5 @@ Puna e gazit të mbyllur gjatë procesit izohorik
 Puna e gazit të mbyllur gjatë procesit izobarik
 Puna e gazit të mbyllur gjatë procesit izotermik
 Puna e gazit të mbyllur gjatë procesit adiabatik
+
+[^1]: 
