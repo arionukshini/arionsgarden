@@ -4,7 +4,9 @@
 
 # Pjesa e pare:
 
-> [!Vetemneliber, se mdoket ste kokan te ligjeratat]
+> [!NOTE]
+> S'jan ne ligjerata, viq ne liber
+> 
 > Sistemi SI, nënfishat dhe shumëfishit
 > Elementet e lëvizjes
 > Vektori i pozitës, zhvendosja dhe rruga
