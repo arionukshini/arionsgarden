@@ -167,5 +167,3 @@ $$G=\Re e \{\underline{Y}\} \to percueshmeria\space aktive \space\space\space\sp
 ![Pasted image 20250525212015.png](/img/user/Pasted%20image%2020250525212015.png)
 prej nga
 ![Pasted image 20250525212022.png](/img/user/Pasted%20image%2020250525212022.png)
-
-
