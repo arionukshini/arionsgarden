@@ -64,5 +64,6 @@ Madhesia $X_{C}=\frac{1}{wC}$ quhet rezistenca fiktive e kondensatorit.
 
 # Tensioni alternativ ne skajet e lidhjes serike te rezistorit dhe bobines #card 
 
-$$u=U_{m}Sin(wt+\vartheta)$$ eshte i kyqurne skajet e lidhjes serike te qarkut serike R,L.
+$$u=U_{m}Sin(wt+\vartheta)$$
+eshte i kyqurne skajet e lidhjes serike te qarkut serike R,L.
 ![Pasted image 20250525191430.png](/img/user/Pasted%20image%2020250525191430.png)
