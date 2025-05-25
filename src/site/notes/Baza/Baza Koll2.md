@@ -61,3 +61,8 @@ shihet se vlera maksimale e rrymes eshte: $I_{m}=wCU_{m}$ dhe faza fillestare: $
 Rryma eshte alternative, njejt si tensioni.
 Madhesia $X_{C}=\frac{1}{wC}$ quhet rezistenca fiktive e kondensatorit.
 ![Pasted image 20250525190005.png](/img/user/Pasted%20image%2020250525190005.png)
+
+# Tensioni alternativ ne skajet e lidhjes serike te rezistorit dhe bobines #card 
+
+$$u=U_{m}Sin(wt+\vartheta)$$ eshte i kyqurne skajet e lidhjes serike te qarkut serike R,L.
+![Pasted image 20250525191430.png](/img/user/Pasted%20image%2020250525191430.png)
