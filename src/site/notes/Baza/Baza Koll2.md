@@ -49,3 +49,15 @@ pastaj $i(t)=I_{m}Sin(wt+\psi)$, shihet se:
 $$I_{m}=\frac{U_{m}}{wL} \space dhe\space faza \space fillestare\space \psi=\vartheta - \frac{\pi}{2}$$
 Pra, rryma neper bobine, e cila eshte e kyqur ne burimin e tensionit alternativ eshte poashtu alternative, me vlere maksimale te dhene me lart, ndersa faza fillestare e saj vonohet per $\pi$/2, ne krahasim me ate te tensionit.
 ![Pasted image 20250525185251.png](/img/user/Pasted%20image%2020250525185251.png)
+
+# Tensioni alternativ ne skajet e kondensatorit #card 
+
+Shqyrtojme rastin e kyqjes se kondensatorit te tensionit alternativ:
+$$u(t)=U_{m}Sin(wt+\vartheta)$$
+Vlera momentale e intensitetit te rrymes ne qark do te jete:
+![Pasted image 20250525185606.png](/img/user/Pasted%20image%2020250525185606.png)
+perkatesisht ![Pasted image 20250525185615.png](/img/user/Pasted%20image%2020250525185615.png)
+shihet se vlera maksimale e rrymes eshte: $I_{m}=wCU_{m}$ dhe faza fillestare: $\psi=\vartheta+\pi/2$ nga shihet se faza fillestare e rrymes eshte per $\pi$/2 para asaj te tensionit. 
+Rryma eshte alternative, njejt si tensioni.
+Madhesia $X_{C}=\frac{1}{wC}$ quhet rezistenca fiktive e kondensatorit.
+![Pasted image 20250525190005.png](/img/user/Pasted%20image%2020250525190005.png)
