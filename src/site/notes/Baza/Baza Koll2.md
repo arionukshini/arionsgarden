@@ -88,3 +88,4 @@ Kjo shprehje per nga natyra eshte rezistence elektrike dhe shenohet me Z, ndersa
 Pra, impedanca e lidhjes serike te rezistorit dhe bobines eshte 
 ![Pasted image 20250525192419.png](/img/user/Pasted%20image%2020250525192419.png)
 Vlera maksimale e rrymes dhe vlera efektive: $I_{m}=\frac{U_{m}}{Z}$ dhe $I=\frac{U}{Z}$ . $\varphi= \arctan\left( \frac{wL}{R} \right)$ 
+![Pasted image 20250525192632.png](/img/user/Pasted%20image%2020250525192632.png)
