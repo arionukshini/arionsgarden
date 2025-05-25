@@ -123,6 +123,8 @@ Vlen ligji komutativ: $\overline{I}_{1} + \overline{I}_{2} = \overline{I}_{2} + 
 
 # Trajta komplekse e relacioneve te elementeve te qarkut elektrik #card 
 
+Hala
 
 # Impedanca dhe admitanca #card 
 
+Hala
