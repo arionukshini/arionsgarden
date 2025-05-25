@@ -89,3 +89,40 @@ Pra, impedanca e lidhjes serike te rezistorit dhe bobines eshte
 ![Pasted image 20250525192419.png](/img/user/Pasted%20image%2020250525192419.png)
 Vlera maksimale e rrymes dhe vlera efektive: $I_{m}=\frac{U_{m}}{Z}$ dhe $I=\frac{U}{Z}$ . $\varphi= \arctan\left( \frac{wL}{R} \right)$ 
 ![Pasted image 20250525192632.png](/img/user/Pasted%20image%2020250525192632.png)
+
+# Tensioni alternativ ne skajet e lidhjes serike te rezistorit dhe kondensatorit #card 
+
+Supozohet se ne skaje te lidhjes serike te rezistorit me rezistence R dhe kondensatorit me kapacitet C, vepron tensioni periodik i thjeshte $u=U_{m}Sin(wt+\vartheta)$.
+Intensiteti i rrymes ne qark do te jtet poashtu madhesi periodike e thjeshte, dhe le te supozohet e trajtes $i=I_{m}Sin(wt+\vartheta-\varphi)=I_{m}Sin(wt+\psi)$, ku amplituda Im dhe kendi i shfazimit $\varphi$ jane te panjohura.
+Ekuacioni i baraspeshes se qarkut ne fig. ka trajten: $u=u_{R}+u_{C}$.
+![Pasted image 20250525193204.png](/img/user/Pasted%20image%2020250525193204.png)
+Duke i pasur parasysh shprehjet e tensioneve ne rezistor dhe kondensator
+![Pasted image 20250525193240.png](/img/user/Pasted%20image%2020250525193240.png)
+![Pasted image 20250525193243.png](/img/user/Pasted%20image%2020250525193243.png)
+![Pasted image 20250525193259.png](/img/user/Pasted%20image%2020250525193259.png)
+atehere shprehja e baraspeshes shendrrohet ne:
+![Pasted image 20250525193334.png](/img/user/Pasted%20image%2020250525193334.png)
+![Pasted image 20250525193356.png](/img/user/Pasted%20image%2020250525193356.png)
+![Pasted image 20250525193403.png](/img/user/Pasted%20image%2020250525193403.png)
+![Pasted image 20250525193411.png](/img/user/Pasted%20image%2020250525193411.png)
+![Pasted image 20250525193416.png](/img/user/Pasted%20image%2020250525193416.png)
+Madhesia ne emruesin ne shprehjen me larte per nga natyra eshte rezistence elektrike dhe quhet impedance
+![Pasted image 20250525193517.png](/img/user/Pasted%20image%2020250525193517.png)
+ne kete rast kendi i shfazimit ndermjet tensionit dhe rrymes eshte negativ (4.45), qe do te thote se tensioni ngece pas rrymes elektrike.
+
+# Operacioni i mbledhjes se fazoreve #card
+
+Le te jene dhene fazoret e dy rrymave, te cilat duhet te mblidhen:
+$$\overline{I}_{1}=I_{1} \space|\underline{\psi}_{1} \space\space\space\space\space  \overline{I}_{2}=I_{2} \space|\underline{\psi}_{2}$$
+Shuma do te jete: $$\overline{I} = \overline{I}_{1} + \overline{I}_{2} = I|\underline{\psi}$$
+ku
+![Pasted image 20250525194247.png](/img/user/Pasted%20image%2020250525194247.png)
+![Pasted image 20250525194253.png](/img/user/Pasted%20image%2020250525194253.png)
+![Pasted image 20250525194301.png](/img/user/Pasted%20image%2020250525194301.png)
+Vlen ligji komutativ: $\overline{I}_{1} + \overline{I}_{2} = \overline{I}_{2} + \overline{I}_{1}$ .
+
+# Trajta komplekse e relacioneve te elementeve te qarkut elektrik #card 
+
+
+# Impedanca dhe admitanca #card 
+
