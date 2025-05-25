@@ -67,3 +67,24 @@ Madhesia $X_{C}=\frac{1}{wC}$ quhet rezistenca fiktive e kondensatorit.
 $$u=U_{m}Sin(wt+\vartheta)$$
 eshte i kyqurne skajet e lidhjes serike te qarkut serike R,L.
 ![Pasted image 20250525191430.png](/img/user/Pasted%20image%2020250525191430.png)
+Ekuacioni i baraspeshes dinamike per kete qark ka trajten, ![Pasted image 20250525191800.png](/img/user/Pasted%20image%2020250525191800.png)
+![Pasted image 20250525191808.png](/img/user/Pasted%20image%2020250525191808.png)
+Meqe dhe intensiteit i rrymes elektrike eshte madhesi periodike e thjeshte, ajo mund te supozohet e trajtes,
+![Pasted image 20250525191846.png](/img/user/Pasted%20image%2020250525191846.png)
+![Pasted image 20250525191850.png](/img/user/Pasted%20image%2020250525191850.png)
+ku amplituda Im dhe shfazimi i tensionit dhe rrymes duhet te percaktohen. Per me zevendesu kete shprehje ne baraspeshimin dinamik, nevojitet derivati i rrymes:
+![Pasted image 20250525191958.png](/img/user/Pasted%20image%2020250525191958.png)
+Pas zevendesimit:
+![Pasted image 20250525192007.png](/img/user/Pasted%20image%2020250525192007.png)
+Nga ky indetitet trigonometrik, fitohet:
+![Pasted image 20250525192043.png](/img/user/Pasted%20image%2020250525192043.png)
+Pas pjestimit te pjeses se majte (pa I-ne) me $\cos \varphi$
+![Pasted image 20250525192123.png](/img/user/Pasted%20image%2020250525192123.png)
+![Pasted image 20250525192129.png](/img/user/Pasted%20image%2020250525192129.png)
+![Pasted image 20250525192138.png](/img/user/Pasted%20image%2020250525192138.png)
+Pas zevendesimit ne 4.27: (munesh me zgjedh zevendesimin, pra sin dhe cos e zv deri sa te del qikjo poshte)
+![Pasted image 20250525192157.png](/img/user/Pasted%20image%2020250525192157.png)
+Kjo shprehje per nga natyra eshte rezistence elektrike dhe shenohet me Z, ndersa quhet impedance, por edhe rezistence fiktive.
+Pra, impedanca e lidhjes serike te rezistorit dhe bobines eshte 
+![Pasted image 20250525192419.png](/img/user/Pasted%20image%2020250525192419.png)
+Vlera maksimale e rrymes dhe vlera efektive: $I_{m}=\frac{U_{m}}{Z}$ dhe $I=\frac{U}{Z}$ . $\varphi= \arctan\left( \frac{wL}{R} \right)$ 
