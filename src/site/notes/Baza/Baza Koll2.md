@@ -123,8 +123,49 @@ Vlen ligji komutativ: $\overline{I}_{1} + \overline{I}_{2} = \overline{I}_{2} + 
 
 # Trajta komplekse e relacioneve te elementeve te qarkut elektrik #card 
 
-Hala
+Madhesite e burimeve te tensionit dhe rrymes jepen ne domenin kohor, andaj qarku elektrik i rrymave alternative paraqet nje qark elektrik ne domenin e kohes.
+Nese burmiet e tensionit paraqiten ne trajten e tyre komplekse, atehere qarku i tille konsiderohet si qark ne domenin e frekuences.
+Analiza e qarqeve ne domoenin frekuences eshte me e lehte se ne domenin e kohes. Ne menyre qe ta kthejne ne domen te frekuences (trajten komplekse) duhet qe perveq burimeve edhe elementet e qarkut te transformohen.
+Analizojme elementet pasive te qarkut:
+Rryma ne degen me rezistence: $i=I_{m}Sin(wt+\psi)=\sqrt{2}ISin(wt+\psi)$, andaj tensioni ne kete element do te percaktohet nga shprehja $u=R*i=R\sqrt{2}ISin(wt+\psi)$.
+Trajta komplekse e tensionit te dhene eshte: $\underline{U}=RIe^{j\psi}$ dhe rryma: $\underline{I}=Ie^{j\psi}$ atehere $\underline{U}=R\underline{I}$.
+![Pasted image 20250525210043.png](/img/user/Pasted%20image%2020250525210043.png)
+Ne vazhdim le te supozohet se rryma neper nje bobine me induktivitet L. Tensioni do te jete:
+![Pasted image 20250525210215.png](/img/user/Pasted%20image%2020250525210215.png)
+Ndersa ne trajten komplekse:
+![Pasted image 20250525210244.png](/img/user/Pasted%20image%2020250525210244.png)
+![Pasted image 20250525210255.png](/img/user/Pasted%20image%2020250525210255.png)
+![Pasted image 20250525210303.png](/img/user/Pasted%20image%2020250525210303.png)
+Pra tensioni dhe rryma jane te shfazuar per $\pi$/2 perkatesisht rryma mbetet pas tensionit per $\pi$/2.
+Nese marrim kondensator, ne vend te bobines:
+![Pasted image 20250525210437.png](/img/user/Pasted%20image%2020250525210437.png)
+![Pasted image 20250525210441.png](/img/user/Pasted%20image%2020250525210441.png)
+![Pasted image 20250525210445.png](/img/user/Pasted%20image%2020250525210445.png)
+![Pasted image 20250525210454.png](/img/user/Pasted%20image%2020250525210454.png)
+ose
+![Pasted image 20250525210501.png](/img/user/Pasted%20image%2020250525210501.png)![Pasted image 20250525210504.png](/img/user/Pasted%20image%2020250525210504.png)
+![Pasted image 20250525210517.png](/img/user/Pasted%20image%2020250525210517.png)
+Kondensatori ngel pas rrymes per $\pi$/2.
 
 # Impedanca dhe admitanca #card 
 
-Hala
+Jane percaktuar marredheniet e tensionit dhe rrymes per rezistor, bobine dhe kondensator, ne trajten:
+$$\underline{U}=R \underline{I};\space\space\space\space\space\space\space\space\space\space \underline{U}=jwL \underline{I};\space\space\space\space\space\space\space\space\space\space \underline{U}=-j \frac{\underline{I}}{wC}$$
+Ana e majte e shprehjeve larte, varet nga frekuenca dhe quhet impedance.
+Kjo madhesi percaktohet si raport i tensionit dhe rrymes ne domenin e frekuences. Andaj impedanca e elementeve te qarkut, rezistorit, bobines dhe kondensatorit eshte:
+$$\underline{Z}_{R}=R;\space\space\space\space\space\space\space\space\space\space \underline{Z}_{L}=jwL;\space\space\space\space\space\space\space\space\space\space \underline{Z}_{C}=\frac{-j}{wC}$$
+Shihet se kur w=0, impedanca e bobines eshte e barabart me zero, kurse ajo e kondensatorit tenton ne vlere te pakufizuar.
+$$\underline{Z}=R+jX$$
+$$R=\Re e \{\underline{Z}\} \to rezistence\space aktive \space\space\space\space\space\space\space\space\space\space X=\Im m \{\underline{Z}\} \to rezistence\space reaktive$$
+Impedanca mund te paraqitet edhe ne trajte eksponenciale:
+![Pasted image 20250525211628.png](/img/user/Pasted%20image%2020250525211628.png)
+![Pasted image 20250525211632.png](/img/user/Pasted%20image%2020250525211632.png)
+![Pasted image 20250525211641.png](/img/user/Pasted%20image%2020250525211641.png)
+Shpesh ehste me e pershtatshme te perdorim me vleren reciproke te impedances, e cila quhet admitance.
+$$\underline{Y}=\frac{1}{\underline{Z}}=\frac{\underline{I}}{\underline{V}}\space\space\space\space\space\space\space\space\space\space\underline{Y}=G+jB$$
+$$G=\Re e \{\underline{Y}\} \to percueshmeria\space aktive \space\space\space\space\space\space\space\space\space\space B=\Im m \{\underline{Y}\} \to percueshmeria\space reaktive$$
+![Pasted image 20250525212015.png](/img/user/Pasted%20image%2020250525212015.png)
+prej nga
+![Pasted image 20250525212022.png](/img/user/Pasted%20image%2020250525212022.png)
+
+
