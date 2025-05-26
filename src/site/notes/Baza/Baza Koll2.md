@@ -170,3 +170,53 @@ $$G=\Re e \{\underline{Y}\} \to percueshmeria\space aktive \space\space\space\sp
 ![Pasted image 20250525212015.png](/img/user/Pasted%20image%2020250525212015.png)
 prej nga
 ![Pasted image 20250525212022.png](/img/user/Pasted%20image%2020250525212022.png)
+
+# Teorema e transmetimit maksimal te fuqise aktive te shpenzuesit (konsumatorit) #card 
+
+Ka shume rendesi te percaktohen kushtet e qarkut per te realizuar ne te transmetimin maksimal te fuqise qe perdoret ne konsumator. Me fjale tjera: Impedanca e konsumatorit te jete e tille qe fuqia aktive e saj te jete maksimale.
+Le te veshtrohet konsumatori me impedance $\underline{Z}_{k}=R_{k}+jX_{k}$ , i cili ehste i lidhur ne burimin e tensionit alternativ i cili e ka impedancen e brendshme $\underline{Z}_{g}=R_{g}+jX_{g}$.
+Rryma ne qark e ka trajten:
+![Pasted image 20250526153327.png](/img/user/Pasted%20image%2020250526153327.png)
+![Pasted image 20250526153334.png](/img/user/Pasted%20image%2020250526153334.png)
+ndersa fuqia e dukshme e konsumatorit eshte: 
+$$\underline{S}_{k}=\underline{Z}_{k}I^2=R_{k}I^2+jX_{k}I^2$$
+prej nga 
+![Pasted image 20250526153545.png](/img/user/Pasted%20image%2020250526153545.png)
+![Pasted image 20250526153641.png](/img/user/Pasted%20image%2020250526153641.png)
+Pas derivimit te pare sipas $X_{k}$, dhe barazimit me zero:
+![Pasted image 20250526153718.png](/img/user/Pasted%20image%2020250526153718.png)
+![Pasted image 20250526153723.png](/img/user/Pasted%20image%2020250526153723.png)
+Pas derivimit sipas $R_{k}$:
+![Pasted image 20250526153808.png](/img/user/Pasted%20image%2020250526153808.png)
+ose
+![Pasted image 20250526153815.png](/img/user/Pasted%20image%2020250526153815.png)
+kur perdoret kushti 4.135, fitohet:
+![Pasted image 20250526154014.png](/img/user/Pasted%20image%2020250526154014.png)
+Krahasuar me shprehjen per fuqine e konsumatorit, shihet se fuqia aktive e gjeneratorit eshte dy here me e madhe se fuqia aktive e konsumatorit. Kjo dmth se ne rastin e pershtatjes gjysma e energjise se gjeneratorit shpenzohet ne vet gjeneratorin.
+
+# Paraqitja e rrymes konstante ne qarkun elektrik #card 
+
+Zgjidhja e problemeve ne qarqet elektrike ku vjen ne shprehje dukuria e induksionit elektromagnetik nuk eshte aq e thjeshte.
+Andaj, se pari do te fillohet me shqyrtimin e rasteve me te thjeshta per zgjidhje. Nje prej tyre eshte ai i paraqitjes se rrymes konstante ne qarkun e thjeshte.
+![Pasted image 20250526154703.png](/img/user/Pasted%20image%2020250526154703.png)
+Ky problem deri tash ka qene i thjeshte, se posa u kyq nje burim tensioni me fel. konstante, E, ndermjet skajeve te rezistorit R, pernjehere paraqitet rryma konstante $I=E/R$. Eshte pak e quditshme qe intensiteti i rrymes elektrike nga vlera I=0 kercen ne vleren konstante E/R, qe nuk eshte e natyrshme, sepse: madhesite fizike makroskopike nuk ndryshojne gjate kohes me kercime, por patjeter ne menyre te vazhdueshme (kontinuale).
+![Pasted image 20250526155102.png](/img/user/Pasted%20image%2020250526155102.png)
+Ekuacioni i baraspeshes ne kete qark do te jete:
+![Pasted image 20250526155137.png](/img/user/Pasted%20image%2020250526155137.png)
+ku $e_{j}$ eshte forca elektrorezistore per shkak te efektit te Xhaulit, ndersa $e'$ eshte fel. e autoinduksionit.
+Pasi te zevendesohen vlerat per keto dy forca elektrike, fitohet:
+![Pasted image 20250526155327.png](/img/user/Pasted%20image%2020250526155327.png)
+![Pasted image 20250526155353.png](/img/user/Pasted%20image%2020250526155353.png)
+Dukuria e rrymes elektrike ne qark ^. Paraqet ekuacionin diferencial te rendit te pare dhe homogjen.
+$i=i_{p}+i_{h}$, ku per $i_{p}$
+![Pasted image 20250526155647.png](/img/user/Pasted%20image%2020250526155647.png)
+kurse per $i_{h}$
+![Pasted image 20250526155714.png](/img/user/Pasted%20image%2020250526155714.png)
+![Pasted image 20250526155755.png](/img/user/Pasted%20image%2020250526155755.png)
+![Pasted image 20250526155812.png](/img/user/Pasted%20image%2020250526155812.png)
+![Pasted image 20250526155904.png](/img/user/Pasted%20image%2020250526155904.png)
+![Pasted image 20250526155927.png](/img/user/Pasted%20image%2020250526155927.png)
+![Pasted image 20250526155937.png](/img/user/Pasted%20image%2020250526155937.png)
+Para se te veproj burimi, rryma eshte zero: $i(0)=0$, ndersa 12.5
+$$i(0)=\frac{E}{R}+A \space \space pas\space \space barazimit\space \space te\space \space dy\space \space shprehjeve\space \space vlera\space \space e \space \space konstantes \space \space A=-\frac{E}{R}$$
+Shpejtësia e ndryshimit të rrymës varet nga herësi  $\tau=L/R$ , që quhet konstantja kohore e qarkut.
