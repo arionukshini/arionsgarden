@@ -32,7 +32,8 @@ $$U_{m1}Sin(wt+\vartheta)+U_{m2}Sin(wt+\vartheta)+\dots+U_{mn}Sin(wt+\vartheta)=
 ose
 $$\sqrt{2}\Im m \{U_{1}e^{j\vartheta_{1}}e^{jwt}\} + \Im m \{U_{2}e^{j\vartheta_{2}}e^{jwt}\} + \dots + \Im m \{U_{n}e^{j\vartheta_{n}}e^{jwt}\}=0$$
 $$\sqrt{2}\Im m \{U_{1}e^{j\vartheta_{1}}e^{jwt} + U_{2}e^{j\vartheta_{2}}e^{jwt} + \dots + U_{n}e^{j\vartheta_{n}}e^{jwt}\}=0$$
-$\underline{U}_{k} = U_{k}e^{j\vartheta_{k}}$ , pra shprehja merr formen => $$\Im m \{[\underline{U}_{1}+\underline{U}_{2}+\dots+\underline{U}_{n}]e^{jwt}\}=0$$
+$\underline{U}_{k} = U_{k}e^{j\vartheta_{k}}$ , pra shprehja merr formen => 
+$$\Im m \{[\underline{U}_{1}+\underline{U}_{2}+\dots+\underline{U}_{n}]e^{jwt}\}=0$$
 Pasiqe $e^{jwt} \neq 0$ atehere shprehja merr trajten perfundimatre:
 $$\underline{U}_{1}+\underline{U}_{2}+\dots+\underline{U}_{n}=0$$
 qe paraqet ligjin e dyte te kirhofit ne domenin frekuencor ne trajten komplekse.
