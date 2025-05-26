@@ -67,7 +67,7 @@ Madhesia $X_{C}=\frac{1}{wC}$ quhet rezistenca fiktive e kondensatorit.
 # Tensioni alternativ ne skajet e lidhjes serike te rezistorit dhe bobines #card 
 
 $$u=U_{m}Sin(wt+\vartheta)$$
-eshte i kyqurne skajet e lidhjes serike te qarkut serike R,L.
+eshte i kyqur ne skajet e lidhjes serike te qarkut serike R,L.
 ![Pasted image 20250525191430.png](/img/user/Pasted%20image%2020250525191430.png)
 Ekuacioni i baraspeshes dinamike per kete qark ka trajten, ![Pasted image 20250525191800.png](/img/user/Pasted%20image%2020250525191800.png)
 ![Pasted image 20250525191808.png](/img/user/Pasted%20image%2020250525191808.png)
@@ -116,7 +116,8 @@ ne kete rast kendi i shfazimit ndermjet tensionit dhe rrymes eshte negativ (4.45
 
 Le te jene dhene fazoret e dy rrymave, te cilat duhet te mblidhen:
 $$\overline{I}_{1}=I_{1} \space|\underline{\psi}_{1} \space\space\space\space\space  \overline{I}_{2}=I_{2} \space|\underline{\psi}_{2}$$
-Shuma do te jete: $$\overline{I} = \overline{I}_{1} + \overline{I}_{2} = I|\underline{\psi}$$
+Shuma do te jete: 
+$$\overline{I} = \overline{I}_{1} + \overline{I}_{2} = I|\underline{\psi}$$
 ku
 ![Pasted image 20250525194247.png](/img/user/Pasted%20image%2020250525194247.png)
 ![Pasted image 20250525194253.png](/img/user/Pasted%20image%2020250525194253.png)
