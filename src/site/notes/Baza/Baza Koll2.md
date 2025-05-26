@@ -15,7 +15,8 @@ $$I_{m1}Sin(wt+\psi)+I_{m2}Sin(wt+\psi)+\dots+I_{mn}Sin(wt+\psi)=0$$
 ose
 $$\sqrt{2}\Im m \{I_{1}e^{j\psi_{1}}e^{jwt}\} + \Im m \{I_{2}e^{j\psi_{2}}e^{jwt}\} + \dots + \Im m \{I_{n}e^{j\psi_{n}}e^{jwt}\}=0$$
 $$\sqrt{2}\Im m \{I_{1}e^{j\psi_{1}}e^{jwt} + I_{2}e^{j\psi_{2}}e^{jwt} + \dots + I_{n}e^{j\psi_{n}}e^{jwt}\}=0$$
-$\underline{I}_{k} = I_{k}e^{j\psi_{k}}$ , pra shprehja merr formen => $$\Im m \{[\underline{I}_{1}+\underline{I}_{2}+\dots+\underline{I}_{n}]e^{jwt}\}=0$$
+$\underline{I}_{k} = I_{k}e^{j\psi_{k}}$ , pra shprehja merr formen => 
+$$\Im m \{[\underline{I}_{1}+\underline{I}_{2}+\dots+\underline{I}_{n}]e^{jwt}\}=0$$
 Pasiqe $e^{jwt} \neq 0$ atehere shprehja merr trajten perfundimatre:
 $$\underline{I}_{1}+\underline{I}_{2}+\dots+\underline{I}_{n}=0$$
 qe paraqet ligjin e pare te kirhofit ne domenin frekuencor (trajten komplekse) LIK shihet se eshte i njejte sikur tek qarqet e rrymave konstante, por tash me madhesi komplekse.
