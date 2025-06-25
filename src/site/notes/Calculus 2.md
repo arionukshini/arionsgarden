@@ -46,3 +46,11 @@ Trajektoret të cilat lakoret e familjes së dhënë i ndërpresin nën këndin 
 ![Pasted image 20250625225805.png](/img/user/Pasted%20image%2020250625225805.png)
 
 # Ekuacionet diferenciale lineare johomogjene të rendit të dytë me koeficientë konstantë #card
+
+![Pasted image 20250625225942.png](/img/user/Pasted%20image%2020250625225942.png)
+![Pasted image 20250625230004.png](/img/user/Pasted%20image%2020250625230004.png)
+![Pasted image 20250625230032.png](/img/user/Pasted%20image%2020250625230032.png)
+![Pasted image 20250625230047.png](/img/user/Pasted%20image%2020250625230047.png)
+![Pasted image 20250625230055.png](/img/user/Pasted%20image%2020250625230055.png)
+![Pasted image 20250625230108.png](/img/user/Pasted%20image%2020250625230108.png)
+
