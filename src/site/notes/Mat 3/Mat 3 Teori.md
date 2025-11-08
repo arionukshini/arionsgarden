@@ -73,3 +73,23 @@ Rezultatet (1.6)-(1.10) paraqesin relacione të ortogonalitetit për funksionet 
 ![Pasted image 20251108060446.png](/img/user/Pasted%20image%2020251108060446.png)
 
 
+# Bashkesite #card 
+Bashkësia është një koleksion joirenditur i objekteve. Objektet e një bashkësie quhen elemente, ose anëtarë, të bashkësisë.
+![Pasted image 20251108063512.png](/img/user/Pasted%20image%2020251108063512.png)
+![Pasted image 20251108063436.png](/img/user/Pasted%20image%2020251108063436.png)
+![Pasted image 20251108063536.png](/img/user/Pasted%20image%2020251108063536.png)
+![Pasted image 20251108063547.png](/img/user/Pasted%20image%2020251108063547.png)
+Për një bashkësi do të themi se është e pafundme në qoftë se ajo nuk është e fundme.
+Le të jetë S një bashkësi e dhënë. Bashkësia partitive e S është bashkësia e të gjitha nënbashkësive të bashkësisë S dhe shënohet me P(S).
+N-shja e renditur (a1,a2,a3) është koleksioni i renditur i cili ka a si elementine e pare dhe a(n) si elementin e fundit.
+![Pasted image 20251108063646.png](/img/user/Pasted%20image%2020251108063646.png)
+
+# Veprimet me bashkesi #card 
+Përkufizimi 2.12 Le të jenë A dhe B dy bashkësi. Union i bashkësive A dhe B,quhet bashkësia AUBe të gjithë elementeve të bashkësisë A ose të bashkësisë B.
+![Pasted image 20251108063726.png](/img/user/Pasted%20image%2020251108063726.png)
+![Pasted image 20251108063734.png](/img/user/Pasted%20image%2020251108063734.png)
+Dy bashkësi quhen disjunktenëse preja e tyre është bashkësi e zbrazët.
+![Pasted image 20251108063750.png](/img/user/Pasted%20image%2020251108063750.png)
+![Pasted image 20251108063823.png](/img/user/Pasted%20image%2020251108063823.png)
+![Pasted image 20251108063831.png](/img/user/Pasted%20image%2020251108063831.png)
+![Pasted image 20251108063841.png](/img/user/Pasted%20image%2020251108063841.png)
