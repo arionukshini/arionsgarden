@@ -539,3 +539,303 @@ public void setName(String name) {
     
 
 ---
+
+---
+
+# 12. Constructors
+
+Constructorët janë metoda speciale që inicializojnë objektet.
+
+## 12.1 Constructor Default
+
+Nëse nuk e shkruan vetë, Java e krijon automatikisht.
+
+```java
+class Person {
+    String name;
+}
+
+Person p = new Person(); // constructor default
+```
+
+## 12.2 Constructor i Parametrizuar
+
+```java
+class Person {
+    String name;
+    int age;
+
+    Person(String name, int age) {
+        this.name = name;
+        this.age  = age;
+    }
+}
+```
+
+## 12.3 Constructor Overloading
+
+```java
+class Student {
+    String name;
+    int age;
+
+    Student() {}
+    Student(String name) { this.name = name; }
+    Student(String name, int age) { this.name = name; this.age = age; }
+}
+```
+
+## 12.4 `this()` – Thirrja e constructorit tjetër
+
+```java
+class Person {
+    String name;
+    int age;
+
+    Person() {
+        this("Pa Emër", 0);
+    }
+
+    Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+```
+
+---
+
+# 13. `this` dhe `super`
+
+## 13.1 `this`
+
+- i referohet objektit aktual
+    
+- përdoret për të dalluar `field` nga `parameter`
+    
+
+```java
+class Car {
+    String model;
+
+    Car(String model) {
+        this.model = model;
+    }
+}
+```
+
+- thirrje e constructor brenda klasës: `this()`
+    
+
+## 13.2 `super`
+
+- i referohet superklasës
+    
+- përdoret për të thirrur constructorin e superklasës
+    
+
+```java
+class Animal {
+    Animal() { System.out.println("Animal created"); }
+}
+
+class Dog extends Animal {
+    Dog() {
+        super();
+        System.out.println("Dog created");
+    }
+}
+```
+
+- përdoret për të thirrur metodat e superklasës
+    
+
+```java
+class A {
+    void test() { System.out.println("A test"); }
+}
+
+class B extends A {
+    @Override
+    void test() {
+        super.test();
+        System.out.println("B test");
+    }
+}
+```
+
+---
+
+# 14. Inheritance – më në detaje
+
+Java mbështet këto forma trashëgimie:
+
+## 14.1 Single Inheritance
+
+```java
+class A {}
+class B extends A {}
+```
+
+## 14.2 Multilevel Inheritance
+
+```java
+class A {}
+class B extends A {}
+class C extends B {}
+```
+
+## 14.3 Hierarchical Inheritance
+
+```java
+class A {}
+class B extends A {}
+class C extends A {}
+```
+
+## 14.4 Multiple Inheritance (me interface)
+
+Java nuk e lejon për klasat (`class A extends B, C` ❌), por e lejon me interfaces.
+
+```java
+interface X {}
+interface Y {}
+class Z implements X, Y {}
+```
+
+### 14.5 Rregullat e Trashëgimisë
+
+- konstruktori i superklasës thirret gjithmonë i pari
+    
+- `private` nuk trashëgohen direkt
+    
+- `final` nuk mund të trashëgohet
+    
+- `static` nuk është pjesë e instancës → nuk override-ohet
+    
+
+---
+
+# 15. Method Overriding – Rregulla të rëndësishme
+
+### 15.1 Rregullat
+
+- Metoda duhet të ketë **të njëjtin emër**
+    
+- Të njëjtin **numër dhe tipe parametrash**
+    
+- Të njëjtin ose më të gjerë **access modifier** (`public` > `protected` > default > private)
+    
+- **Return type** duhet të jetë i njëjtë ose **covariant**
+    
+- Nuk mund të override `static`, `final`, `private`
+    
+
+### 15.2 Shembull i Saktë
+
+```java
+class Animal {
+    String sound() { return "sound"; }
+}
+
+class Dog extends Animal {
+    @Override
+    String sound() { return "ham"; }
+}
+```
+
+### 15.3 `@Override` siguron:
+
+- kompilatorin që metoda ekziston te superklasa
+    
+- kap gabimet në emër
+    
+- është annotation funksional (jo dekorim bosh)
+    
+
+---
+
+# 16. Interfaces
+
+## 16.1 Çfarë është një interface?
+
+Interface është kontratë që deklaron **çfarë duhet të bëjë** një klasë, jo **si e bën**.
+
+- të gjitha metodat janë **public abstract** (default)
+    
+- mund të ketë **default methods**, **static methods**, **private methods** (Java 8+)
+    
+- një klasë mund të implementojë **shumë interface**
+    
+
+## 16.2 Shembull bazik
+
+```java
+interface Makine {
+    void ndizet();
+}
+
+class BMW implements Makine {
+    public void ndizet() {
+        System.out.println("BMW u ndez");
+    }
+}
+```
+
+## 16.3 Default Methods (ka implementim)
+
+```java
+interface Printer {
+    default void info() {
+        System.out.println("Printer device");
+    }
+    void print();
+}
+```
+
+## 16.4 Static Methods në Interface
+
+```java
+interface MathOps {
+    static int square(int x) { return x*x; }
+}
+
+int v = MathOps.square(5);
+```
+
+## 16.5 Private methods në interface (Java 9+)
+
+```java
+interface Example {
+    private void helper() {}
+}
+```
+
+## 16.6 Multiple Interfaces
+
+```java
+interface A { void a(); }
+interface B { void b(); }
+class C implements A, B {
+    public void a(){}
+    public void b(){}
+}
+```
+
+---
+
+# 17. Enhanced For-Loop (foreach)
+
+Përdoret për të iteruar mbi koleksione ose arrays në mënyrë të thjeshtë.
+
+```java
+ArrayList<String> emrat = new ArrayList<>();
+emrat.add("Filan");
+emrat.add("Fisteku");
+
+for (String e : emrat) {
+    System.out.println(e);
+}
+```
+
+---
