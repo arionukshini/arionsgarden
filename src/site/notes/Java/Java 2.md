@@ -20,3 +20,4 @@ Trajtimi i gabimeve (erroreve) dhe Perjashtimi
 
 SEMS Material:
 
+[[K5.pdf]]
