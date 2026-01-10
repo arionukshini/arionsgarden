@@ -17,7 +17,3 @@ Polimorfizmi i klasav
 Klasat abstrakte
 Interface-at
 Trajtimi i gabimeve (erroreve) dhe Perjashtimi
-
-SEMS Material:
-
-[[K5.pdf]]
