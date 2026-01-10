@@ -20,8 +20,3 @@ Trajtimi i gabimeve (erroreve) dhe Perjashtimi
 
 SEMS Material:
 
-![[K6.pdf]]
-
-![[K7.pdf]]
-
-![[K5.pdf]]
