@@ -35,7 +35,7 @@ Polimorfizmi mund të ndahet në dy lloje kryesore:
 
 **Dallimi midis statik dhe dinamik:**
 | Tipi             | Koha | Mënyra | Lidhja me metodën |
-|-----------------|------|--------|-----------------|
+| | | | |
 | Statik           | Kompilim | Parametrat | Mbingarkimi |
 | Dinamik          | Ekzekutim | Referenca objekt | Mbishkrimi |
 
