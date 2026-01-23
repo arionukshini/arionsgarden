@@ -268,3 +268,145 @@ Hackers can also cause serious harm accidentally, such as slowing weather system
 
 ### **Ethical View**  
 Most hacking is a form of digital trespassing. Even without bad intentions, it violates security, privacy, and trust, and can lead to serious consequences.
+
+
+## Techniques used to steal personal and financial information:
+- Requests for personal and financial information disguised as legitimate business communication:
+	- Phishing – e-mail;
+	- Smishing – text messaging;
+	- Vishing – voice phishing.
+- Pharming - false Web sites that fish for personal and financial information by planting false URLs in Domain Name Servers:
+	- Online resumés and job-hunting sites may reveal SSNs, work history, birth dates and other information that can be used in identity theft
+
+## What is Intellectual Property?
+- The intangible creative work, not its particular physical form
+- Value of intelligence and artistic work comes from creativity, ideas, research, skills, labor, non-material efforts and attributes the creator provides
+- Protected by copyright, patent laws and trademarks:
+	- Copyright is a legal concept that defines rights to certain kinds of intellectual property:
+		- Copyright protects creative works such as books, articles, plays, songs (both music and lyrics), works of art, movies, software, and videos
+		- Facts, ideas, concepts, processes, and methods of operation are not copyrightable.
+
+
+**Patents protect inventions:** 
+- An invention of any new, useful, and non-obvious process, machine, article of manufacture, or composition of matter, or any new and useful improvement thereof
+- Patents protect the idea
+- A patent is a set of exclusive rights granted by a sovereign state to an inventor or assignee for a limited period of time in exchange for detailed public disclosure of an invention
+- Patentability requirements: novelty, usefulness, and non-obviousness
+- The exclusive right granted to a patentee is the right to prevent others from commercially making, using, selling, importing, or distributing a patented invention without permission.
+
+**Trademark:** is a recognizable name, word, sign (logo), design, or expression which identifies products or services of a particular source from those of others:
+- Protects both manifestation and idea.
+![Pasted image 20260123221742.png](/img/user/Pasted%20image%2020260123221742.png)
+**Examples:** Nike's trademark "Just Do It" and the Swoosh logo.
+![Pasted image 20260123221750.png](/img/user/Pasted%20image%2020260123221750.png)
+
+**Trade secret:** a secret device or technique used by a company in manufacturing its products: o Can be a formula, practice, process, design, instrument, pattern, commercial method, or compilation of information not generally known or reasonably ascertainable by others by which a business can obtain an economic advantage over competitors or customers.
+**Example:** Coca Cola formula
+
+Intellectual property protection:
+- Protects the intangible creative work: o When we buy a novel, we are buying a physical collection of paper and ink or an electronic-book file;
+	- We are NOT buying the intellectual property
+		- that is, the plot, the organization of ideas, the presentation, the characters, and the events that form the abstraction:
+	- that is the intangible “book”.
+	- We are buying the right to watch it
+	- We may not make copies:
+		- same applies for music, video, software.
+	- We don't have the right to play it in a public venue or charge a fee.
+
+### Fair Use Doctrine:
+- Copyright law and court decisions attempt to define the rights of authors and publishers consistent with two goals:
+	- Promoting production of useful work and
+	- Encouraging the use and flow of information.
+- The fair use doctrine allows uses of copyrighted material that contribute to the creation of new work (such as quoting part of a work in a review) and uses that are not likely to deprive authors or publishers of income for their work:
+	- Education (even making multiple copies for classroom use).
+
+
+- Four factors considered: 
+	1. Purpose and nature of use - commercial or nonprofit purposes
+	2. Nature of the copyrighted work
+	3. Amount and significance of portion used
+	4. Effect of use on potential market or value of the copyright work (will it reduce sales of work?).
+- No single factor alone determines
+- Not all factors given equal weight, varies by circumstance.
+
+### Ethical and Legal Issues of Copying and Copyright
+
+Copying digital content such as music, movies, or software does not reduce other people’s ability to use their own copies. However, it can reduce the income of copyright owners. This loss of income is considered a form of stealing.  
+Whether someone copies for personal use or profit does not change the ethical issue. Similar to vandalism, even if no money is gained, reducing the value of someone’s property is unethical and illegal.
+
+**Common Arguments Supporting Unauthorized Copying**
+
+- “I cannot afford it.”  
+    Not being able to pay does not justify taking someone’s work.
+    
+- “I wouldn’t buy it anyway, so no one loses money.”  
+    This does not make copying acceptable.
+    
+- “The company is rich.”  
+    Large companies still employ people who depend on this income.
+    
+- “It’s just helping a friend.”  
+    Sharing illegal copies is still unethical.
+    
+- “My violation is insignificant.”  
+    Small violations still contribute to a larger problem.
+    
+- “Everyone does it.”  
+    Popular behavior is not always morally right.
+    
+
+**Sony vs. Universal City Studios (1984)**
+
+This was the first major Supreme Court case about private copying.
+
+Movie studios sued Sony because users recorded TV programs using Betamax recorders.
+
+Two main issues:
+
+- Whether equipment makers are responsible for how users copy content.
+    
+- Whether recording for personal use is fair use.
+    
+
+**Arguments Against Fair Use**
+
+- Entire movies were copied.
+    
+- Movies are creative works, not factual.
+    
+
+**Arguments For Fair Use**
+
+- Copies were for private, non-commercial use.
+    
+- Recordings were usually not kept long-term.
+    
+- Studios could not prove financial harm.
+    
+- Studios already earned money from TV broadcasts.
+    
+
+**Court Decision**
+
+- Devices with legal uses should not be punished because some users misuse them.
+    
+- Recording TV programs for later viewing was ruled fair use.
+    
+
+**File Sharing: MGM v. Grokster**
+
+Peer-to-peer services like Grokster and Kazaa allowed users to share files directly.
+
+- These services had legitimate uses.
+    
+- Lower courts initially supported them.
+    
+- The Supreme Court ruled that companies encouraging piracy could be sued.
+    
+
+Businesses that promote or support copyright infringement cannot legally operate in the US.
+
+**Ethical Conclusion**
+
+Unauthorized copying harms creators and reduces trust in digital systems.  
+Personal convenience, financial limits, or common practice do not justify violating copyright laws.
