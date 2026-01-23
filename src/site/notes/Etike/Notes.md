@@ -130,3 +130,141 @@ Long-distance medicine refers to remote performance of medical exams, analyses, 
 	- Data mining – Searching and analysing masses of data to find patterns and develop new information or knowledge:
 		- Matching means combining and comparing information from different databases
 		- Profiling means analysing data to determine characteristics of people most likely to engage in certain behaviour.
+
+##### Two common forms for providing informed consent are opt out and opt in: 
+- opt out – Person must request (usually by checking a box) that an organization not use information
+- opt in –The collector of the information may use information only if person explicitly permits use (usually by checking a box).
+
+
+- Print and online media has the strongest protection according to Constitutional of RKs:
+	- Although books have been banned to publish without consent also in Republic of Kosova. 
+- Television and radio get broadcasting licenses from the government:
+	- Autoriteti Rregullativ i Komunikimeve Elektronike dhe Postare (ARKEP) in RKs is the regulating body
+	- The government has used threats of license revocation to get stations to cancel sexually oriented talk shows or to censor them.
+- Meanwhile, in USA Since 1971, the government has banned cigarette ads from radio, television, and electronic media under the control of the Federal Communications Commission (FCC), but the ads continued to be legal in magazines and newspapers.
+
+Telecommunication Act of 1996 - First major Internet censorship law
+
+
+### Offensive Speech and Legal Issues Online
+
+- **What is Offensive or Illegal Speech**
+    
+    - Depends on political, religious, racial, extremist, violent, sexual, or harmful content.
+        
+    - Includes topics like Nazism, abortion, alcohol ads, violence, suicide, or bomb-making.
+        
+- **Different Laws in Different Countries**
+    
+    - Albania: restricts violent and drug-related media.
+        
+    - Kosovo: controls reporting during emergencies.
+        
+    - North Macedonia: restricts hate speech and extremist religious/political content.
+        
+- **Old Laws vs. Internet (BBS Case)**
+    
+    - A couple in California ran a BBS with explicit images.
+        
+    - A postal inspector in Tennessee accessed the content.
+        
+    - The couple was prosecuted in Tennessee using local community standards.
+        
+    - Shows problems with defining “community” and “distribution” online.
+        
+- **Speech vs. Action**
+    
+    - Supporting illegal acts in general is usually legal.
+        
+    - Giving direct instructions to commit illegal acts can be illegal.
+        
+- **Least Restrictive Means Principle**
+    
+    - Laws should limit harmful content without blocking legal access for adults.
+        
+    - In 2021, Kosovo authorities guided platforms to remove harmful content for minors.
+        
+    - Entire websites should not be blocked if adults can legally access them.
+
+## Internet Censorship Laws & Alternatives: 
+- Communications Decency Act of 1996 (CDA) mentioned before:
+	- Attempted to avoid conflict with First Amendment by focusing on children
+	- Made it a crime to make available to anyone under 18 any obscene or indecent communication.
+- Found to be unconstitutional (1997):
+	- It was too vague and broad
+	- The worst material threatening children was already illegal
+	- It did not use the least restrictive means of accomplishing the goal of protecting children.
+
+- Child Online Protection Act of 1998 (COPA):
+	- More limited than CDA
+	- Federal crime for commercial Web sites to make available to minors material “harmful to minors” as judged by community standards.
+- Also found to be unconstitutional (2000):
+	- It would restrict the entire country to the standards of the most conservative community
+	- Restricts access to lawful content for adults
+	- Chilling effect.
+
+- Public access: Some library terminals displayed adult content openly
+- CIPA (2000): Schools & libraries must install filters if they want federal funding
+- Court upheld in 2003: No First Amendment violation
+- Key point: Filtering is optional, no jail/fines, only a funding condition
+- Kosova case: Many schools and public libraries use filters or supervised internet access to protect children while allowing adults to access legal content
+- Takeaway: Protecting children online ≠ banning adult content for everyone
+
+**Spam:** term adopted in the 1990s to mean unsolicited bulk email;
+Spam filters do not violate free speech (free speech does not require anyone to listen).
+
+**Leaks** can provide value to society (awareness or wrongdoing);
+But the documents belong to someone, so getting them means theft AND A leak can cause serious damage to a person or organization without their doing anything wrong.
+
+We should remember that leaking begins with a strong ethical case against it:
+- Freedom of speech and press do not legitimate stealing files and publishing them
+- This does not mean that leaking is always wrong
+- It means that the reasons for leaking the material must be strong enough to overcome the ethical arguments against it, and the publisher of the leaked material must handle it responsibly.
+Documents that include significant evidence of serious wrongdoing are reasonable candidates for leaks.
+
+**Negative uses of anonymity:**
+- protects criminal and antisocial activities
+- aids fraud, harassment, extortion, distribution of child adult content, theft, and copyright infringement
+- masks illegal surveillance by government agencies.
+
+**SLAPP (Strategic Lawsuit Against Public Participation):**
+- A SLAPP is a lawsuit filed (generally libel) intended to censor/intimidate/silence critics by burdening them with the cost of a legal defence
+- Identities of critics obtained via subpoena
+
+## Net Neutrality
+- Pros:
+	- Equal treatment of all customers, content
+	- Not enough competition among network providers to ensure fairness
+	- Consistent with other common carrier practices.
+- Cons:
+	- Flexibility and market incentives will benefit customers
+	- Companies should be permitted to provide different levels of speed at different prices
+	- Companies should be permitted to exclude or give special treatment to certain content.
+
+## Hacking: Meaning, History, and Ethical Issues
+
+Hacking is the intentional and unauthorized access to computer systems. The meaning of the term has changed over time.
+
+### **Phase 1: Early Meaning (1960s–1970s)**  
+In the early years, hacking had a positive meaning. Hackers were skilled programmers who wrote clever and efficient code. A “hack” meant a creative technical solution. Even today, hacking is sometimes used to describe advanced problem-solving that bypasses limits.
+
+### **Phase 2: Negative Meaning (1970s–mid 1990s)**  
+During this period, hacking became associated with illegal access to systems. Hackers broke into computers using stolen passwords and other methods.  
+Example: A Russian hacker stole large amounts of money from Citicorp and was extradited to the US.  
+Hacking was mostly done by individuals and included viruses, worms, and phone system manipulation. At the same time, companies started using ethical hackers to test security.
+
+### **Phase 3: Internet and Mobile Era (mid 1990s–present)**  
+With the growth of the Web, hacking expanded rapidly. Viruses and worms could spread worldwide in a short time.  
+Examples include the Melissa virus (1999) and the ILOVEYOU virus (2000), which damaged millions of computers.  
+Hacktivism appeared, where hackers attacked websites for political reasons.  
+Denial-of-service attacks were used to shut down major sites like Amazon and Yahoo.  
+Large-scale theft of personal and financial data became common.  
+New malware created “zombie” computers that could be controlled remotely for spam, fraud, and attacks. Some hackers received long prison sentences.
+
+### **Is Harmless Hacking Really Harmless?**  
+Some hackers claim that breaking into systems for fun is harmless. However, even non-malicious hacking causes problems. Companies must spend time and money checking for damage.  
+Example: Boeing had to verify its systems after an intrusion.  
+Hackers can also cause serious harm accidentally, such as slowing weather systems that could affect emergency warnings.
+
+### **Ethical View**  
+Most hacking is a form of digital trespassing. Even without bad intentions, it violates security, privacy, and trust, and can lead to serious consequences.
