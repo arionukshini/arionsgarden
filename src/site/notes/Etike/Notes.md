@@ -410,3 +410,49 @@ Businesses that promote or support copyright infringement cannot legally operate
 
 Unauthorized copying harms creators and reduces trust in digital systems.  
 Personal convenience, financial limits, or common practice do not justify violating copyright laws.
+
+### Digital Rights Management (DRM):
+- Collection of techniques that control uses of intellectual property in digital formats:
+	- The producer of a file has flexibility to specify what a user may do with it
+	- Prevent saving, printing, making more than a specified number of copies, distributing a file, extracting excerpts, or fast-forwarding over commercials
+	- DRM enables the content seller to prevent lending, selling, renting, or giving away a purchased copy.
+- Includes hardware and software schemes using encryption
+
+### The Digital Millennium Copyright Act (DMCA):
+- Congress passed the DMCA in 1998
+- Two important parts:
+	- Anti-circumvention:
+		- Prohibit circumventing (crack) DRM technological access controls and copy-prevention systems implemented by copyright owners in intellectual property.
+- Safe harbor:
+	- Protect Web sites from lawsuits for copyright infringement by users of site
+	- The site operators must make a good-faith attempt to keep infringing material off their sites.
+
+The Library of Congress decides on exemptions to the DMCA’s anticircumvention provisions.
+Smartphones, tablets, game machines, and other devices have mechanisms to prevent installation of software or use of services that the maker of the device does not supply or approve.
+What is Cracking software's?
+- Cracking such mechanisms is sometimes called jailbreaking, unlocking, or rooting
+
+#### Tools for authorized sharing:
+- Many authors and artists are willing to share samples of their work on the Web
+- Creative Commons (CC), a nonprofit organization, developed a spectrum of licensing agreements similar to the GNU General Public License for software:
+	- they provide a large degree of flexibility.
+- Flickr is one of the largest users of Creative Commons licensing:
+	- Anyone who stores photos on Flickr can indicate what uses he or she permits.
+
+#### GNU (a collection of free software tools) project:
+- Began with a UNIX-like operating system, a sophisticated text editor, and many compilers and utilities
+- Now has hundreds of programs freely available and thousands of software packages available as free software (with modifiable source code)
+- Advantages:
+	- More people can use and benefit from a program
+	- With source code available, any of thousands of programmers can find and fix bugs.
+- Developed the concept of **copyleft**:
+	- A developer copyrights the program and releases it under a copyleft agreement that allows people to use, modify, and distribute it, or any program developed from it, but only if they apply the same agreement to the new work.
+	- **GNU General Public License (GPL) implements copyleft.**
+
+*"Patent – an exclusive right granted for an invention in all fields of technology that is new, involves an inventive step and is susceptible of the industrial application”* - Law No. 08/L-059 on Patents in Republic of Kosova.
+
+Patents generally last for 20 years
+- In Kosovo, according to Law No. 08/L-059 on Patents:
+	- The duration of a patent for an invention is 20 years from the date of application
+	- During this time, the patent owner has the exclusive right to use it, meaning that no one, including the state, can use or produce it without the owner’s permission
+	- After this period, the invention becomes free for public use (“public domain”).
