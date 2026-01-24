@@ -456,3 +456,194 @@ Patents generally last for 20 years
 	- The duration of a patent for an invention is 20 years from the date of application
 	- During this time, the patent owner has the exclusive right to use it, meaning that no one, including the state, can use or produce it without the owner’s permission
 	- After this period, the invention becomes free for public use (“public domain”).
+
+## W\*rk
+
+**Telecommuting: the phenomenon of working at a distance from the traditional company office or factory, connected in cyberspace:**
+- Effects of telecommunication: Offshoring = hiring people or companies in other countries to perform services that workers in one’s home country used to do -> to eliminate a huge number of jobs.
+
+### Job Destruction and Creation Through Technology
+
+Technological progress often replaces traditional jobs while creating new ones. Many music stores closed, and jobs in printing declined as media moved online. Digital cameras replaced film processing, leading to major job losses, including Kodak’s layoffs and bankruptcy in 2012.
+
+**Increased Productivity**  
+Technology allows companies to do more with fewer workers. Humans are treated as resources to improve efficiency.  
+Example: Between 1970 and 1996, telephone operators decreased by over 60%, while long-distance calls increased from 9.8 billion to 94.9 billion.
+
+**Job Loss and Job Creation**  
+Successful technologies eliminate some jobs but create others.
+
+- The Web created about 100,000 Internet-related jobs by 1996.
+    
+- By 1997, over 109,000 people worked in cellular communications in the US.
+    
+- By 1998, the chip industry employed over 242,000 directly and 3 million indirectly.
+    
+
+**Lower Prices and Increased Demand**  
+Technology reduces costs, which increases demand and creates jobs.
+
+The music industry changed from serving mainly wealthy people to serving the general public. Advances like radio, CDs, smartphones, and the Internet made music affordable and accessible.  
+As a result, tens of thousands of musicians now earn a living in many genres.
+
+**New Types of Jobs**  
+Computer technology creates jobs in:
+
+- Design
+    
+- Marketing
+    
+- Manufacturing
+    
+- Sales
+    
+- Customer support
+    
+- Repair and maintenance
+    
+
+However, new jobs are often very different from old ones.
+
+- Many modern jobs require college education (e.g., computer engineers, system analysts).
+    
+- Older jobs such as clerks, tellers, and customer service workers required fewer qualifications.
+    
+- This makes job transitions more difficult.
+    
+
+**Workforce Adaptation**  
+Some companies hire workers without specific skills if they can train them quickly and support them with automated systems.
+
+**Conclusion**  
+Technology increases efficiency and wealth but also causes job displacement. Society must adapt through education and retraining to benefit from new opportunities.
+
+
+### Telecommuting:
+#### Benefits:
+- Reduces overhead for employers:
+	- Reduces need for large offices.
+- Employees are more productive, satisfied, and loyal:
+	- It saves time that workers can use for exercise, sleep, or more interaction with friends and family.
+- Reduces traffic congestion, pollution, gasoline use, and stress
+- Reduces expenses for commuting and money spent on work clothes
+- Allows work to continue after blizzards, hurricanes, etc.
+- Improves productivity: data entry showed productivity gains of 15%.
+
+**58% of woman-owned businesses are home-based businesses:**
+- It can help reduce child-care expenses and give parents more time with their children.
+
+**A person can accept a job with a company in a distant state without having to move.**
+
+#### Problems: 
+- Cost for office space has shifted to the employee:
+	- Being at home with children is an advantage for some telecommuters, but a distraction for others
+	- The employee who must give up space at home for the office.
+- For some telecommuting employees, corporation loyalty weakens:
+	- Lacking immediate supervision, some people are less productive.
+- Working from home can lead to social isolation and low morale
+- Security risks when work and personal activities reside on the same computer.
+
+#### Side Effects:
+- Working from home is not a new trend:
+	- Even in the past few centuries, working at home has not been uncommon
+	- Writers traditionally work at home
+	- Farmers work in the fields, but the farm office was in the house
+	- Doctors, especially in small towns, had their medical offices in their homes
+	- Shopkeepers often had an apartment behind or above the store.
+- They did not have an isolation problem:
+	- Writers spent the evenings at coffee houses or at intellectual “salons” talking with other intellectuals.
+- They lived, worked, and socialized in communities
+- Telecommuting may encourage a return to involvement in one’s local community:
+	- The vitality of the community that is less likely to develop when one returns home after dark, tired from a day at the office.
+
+### A Global Workforce:
+- **Outsourcing** - phenomenon where a company pays another company for services instead of performing those tasks itself (public institutions)
+- **Offshoring** - the practice of moving business processes or services to another country, especially overseas, to reduce costs:
+	- Especially in Asia
+	- The difference in pay rates was large enough to make up for the extra transportation costs
+	- The Internet reduced “transportation” costs for many kinds of information work to almost zero
+	- Data processing and computer programming were among the first service jobs to go offshore, many to India
+	- The move of customer-service call center and software “help desks” to India and other countries
+	- Also “back-office” jobs, such as payroll processing.
+- **Inshoring** - when another company employs thousands of people in the U.S. (e.g. offshoring for a German company means inshoring for U.S.):
+	- Almost 5% of U.S. workers are employed by foreign companies.
+
+### Offshoring: Causes, Effects, and Global Impact
+
+Offshoring happens for several reasons, mainly financial benefits and a lack of skilled workers in certain countries.
+
+**Reasons for Offshoring**
+
+- Companies reduce costs by moving work abroad.
+    
+- The United States lacks enough skilled workers in some fields.
+    
+- Work is sent overseas in areas such as legal services, aircraft engineering, biotechnology, pharmaceuticals, and finance.
+    
+- In 2011, Steve Jobs told President Obama that Apple employed about 700,000 factory workers in China because it needed around 30,000 engineers on-site, which were difficult to find in the US.
+    
+
+**Problems and Side Effects**
+
+- Many experts and politicians see globalization as harmful and driven by corporate profit.
+    
+- Customers complain about communication problems with foreign call centers.
+    
+- US workers must learn new skills, such as managing international teams.
+    
+- High demand for skilled workers in developing countries increases local salaries.
+    
+
+**Global Nature of Employment**
+
+- Americans also work for foreign companies.
+    
+- Japanese car manufacturers produce vehicles in the US.
+    
+- SAP employs thousands of workers in the US.
+    
+- Many Americans work for companies like Sony, Ikea, Bayer, Novartis, Unilever, and Toyota.
+    
+
+**Economic Effects**
+
+- The United States exports services such as banking, engineering, and accounting.
+    
+- Offshoring can create more jobs in multiple countries.
+    
+- Changing job requirements encourage flexibility, long-term planning, and updates in education systems.
+
+## Questions from exam!
+
+### Why do people still fear losing jobs to technology even though new jobs are created?
+- Because old jobs disappear immediately, while new jobs require time, training, and adaptation - so the short-term loss feels bigger than the long-term gain.
+### How can telecommuting have both big benefits and big problems at the same time?
+- It improves flexibility and lowers costs but reduces social contact and weakens connection to the company - so both positive and negative effects appear together.
+### Why is monitoring personal social media more controversial than monitoring work email?
+- Work email belongs to the employer, but personal social media is outside work boundaries, so monitoring it feels like entering employees’ private lives.
+
+1. What is one main reason employers monitor employees? 
+	- To reduce employee salary;
+	- **To protect proprietary information and prevent misuse (S.23);**
+	- To replace employees with robots;
+	- To increase office rent.
+2. Which of the following is a benefit of telecommuting mentioned in the lecture?
+	- Increases office building size;
+	- **Reduces traffic congestion and pollution (S.12);**
+	- Makes employees less productive;
+	- Eliminates the need for technology.
+3. Which industry experienced a major decline due to digital technologies?
+	- Construction;
+	- Automotive engineering;
+	- Agriculture;
+	- **Film processing and music stores (S.5).**
+4. What is offshoring?
+	- Moving employees to larger offices;
+	- Replacing workers with manual labor;
+	- **Moving business processes to another country to reduce costs (S.15);**
+	- Hiring only local workers.
+5. Which problem is associated with telecommuting?
+	- **Social isolation and weakened corporate loyalty (S.13);**
+	- Increased office rent;
+	- Employees lose access to computers;
+	- Faster internet speeds.
