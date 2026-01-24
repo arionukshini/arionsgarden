@@ -107,7 +107,7 @@ Long-distance medicine refers to remote performance of medical exams, analyses, 
 - Control of information about oneself
 - Freedom from surveillance (from being tracked, followed, watched)
 
-### Summary of Risks: ▪ 
+### Summary of Risks:
 - If information is on a public Web site, it is available to everyone 
 - Data collected for one purpose (such as, responding to a search query) will find other uses (such as, tracking, marketing, or criminal investigations)
 - People depend on the businesses and organizations that manage their information to protect it from thieves, accidental collection, and leaks.
@@ -116,7 +116,7 @@ Long-distance medicine refers to remote performance of medical exams, analyses, 
 
 #### Terminology?
 - Personal information – any information relating to an individual person: o It may also include phone number, identification number, email, or even username.
-- Informed consent – users being aware of what information is collected and how it is used: o A person can decide, according to his or her own values, whether or not to interact with a business or organization or whether to use the device or application
+- Informed consent – users being aware of what information is collected and how it is used: A person can decide, according to his or her own values, whether or not to interact with a business or organization or whether to use the device or application
 - Invisible information gathering - collection of personal information about a user without the user’s knowledge:
 	- A car rental company recorded the driving speed and whether or not the driver is wearing a seatbelt
 	- A company offered a free program that changed a Web browser’s cursor into a cartoon character. Millions of people installed the program but then later discovered that the program sent to the company a report of the websites its users visited, along with a customer identification number in the software.
