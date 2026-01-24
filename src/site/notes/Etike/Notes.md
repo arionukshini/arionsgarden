@@ -4,7 +4,7 @@
 
 # Etike - LESI
 
-## Reference Text:
+## Reference Text (From Slides):
 - Sara Baase, A Gift of Fire: Social, Legal, and Ethical Issues for Computing Technology, 4th edition, ISBN 13: 978-0-13-249267-6.
 - Joseph Migga Kizza, Ethical and Social Issues in the Information Age, fourth edition, ISBN 978-1-84996- 037-3
 - M. David Ermann, Michele S. Shauf; Computers, Ethics, and Society latest Edition, Oxford University Press, ISBN: 0195143027
