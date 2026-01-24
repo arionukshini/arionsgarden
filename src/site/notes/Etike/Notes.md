@@ -115,7 +115,7 @@ Long-distance medicine refers to remote performance of medical exams, analyses, 
 - Government can request sensitive personal data held by businesses or organizations.
 
 #### Terminology?
-- Personal information – any information relating to an individual person: o It may also include phone number, identification number, email, or even username.
+- Personal information – any information relating to an individual person: It may also include phone number, identification number, email, or even username.
 - Informed consent – users being aware of what information is collected and how it is used: A person can decide, according to his or her own values, whether or not to interact with a business or organization or whether to use the device or application
 - Invisible information gathering - collection of personal information about a user without the user’s knowledge:
 	- A car rental company recorded the driving speed and whether or not the driver is wearing a seatbelt
