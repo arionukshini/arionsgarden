@@ -186,6 +186,14 @@ Telecommunication Act of 1996 - First major Internet censorship law
         
     - Entire websites should not be blocked if adults can legally access them.
 
+Distinguish speech from action:
+- Advocating illegal acts is (usually) legal:
+- Saying online: “I support people who break copyright laws” is usually legal;
+- But posting instructions for how to break copyright law to a group it could be illegal because it’s direct incitement.
+Solve speech problems by least restrictive means:
+- It can be difficult to design a law that keeps inappropriate material from children while allowing access for adults
+	- In 2021, **KPM** (Kosovo Agency for Personal Data Protection) and Ministry of Internal Affairs issued guidance to ISPs and social media platforms to remove harmful content for minors
+	- They cannot block entire websites or general content that adults may legally access - this reflects the principle of least restrictive means.
 ## Internet Censorship Laws & Alternatives: 
 - Communications Decency Act of 1996 (CDA) mentioned before:
 	- Attempted to avoid conflict with First Amendment by focusing on children
@@ -647,3 +655,179 @@ Offshoring happens for several reasons, mainly financial benefits and a lack of 
 	- Increased office rent;
 	- Employees lose access to computers;
 	- Faster internet speeds.
+
+Neo-Luddism or New Luddism is a philosophy opposing or skeptical to many forms of modern technology:
+- Neo-Luddism is a movement of non-affiliated groups who resist modern technologies and dictate a return of some or all technologies to a more primitive level.
+
+**What is the purpose of technology?**
+- To Luddites, it is to eliminate jobs to reduce cost of production
+- To non-Luddites, it is to reduce effort needed to produce goods and services:
+	- Modern transportation and communication reduce the price of products and increase their variety and availability. For example, we can eat fresh fruits and vegetables all year.
+- While both statements say nearly the same thing, the first suggests massive unemployment, profits for capitalists, and a poorer life for most workers. The second suggests improvements in wealth and standard of living.
+
+## Artificial Intelligence, Intelligence, and the Turing Test
+
+People continue to debate what it means for a computer to be intelligent and how artificial intelligence affects society.
+
+Alan Turing proposed the **Turing Test** as a way to measure human-level intelligence. In this test, a person communicates with a computer through text. If the person cannot tell whether they are talking to a human or a machine, the computer passes the test. Many technologists believe that passing this test is enough to show intelligence, if the test is well designed.
+
+However, some philosophers disagree. John Searle argues that computers are not truly intelligent. According to him, computers do not think or understand; they only manipulate symbols according to rules. They can process large amounts of data very quickly, but they are not conscious and do not have real understanding.
+
+Searle explains this with the **Chinese Room** example. A person who does not know Chinese sits in a room with boxes of Chinese symbols and an instruction book in English. When given Chinese questions, the person follows the instructions to arrange symbols and produce correct answers in Chinese. People outside believe the person understands Chinese, but in reality, the person is only following rules. Similarly, Searle argues that computers only simulate understanding.
+
+Even when systems like IBM’s Watson win competitions such as Jeopardy!, Searle would say they do not truly understand what they are doing. They produce correct answers without awareness or consciousness.
+
+## Software Engineering Code of Ethics (ACM/IEEE)
+
+The Software Engineering Code of Ethics (Version 5.2) was approved by ACM and IEEE-CS as a standard for teaching and professional practice. It defines eight main responsibilities:
+
+1. **Public** – Act in the public interest.
+    
+2. **Client and Employer** – Serve clients and employers while protecting public interest.
+    
+3. **Product** – Ensure high quality and professional standards.
+    
+4. **Judgment** – Maintain integrity and independence.
+    
+5. **Management** – Promote ethical software development and maintenance.
+    
+6. **Profession** – Protect the reputation and integrity of the profession.
+    
+7. **Colleagues** – Be fair and supportive.
+    
+8. **Self** – Continue learning and promote ethical practice.
+    
+
+---
+
+### ACM Code of Ethics and Professional Conduct
+
+The ACM Code defines moral and professional responsibilities for computing professionals.
+
+#### General Moral Imperatives
+
+1. **Contribute to Society and Human Well-Being**  
+    Software should reduce harm and improve safety and quality of life.
+    
+2. **Avoid Harm to Others**  
+    Developers must minimize risks caused by errors, poor design, or security flaws through proper testing and standards.
+    
+3. **Be Honest and Trustworthy**  
+    Programmers should be truthful about their abilities and report problems immediately.
+    
+4. **Be Fair and Avoid Discrimination**  
+    Discrimination based on race, gender, religion, age, disability, or origin is prohibited.
+    
+5. **Honor Property Rights**  
+    Copyrights, patents, and licenses must be respected. Unauthorized copying is unethical.
+    
+6. **Give Proper Credit**  
+    Developers must acknowledge others’ work and not claim it as their own.
+    
+7. **Respect Privacy**  
+    Systems should protect personal data and prevent unauthorized access.
+    
+8. **Honor Confidentiality**  
+    Sensitive employer or project information must be kept private unless required by law.
+    
+
+---
+
+### Professional Responsibilities
+
+ACM members should:
+
+- Produce high-quality and effective work.
+    
+- Maintain professional competence.
+    
+- Follow relevant laws and regulations.
+    
+- Accept and provide professional reviews.
+    
+- Evaluate systems and their risks.
+    
+- Respect contracts and duties.
+    
+- Improve public understanding of computing.
+    
+- Use computing resources only with authorization.
+    
+
+---
+
+### Organizational Leadership Responsibilities
+
+Leaders in computing organizations should:
+
+- Promote social responsibility.
+    
+- Manage staff and resources ethically.
+    
+- Support proper use of computing systems.
+    
+- Ensure user needs are considered in system design.
+    
+- Protect user dignity and rights.
+    
+- Provide learning opportunities about system limits and principles.
+
+## Përgjigje në Pyetje – Çështjet Legale, Etike dhe Sociale në TIK - ChatGPT
+
+**1. The Pace of Change**  
+“The Pace of Change” nënkupton shpejtësinë me të cilën teknologjia zhvillohet dhe ndryshon shoqërinë. Në fushën e kompjuterëve, kjo shihet nga kalimi prej kompjuterëve të mëdhenj dhe të shtrenjtë, te laptopët, smartphone-t dhe cloud computing. Për shembull, interneti, rrjetet sociale dhe inteligjenca artificiale kanë ndryshuar mënyrën e komunikimit dhe punës në pak vite.
+
+**2. Përfitimet dhe rreziqet e smartphone-ve**  
+Përfitimet përfshijnë komunikim të shpejtë, akses në informacion, edukim dhe shërbime online.  
+Rreziqet përfshijnë varësi, probleme me privatësinë, shpërndarje të të dhënave personale dhe ndikim negativ në shëndetin mendor.
+
+**3. Kill Switch dhe autonomia e përdoruesit**  
+Kill switch është mekanizëm që lejon kompanitë të fshijnë ose çaktivizojnë aplikacione apo përmbajtje nga distanca. Ai është i dobishëm për siguri, por problematik sepse kufizon kontrollin e përdoruesit mbi pajisjen e tij.
+
+**4. Privatësia në epokën digjitale**  
+Privatësia nënkupton mbrojtjen e informacionit personal nga përdorimi i paautorizuar. Ajo është e rëndësishme sepse të dhënat digjitale mund të keqpërdoren për mashtrim, manipulim ose diskriminim.
+
+**5. Rreziqet e mbledhjes së të dhënave personale**  
+Platformat online dhe motorët e kërkimit mund të krijojnë profile të detajuara të përdoruesve. Kjo rrezikon privatësinë, rrit mundësinë e rrjedhjes së të dhënave dhe përdorimit të tyre për qëllime komerciale ose politike.
+
+**6. Opt-in dhe Opt-out**  
+Opt-in kërkon që përdoruesi të japë pëlqim aktiv para mbledhjes së të dhënave.  
+Opt-out lejon mbledhjen automatike, por përdoruesi mund të refuzojë më vonë.
+
+**7. Inteligjenca artificiale dhe tregu i punës**  
+AI automatizon shumë punë dhe mund të zëvendësojë punëtorët. Kjo krijon vende të reja pune, por edhe papunësi. Shqetësimet etike lidhen me humbjen e vendeve të punës dhe pabarazinë sociale.
+
+**8. Liria e shprehjes në Internet**  
+Liria e shprehjes është e rëndësishme, por ka kufij si ndalimi i urrejtjes, dhunës dhe dezinformimit. Shteti ka rol në rregullimin e përmbajtjes për të mbrojtur sigurinë publike.
+
+---
+
+**9. Cili ishte qëllimi kryesor i Turing Test?**  
+A. Të masë shpejtësinë e kompjuterit  
+B. Të testojë sigurinë e rrjeteve  
+**C. Të vlerësojë nëse një kompjuter mund të sillet si njeri**  
+D. Të krahasojë inteligjencën njerëzore
+
+**10. Cila prej më poshtë NUK është një kërcënim tipik i privatësisë?**  
+A. Mbledhja e të dhënave të lokacionit  
+B. Rrjedhja e të dhënave për shkak të pakujdesisë  
+**C. Kriptimi i të dhënave personale**  
+D. Profilizimi i përdoruesve
+
+**11. Çfarë përfaqëson termi secondary use?**  
+A. Ruajtjen e përkohshme të të dhënave  
+B. Fshirjen automatike të të dhënave  
+**C. Përdorimin e të dhënave për një qëllim tjetër nga ai fillestar**  
+D. Kriptimin e informacionit personal
+
+**12. Cili parim i lirisë së shprehjes nuk mbrohet nga Kushtetuta?**  
+A. Fjalimi anonim  
+B. Kritika politike  
+**C. Nxitja direkte e dhunës**  
+D. Shprehja e mendimeve
+
+**13. Cili institucion në Kosovë rregullon transmetimet televizive dhe radiofonike?**  
+**A. KPM**  
+B. ARKEP  
+C. FCC  
+D. AKEP
