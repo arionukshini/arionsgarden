@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"/etike/etike-flashcards/"}
 ---
 
-
-
 # What are smartphones used for besides calls and messages? #card
 
 Smartphones are used for taking high-quality photos and videos, accessing social media platforms, sending emails, managing bank accounts, using GPS navigation, playing games, shopping online, making electronic payments, attending online classes, storing documents, scanning QR codes, and controlling smart home devices such as lights, cameras, and thermostats.
