@@ -27,10 +27,20 @@ Vijushmeria - 10%
 5%: Vijueshmëria dhe Aktiviteti (Ligjërata dhe Ushtrime)
 # Rrjetat kompjuterike
 
+Provim - 50%
+Detyrat - 40%
+Vijushmeria - 10%
+Bonus - 10%
 
+Provimi ka 15 pyetje. Duhet 50% per te kaluar.
 # Siguria e te dhenave
 
+Provim - 50%
+Detyrat - 40%
+Vijushmeria - 10%
+Bonus - 10%
 
+Provimi ka 17-20 pyetje. Duhet 50% per te kaluar.
 # Menaxhimi i Projekteve
 
 Kollokfiumi 1 - Javen 8
