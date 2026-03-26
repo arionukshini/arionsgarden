@@ -146,3 +146,143 @@ Qëllimi kryesor i përdorimit të IRR (Normës së Brendshme të Kthimit) ësht
 ![Pasted image 20260325161401.png](/img/user/Pasted%20image%2020260325161401.png)
 ![Pasted image 20260325161423.png](/img/user/Pasted%20image%2020260325161423.png)
 ![Pasted image 20260325161455.png](/img/user/Pasted%20image%2020260325161455.png)
+
+# Struktura dhe kultura
+
+Fjala 'strukturë' nënkupton organizim. Njerëzit që punojnë në një organizatë grupohen në mënyrë të tillë që përpjekjet e tyre të kanalizohen për të arritur një efikasitet maksimal.
+
+Struktura e organizimit përbëhet nga tre elemente: 
+1. Struktura e organizimit projekton lidhjen formale të raportimit, duke përfshirë numrin e niveleve hierarkike dhe hapësirën e kontrollit të menaxherëve dhe mbikëqyrësve.
+2. Struktura e organizimit identifikon grupimin e individëve në departamente dhe të departamenteve në tërë organizatën.
+3. Struktura e organizimit përfshin projektimin e sistemeve për të siguruar komunikimin, koordinimin dhe integrimin efektiv të përpjekjeve të të gjithë departamenteve.
+
+### FORMAT E STRUKTURES SË ORGANIZMIT NË MENAXHIMIN E PROJEKTEVE
+
+**Organizimi funksional** është një mënyrë e strukturimit të një organizate ku punonjësit dhe departamentet ndahen sipas funksioneve ose specializimeve të tyre. Kjo do të thotë që njerëzit me aftësi dhe detyra të ngjashme punojnë së bashku në të njëjtin departament.
+Organizimi funksional përdoret zakonisht kur, për shkak të natyrës së projektit, një njësi funksionale luan një rol dominues në realizimin e tij ose ka një interes kryesor në suksesin e projektit. Në këto raste, një menaxher i lartë në atë fushë merr përgjegjësinë për koordinimin e projektit.
+
+#### Avantazhet e organizimit funksional
+- Pa ndryshim në strukturë – Projekti realizohet brenda strukturës ekzistuese të organizatës; nuk kërkohen ndryshime të mëdha.
+- Fleksibilitet i stafit – Specialistët mund të angazhohen përkohësisht në projekte dhe më pas kthehen në detyrat e tyre të zakonshme. 
+- Ekspertizë e thelluar – Për projekte të ngushta, departamenti përkatës sjell njohuri të avancuara teknike.
+- Tranzicion i lehtë – Pas përfundimit të projektit, punonjësit vazhdojnë karrierën brenda departamentit të tyre funksional.
+
+#### Disavantazhet e organizimit funksional
+- Mungesë fokusi – Punonjësit kanë detyra rutinë dhe projekti shpesh nuk është prioritet; mund të vonohet.
+- Integrim i dobët – Departamentet punojnë veçmas, pa bashkëpunim të mirë ndërmjet tyre. 
+- Vendimarrje e ngadalshme – Vendimet kalojnë nëpër shumë nivele menaxheriale, duke vonuar progresin.
+- Mungesë motivimi – Punonjësit e shohin projektin si detyrë shtesë, pa lidhje me zhvillimin e tyre profesional.
+
+**Organizimi me grupe të dedikuara** nënkupton krijimin e një ekipi të posaçëm për një projekt të caktuar. Këto ekipe funksionojnë si njësi të pavarura nga pjesa tjetër e organizatës, duke u përqendruar ekskluzivisht në përfundimin e projektit. Zakonisht, një menaxher projekti me kohë të plotë caktohet për të drejtuar ekipin dhe për të mbledhur një grup specialistësh, të cilët punojnë ekskluzivisht në projekt. Ky menaxher rekruton personelin e nevojshëm nga brenda dhe jashtë kompanisë, sipas kërkesave të projektit.
+Grupi i dedikuar është shpesh fizikisht i ndarë nga organizata kryesore dhe funksionon me autonomi të lartë, duke ndjekur udhëzimet e menaxherit të projektit për të arritur objektivat brenda afatit të caktuar.
+
+#### Avantazhet e grupeve të dedikuara në projekt:
+- Strukturë e thjeshtë – Organizata kryesore vazhdon normalisht; ekipi punon në mënyrë të pavarur.
+- Shpejtësi më e madhe – Puna përqendrohet vetëm në projekt, pa shpërqendrime nga detyra të tjera.
+- Motivim dhe bashkëpunim – Ekipi ka një qëllim të përbashkët dhe ndjen përgjegjësi për rezultatet. 
+- Integrim ndërdisiplinor – Specialistët nga fusha të ndryshme punojnë ngushtë së bashku për zgjidhje optimale
+
+#### Disavantazhet të organizmit të grupeve të dedikuara janë:
+- Kosto e lartë – Nevojiten burime dhe staf me kohë të plotë; mund të ketë dyfishim të përpjekjeve.
+- Grindje e brendshme – Ekipet mund të shkëputen nga pjesa tjetër e organizatës, duke krijuar konflikte.
+- Ekspertizë e kufizuar – Puna izolohet brenda ekipit, pa përfitime nga njohuritë e departamenteve të tjera. 
+- Tranzicion i vështirë – Pas përfundimit të projektit, anëtarët e ekipit mund ta kenë të vështirë rikthimin në detyrat e tyre të zakonshme
+
+Një nga risitë më të mëdha në menaxhimin modern është **organizimi i matricës**. Në këtë strukturë, punonjësit i përkasin një departamenti funksional, por në të njëjtën kohë punojnë edhe në projekte. Për këtë arsye ata mund të raportojnë te dy menaxherë: menaxheri funksional dhe menaxheri i projektit. Kjo strukturë kombinon avantazhet e organizimit funksional dhe të organizimit sipas projekteve dhe përdoret shpesh për projekte komplekse.
+
+#### Karakteristikat kryesore të organizimit matricë 
+- Dy zinxhirë komandimi – Punonjësit raportojnë te dy menaxherë: funksional dhe projekti. 
+- Përdorim i përbashkët i burimeve – Burimet dhe specialistët ndahen mes projekteve.
+- Bashkëpunim ndërdisiplinor – Ekspertë nga fusha të ndryshme punojnë së bashku.
+- Komunikim i gjerë – Ekziston komunikim horizontal dhe vertikal për vendimmarrje më të shpejtë. 
+- Fleksibilitet – Struktura përshtatet lehtësisht me ndryshimet në projekte.
+- Konflikt i mundshëm – Dy zinxhirë komandimi mund të sjellin paqartësi ose tensione.
+
+### FORMA TE NDRYSHME TE MATRICES 
+Në praktikë, ekzistojnë lloje të ndryshme të sistemeve matricore, në varësi të autoritetit që kanë menaxherët e projektit dhe ata funksionalë:
+1. Matrica e dobët
+2. Matrica e balancuar
+3. Matrica e fortë
+
+![Pasted image 20260326132458.png](/img/user/Pasted%20image%2020260326132458.png)
+
+#### Avantazhet e strukturës matricë
+-  Efikasiteti – Përdorim më i mirë i burimeve dhe menaxhim i centralizuar.
+- Fokus i fortë në projekt – Objektiva dhe rezultate të qarta për secilin projekt.
+- Tranzicion i lehtë – Kalim pa vështirësi nga projekti në operacionet e përditshme. 
+- Fleksibilitet – Adaptim i shpejtë ndaj ndryshimeve dhe prioriteteve të reja.
+
+#### Disavantazhet e strukturës matricë
+- Konflikte të autoritetit – Mund të lindin mosmarrëveshje midis menaxherëve të projektit dhe atyre funksionalë.
+- Tensione të brendshme – Konkurrencë dhe rivalitet ndërmjet ekipeve ose departamenteve.
+- Presion dhe stres – Niveli i lartë i kërkesave rrit stresin për menaxherët dhe anëtarët e ekipit. 
+- Vendimmarrje e ngadalshme – Procesi ngadalësohet për shkak të përfshirjes së shumë palëve në miratim.
+
+Kultura organizative është sistemi i vlerave, normave dhe besimeve që bashkon njerëzit brenda një organizate. Ajo formon mënyrën si mendojnë, sillen dhe bashkëpunojnë anëtarët. Kultura shihet në zakonet, praktikat dhe sjelljet e përditshme që tregojnë vlerat e organizatës.
+
+# Lidershipi
+
+Lidershipi përkufizohet si aftësia e një individi ose grupi për të ndikuar, motivuar dhe drejtuar të tjerët drejt arritjes së qëllimeve të përbashkëta.
+Ai përfshin një grup qëndrimesh dhe sjelljesh që orienton njerëzit në një drejtim të përbashkët, duke u mundësuar atyre të punojnë së bashku në mënyrë efektive dhe të përshtaten me mjedise në ndryshim.
+
+![Pasted image 20260326134857.png](/img/user/Pasted%20image%2020260326134857.png)
+
+# Menaxhimi konflikteve
+
+Hapat në krijimin e grupit të projektit janë:
+- Identifikimi i aftësive të nevojshme 
+- Identifikimi i individëve që kanë aftësitë e kërkuara 
+- Diskutimi me anëtarët potencialë të grupit 
+- Trajtimi i rezistencës së menaxherit funksional për të ofruar staf të kualifikuar për grupin e projektit
+- Grumbullimi i grupit
+
+Procesi i zhvillimit të grupit është dinamik. Grupet kalojnë në faza të ndryshme pjekurie. Këto faza janë: 
+- Faza e parë: Formimi 
+- Faza e dytë: Reagimi 
+- Faza e tretë: Nivelimi 
+- Faza e katërt: Veprimi 
+- Faza e pestë: Shpërndarja
+
+![Pasted image 20260326162027.png](/img/user/Pasted%20image%2020260326162027.png)
+
+Qe nje grup i projektit te jetë efektiv duhet të ketë karakteristikat ne vijim:
+- Kuptim i qartë i misionit të projektit 
+- Ndërvarësi
+- Kohezion 
+- Besim
+- Entuziazem 
+- Orientim drejt rezultateve
+
+Vizioni i projektit i referohet imazhit të grupit që ka në përgjithësi detyrën se si do të duket projekti pas përfundimit të tij, se si ata do të punojnë së bashku, dhe se si klientët do ta presin projektin. 
+"Vizioni" i përbashkët është përgjigja e pyetjes "Çfarë duam ne të krijojmë?".
+
+Zakonisht, janë tre objektiva kryesore që menaxherët përpiqen të arrijnë gjatë takimit të parë: 
+1. Ofrimi i një pasqyre të projektit, duke përfshirë qëllimin dhe objektivat, kohën në dispozicion, si dhe metodat dhe procedurat. 
+2. Zgjidhja e disa shqetësimeve ndërpersonale, si: Kush janë anëtarët e tjerë të grupit? Si do të përshtaten ata? A jemi në gjendje të punojmë me këta njerëz? 
+3. Fillimi i modelimit të grupit për të punuar së bashku për të përfunduar projektin
+
+Ekzistojnë disa arsye që mund të çojnë në dështimet e grupeve të projektit, siç janë: 
+- Qëllime të pazhvilluara mirë ose të paqarta
+- Përkufizimi i dobët i roleve dhe ndërvarësisë së anëtarëve të grupit
+- Mungesë e motivimit të anëtarëve të grupit të projektit
+- Komunikimi i dobët 
+- Lidershipi i dobët 
+- Qarkullimi midis anëtarëve të grupit të projektit
+
+### MENAXHIMI I KONFLIKTIT 
+Çfare eshte konflikti? 
+Mund te mendohet se konflikti eshte dukuri negative dhe duhet te shmanget. Megjithate konfliktet ne projekte nuk mund te evitohen. 
+Do te ishte gabim perpjekja per te shtypur konfliktin sepse konfliktet mund te jene edhe me perfitim.
+
+**Konflikti** është proces i cili fillon në momentin që individi përcepton se dikush pengon, prish apo tenton që t’a pengoj për të realizuar një interes apo shqetësim kryesor. 
+Ka dy elemente të rëndësishme në këtë përkufizim: 
+Së pari, përkufizimi sygjeron që konflikiti nuk është një gjëndje por një proces. 
+Së dyti konflikit ka natyrë përceptive.
+
+#### Tipet kryesore të konfliktit përmblidhen në tri kategori:
+- Konflikti për qëllimet: i referohet mosmarrëveshjeve që lidhen me rezultate përfundimtare të projektit, kriteret dhe specifikimet e përformancës, priotritetet dhe objektivat e projektit. 
+- Konflikti administrativ: lind nga hierarkia menaxheriale, struktura organizative ose filozofia e kompanisë. Këto konflikte janë shpesh të përqendruara rreth mosmarrëveshjeve që lidhen me raportimin kush ka autoritetin dhe kontrollin administrativ për funksionet, detyrat e projektit dhe vendimet. 
+- Konfliki ndërpersonal: ndodh atëherë kur ka diferenca personalitetesh ndërmjet anëtareve të grupit të projektit dhe stakholders-ve të rëndësishëm të projektit. Arsyet e konfliktit ndërpersonal përfshijnë karakteristika të ndryshme që lidhen me etikën në punë, stilet e sjelljes, egon dhe personalitetet e antarëve të grupit të projektit.
+
+### NEGOCIMI
+Negocimi është një proces që përdoret për të arritur marrëveshje të pranueshme mes palëve të interesuara që kanë qëllime ose nevoja të ndryshme. Kjo është një pjesë e zakonshme e jetës së përditshme dhe veprimtarive organizative, ku individët ose grupet përpiqen të gjejnë një rrugë të përbashkët për të zgjidhur mosmarrëveshjet ose për të arritur qëllimet e tyre. Negocimi është procesi që nxjerr në pah aftësinë e menaxherit për të përdorur influencat e tij në mënyrë pozitive
