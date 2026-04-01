@@ -285,4 +285,7 @@ Së dyti konflikit ka natyrë përceptive.
 - Konfliki ndërpersonal: ndodh atëherë kur ka diferenca personalitetesh ndërmjet anëtareve të grupit të projektit dhe stakholders-ve të rëndësishëm të projektit. Arsyet e konfliktit ndërpersonal përfshijnë karakteristika të ndryshme që lidhen me etikën në punë, stilet e sjelljes, egon dhe personalitetet e antarëve të grupit të projektit.
 
 ### NEGOCIMI
-Negocimi është një proces që përdoret për të arritur marrëveshje të pranueshme mes palëve të interesuara që kanë qëllime ose nevoja të ndryshme. Kjo është një pjesë e zakonshme e jetës së përditshme dhe veprimtarive organizative, ku individët ose grupet përpiqen të gjejnë një rrugë të përbashkët për të zgjidhur mosmarrëveshjet ose për të arritur qëllimet e tyre. Negocimi është procesi që nxjerr në pah aftësinë e menaxherit për të përdorur influencat e tij në mënyrë pozitive
+Negocimi është një proces që përdoret për të arritur marrëveshje të pranueshme mes palëve të interesuara që kanë qëllime ose nevoja të ndryshme. Kjo është një pjesë e zakonshme e jetës së përditshme dhe veprimtarive organizative, ku individët ose grupet përpiqen të gjejnë një rrugë të përbashkët për të zgjidhur mosmarrëveshjet ose për të arritur qëllimet e tyre.
+**Negocimi** është procesi që nxjerr në pah aftësinë e menaxherit për të përdorur influencat e tij në mënyrë pozitive.
+
+#### Disa nga elementet kryesore të negociimit janë:  Njohja e çështjeve përpara negociimit.  Përcaktimi i kërkesave dhe parimeve.  Ndarja e njerëzve nga problemi.  Fokus tek interesat, jo pozicionet.  Gjetja e opsioneve “win-win”.  Përdorimi i kritereve objektive.
