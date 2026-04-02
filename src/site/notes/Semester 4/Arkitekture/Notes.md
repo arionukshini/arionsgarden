@@ -293,3 +293,5 @@ Praktikisht, të gjithë shërbimet në cloud ofrohen duke përdorur një nga tr
 **Infrastrukturë si Shërbim (IaaS)** – Klienti ka qasje në infrastrukturën bazë të cloud-it. IaaS ofron makina virtuale dhe harduer të tjerë, si dhe sisteme operative, të cilat mund të kontrollohen përmes një ndërfaqeje programimi aplikacionesh (API). Sh. Azure, Amazon EC2.
 
 # Problemet e performaces
+
+...
