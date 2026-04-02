@@ -84,3 +84,49 @@ Në Fig. 7 është paraqitur struktura e përgjithshme e kompjuterit IAS i cili 
 	- Instruction Buffer Register (IBR)
 	- Program Counter 
 	- Accumulator dhe Multiplier Quotient
+
+Fig. 8 tregon që Njësia e kontrollit dhe Njësia Aritmetiko-Logjike (ALU) përmbajnë lokacione memoruese, të quajtura regjistra të definuar si në vijim:
+![Pasted image 20260402104725.png](/img/user/Pasted%20image%2020260402104725.png)
+
+### Bashkesia e regjistrave (memoria e CPU)
+
+- **Instruction Buffer Register** E ruan përkohësisht pjesën e djathtë të instruksionit
+- **Program Counter** E përmban adresën e instruksionit vijues (dy instruksioneve) që sjellen prej memories
+- **Accumulator and Multiplier Quotient** Ruajnë përkohësisht operandet dhe rezultatet e operacioneve të ALU; p.sh. nëse shumëzohen dy numra 40 bitësh, rezultati është numër 80 bitësh, 40 bitët me peshë të madhe ruhen në Akumulator kurse 40 bitat me peshë të vogël vendosën në regjistrin MQ.
+- **Memory Buffer Register** E përmban fjalën që duhet ruajtur në memorie ose të dërgohet në njësinë H/D, ose të pranojë fjalën nga memoria ose nga njësia H/D.
+- **Memory Address Register** E specifikon adresën e memories për fjalën që duhet lexuar ose shkruar.
+- **Instruction Register** E përmban kodin operues të instruksionit që është duke u ekzekutuar. Ky kod operues përbëhet prej 8 bitëve.
+
+### Formati i memories IAS
+
+Kjo memorie bazohet ne 1000 lokacione memoruese prej 40 shifrave binare secila. Te dhenat dhe instruksionet ruhen ne memorie.
+- Formati i fjales per numra
+Numrat paraqiten ne forme binare, instruksioni poashtu eshte kod binar. *Secili numer eshte reprezentuar nga biti i parashenjes dhe nje vlere 39 bite.*
+- Formati i fjlaes per instruksione
+Nje fjale permben dy instruksione nga 20 bita, ku secili instruksion bazohet ne nje kod operues 8 bite i cili specifikon operacionin dhe adrese 12 bite qe percakton nje nga fjalet ne memorie (0-999).
+![Pasted image 20260402105844.png](/img/user/Pasted%20image%2020260402105844.png)
+
+Secili cikel i instruksionit perfshine dy nencikle:
+- Sjellja e instruksionit
+- Ekzekutimi i instruksionit
+
+**Cikli i sjelljes së instruksionit**
+- Sjellët (bartet, ngarkohet) kodi i operacionit në regjistrin IR. 
+- Pjesa e adresës ngarkohet në regjistrin MAR. 
+-  Ky instruksion mund të merret nga regjistri IBR ose nga memoria e kompjuterit duke e ngarkuar fjalën në MBR, pastaj në IBR, IR dhe MAR.
+
+Kur kodi i operacionit vendoset në IR, atëherë fillon ekzekutimi i instruksionit, gjegjësisht nëncikli i dytë.
+
+**Cikli i ekzekutimit**
+- Qarqet e kontrollit e dekodojnë kodin e operacionit;
+- Qarqet e kontrollit e ekzekutojnë instruksionin duke dërguar sinjalet e duhura kontrolluese që bëjnë bartjen e të dhënave ose kryerjen (ekzekutimin) e operacionit nga ana ALU.
+
+### Instruksionet e kompjuterit IAS
+
+IAS kishte gjithsej 21 instruksione qe gruphen ne 5 lloje:
+1. Per transfer te dhenave
+2. Per degezim te pakushtezuar
+3. Per degezim te kushtezuar
+4. Aritmetike
+5. Per modifikimin e adreses
+
