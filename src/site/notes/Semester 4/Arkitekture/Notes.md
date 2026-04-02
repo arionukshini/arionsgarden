@@ -172,3 +172,124 @@ DEC PDP-8 Në të njëjtin vit që IBM lëshoi sistemin e parë të IBM/360, nj�
 Modelet e vonshme te PDP-8 perdoren nje strukture e cila quhej OMNIBUS (magjistrale BUS). Kjo perbehej nga 96 rruge te ndara, qe perdoreshin per bartje, kontrolla, adresa dhe sinjale te te dhenave, perdorimi i tyre duhet kontrolluar nga CPU-ja.
 
 ## Ligji i Moorit
+
+Me kohe, u be e mundur te paketoheshin me shume komponente ne te njejtin chip. Kjo reprezenton ligjin e Moor-it.
+Gordon Moor ishte bashkethemelues i Intelit.
+Numri i transistoreve brenda cipit do te dyfishohet per qdo dy vite.
+![Pasted image 20260402151131.png](/img/user/Pasted%20image%2020260402151131.png)
+
+Për 15 vite, nga 1986 deri në 2001, performanca e procesorit u rrit me një mesatare prej 52%, por deri në vitin 2018, kjo ishte ngadalësuar në vetëm 3.5% në vit - një ndalesë virtuale. Arsyja kryesore eshte se po i afrohemi kurfirit fizik. Kjo do të thotë një fund për s*hkallëzimin e Dennard - një tjetër 'ligj' kompjuterik, i cili thotë se ndërsa transistorët bëhen më të vegjël, kërkesat e tyre për energji gjithashtu zvogëlohen, duke e bërë nevojën për energji për zonë afërsisht konstante, edhe pse transistorët janë të paketuar më dendur.*
+
+Konsekuencat e Ligjit te Moorit jane te thella:
+• Fuqia procesuese dyfishohet afërsisht çdo dy vjet për të njëjtin çmim, prandaj kostoja e çipave mbetet pothuajse e pandryshuar. 
+• Rritja e dendësisë së paketimit shkurton rrugët elektrike ndërmjet portave logjike dhe memories, duke rritur shpejtësinë e funksionimit.  
+• Kompjuterët bëhen më të vegjël dhe mund të përdoren më lehtë në ambiente të ndryshme.  
+• Zvogëlohen kërkesat për energji.  
+• Ndërlidhjet në qarqet e integruara janë më të besueshme sesa lidhjet me pikje.
+
+## Gjenerata e katert dhe e peste e kompjutereve (mikroprocesoret)
+
+Pasi densiteti i elementeve ne chip vazhdoi te rritet, shume elemente u vendosen ne nje chip, u paraqit nevoja e konstruktimit te kompjuterit me nje procesor te vetem.
+**Zbulim i madh u arrit ne vitin 1971, kur Intel zhvilloi 4004.**
+4004 ishte qipi i pare qe permbante te gjitha komponentet e nje CPU ne nje paketim te vetem.
+Procesori 8080 ishte një mikroprocesor 8 bitësh.
+![Pasted image 20260402155013.png](/img/user/Pasted%20image%2020260402155013.png)
+![Pasted image 20260402155030.png](/img/user/Pasted%20image%2020260402155030.png)
+
+### Evoluimi i mikroprocesoreve
+
+Ekzistojnë dy lloje kryesore të mikroprocesorëve që njeherit kanë qenw edhe në konkurrencë të përhershme gjatë gjithë zhvillimit të tyre,
+1. Pentium dhe 
+2. Power PC (PPC) 
+
+Dallimi kryesor në mes Pentium dhe PPC është në arkitekturën që ata adoptuan. 
+
+**Pentium** miratoi arkitekturën CISC (Complex Instruction Set Computer), e cila ka instruksione komplekse që marrin cikle të shumta të CPU-së.
+**PPC** miratoi arkitekturën RISC (Reduced Instruction Set Computer), e cila ka instruksione më të thjeshta që kërkojnë vetëm një instruksion të vetëm për t'u ekzekutuar. 
+
+- Prodhues i mikroprocesorëve Pentium është Intel-i 
+- Procesorët Power PC (RISC superskalar) janë zhvilluar bashkërisht nga IBM, Motorola, dhe Apple qysh nga viti 1991.
+
+### Zhvillimi i mikroprocesoreve Intel
+
+- 1971, Inteli e zhvilloi mikroprocesorin e parë 4 bitësh, të njohur si 4004 
+- 1972, 8008 (8-bita)
+- 1974, 8080 ( mikroprocesori i parë për përdorime gjenerale, 8 bita për të dhena, u përdor në PC e parë Altair )
+- 1978, 8086 (16-bita, shumë më i fuqishëm, keshi i instruksioneve; 8088 – 8 bitësh dhe u përdor në IBM PC e parë )
+- 1982, 80286 (20 bita për adresa, memorien 16MB) 
+- 1985, 80386 (32-bita, përkrahte multitaskingun)
+- 1989, 80486 (procesori i parë pipeline për instruksione dhe kesh të fuqishëm, koprocesorin matematik)
+- 1993, Pentium (superskalar, ekzekutonte më shumë instruksione në paralel)
+- 1995, Pentium Pro (organizim të avancuar superskalar, parashikim të degëzimit, analizonte rrjedhën e të dhënave, ekzekutim spekulativ)
+- 1997, Pentium II (MMX teknologjii, procesim të grafikës, video dhe audio)
+- 1999, Pentium III (instruksione shtesë me pikë levizëse për grafikë 3D)
+- 2000, Pentium 4 (superpipelining, avancim në multimedia)
+- Itanium (64 bita)
+- Itanium 2
+- Pentium Dual-Core E2220 ◼ Pentium G870 ◼ 2019 - Pentium Silver J5040 ◼ 2022 - Pentium Gold G7400TE
+
+### Zhvillimi i mikroprocesoreve Power PC
+
+- 1993 – 601
+- 1994 – 603 (low-end), 604 (desktop)
+- 1995 – 620 (64-bit për servera high-end)
+- 1997 – G3 (kesh me dy nivele brenda çipit)
+- 1999 – G4 (multiprocesorë brenda çipit) 
+- 2003 – G5 
+- 2004, Motorola e braktis prodhimin e çipave
+- 2004, IBM hyn në tregun e industrisë së lojërave duke e ruajtur tregun për Power PC: Nintendo, Sony Playstation III,Micosoft Xbox 360
+- 2005, Apple e ndërpreu prodhimin e procesorëve PowerPC për PC e veta. kur Apple shpalli kalimin e saj në arkitekturën x86, duke përdorur procesorët e Intel.
+
+## Sistemet e mbjella - ARM
+
+Arkitektura ARM (Acorn RISC Machine) i referohet një arkitekture të procesorit që ka evoluar nga parimet e dizajnit të arkitekturës RISC dhe përdoret në sistemet e mbjella.
+
+Sistemet ARM fillimisht janë disejnur për përdorim ne mikrokompjuterët në përgjithësi, por aktualisht përdoren ne sistemet e mbjella (embeded ). Termi sistemi i embeded i referohet përdorimit të elektronikës dhe softuerit brenda një produkti, në krahasim me një kompjuter me qëllim të përgjithshëm.
+
+Përkufizim i përgjithshëm: *Një kombinim i harduerit dhe softuerit kompjuterik, dhe ndoshta edhe pjesë të tjera shtesë mekanike, të dizajnuara për të kryer një funksion të dedikuar. Në shumë raste, sistemet e ngulitura janë pjesë e një sistemi ose produkti më të madh p.sh në vetura , makina larëse etj.*
+
+Fig. 16 tregon organizimin e një sistemi të integruar ku përveç procesorit dhe memories, ka një numër elementesh që ndryshojnë nga kompjuteridesktop ose laptop me qëllim të përgjithshëm.
+![Pasted image 20260402182333.png](/img/user/Pasted%20image%2020260402182333.png)
+![Pasted image 20260402182423.png](/img/user/Pasted%20image%2020260402182423.png)
+
+## **Permbledhje**
+
+Kompjuterët e mbjellë gjenden në makinat e sodit: mikrovalë, makinat e larjes, shumicën e printerëve, në shumicën e suiqave të rrjetës dhe në të gjitha veturat modele të reja. 
+Procesorët në Pajisjet Personale Mobile (PMD) shpesh konsiderohen si embedded kompjuter, por shpesh do i mbajmë ato si kategori të ndara sepse PMD janë platforma që mund të ekzekutojnë softuer të zhvilluar eksternal dhe ata ndajnë shumë karakteristika të kompjuterëve desktop. 
+Embedded kompjuterët kanë një përhapje më të gjerë në fuqinë procesuese dhe çmim. 
+Përshijnë procesorët 8 bitësh dhe 16 bitësh që mund të kushtojnë më pak se dhjeta centa, mikroprocesorët 32 bitësh që ekzekutojnë 100 milion instruksione/s që kushtojnë më pak se 5 $, dhe së fundi procesorët për sviçat e rrjetës që mund të ekzekutojnë miliard instruksione/s.
+
+### Kuptimi i "i" tek Apple
+
+Prej vititi 1998 iPad është prefiksi i. Çfarë kuptimi ka???
+Në një event të Apple më 1998, Steve Jobs prezantoi iMac-un, duke shpjeguar edhe lidhjen mes "i" dhe "Mac". 
+Ai tha: 
+*“iMac vjen nga lidhja e internetit me thjeshtësinë e Macintosh," 
+"Ne po e synojmë që konumatorëve t’iu ofrojmë një kompjuter I cili përdoret thjeshte për të hyrë në internet dhe shpejt”* 
+Ky prefix është zgjeruar pastaj edhe te iPhone e kështu me radhë.
+
+## Arkitektura e Harvardit
+
+![Pasted image 20260402183256.png](/img/user/Pasted%20image%2020260402183256.png)
+
+Kjo i referohet nje strukture memorie ne te cilen procesori eshte i lidhur me dy lokacione memorie te pavarura nepermjet dy grupeve te pavarura te basave.
+Ne origjinalen, nje lokacion memoie mban istruksionet e programit dhe tjetri mban te dhenat.
+
+Ajo ka sinjale fizikisht të ndara dhe ruajtje për memorien e kodit dhe te te dhenave. *Është e mundur të qaseni njëkohësisht në memorien e programit dhe memorien e të dhënave në të njëjtën kohë.*
+
+#### Cili është dallimi në mes arkitekturës së Von Neumann dhe Arkitekturës së Harvardit?
+
+Dallimi kryesor midis dy arkitekturave është se në arkitekturën e Von Neumann e gjithë memoria është e aftë të ruajë të gjithë elementët e programit, të dhënat dhe instruksionet;
+Në arkitekturën e Harvardit memoria ndahet në dy memorie: një për të dhënat dhe një për instruksione.
+
+## Cloud computing
+
+**Cloud networking** - Shumë zgjidhje të kompjuterëve në cloud mbështeten në Internet, që është vetëm një pjesë e infrastrukturës së rrjetit. Një shembull i cloud networking është ofrimi i rrjeteve me performancë të lartë dhe/ose besueshmëri të lartë midis provajderit dhe abonentit.
+Cloud networking i referohet përdorimit të teknologjisë së cloud-it për të krijuar, menaxhuar dhe optimizuar rrjete kompjuterike.
+Qëllimi kryesor i kompjuterëve në cloud është të ofrojë mundësinë e përdorimit me qira të resurseve kompjuterike.
+Praktikisht, të gjithë shërbimet në cloud ofrohen duke përdorur një nga tri modelet kryesore: SaaS, PaaS dhe IaaS.
+**Software si Shërbim (Software as a Service - SaaS)** Siç sugjeron emri ky model ofron shërbime për klientët në formën e softuerit - softuer aplikacionesh; sh. Gmail.
+**Platformë si Shërbim (Platform as a Service -PaaS)** - Ofron shërbim për klientët në formën e një platforme mbi të cilën mund të ekzekutohen aplikacionet e klientit. Sh. Google App Engine.
+**Infrastrukturë si Shërbim (IaaS)** – Klienti ka qasje në infrastrukturën bazë të cloud-it. IaaS ofron makina virtuale dhe harduer të tjerë, si dhe sisteme operative, të cilat mund të kontrollohen përmes një ndërfaqeje programimi aplikacionesh (API). Sh. Azure, Amazon EC2.
+
+# Problemet e performaces
