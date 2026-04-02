@@ -130,3 +130,45 @@ IAS kishte gjithsej 21 instruksione qe gruphen ne 5 lloje:
 4. Aritmetike
 5. Per modifikimin e adreses
 
+## Kompjuterët e gjeneratës së dytë (Transistorët)
+
+Ndryshimi i pare kryesor vjen me zevendesimin e gypave te vakumit me transistor, qe jane me te vegjel, me te lire, shperndajne me pak nxehtesi dhe harxhojne me pak energji elektrike.
+Transistori u shpik ne laboratorin e Bell-it me 1947 dge bga viti 1950 kishte nje revolucion ne kompjuteret.
+IBM nuk ishte kompania e pare qe ofroi kete teknologji te re, por ishte NCR & RCA e pastaj IBM me IBM 7000  ne dhjetor 1957.
+
+### Klasifikimi i kompjutereve sipas gjeneratave
+
+![Pasted image 20260402141151.png](/img/user/Pasted%20image%2020260402141151.png)
+
+Figura paraqet konfigurimin e IBM 7094, i gjenerates se dyte. E rendesishme per ket lloj kompjuteri ishte perdorimi i kanaleve te te dhenave.
+Ky kanal eshte nje modul i pavarur I/O me procesorin e vet dhe grupin e vet te instruksioneve.
+![Pasted image 20260402141436.png](/img/user/Pasted%20image%2020260402141436.png)
+
+## Gjenerata e tretë (Qarqet e integruara)
+
+Gjate 1950-1960, pajisjet elektronike ishin te ndertuara nga komponentet dikrete: transistoret, rezistoret, kondensatoret etj. Pas 1960 filloje zhvillimi i elektronikes digjitale dhe industrise kompjuterike dhe kishte nje prirje ne zvoglimin e madhesise se qarqeve elektronike.
+Dy lloje të komponentëve janë të nevojshme: gates (portat) dhe memory cells (qelizat memoruese).
+
+**Porta** është një komponentë që implementon një funksion të thjeshtë logjik ose Boolean (Fig. 11 ). Quhen porta sepse ato kontrollojnë rrjedhën e të dhënave në të njëjtën mënyrë si në kanal.
+**Qeliza memoruese** (Fig. 12) është një komponentë që mund të ruaj një bit të të dhënash; kështu që kjo komponentë mund të jetë në njërën nga dy gjendjet stabile në çdo kohë.
+![Pasted image 20260402142028.png](/img/user/Pasted%20image%2020260402142028.png)
+
+Duke lidhur numer te madh te keto dyjave konstruktohet kompjuteri.
+
+Këtë mund t'a lidhim me katër funksionet themelore:
+**Ruajtja e të dhënave:** realizohet me qeliza memoruese.
+**Procesimi i të dhënave:** Realizohet përmes portave. 
+**Bartja e të dhënave:** Rrugët midis komponentëve përdoren për të bartur të dhëna nga memoria në memorie dhe nga memoria përmes portave në memorie. 
+**Kontrolli:** Rrugët ndërmjet komponentëve mund të bartin sinjale kontrolluese.
+
+**Qarku i integruar (IC)** – komponentët si transistorët, rezistorët dhe përçuesit mund të fabrikohen në një pllakë gjysmëpërçuese të silicit (Vafer). Këto komponentë përmes një procesi të metalizimit duke formuar qarqe. Fig. 13 paraqet konceptet bazë të ndërtimit të qarkut të integruar. Një vafer i hollë i Silicit është ndarë në një matricë të zonave të vogla, secila me disa milimetra katrorë. Mostër e qarkut identik është ndërtuar në secilën sipërfaqe dhe vaferi është ndarë në chipa. Secili Chip ka shumë porta dhe/ose qeliza memoruese plus një një numër të hyrjeve dhe daljeve për lidhje.
+![Pasted image 20260402145038.png](/img/user/Pasted%20image%2020260402145038.png)
+
+Sistemi IBM/360, Nga viti 1964, IBM kishte një kontroll të fortë në tregun e kompjuterave me Serinë e makinave 7000. Kjo ishte familja e parë e planifikuar e kompjuterëve. Familja mbulonte një gamë të gjerë të performancës dhe të kostos. Tabela 2 tregon disa nga karakteristikat kryesore të modeleve të ndryshme në vitin 1965 (secili anëtar i familjes dallon nga një model numër).
+![Pasted image 20260402145123.png](/img/user/Pasted%20image%2020260402145123.png)
+
+DEC PDP-8 Në të njëjtin vit që IBM lëshoi sistemin e parë të IBM/360, një tjetër kompjuter u shfaq: PDP-8 nga Digital Equipment Corporation Çmimi prej 16,000 dollarësh llogaritej mjaft e lirë për secilin teknik laboratori që të ketë një të tillë. Vetëm disa muaj më parë sistemi IBM/360 seri e kompjuterë mainframe kushtonte qindra mijëra dollar.
+
+Modelet e vonshme te PDP-8 perdoren nje strukture e cila quhej OMNIBUS (magjistrale BUS). Kjo perbehej nga 96 rruge te ndara, qe perdoreshin per bartje, kontrolla, adresa dhe sinjale te te dhenave, perdorimi i tyre duhet kontrolluar nga CPU-ja.
+
+## Ligji i Moorit
