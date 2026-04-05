@@ -284,8 +284,58 @@ Së dyti konflikit ka natyrë përceptive.
 - Konflikti administrativ: lind nga hierarkia menaxheriale, struktura organizative ose filozofia e kompanisë. Këto konflikte janë shpesh të përqendruara rreth mosmarrëveshjeve që lidhen me raportimin kush ka autoritetin dhe kontrollin administrativ për funksionet, detyrat e projektit dhe vendimet. 
 - Konfliki ndërpersonal: ndodh atëherë kur ka diferenca personalitetesh ndërmjet anëtareve të grupit të projektit dhe stakholders-ve të rëndësishëm të projektit. Arsyet e konfliktit ndërpersonal përfshijnë karakteristika të ndryshme që lidhen me etikën në punë, stilet e sjelljes, egon dhe personalitetet e antarëve të grupit të projektit.
 
+Ekzistojnë të paktën tri shkolla se si konfliktet duhen të përceptohen dhe zgjidhen:
+- Tradicionale - që e shikon konfliktin si një ngjarje negative për organizatën dhe besojnë që duhet të zgjidhet sa më shpejtë dhe me sa më pak dhimbje.
+- Të sjelljës - që e shikon konfliktin si pjesë natyrale dhe të pashmangshme të organizatës dhe zgjidhja e tyre është të menaxhohet në mënyrë efektive dhe jo të eleminohet ose shtypet. 
+- Ndërvepruese - konflikti nxit element të tensionit, te cilat prodhojnë shpikje, krijueshmeri dhe produktivitet me te larte. Sipas kesaj shkolle konflikti nuk duhet te vazhdoje pa asnje kontroll, por githsesi ajo argumenton se ka nivele optimale të konfliktit që permireson organizatën.
+
 ### NEGOCIMI
 Negocimi është një proces që përdoret për të arritur marrëveshje të pranueshme mes palëve të interesuara që kanë qëllime ose nevoja të ndryshme. Kjo është një pjesë e zakonshme e jetës së përditshme dhe veprimtarive organizative, ku individët ose grupet përpiqen të gjejnë një rrugë të përbashkët për të zgjidhur mosmarrëveshjet ose për të arritur qëllimet e tyre.
 **Negocimi** është procesi që nxjerr në pah aftësinë e menaxherit për të përdorur influencat e tij në mënyrë pozitive.
 
-#### Disa nga elementet kryesore të negociimit janë:  Njohja e çështjeve përpara negociimit.  Përcaktimi i kërkesave dhe parimeve.  Ndarja e njerëzve nga problemi.  Fokus tek interesat, jo pozicionet.  Gjetja e opsioneve “win-win”.  Përdorimi i kritereve objektive.
+#### Disa nga elementet kryesore të negociimit janë:
+- Njohja e çështjeve përpara negociimit. 
+- Përcaktimi i kërkesave dhe parimeve.
+- Ndarja e njerëzve nga problemi. 
+- Fokus tek interesat, jo pozicionet. 
+- Gjetja e opsioneve “win-win”. 
+- Përdorimi i kritereve objektive.
+
+# PLANIFIKIMI I PROJEKTIT
+
+Faza e planifkimit te projektit eshte nje nga fazat me kryesore ne ciklin e projektit sepse vendos bazen per fazat e zbatimit dhe kontrollit.
+Qellimi i kesaj eshte se si do te realizohen objektivat e tij ne kuader te fushes, kohes, kostos dhe cilesise.
+
+Planfikimi eshte shpesh procesi me i veshtire dhe i nenvlersuar dhe shpesh, nuk duam te shpenzojme kohe per te planifikuar mire, por nje planifikim i mire ndikon ne ekzekutim te sukseshem. 
+
+## 1.DEFINIMI I FUSHËVEPRIMIT TË PROJEKTIT (PROJECT SCOPE)
+
+Fushëveprimi (shtrirja) e projektit përkufizon rezultatin përfundimtar ose misionin e projektit – një produkt ose shërbim për klientin/përdoruesin. 
+Qëllimi kryesor është të përcaktohen sa më qartë rezultatet (deliverables) për përdoruesin përfundimtar dhe të orientohet planifikimi i projektit.
+
+Fusheveprimi zhvillohet nen drejtimin e menaxherit te projektit ne bashkbunim me klientin dhe palet e tjera te interesit.
+
+Për të siguruar që përkufizimi i fushëveprimit është i plotë, zakonisht përdoret lista kontrolluese në vijim: 
+
+### Lista e Kontrollit të Fushëveprimit të Projektit (Project Scope Checklist)
+1. Qëllimi i projektit (Çfarë, kur, sa dhe ku do të realizohet. )
+2. Rezultatet (deliverables) (Rezultatet e matshme për çdo fazë) 
+3. Afatet (milestones) (Ngjarje kyçe që ndodhin në pika të caktuara në kohë) 
+4. Kërkesat teknike (Specifikime për performancën dhe cilësinë e produktit) 
+5. Kufijtë dhe përjashtimet (Çfarë përfshihet dhe çfarë nuk përfshihet) 
+6. Rishikimet me klientin (Sigurimi i marrëveshjes dhe kuptimit të përbashkët.)
+
+## “SCOPE CREEP” – ZGJERIMI I FUSHËVEPRIMIT
+
+Kjo dmth zgjerimi gradual i fusheveprimit te projektit pertaj asaj qe ishte planifikuar, pa miratim dhe rishikim te buxhetit/afatit.
+Shkurt e shqip: ndryshime te vogla qe me kohen grumbullohen dhe rrisin punen, koston dhe vonojne pojektin.
+
+## 2. VENDOSJA E PRIORITETEVE TË PROJEKTIT
+
+Cilësia dhe suksesi i një projekti përcaktohen nga arritja ose tejkalimi i pritjeve të klientit në lidhje me koston (buxhetin), kohën (afatin) dhe performancën (fushëveprimin e projektit). Ne shume raste duhet te sakrifikohet nje kriter per te tjeret.
+
+Një teknikë e përdorur në praktikë është matrica e prioriteteve (priority matrix), e cila ndihmon në përcaktimin e: 
+- cilit kriter duhet t’i vendosim kufizime (constrain) 
+- cilin duhet ta përmirësojmë (enhance)
+- cilin mund ta pranojmë (accept)
+![Pasted image 20260405184429.png](/img/user/Pasted%20image%2020260405184429.png)
