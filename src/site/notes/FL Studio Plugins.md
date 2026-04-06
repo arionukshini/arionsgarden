@@ -10,3 +10,7 @@ Auto-Tune Pro - https://rutracker.org/forum/viewtopic.php?t=6561657
 Vital - https://rutracker.org/forum/viewtopic.php?t=6367009
 Omnisphere 3 - https://rutracker.org/forum/viewtopic.php?t=6837279
 Omnisphere 3 Library - https://rutracker.org/forum/viewtopic.php?t=6767265
+Hive (2)
+ANA 2
+Spire 1.5
+Opal Morphing Synth

@@ -339,3 +339,92 @@ Një teknikë e përdorur në praktikë është matrica e prioriteteve (priority
 - cilin duhet ta përmirësojmë (enhance)
 - cilin mund ta pranojmë (accept)
 ![Pasted image 20260405184429.png](/img/user/Pasted%20image%2020260405184429.png)
+
+### NDRYSHIMI I PRIORITETEVE GJATË PROJEKTIT
+
+Prioritetet nuk jane gjithmore statike, ato mund te ndryshojne gjate zhvillimit. Nese klienti deshiron te prefundoj projektin me shpejte ose ka ulje te kostos.
+
+## 3. KRIJIMI I STRUKTURËS SË ZBËRTHIMIT TË PUNËS (WORK BREAKDOWN STRUCTURE-WBS) 
+Pasi të jenë identifikuar shtrirja dhe rezultatet e projektit, puna duhet të ndahet në mënyrë të njëpasnjëshme në elemente gjithnjë e më të vogla. 
+Rezultati i këtij procesi hierarkik quhet Struktura e Zbërthimit të Punës (SZP) (Work Breakdown Structure – WBS).
+
+SZP (Struktura e Zbërthimit të Punës) është një mënyrë për ta ndarë projektin në pjesë më të vogla dhe më të lehta për t’u menaxhuar.
+
+Si bëhet ndarja? 
+Ndarja bëhet nga lart-poshtë (top-down): 
+- Fillon me projektin e plotë (qëllimi kryesor). 
+- Çdo nivel më poshtë e zbërthen punën në më shumë detaje. 
+- Ndarja vazhdon derisa çdo pjesë të bëhet e qartë, e matshme dhe e menaxhueshme.
+
+Deri në cilin nivel ndalet?
+Derisa të arrihet te “paketat e punës” (Work Packages), që përfaqësojnë nivelin më të ulët të SZP-së.
+
+### PAKETAT E PUNËS 
+Paketa e Punës është njësia më e vogël e punës që mund të planifikohet, të caktohet në kohë, të vlerësohet në kosto dhe t’i atribuohet një individi ose ekipi. Çdo paketë pune në SZP: 
+1. Përcakton punën që duhet të kryhet (çfarë). 
+2. Tregon kohën e nevojshme për përfundim (sa zgjat). 
+3. Përcakton buxhetin e planifikuar (kostoja). 
+4. Identifikon burimet e nevojshme (sa / çfarë burimesh). 
+5. Cakton një person përgjegjës (kush). 
+6. Përcakton pikat e monitorimit për matjen e progresit (sa mirë po kryhet puna).
+
+![Pasted image 20260406211927.png](/img/user/Pasted%20image%2020260406211927.png)
+
+## 4. INTEGRIMI I SZP ME STRUKTURËN ORGANIZATIVE (OBS) 
+Ndërsa SZP (WBS) përcakton punën që duhet bërë, Struktura e Ndarjes Organizative (OBS – Organizational Breakdown Structure) përcakton kush e bën atë. 
+Kombinimi i WBS me OBS krijon një sistem përgjegjësie dhe raportimi, i cili ndihmon në: 
+- Caktimin e detyrave për departamentet. 
+- Monitorimin e progresit sipas përgjegjësive. 
+- Analizën e performancës sipas njësive organizative.
+
+### MATRICA E CAKTIMIT TË PËRGJEGJËSISË
+
+![Pasted image 20260406215430.png](/img/user/Pasted%20image%2020260406215430.png)
+
+## 5. KODIMI I SZP-SË (WBS) PËR SISTEMIN E INFORMACIONIT
+
+Për të arritur përdorshmërinë maksimale të një Strukture të Zbërthimit të Punës (WBS), është i nevojshëm përdorimi i një sistemi kodimi.
+Skema më e përdorur në praktikë është numërimi hierarkik (numeric indentation).
+![Pasted image 20260406215523.png](/img/user/Pasted%20image%2020260406215523.png)
+
+### HAPAT PËR ZHVILLIMIN E PLANIT TË KOMUNIKIMIT 
+Hapat kryesorë në zhvillimin e planit të komunikimit: 
+- Analiza e stejkholderëve. Identifikohen grupet që duhet të informohen 
+- Nevojat për informacion. Çfarë informacioni i nevojitet secilit grup 
+- Burimet e informacionit. Nga merret informacioni 
+- Mënyrat e shpërndarjes. Email, takime, raporte, platforma digjitale 
+- Përgjegjësia dhe afatet. Kush e dërgon informacionin dhe sa shpesh
+
+### SISTEMET E KONTROLLIT
+Nëse nuk i kushtohet vëmendje e duhur zhvillimit të projektit, rezultatet mund të devijojnë nga plani. Për këtë arsye, kontrolli i projektit është një element kyç i menaxhimit të projektit. Disa lloje sistemesh kontrolli që përdoren për të ndjekur statusin e projektit janë: 
+- Kontrolli i fushëveprimit
+- Kontrolli i projektimit 
+- Monitorimi i tendencave 
+- Kontrolli i dokumentimit 
+- Kontrolli i specifikimeve 
+- Kontrolli i blerjeve
+
+## MBYLLJA E PROJEKTIT
+Menaxhimi i projekteve përfshin edhe planifikimin e mënyrës se si projekti do të përfundojë. 
+Faza e mbylljes së projektit kërkon që menaxherët të përcaktojnë llojet e të dhënave dhe raporteve që nevojiten në përfundim të projektit, si për ekipin ashtu edhe për klientin. 
+Dokumentacioni i mbylljes së projektit përfshin: 
+- Regjistrimet historike 
+- Analizën post-projekt 
+- Mbylljen financiare
+
+# Detyra
+
+Metoda financiare më e përhapur për marrjen e vendimeve në zgjedhjen e projekteve është Metoda e Vlerës Neto Aktuale (NPV). Kjo metodë parashikon ndryshimin e vlerës së biznesit nëse projekti ndërmerret, duke marrë parasysh flukset e ardhshme të parave dhe normën e kthimit.
+
+![Pasted image 20260325161401.png](/img/user/Pasted%20image%2020260325161401.png)
+![Pasted image 20260406224821.png](/img/user/Pasted%20image%2020260406224821.png)
+![Pasted image 20260406224831.png](/img/user/Pasted%20image%2020260406224831.png)
+
+Qëllimi kryesor i përdorimit të IRR (Normës së Brendshme të Kthimit) është përcaktimi i pikës kritike, respektivisht momentit kur 𝑁𝑃𝑉 = 0 (zero). NPV ndihmon vetëm në identifikimin e kahjes së projektit (investimit), duke treguar nëse ai sjell fitim apo humbje. Kusht i domosdoshëm për llogaritjen e IRR-së është të kemi dy vlera të ndryshme të NPVsë, ku njëra është pozitive dhe tjetra negative. Formula për llogaritjen e IRR-së është:
+![Pasted image 20260406224918.png](/img/user/Pasted%20image%2020260406224918.png)
+
+IRR është norma e diskontimit për të cilën NPV = 0. Ajo tregon kthimin që gjeneron projekti. 
+- IRR > norma e diskontimit → Projekti pranohet 
+- IRR = norma e diskontimit → Projekti është në kufi 
+- IRR < norma e diskontimit → Projekti refuzohet
+Interpretim i thjeshtë: Nëse një projekt ka IRR = 18% dhe norma e diskontimit është 10%, projekti konsiderohet i pranueshëm.
