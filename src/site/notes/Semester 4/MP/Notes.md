@@ -428,3 +428,19 @@ IRR është norma e diskontimit për të cilën NPV = 0. Ajo tregon kthimin që 
 - IRR = norma e diskontimit → Projekti është në kufi 
 - IRR < norma e diskontimit → Projekti refuzohet
 Interpretim i thjeshtë: Nëse një projekt ka IRR = 18% dhe norma e diskontimit është 10%, projekti konsiderohet i pranueshëm.
+
+## Si behet detyra:
+
+E merr qat numrin e diskontimit qe eshte 14% ne kit raste. Per me gjet faktorin e ben:
+$$ \frac{{1}}{{{(1+faktori)}}^{viti}}$$
+Vitin e gjen tek pjesa e majte, pra 0, 1, 2, 3. Pra e para gjith del 1.0000, merr 4 zero pas numrit sepse qashtu e kina ba, ma mire bie per rezultatin ne fund.
+
+Ajo NPV anash qdo viti, jo totali, llogaritet si:
+$$CashFlow *  \frac{{1}}{{{(1+faktori)}}^{viti}}$$
+Pra e para del $-100,000$ sepse $-100,000 * (-1) = -100,000$.
+$20,000 * 0.8772 = 17,544$
+...
+
+Kurse NPV totali, i mblesh krejt, bashk me at -100,000 ne fillim dhe del totali.
+
+IRR llogaritet nese i ke dy tabela, pra veret prej rastit qe te jepet.
