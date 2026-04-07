@@ -294,4 +294,91 @@ Praktikisht, të gjithë shërbimet në cloud ofrohen duke përdorur një nga tr
 
 # Problemet e performaces
 
-...
+Zhvillimi i teknologjise ka mundesuar ne dizajnimin e mikroprocesoreve qe perfshijne: procesimin e imazheve, zerit, simulim dhe modelim, videokonferenca.
+
+**Numri i operacioneve brenda një intervali kohor e shpreh shpejtësinë e mikroprocesorit.**
+
+Përderisa shpëjtësia e procesorit është rritur dukshëm ndër vite, shpejtësia me të cilën të dhënat mund të transferohen ndërmjet memories dhe procesorit ka mbetur “keq”. Interfejsi (ndërfaqja) ndërmjet procesorit dhe memories kryesore është rruga më kruciale në tërë kompjuterin, sepse është përgjegjëse për të mbajtur një rrjedhë konstantë të instruksioneve programore dhe dhe të dhënave ndërmjet çipave memorues dhe procesorit.
+Nëse memoria DRAM nuk e përcjell shpejtësinë e mikroprocesorit, mikroprocesori kalon në gjendje të pritjes duke humbur një pjesë të kohës së procesimit.
+
+Si zgjidhet ky problem?
+-  Duke e rritur numrin e bitëve të DRAM-it dhe duke e rritur gjerësinë e basit
+- Me ndryshimin e interfejsit të DRAM-it duke shtuar keshin ose ndonjë skemë baferuese tjetër.
+- Duke e reduktuar frekuencën e qasjes së memories. Shtimi i keshit* në çip. Kjo përfshin përfshirjen e një ose më shumë niveleve të keshit në çipin e procesorit
+- Duke e rritur gjerësinë e brezit midis procesorit dhe memories: përmes basit me shpejtësi më të madhe dhe hierarkisë së basave.
+
+*Keshi është një memorie relativisht e vogël e ndërthurur ndërmjet një memorie më të madhe, më të ngadalshme dhe logjikën e qasjes në memorie më të madhe.*
+
+### Teknikat përshpejtuese të mikroprocesorit
+
+- Pipelining (Me pipelining, procesori mundët njëkohësisht të punojë në instruksione të shumëfishta. P.sh, përderisa një instruksion është duke u ekzekutuar, kompjuteri është duke dekoduar një tjetër instruksion. 
+- Keshi brenda pllakës 
+- Parashikimi i degëzimit (procesori shikon përpara në kodin e instruksionit që përcillet prej memories dhe parashikon cilat degëzime, ose grupe instruksionesh, ka të ngjarë që të ekzekutohen më pas). 
+- Analiza e rrjedhës së të dhënave 
+- Ekzekutimi spekulativ
+
+Performanca e procesorit ka ecur shume perpara ne krahasim me komponentet e tjere te kompjuterit.
+
+![Pasted image 20260407151951.png](/img/user/Pasted%20image%2020260407151951.png)
+
+Çfarë është më e rëndësishme? Madhësia e RAM-it apo shpejtësia e procesorit?
+Me një CPU të ngadaltë dhe shumë RAM, ju keni një pajisje të ngadaltë. Me një CPU të shpejtë dhe me pak RAM, ju keni një pajisje të vonuar performance. 
+*Të dyja janë po aq të rëndësishme pasi punojnë së bashku për të rritur performancën e kompjuterit.*
+
+![Pasted image 20260407152222.png](/img/user/Pasted%20image%2020260407152222.png)
+
+Faktoret per rritjen e performances jane: rritja e frekuences se taktit dhe dendesia e komponenteve.
+Me rritjen e keto dyjave dolen disa veshtiresi:
+- Disipacion i fuqisë. 
+- Vonesa RC. 
+- Latenta e memories (vonesa).
+
+Sot fuqia është sfida më e madhe e dizajnerëve për çdo klasë të kompjuterëve. 
+**Së pari:** fuqia duhet të sjellët në çip dhe të shpërndahet përreth çipit ku mikroprocesorët modern shfrytëzojnë me qindra pina dhe shtresa të shumëfishta interkonektuese për fuqi dhe tokëzim. 
+**Së dyti:** Fuqia harxhohet (shpërndahet) si nxehtësi dhe duhet të largohet.
+
+Për cipat CMOS, tradicionalisht konsumi i fuqisë ka qenë dhe është gjatë komutimit të transistorëve, e quajtur fuqi dinamike.
+Transistori komuton nga 0 -> 1 dhe 1 -> 0 (ngarkimit dhe zbrazjes së kondensatorëve)
+![Pasted image 20260407153003.png](/img/user/Pasted%20image%2020260407153003.png)
+*Vlera më e ultë e frekuencës së klokut në mënyrë direkte redukton fuqinë.*
+
+Fuqia: Me rritjen e densitetit dhe shpejtësisë së taktit rritet edhe dendësia e fuqisë (W/cm2 ) në çip (problemet me ftohje).
+Vonesa RC: shpejtësia midis transistorëve kufizohet me R dhe C të përçuesve që i lidhin këta transistorë.
+- R rritet sepse lidhjet janë shumë të holla
+- C rritet sepse komponentët janë më afër 
+- Nga kjo rrjedh se vonesa kohore τ = RC rritet.
+
+### Latenca e memories
+
+Latenca është koha ndërmjet fillimit dhe përfundimit të një ngjarje.
+
+Një tjetër fushë e fokusit në projektim është menaxhimi i pajisjeve të hyrje/dalje. Ndërsa kompjuterët bëhen më të shpejtë dhe më të fuqishem, zhvillohen aplikacione më të sofistikuara që mbështesin përdorimin e periferikëve me kërkesa intensive për hyrje/dalje.
+![Pasted image 20260407154507.png](/img/user/Pasted%20image%2020260407154507.png)
+
+Mikroprocesorët modern ofrojnë  teknika me qëllim të përmirësimit të efiqiencës së energjisë. Teknikat për reduktimin e fuqisë janë: 
+1. **Do nothing well:** Shumica e mikroprocesorëve sot shkyçin klokun e moduleve joaktive për të ruajtur energjinë dhe fuqinë dinamike.
+2. **Skalimi Dinamik Tension – Frekuencë (DVFS):** (direkt nga formula e mëparshme. PMD-të, laptopët madje edhe serverët kanë perioda të aktivitetit të ultë ku nuk kanë nevojë të operojnë me frekuencë dhe tension të lartë. Mikroprocesorët modern kryesisht ofrojnë disa frekuenca kloku dhe tensione në të cilat operojnë që të shfrytëzojnë me pak fuqi dhe energji).
+
+Në Fig. 4 paraqitet kursimi potencial i fuqisë për një server për tre kloke të ndryshme: 2,4 GHz, 1,8 GHz dhe 1 GHz.
+![Pasted image 20260407154920.png](/img/user/Pasted%20image%2020260407154920.png)
+
+3. Dizajnimi për raste tipike. Duke marrë parasysh që PMD-të dhe laptopët shpesh janë “të papunë”, atëherë iu ofrojnë memories dhe kujtesës një mod pune me gjendje të ultë të fuqisë për të kursyer energjinë. Në këtë mod s’mund t’iu qaseni DRAM-it ose DISK-ut derisa të ktheheni në aktivitet të plotë për shkrim/lexim. 
+4. Overclocking-u Nga viti 2008 Inteli ofrojë “ turbo modin” i dedikuar që çipi të punojë me takt më të lartë për periudha të shkurta kohore. Në këtë mod rritet fuqia konsumuese e procesorit duke gjeneruar kështu më shumë nxehtësi. P.sh. 3.3 GHz Core i7 mund të ekzekutojë shkurt për 3.6 GHz. (“duke shkyçur të gjitha bërthamat tjera dhe duke mbetur vetëm ajo me klok më të lartë”)
+
+### Procesorët me shumë bërthama
+
+Disa procesorë brenda nje çipi. Shumica e CPU-ve moderne kanë shumë bërthama (nga 2 në 64 e mw lart). Performanca me të gjitha bërthamat ose me disa bërthama është një metrikë shumë e rëndësishme. Jo të gjitha bërthamat janë të barabarta: dallojnë në performance dhe efikasitetit, ose dallojnë në klokat e tyre.
+Intel dhe AMD tani rrisin numrin e bërthamave përgjatë gjeneratave, pra një CPU me dy bërthama është pothuajse si dy CPU me një bërthamë të ngjitur së bashku. CPU-të me katër bërthama është si 4 CPU me një bërthamë të ngjitur së bashku.
+
+![Pasted image 20260407155658.png](/img/user/Pasted%20image%2020260407155658.png)
+![Pasted image 20260407155710.png](/img/user/Pasted%20image%2020260407155710.png)
+![Pasted image 20260407155728.png](/img/user/Pasted%20image%2020260407155728.png)
+![Pasted image 20260407155741.png](/img/user/Pasted%20image%2020260407155741.png)
+![Pasted image 20260407155811.png](/img/user/Pasted%20image%2020260407155811.png)
+
+### Shkallëzimi i transistorëve
+
+Madhësia karakteristike- Madhësinë minimale të transistor-it ose telit përçues në dimension x ose y është zvogëluar nga 10 mikrona në vitin 1971 në 0.032 mikrona në vitin 2011 (rreth 300 X). 
+Prodhimi në vitin 2015 është referuar si proces “11 nanometra”. performanca e transistorit shkallëzohet linearisht me një zvogëlim linear në tiparin e madhësisë.
+Vonesa në përçues nuk do të thotë që nuk përmirësohet me tiparin e madhësisë
+![Pasted image 20260407160114.png](/img/user/Pasted%20image%2020260407160114.png)
