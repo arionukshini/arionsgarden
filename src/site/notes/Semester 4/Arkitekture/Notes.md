@@ -390,3 +390,25 @@ Në veçanti nëse “X” është n-herë (ku n > 1) më i shpejtë se “Y” 
 $$ n = \frac{koha \space e  \space ekezekutimit  \space te  \space Y}{koha \space e   \space ekezekutimit \space te \space X}$$
 Vlera reçiproke e kohës së ekzekutimit është reçiprokja e performancës së kompjuterit.
 $$ n = \frac{koha \space e  \space ekezekutimit  \space te  \space Y}{koha \space e   \space ekezekutimit \space te \space X}=\frac{\frac{1}{performanca \space Y}}{\frac{1}{performanca \space X}}=\frac{performanca X}{performanca \space Y}$$
+**Koha e ekzekutimit mund të llogaritet si koha që merr procesori për të kryer këtë operacion**.
+
+Në praktikë, programet janë shumë më komplekse dhe ndikohen nga shumë faktorë: sasia e të dhënave që duhet të përpunohen, shpejtësia e memories, shpejtësia e disqeve dhe shumë faktorë tjerë.
+Në esencë të gjithë procesorët janë të konstruktuar të përdorin klokun ekzekutues në një normë konstante. Kjo kohë diskrete quhet: ticks, clock ticks, clock periods, cloks, cycles, ose clock cycles.
+
+**Pipeline** është një teknikë për rritjen e performancës së procesorëve në kompjuter. Kjo teknikë ndan procesin e ekzekutimit të një instruksioni në faza të ndryshme dhe e lë procesorin të përpunojë disa instruksione në të njëjtën kohë, në një proces të përkryer të punës. Procesorët modernë përdorin pipeline për të përmirësuar performancën dhe për të lejuar që një instruksion të jetë në proces të ekzekutimit ndërkohë që procesori ekzekuton një tjetër instruksion.
+P.sh. në një procesor (me një bërthamë- uniprocessor) që përdor pipeline, ekzekutimi i një instruksioni ndahet në disa faza të ndryshme, siç janë nxjerrja e instruksionit nga memoria, dekodimi i instruksionit, ekzekutimi i instruksionit dhe shkrimi i rezultatit. Procesori i ndan këto faza dhe procesorët me pipeline mund të përpunojnë disa instruksione në të njëjtën kohë. Kjo teknikë rrit performancën e procesorëve duke lejuar ekzekutimin e një instruksioni të ndjekur menjëherë pas ekzekutimit të një instruksioni tjetër në proces të përkryer të punës.
+
+Ne kete menyre, pipeline lejon qe procesori te bej shume instruksione ne te njejten kohe qe rrit performancen e procesoreve.
+
+Një shembull i ekzekutimit pipeline me një uniprocessor mund të jetë mbledhja e dy numrave: 
+1. Marrja e dy numrave nga memoria dhe vendosja e tyre në regjistrat e procesorit 
+2. Ekzekutimi i operacionit të mbledhjes midis dy regjistrave. 
+3. Vendosja e rezultatit të mbledhjes në regjistrin e procesorit që përdoret për ruajtjen e rezultateve matematikore.
+
+**Pipeline në një uniprocessor nuk mund të quhet paralelizëm i vërtetë, sepse vetëm një instruksion ekzekutohet në një kohë të caktuar.**
+
+# Formula n shi
+
+$$Frekuenca \space e \space klokut_{B} = \frac{nr.cikleve \space te \space kolkut \space CPU_{B}}{koha \space e \space CPU_{B}} = \frac{1.2 * cikle \space klokut_{A}}{6s}$$
+
+$$nr. cikleve \space te \space klokut_{A} = frekuenca \space e \space klokut_{A} * koha \space e \space CPU_{A}=2GHz*10s=20*10^{9}$$$$Frekuenca \space e \space klokut_{B} = \frac{1.2*20*10^{9}}{6s}=4GHz$$
