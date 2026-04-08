@@ -409,6 +409,9 @@ Një shembull i ekzekutimit pipeline me një uniprocessor mund të jetë mbledhj
 
 # Formula n shi
 
+![Pasted image 20260408131515.png](/img/user/Pasted%20image%2020260408131515.png)
 $$Frekuenca \space e \space klokut_{B} = \frac{nr.cikleve \space te \space kolkut \space CPU_{B}}{koha \space e \space CPU_{B}} = \frac{1.2 * cikle \space klokut_{A}}{6s}$$
 
-$$nr. cikleve \space te \space klokut_{A} = frekuenca \space e \space klokut_{A} * koha \space e \space CPU_{A}=2GHz*10s=20*10^{9}$$$$Frekuenca \space e \space klokut_{B} = \frac{1.2*20*10^{9}}{6s}=4GHz$$
+$$nr. cikleve \space te \space klokut_{A} = frekuenca \space e \space klokut_{A} * koha \space e \space CPU_{A}=2GHz*10s=20*10^{9}$$
+
+$$Frekuenca \space e \space klokut_{B} = \frac{1.2*20*10^{9}}{6s}=4GHz$$
