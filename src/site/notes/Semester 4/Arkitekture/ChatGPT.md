@@ -2,379 +2,207 @@
 {"dg-publish":true,"permalink":"/semester-4/arkitekture/chat-gpt/"}
 ---
 
-**UDHËZUES I PLOTË PËR MËSIM**
+**ARKITEKTURA E KOMPJUTERËVE**
+# 1. Konceptet themelore të kompjuterit si sistem hierarkik
 
-_Arkitektura e Kompjuterëve - bazuar në PDF-in e ngarkuar_
+Arkitektura, organizimi, struktura dhe funksioni janë katër nocionet bazë me të cilat përshkruhet një kompjuter. Ideja themelore është që kompjuteri të mos shihet si një kuti e vetme, por si një sistem i ndërtuar në nivele: në nivelin më të lartë shohim kompjuterin si tërësi, më poshtë shohim CPU-në, memorien dhe hyrje/daljen, ndërsa edhe më poshtë shohim regjistrat, ALU-në, sinjalet e kontrollit dhe detajet e realizimit fizik.
 
-|   |   |
-|---|---|
-|Çfarë përfshin|Shpjegim i organizuar i të gjitha temave kryesore të slajdeve, formulat e performancës, konceptet kryesore, dallimet që bien në provim dhe një plan të qartë se çfarë duhet mësuar përmendësh.|
+Qasja hierarkike e bën më të qartë edhe analizën: në çdo nivel pyeten dy gjëra. Së pari, si janë të lidhura pjesët mes vete; kjo është struktura. Së dyti, çfarë bën secila pjesë; ky është funksioni. Kjo logjikë përshkon krejt lëndën: nga kompjuteri si sistem, te CPU-ja, te njësia e kontrollit, e deri te mënyra si ekzekutohet një instruksion i vetëm.
 
-# Si ta përdorësh këtë dokument
+# 2. Arkitektura kundrejt organizimit
 
-**•** Fillimisht lexo vetëm titujt dhe nënkapitujt që ta krijosh hartën e lëndës në mendje.
+Arkitektura e kompjuterit përfshin ato veti që janë të dukshme për programuesin dhe që ndikojnë drejtpërdrejt në ekzekutimin logjik të programit. Këtu hyn seti i instruksioneve, formatet e instruksioneve, numri i bitëve me të cilët paraqiten të dhënat, mënyrat e adresimit të memories dhe mekanizmat bazë të komunikimit me hyrje/daljen.
 
-**•** Pastaj mëso definicionet bazë: arkitekturë, organizim, strukturë, funksion, CPU, ALU, njësi e kontrollit, bus, cache, pipeline, CPI, MIPS, speedup.
+Organizimi i kompjuterit tregon si realizohen në praktikë këto kërkesa arkitekturore. Këtu hyjnë detajet harduerike që zakonisht programuesi nuk i sheh drejtpërdrejt: sinjalet e kontrollit, teknologjia e memories, bus-at, njësitë funksionale, ndërfaqet me periferitë dhe mënyra konkrete e realizimit të operacioneve brenda procesorit.
 
-**•** Në fund mëso formulat dhe shembujt numerikë, sepse aty zakonisht dalin pyetje provimi.
+Shembulli klasik është shumëzimi. Pyetja “a ekziston instruksioni MUL?” i takon arkitekturës, sepse programuesi duhet të dijë nëse ka një instruksion të tillë në ISA. Pyetja “a bëhet shumëzimi me një njësi të veçantë harduerike apo duke ripërdorur mbledhjen?” i takon organizimit, sepse kjo është mënyra konkrete e realizimit.
 
-# 1. Pamja e përgjithshme e PDF-it
+Ky dallim ka rëndësi sepse shumë sisteme mund të kenë të njëjtën arkitekturë, por organizim të ndryshëm. Kjo do të thotë se mund të ekzekutojnë të njëjtin program, por me shpejtësi, kosto dhe efikasitet energjetik të ndryshëm. Pikërisht kjo ide përmendet edhe te familjet si Intel x86 dhe IBM System/370: baza arkitekturore mund të mbetet e njëjtë, ndërsa teknologjia dhe organizimi ndryshojnë me kalimin e kohës.
 
-## Çfarë mbulon ky material
+# 3. Struktura dhe funksioni i kompjuterit
 
-PDF-i i ngarkuar i mbulon kryesisht këto blloqe: konceptet themelore të kompjuterit si sistem hierarkik; dallimin mes arkitekturës, organizimit, strukturës dhe funksionit; modelin funksional të kompjuterit; strukturën e kompjuterit dhe CPU-së; evoluimin historik të kompjuterëve; makinën e von Neumann-it dhe kompjuterin IAS; gjeneratat e kompjuterëve; ligjin e Moore-it; mikroprocesorët Intel, PowerPC dhe ARM; arkitekturën Harvard; cloud computing; problemet e performancës; pipeline; multi-core; metrikat si koha e CPU-së, CPI dhe MIPS; si dhe ligjin e Amdahl-it.
+Struktura e kompjuterit është mënyra si ndërlidhen komponentët kryesorë. Në nivelin më të lartë, kompjuteri shihet si një sistem që lidhet me rrethinën e jashtme përmes periferive dhe linjave komunikuese. Brenda tij, pjesët kryesore janë procesori, memoria kryesore, hyrja/dalja dhe ndërlidhjet e sistemit.
 
-## Si është e organizuar logjikisht
+Funksioni i kompjuterit ka të bëjë me operacionet që kryhen brenda kësaj strukture. Si në slajde ashtu edhe te Stallings, katër funksionet bazë janë: përpunimi i të dhënave, ruajtja e të dhënave, bartja e të dhënave dhe kontrolli. Këto katër funksione janë themeli i çdo sistemi kompjuterik, pavarësisht madhësisë apo teknologjisë së tij.
 
-Edhe pse numrat e disa slajdeve duken pak të çrregulluar, përmbajtja ndahet natyrshëm në tri pjesë të mëdha. Pjesa e parë shpjegon bazat teorike dhe strukturën e kompjuterit. Pjesa e dytë jep historinë dhe evolucionin teknologjik. Pjesa e tretë merret me performancën: si matet, prej çfarë varet dhe pse nuk mund të rritet pafund.
+Kjo do të thotë se edhe një mikro-kontroller shumë i vogël, edhe një superkompjuter shumë i fuqishëm, në esencë duhet të bëjë të njëjtën gjë: të marrë të dhëna, t’i ruajë kur duhet, t’i përpunojë sipas një grupi instruksionesh dhe t’i kontrollojë këto veprime në rendin e duhur.
 
-# 2. Konceptet themelore
+# 4. Modeli funksional i kompjuterit
 
-## Arkitektura
+Bartja e të dhënave nënkupton lëvizjen e të dhënave ndërmjet kompjuterit dhe mjedisit të jashtëm, ose ndërmjet pjesëve të brendshme të kompjuterit. Kur të dhënat merren ose dërgohen te një pajisje e lidhur drejtpërdrejt, procesi njihet si hyrje/dalje (I/O), ndërsa kur lëvizja bëhet në distanca më të mëdha, flitet për komunikim të të dhënave.
 
-Arkitektura e kompjuterit përfshin ato veçori që i sheh programuesi dhe që ndikojnë drejtpërdrejt në ekzekutimin e programit. Këtu hyjnë: seti i instruksioneve, mënyra si paraqiten numrat dhe karakteret me bita, mënyrat e adresimit, si dhe mekanizmat e komunikimit me hyrje/dalje. Pra, arkitektura tregon çfarë ofron sistemi.
+Ruajtja e të dhënave nënkupton mbajtjen e informacionit për përdorim të mëvonshëm. Kjo përfshin si ruajtjen afatshkurtër të operandëve dhe rezultateve gjatë ekzekutimit të programit, ashtu edhe ruajtjen më afatgjatë të programeve dhe të dhënave në memorie. Termat bazë që lidhen me këtë funksion janë leximi dhe shkrimi.
 
-## Organizimi
+Përpunimi i të dhënave nënkupton transformimin e tyre. Një vlerë mund të mblidhet me një tjetër, të krahasohet, të zhvendoset, të shumëzohet, të ndahet ose t’i nënshtrohet operacioneve logjike. Përpunimi kryhet kryesisht nga ALU-ja, por gjithmonë nën drejtimin e njësisë së kontrollit.
 
-Organizimi i kompjuterit tregon si realizohen në harduer ato që arkitektura i premton. Këtu hyjnë sinjalet e kontrollit, teknologjia e memories, rruga e të dhënave, ndërmjetësit me periferitë dhe mënyra konkrete e implementimit. Pra, organizimi tregon si realizohet sistemi.
+Kontrolli është funksioni që i lidh të tre funksionet e tjera në një rrjedhë koherente. Njësia e kontrollit vendos se cili instruksion do të merret nga memoria, cilat regjistra do të përdoren, kur do të bëhet leximi ose shkrimi dhe cilat sinjale duhet të aktivizohen që të kryhet veprimi i kërkuar. Pa kontroll, nuk do të kishte as rend, as koordinim.
 
-## Struktura
+# 5. Komponentët kryesorë të strukturës së kompjuterit
 
-Struktura e kompjuterit është mënyra si lidhen komponentët me njëri-tjetrin. Me fjalë të thjeshta: kush lidhet me kë dhe përmes çfarë ndërlidhjeje.
+CPU-ja është pjesa qendrore që kontrollon operacionet e kompjuterit dhe kryen funksionet bazë të përpunimit. Ajo është komponenta që ekzekuton instruksionet e programit dhe koordinon rrjedhën e punës së pjesëve të tjera.
 
-## Funksioni
+Memoria kryesore ruan të dhënat dhe instruksionet që CPU-ja duhet t’i përdorë shpejt gjatë ekzekutimit. Kjo është memoria që punon më afër me procesorin dhe që furnizon vazhdimisht ciklin e instruksioneve.
 
-Funksioni i kompjuterit ka të bëjë me operacionet që kryen secili komponent. Sipas slajdeve, kompjuteri ka katër funksione bazë: përpunon të dhëna, ruan të dhëna, bart të dhëna dhe kontrollon këto procese.
+Hyrja/dalja shërben si ura midis botës së brendshme të kompjuterit dhe rrethinës së jashtme. Tastiera, miu, disku, ekrani, rrjeti dhe pajisje të tjera i japin ose marrin kompjuterit të dhëna përmes mekanizmave të I/O-së.
 
-## Dallimi më i rëndësishëm që duhet mbajtur mend
+Ndërlidhjet e sistemit, zakonisht të menduara si system bus, janë mekanizmat që mundësojnë komunikimin mes CPU-së, memories dhe I/O-së. Busi nuk është thjesht një vijë e vetme, por një bashkësi rrugësh për bartjen e adresave, të dhënave dhe sinjaleve të kontrollit. Nëse këto lidhje janë të dobëta ose të ngadalta, edhe komponentët individualë të mirë nuk e japin performancën që pritet.
 
-Pyetja klasike është kjo: a është ekzistenca e instruksionit të shumëzimit pjesë e arkitekturës apo organizimit? Përgjigjja: nëse procesori ofron instruksion shumëzimi, kjo është arkitekturë. Nëse shumëzimi realizohet me njësi të dedikuar harduerike apo me shumë mbledhje të njëpasnjëshme, kjo është organizim.
+# 6. Përbërja e CPU-së
 
-# 3. Modeli funksional i kompjuterit
+ALU-ja, ose Njësia Aritmetike dhe Logjike, është pjesa ku kryhen operacionet aritmetike dhe logjike. Ajo merret me mbledhje, zbritje, krahasime, zhvendosje bitësh dhe vendime logjike si AND, OR dhe NOT. Kur themi se procesori “llogarit”, në thelb po flasim për punën e ALU-së.
 
-## Bartja e të dhënave
+Njësia e kontrollit është dirigjenti i CPU-së. Ajo interpreton instruksionet që vijnë nga memoria, i dekodon dhe nxjerr sinjalet që u tregojnë pjesëve të tjera të procesorit se çfarë duhet bërë. Kjo njësi nuk bën llogaritjen vetë; ajo organizon rrjedhën e saj.
 
-Kompjuteri duhet të mund të lëvizë të dhëna ndërmjet vetes dhe rrethinës së jashtme. Kur kjo ndodh me pajisje të lidhura drejtpërdrejt, quhet input/output. Kur ndodh në distanca më të mëdha, quhet komunikim i të dhënave.
+Regjistrat janë memoriet më të vogla, më të shpejta dhe më afër ekzekutimit. Për shkak se janë shumë të shpejtë, procesori i përdor për të mbajtur përkohësisht adresa, operandë, rezultate dhe gjendje kontrolli. Sa më shumë punë të mund të kryhet duke përdorur regjistra, aq më pak nevojitet qasje e kushtueshme në memorien kryesore.
 
-## Ruajtja e të dhënave
+Ndërlidhjet e brendshme të CPU-së janë rrugët që i lidhin këto tri pjesë. Edhe kur në skema paraqiten si “internal bus”, ideja është e njëjtë: të sigurohet rrjedhje e shpejtë dhe e kontrolluar e të dhënave dhe sinjaleve brenda vetë procesorit.
 
-Kompjuteri ruan të dhënat në memorie. Proceset kryesore këtu janë leximi dhe shkrimi. Ruajtja nuk është vetëm arkivim; ajo është themeli që lejon ekzekutimin e programeve dhe mbajtjen e rezultateve të përkohshme.
+# 7. Njësia e kontrollit si pjesë më e imët e hierarkisë
 
-## Përpunimi i të dhënave
+Në slajde, njësia e kontrollit zbërthehet më tej në logjikë sekuencore, memorien e kontrollit dhe regjistra/dekodues. Kjo tregon se edhe vetë kontrolli është një sistem i organizuar, jo vetëm një “buton komande”.
 
-Përpunimi nënkupton ndryshimin ose transformimin e të dhënave përmes operacioneve aritmetike dhe logjike. Kjo kryhet kryesisht nga ALU-ja.
+Logjika sekuencore merret me rendin e hapave, pra me kalimin nga një gjendje në tjetrën gjatë ekzekutimit të instruksioneve. Dekoduesit dhe regjistrat përkthejnë instruksionin në forma të përdorshme dhe mbajnë gjendjen e përkohshme të kontrollit. Memoria e kontrollit lidhet me idenë e mikroprogramimit: sinjalet e kontrollit mund të organizohen si sekuenca mikroinstruksionesh që drejtojnë pjesët e procesorit.
 
-## Kontrolli
+# 8. Gjeneratat e hershme të kompjuterëve
 
-Pa kontroll, tre funksionet e tjera nuk mund të koordinohen. Njësia e kontrollit menaxhon rrjedhën e instruksioneve dhe përdorimin e burimeve të sistemit.
+Gjenerata e parë lidhet me gypat me vakum. Shembulli bazë është ENIAC: një sistem shumë i madh, me konsum të lartë energjie, me peshë të madhe dhe programim manual përmes ndërprerësve. Nga këto karakteristika kuptohet pse kompjuterët e parë ishin të shtrenjtë, të vështirë për t’u mirëmbajtur dhe fizikisht të papërshtatshëm për përdorim të gjerë.
 
-# 4. Struktura e kompjuterit
+Kalimi te transistorët në gjeneratën e dytë e bëri kompjuterin më të vogël, më të besueshëm dhe më efikas. Gjenerata e tretë, me qarqet e integruara, e rriti më tej densitetin e komponentëve dhe uli kostot. Më pas, mikroprocesori e çoi kompjuterin në një fazë ku një procesor i tërë mund të vendosej në një çip të vetëm. Ky është kalimi kyç drejt kompjuterëve personalë dhe pajisjeve moderne digjitale.
 
-## Katër komponentët kryesorë
+# 9. Makina e John von Neumann-it dhe kompjuteri IAS
 
-Sipas slajdeve, struktura bazë e kompjuterit përbëhet nga: CPU, memoria kryesore, hyrja/dalja dhe ndërlidhjet e sistemit. Ndërlidhjet e sistemit zakonisht realizohen përmes system bus.
+Kontributi më i rëndësishëm i von Neumann-it është stored-program concept: programi dhe të dhënat ruhen në të njëjtën memorie dhe trajtohen si informacion binar. Kjo e bën kompjuterin fleksibil, sepse programi mund të ndryshohet pa ndërruar vetë makinën fizike.
 
-## CPU
+Kompjuteri IAS përfaqëson këtë model në formë klasike. Në të, ALU-ja vepronte mbi të dhëna binare, njësia e kontrollit i merrte instruksionet nga memoria dhe pajisjet hyrëse/dalëse menaxhoheshin nga kontrolli. Pra, memoria nuk ruante vetëm të dhëna “pasive”, por edhe vetë udhëzimet sipas të cilave punonte sistemi.
 
-CPU kontrollon operacionet e kompjuterit dhe kryen përpunimin e të dhënave. Ai është zemra logjike e sistemit.
+Te Stallings, struktura e IAS-it shpjegohet edhe në mënyrë më të detajuar: një fjalë memories kishte 40 bita dhe mund të mbante dy instruksione nga 20 bita, secili i përbërë nga opcode dhe fushë adrese. Kjo tregon se edhe në një sistem historik, organizimi i memories dhe formati i instruksionit janë thelbësorë për të kuptuar si ekzekutohet programi.
 
-## Memoria kryesore
+# 10. Regjistrat kryesorë të IAS-it
 
-Memoria kryesore ruan të dhënat dhe instruksionet që duhen për ekzekutim. Ajo është shumë më afër CPU-së se ruajtja afatgjatë.
+MAR (Memory Address Register) mban adresën e lokacionit të memories që duhet lexuar ose shkruar. Kur procesori duhet të marrë një fjalë nga memoria, MAR tregon saktësisht se nga cila adresë do të bëhet qasja.
 
-## Hyrja/Dalja
+MBR (Memory Buffer Register) mban fjalën që po vjen nga memoria ose që po dërgohet në memorie apo I/O. Në një kuptim praktik, ai është regjistri ndërmjetës ku kalon përmbajtja gjatë lëvizjes nga dhe drejt memories.
 
-I/O bart të dhënat ndërmjet pjesës së brendshme të kompjuterit dhe rrethinës së jashtme.
+IR (Instruction Register) mban opcode-in e instruksionit që po ekzekutohet. Ai e përfaqëson pyetjen “çfarë duhet bërë tani?”. Pasi opcode vendoset në IR, njësia e kontrollit e dekodon dhe e shndërron në sinjale konkrete.
 
-## System bus
+IBR (Instruction Buffer Register) ruan përkohësisht instruksionin tjetër kur një fjalë memories përmban dy instruksione. Kjo lidhet me faktin se në IAS një fjalë 40-bitëshe mund të ndahej në instruksionin e majtë dhe të djathtë; prandaj njëri mund të ekzekutohej, ndërsa tjetri të mbahej për më pas.
 
-Busi i sistemit është rruga kryesore për komunikim mes CPU-së, memories dhe I/O-së. Kur ta shohësh fjalën 'bas' në slajde, zakonisht nënkupton bus.
+PC (Program Counter) mban adresën e instruksionit që do të merret më pas. Ai është treguesi i rrjedhës së programit. Nëse nuk ka degëzim, PC ecën përpara; nëse ka jump ose branch, PC ndryshohet sipas instruksionit.
 
-# 5. Përbërja e CPU-së
+AC (Accumulator) dhe MQ (Multiplier Quotient) përdoren për të mbajtur operandë dhe rezultate të ALU-së. Në shumëzim, për shembull, rezultati mund të jetë më i madh se një fjalë e vetme; prandaj pjesa më e rëndësishme dhe ajo më pak e rëndësishme mund të shpërndahen mes këtyre regjistrave.
 
-## ALU
+# 11. Cikli i instruksionit te IAS
 
-Njësia Aritmetike dhe Logjike kryen llogaritje si mbledhja, zbritja, krahasimi dhe operacionet logjike. Kur një pyetje kërkon 'kush e përpunon të dhënën?', përgjigjja zakonisht është ALU-ja, e komanduar nga njësia e kontrollit.
+Ekzekutimi i programit ndodh në mënyrë të përsëritur përmes ciklit të instruksionit. Në fetch cycle, procesori merr instruksionin e radhës nga memoria. Në execute cycle, ai e zbaton atë. Kjo ndarje është shumë e rëndësishme, sepse shpjegon ritmin themelor me të cilin punon çdo CPU.
 
-## Njësia e kontrollit
+Kur instruksioni merret, opcode vendoset në IR, adresa përkatëse në MAR, ndërsa vetë fjala e memories kalon përmes MBR. Nëse ka mbetur një instruksion në IBR, ai mund të përdoret pa një qasje të re në memorie. Pastaj njësia e kontrollit e dekodon opcode-in dhe nxjerr sinjalet që lëvizin të dhëna ose aktivizojnë ALU-në.
 
-Njësia e kontrollit interpreton instruksionet, gjeneron sinjale kontrolli dhe koordinon komponentët e brendshëm të CPU-së. Ajo nuk bën llogaritjen vetë; ajo e drejton sistemin.
+Kjo skemë historike është themeli i mënyrës si kuptohet sot cikli i procesorit: marrja e instruksionit, dekodimi, qasja në operandë, ekzekutimi dhe përditësimi i gjendjes së sistemit.
 
-## Regjistrat
+# 12. Ligji i Moore-it dhe miniaturizimi
 
-Regjistrat janë memoriet më të vogla dhe më të shpejta në CPU. Ato mbajnë përkohësisht adresa, operandë, rezultate dhe pjesë të instruksioneve.
+Ligji i Moore-it shpreh idenë se numri i transistorëve në një çip rritet me ritëm shumë të shpejtë, tradicionalisht afërsisht dyfishim në një periudhë të rregullt. Në slajde theksohet pasoja praktike: për të njëjtin çmim fitohet më shumë fuqi procesuese.
 
-## Ndërlidhjet e brendshme
+Rëndësia reale e këtij zhvillimi nuk është vetëm “më shumë transistorë”, por ajo që kjo sjell në nivel sistemi. Rrugët elektrike bëhen më të shkurtra, prandaj sinjalet lëvizin më shpejt. Kompjuterët bëhen më të vegjël dhe mund të futen në pajisje të larmishme. Ndërlidhjet në qarqet e integruara bëhen më të besueshme. Në shumë raste mund të optimizohet edhe konsumi i energjisë për njësi pune.
 
-Këto janë rrugët me të cilat ALU, regjistrat dhe njësia e kontrollit shkëmbejnë të dhëna brenda CPU-së.
+Megjithatë, ky miniaturizim sjell edhe kufij praktikë: nxehtësinë, konsumimin e energjisë, vështirësinë e disipimit termik dhe kompleksitetin e organizimit të brendshëm. Pikërisht këto kufizime ndihmuan kalimin nga rritja lineare e frekuencës te shumëbërthamësia.
 
-# 6. Evolucioni historik i kompjuterëve
+# 13. Mikroprocesorët modernë, ARM dhe embedded systems
 
-## Gjenerata e parë - gypat me vakum
+Evolucioni i mikroprocesorëve modernë tregon kalimin nga çipat e hershëm me kapacitete modeste te familje shumë të pasura si Intel x86, PowerPC dhe ARM. Ideja që duhet mbajtur është se rritja e densitetit të transistorëve dhe përmirësimet arkitekturore e organizative e kanë shndërruar procesorin në një sistem shumë më kompleks se sa ALU plus kontroll i thjeshtë.
 
-Shembulli kryesor është ENIAC. Duhet mbajtur mend se ishte shumë i madh, harxhonte shumë energji, ishte decimal dhe programohej me dorë përmes ndërprerësve. Kjo gjeneratë ishte e fuqishme për kohën, por shumë joefikase.
+ARM ka rëndësi të veçantë sepse lidhet me efikasitetin energjetik dhe përdorimin e gjerë në pajisje mobile e embedded. Në këtë kontekst, embedded systems janë sisteme kompjuterike të ndërtuara për një rol të caktuar brenda një pajisjeje më të madhe. Ato gjenden në pajisje shtëpiake, automjete, printerë, pajisje rrjeti, sensorë dhe shumë produkte të tjera.
 
-## Makina e von Neumann-it
+Kjo do të thotë se “kompjuter” nuk duhet kuptuar vetëm si laptop ose desktop. Në praktikë, shumica numerike e kompjuterëve sot janë sisteme të mbjella, shpesh të vogla, të lira, të optimizuara për energji dhe të projektuara për një funksion të specializuar.
 
-Kontributi kryesor i John von Neumann-it është ideja që programi dhe të dhënat të ruhen në të njëjtën memorie. Kjo quhet stored-program concept dhe është baza e shumicës së kompjuterëve modernë.
+# 14. Arkitektura Harvard dhe dallimi nga von Neumann
 
-## Gjenerata e dytë - transistorët
+Në arkitekturën von Neumann, instruksionet dhe të dhënat ruhen në të njëjtën memorie. Kjo e bën sistemin të thjeshtë dhe fleksibil, por do të thotë se i njëjti kanal i memories ndahet për marrjen e instruksioneve dhe për qasjen te të dhënat.
 
-Zëvendësimi i gypave me transistorë e bëri kompjuterin më të vogël, më të besueshëm dhe më efikas.
+Në arkitekturën Harvard, memoria e instruksioneve dhe memoria e të dhënave janë fizikisht të ndara. Kjo bën të mundur që procesori, në parim, të lexojë një instruksion dhe njëkohësisht të qaset në të dhënat, sepse po përdor rrugë të ndara. Kjo është arsyeja pse Harvard lidhet me qasje paralele dhe shmangie të disa ngushticave të memories.
 
-## Gjenerata e tretë - qarqet e integruara
+Një dallim praktik që përmendet në slajde është se memoria e programit shpesh është vetëm për lexim, ndërsa memoria e të dhënave lejon lexim dhe shkrim. Prandaj, kur pyetja është “një memorie e vetme apo dy të ndara?”, von Neumann dhe Harvard duhen dalluar pikërisht mbi këtë bazë.
 
-Komponentë të shumtë filluan të vendosen në të njëjtin çip. Kjo rriti performancën dhe uli madhësinë e sistemeve.
+# 15. Cloud computing si ide bazë
 
-## Gjenerata e katërt dhe e pestë - mikroprocesorët
+Cloud computing, në kuptimin e thjeshtuar të prezantuar në material, është ofrimi i resurseve kompjuterike si shërbim. Në vend që përdoruesi të blejë dhe të menaxhojë vetë gjithë infrastrukturën, ai i konsumon resurset nga larg sipas nevojës.
 
-Këtu fillon epoka e kompjuterëve personalë dhe mikroprocesorëve modernë. Rritja e densitetit të transistorëve e bëri të mundur futjen e shumë funksioneve në një çip të vetëm.
+Kjo qasje lidhet me fleksibilitetin, shkallëzimin dhe ndarjen e kostos. Përdoruesi ose organizata mund të marrë fuqi procesuese, ruajtje, platformë zhvillimi ose aplikacione pa pasur domosdoshmërisht pronësinë direkte të të gjithë harduerit. Edhe kur slajdet e trajtojnë vetëm si hyrje, ideja thelbësore është se kompjuteri modern nuk kufizohet më te një makinë fizike e vetme në tavolinë.
 
-# 7. IAS dhe regjistrat kryesorë
+# 16. Problemet themelore të performancës
 
-## Memoria e IAS
+Performanca nuk varet vetëm nga shpejtësia e CPU-së. Një sistem i balancuar kërkon që procesori, memoria dhe hyrje/dalja të jenë në një raport të arsyeshëm. Nëse CPU-ja përmirësohet shumë, por memoria dhe I/O mbeten të ngadalta, atëherë përfitimi i vërtetë i sistemit mbetet i kufizuar.
 
-Kompjuteri IAS kishte 1000 lokacione memoruese me nga 40 bita secila. Një fjalë 40-bitëshe mund të mbante të dhëna ose dy instruksione nga 20 bita.
+Kjo është arsyeja pse rritja e performancës është problem i gjithë sistemit. Koha e ekzekutimit ndikohet nga sa instruksione duhet të ekzekutohen, sa cikle harxhohen për çdo instruksion dhe sa shpejt kalojnë vetë ciklet e klokut. Prandaj performanca është kombinim i arkitekturës, organizimit dhe teknologjisë.
 
-## IR - Instruction Register
+Te materialet e këtij kapitulli del qartë edhe çështja e fuqisë dhe nxehtësisë. Me rritjen e frekuencës dhe të densitetit të transistorëve, nuk mjafton vetëm të thuhet “e bëjmë më të shpejtë CPU-në”; duhet parë nëse kjo rritje është termikisht dhe energjetikisht e përballueshme.
 
-IR e mban kodin operues të instruksionit që po ekzekutohet. Pra, ai tregon çfarë veprimi duhet bërë tani.
+# 17. Koha e CPU-së, IC, CPI dhe frekuenca
 
-## MAR - Memory Address Register
+Masa më e rëndësishme e performancës është koha e ekzekutimit. Një kompjuter konsiderohet më i shpejtë vetëm nëse e përfundon të njëjtin punim në kohë më të shkurtër. Kjo është më themelore se çdo metrikë e ndërmjetme.
 
-MAR e mban adresën e lokacionit të memories që duhet lexuar ose shkruar.
+Instruction Count (IC) është numri i instruksioneve që ekzekutohen për një program. Ky numër nuk është domosdoshmërisht i njëjtë për çdo arkitekturë ose për çdo implementim, sepse të njëjtin problem mund ta zgjidhin programe ose kompajlerë të ndryshëm me numër të ndryshëm instruksionesh.
 
-## MBR - Memory Buffer Register
+CPI (Clock Cycles Per Instruction) është numri mesatar i cikleve të klokut për instruksion. Nëse një program kërkon shumë cikle për instruksion, atëherë edhe me frekuencë të lartë mund të mos jetë aq i shpejtë sa duket. Frekuenca e klokut tregon sa cikle ndodhin për sekondë, ndërsa koha e ciklit është reciproku i saj.
 
-MBR e mban fjalën që po dërgohet në memorie ose po merret prej memories/I-O-së.
+Këta tre faktorë lidhen nga formula themelore: koha e CPU-së = IC × CPI × koha e ciklit. Meqë koha e ciklit = 1/frekuenca, formula mund të shkruhet edhe si koha e CPU-së = (IC × CPI)/frekuenca. Kjo formulë shpjegon pse nuk mjafton të krahasohen vetëm GHz: një procesor me frekuencë më të ulët mund të dalë më i shpejtë nëse ka CPI më të mirë ose ekzekuton më pak instruksione për të njëjtën detyrë.
 
-## IBR - Instruction Buffer Register
+# 18. MIPS si metrikë
 
-IBR e ruan përkohësisht pjesën e djathtë të instruksionit, kur një fjalë e memories përmban dy instruksione.
+MIPS shpreh numrin e milionave instruksioneve për sekondë. Në shikim të parë duket intuitiv: sa më i madh MIPS, aq më i shpejtë procesori. Por kjo nuk është gjithmonë e mjaftueshme si krahasim i drejtë.
 
-## PC - Program Counter
+Arsyeja është se jo çdo instruksion bën të njëjtën sasi pune. Dy procesorë mund të kenë MIPS të ndryshëm, por instruksionet e njërit mund të jenë më “të pasura” ose programi mund të kërkojë numër tjetër instruksionesh. Prandaj MIPS mund të përdoret si tregues ndihmës, por jo si prova e vetme e performancës.
 
-PC e mban adresën e instruksionit të ardhshëm. Mbaje mend si treguesi i vendit ku do të vazhdojë programi.
+Më e sigurt është të kthehesh gjithmonë te koha reale e ekzekutimit dhe te lidhja ndërmjet IC, CPI dhe frekuencës.
 
-## AC dhe MQ
+# 19. Speedup dhe krahasimi i sistemeve
 
-Accumulator dhe Multiplier-Quotient përdoren për operandë dhe rezultate. Në shumëzim, rezultati 80-bitësh ndahet: pjesa e sipërme në AC dhe pjesa e poshtme në MQ.
+Speedup është raporti mes kohës së vjetër dhe kohës së re. Nëse një sistem e kryen një punë në 10 sekonda dhe një sistem tjetër në 5 sekonda, speedup është 10/5 = 2. Kjo do të thotë se sistemi i ri është dy herë më i shpejtë për atë punë.
 
-# 8. Ligji i Moore-it dhe miniaturizimi
+Ky raport është i dobishëm sepse e lidh drejtpërdrejt performancën me kohën. Performanca rritet kur koha zvogëlohet, prandaj formulimi “sa herë është më i shpejtë?” duhet parë gjithmonë në raport me kohën e ekzekutimit, jo vetëm me një komponent të sistemit.
 
-## Ligji i Moore-it
+# 20. Multi-core dhe paralelizmi
 
-Idetë kryesore në slajde janë se numri i transistorëve në çip është rritur me ritëm të shpejtë dhe fuqia procesuese është dyfishuar afërsisht çdo dy vjet për çmim të ngjashëm. Kjo ka sjellë rritje të performancës, ulje të madhësisë dhe ulje relative të kostos për fuqi llogaritëse.
+Kur rritja e frekuencës së një bërthame të vetme hasi kufij praktikë, industria filloi të rrisë performancën duke vendosur disa bërthama në të njëjtin çip. Kjo është logjika e multicore: jo domosdoshmërisht një bërthamë shumë më e shpejtë, por disa bërthama që mund të punojnë në paralel.
 
-## Pse ka rëndësi
+Përfitimi real varet nga programi. Nëse puna mund të ndahet në pjesë të pavarura që ekzekutohen njëkohësisht, shumëbërthamësia mund të japë rritje të dukshme. Por nëse programi ka pjesë të mëdha serike, pritje, sinkronizim ose qasje të kufizuar në memorie, rritja e performancës mbetet më e ulët se sa numri teorik i bërthamave.
 
-Nga ky zhvillim vijnë disa pasoja: rrugët elektrike bëhen më të shkurtra, konsumet mund të optimizohen, kompjuterët bëhen më të vegjël dhe më të shpejtë. Por në një moment rritja me një bërthamë fillon të ngadalësohet për shkak të kufijve termikë dhe energjetikë.
+Prandaj multicore nuk është magji automatike. Është mundësi harduerike për paralelizëm, por shfrytëzimi i saj varet nga natyra e problemit dhe nga mënyra si është shkruar programi.
 
-# 9. Mikroprocesorët modernë
+# 21. Pipeline
 
-## Intel
+Pipeline e ndan ekzekutimin e instruksionit në faza, p.sh. marrja, dekodimi, qasja në operandë, ekzekutimi dhe shkrimi i rezultatit. Në vend që një instruksion të kalojë krejt rrugën i vetëm para se të fillojë tjetri, disa instruksione mund të jenë njëkohësisht në faza të ndryshme të së njëjtës tubacion.
 
-Slajdet japin evolucionin nga 4004 e deri te Pentium, Pentium Pro dhe familjet më moderne. Ideja kryesore nuk është të mësosh çdo vit, por të kuptosh drejtimin: më shumë bita, më shumë tranzistorë, superscalar execution, branch prediction dhe ekzekutim spekulativ.
+Përfitimi kryesor i pipeline-it është rritja e throughput-it, domethënë rritja e numrit të instruksioneve të përfunduara për njësi kohe. Kjo nuk do të thotë domosdoshmërisht që një instruksion i vetëm bëhet shumë më i shpejtë; përfitimi vjen nga mbivendosja e fazave.
 
-## PowerPC
+Efikasiteti i pipeline-it kufizohet nga hazard-et. Hazard-et e të dhënave ndodhin kur një instruksion varet nga rezultati i tjetrit. Hazard-et e kontrollit dalin kryesisht te degëzimet, kur nuk dihet me siguri cili instruksion vjen më pas. Hazard-et strukturore dalin kur dy veprime duan të përdorin të njëjtin resurs në të njëjtën kohë. Sa më shumë ndërprerje ose boshllëqe në pipeline, aq më pak i afrohet ai përfitimit ideal.
 
-PowerPC përmendet si alternativë ndaj Intel-it. Edhe sot përdoret në disa fusha të veçanta si embedded dhe disa sisteme serverike.
+# 22. Ligji i Amdahl-it
 
-## ARM
+Ligji i Amdahl-it thotë se përfitimi i përgjithshëm nga një përmirësim kufizohet nga pjesa e sistemit ose e programit që nuk përmirësohet. Nëse vetëm një pjesë e punës mund të përshpejtohet, atëherë pjesa e mbetur bëhet kufiri i shpejtësisë totale.
 
-ARM është shumë e rëndësishme për embedded systems dhe pajisje mobile. Duhet ta lidhësh me efikasitet energjetik, dizajn RISC dhe përdorim të gjerë në telefona, tableta dhe sisteme të integruara.
+Në kontekstin e paralelizmit kjo do të thotë se edhe nëse një pjesë e madhe e programit mund të ndahet në shumë procesorë ose bërthama, pjesa serike vendos tavanin teorik të speedup-it. Sa më e madhe pjesa që mbetet serike, aq më shpejt arrihet ky kufi.
 
-## Sistemet e mbjella
+Interpretimi praktik është shumë i rëndësishëm: shtimi i pafund i bërthamave nuk e jep pafund speedup-in. Përmirësimi ka kthime gjithnjë e më të vogla sapo pjesa serike fillon të dominojë. Kjo është arsyeja pse paralelizmi duhet menduar bashkë me strukturën e problemit, jo vetëm me numrin e njësive përpunuese.
 
-Kompjuterët e mbjellë gjenden kudo: mikrovalë, makina larëse, printerë, pajisje rrjeti, vetura. Ideja kryesore: kompjuteri nuk është vetëm laptopi apo desktopi, por edhe kontrolluesi special për një funksion specifik.
+# 23. Përmbledhja e formulave kryesore
 
-# 10. Arkitektura Harvard dhe cloud
+Këto formula përmbledhin lidhjet që janë përdorur në pjesën e performancës. Qëllimi nuk është vetëm t’i mësosh përmendësh, por të kuptosh çfarë tregon secila dhe si lidhet me të tjerat.
 
-## Harvard architecture
+|   |   |   |
+|---|---|---|
+|**Madhësia**|**Formula**|**Kuptimi**|
+|Koha e CPU-së|T_CPU = IC × CPI × T_ciklit|Sa kohë i duhet CPU-së për të ekzekutuar programin.|
+|Koha e CPU-së|T_CPU = (IC × CPI) / f|E njëjta formulë e shkruar me frekuencë në vend të kohës së ciklit.|
+|Frekuenca dhe cikli|f = 1 / T_ciklit|Frekuenca dhe koha e ciklit janë reciproke.|
+|CPI|CPI = numri i cikleve / numri i instruksioneve|Mesatarja e cikleve që harxhohen për çdo instruksion.|
+|Performanca|Performanca ∝ 1 / Koha|Kur koha bie, performanca rritet.|
+|Speedup|Speedup = T_vjetër / T_re|Sa herë është përmirësuar një sistem ose një program.|
 
-Në arkitekturën Harvard, memoria e instruksioneve dhe memoria e të dhënave janë fizikisht të ndara. Kjo lejon qasje paralele dhe shmang disa kufizime të modelit von Neumann.
+MIPS = IC / (T × 10^6). Kjo metrikë tregon miliona instruksione për sekondë, por duhet lexuar me kujdes sepse nuk tregon vetvetiu sa punë reale bën çdo instruksion.
 
-## Dallimi nga von Neumann
+# 24. Përmbyllje e përmbajtjes
 
-Te von Neumann, instruksionet dhe të dhënat ndajnë të njëjtën memorie dhe shpesh të njëjtin kanal. Te Harvard, ato ndahen. Në provim, pyetja tipike është: 'a përdoret e njëjta adresë fizike për instruksione dhe të dhëna?' Kjo është e vërtetë për von Neumann, jo për Harvard.
+Në thelb, i gjithë materiali lidhet nga një vijë e vetme logjike. Fillimisht përcaktohen nocionet bazë: arkitekturë, organizim, strukturë dhe funksion. Pastaj shpjegohet si kompjuteri përpunon, ruan, bart dhe kontrollon të dhëna. Më tej zbërthehet struktura e tij në CPU, memorie, I/O dhe bus, si dhe vetë CPU-ja në ALU, njësi kontrolli dhe regjistra. Në planin historik, modeli von Neumann dhe kompjuteri IAS japin themelin klasik të stored-program machine. Në planin teknologjik, ligji i Moore-it, mikroprocesorët modernë, ARM-i dhe sistemet embedded tregojnë si është zhvilluar hardueri. Në planin organizativ e performues, koha e CPU-së, CPI, frekuenca, MIPS, pipeline, multicore dhe ligji i Amdahl-it shpjegojnë pse një sistem është i shpejtë ose pse has kufizime.
 
-## Cloud computing
-
-Slajdet japin një hyrje te cloud networking dhe cloud services. Ideja qendrore është dhënia me qira e resurseve kompjuterike. PaaS përmendet si platformë mbi të cilën klienti mund të zhvillojë ose ekzekutojë aplikacione.
-
-# 11. Problemet e performancës
-
-## Pse performanca nuk varet vetëm nga CPU
-
-Rritja e shpejtësisë së procesorit nuk mjafton nëse memoria, bus-i ose I/O-ja janë të ngadalta. Kjo quhet problem i balansimit të performancës.
-
-## Shpejtësia e mikroprocesorit
-
-Shpejtësia shprehet me numrin e operacioneve në një interval kohor, por në praktikë duhet parë edhe sa cikle kërkon një instruksion dhe sa shpejt është kloku.
-
-## RAM apo CPU?
-
-Slajdet theksojnë se një sistem me CPU shumë të shpejtë por me pak RAM mund të ngadalësohet, dhe po ashtu një sistem me shumë RAM por me CPU të dobët mbetet i ngadaltë. Pra, performanca është çështje ekuilibri.
-
-## Konsumi i fuqisë
-
-Rritja e frekuencës dhe densitetit sjell probleme termike dhe të energjisë. Fuqia dinamike lidhet me komutimin e transistorëve. Kjo është një nga arsyet pse u kalua drejt multi-core në vend të rritjes pafund të frekuencës.
-
-# 12. Multi-core dhe paralelizmi
-
-## Pse kaluam te shumë bërthama
-
-Kur performanca e një procesori me një bërthamë u ngadalësua, industria filloi të rrisë performancën duke vendosur disa bërthama brenda një çipi.
-
-## Çfarë fiton sistemi
-
-Nëse programi mund të ndahet në pjesë që punojnë paralelisht, shumë bërthama japin rritje të dukshme të performancës.
-
-## Çfarë kufizon fitimin
-
-Jo çdo pjesë e programit paralelizohet. Gjithmonë ka pjesë serike, sinkronizim, komunikim dhe vonesa të memories. Këto kufizime lidhen direkt me ligjin e Amdahl-it.
-
-# 13. Matja e performancës
-
-## Koha e ekzekutimit
-
-Metrika më e rëndësishme është execution time. Një kompjuter quhet më i shpejtë nëse e kryen të njëjtin punim në kohë më të vogël.
-
-## Frekuenca dhe koha e ciklit
-
-Frekuenca e klokut dhe koha e ciklit janë reciproke. Sa më e lartë frekuenca, aq më e vogël koha e një cikli.
-
-## CPI
-
-CPI është numri mesatar i cikleve të klokut për instruksion. Sa më i vogël CPI, aq më mirë, nëse faktorët e tjerë mbesin të njëjtë.
-
-## IC
-
-Instruction Count është numri i instruksioneve të ekzekutuara nga programi. Dy procesorë mund të kenë frekuencë të ndryshme, por performanca varet edhe nga sa instruksione duhen për të kryer detyrën.
-
-## MIPS
-
-MIPS është numri i milionave instruksioneve për sekondë. Është metrikë e përdorur shpesh, por jo gjithmonë e mjaftueshme vetë, sepse instruksione të ndryshme nuk kanë të njëjtën kosto.
-
-# 14. Formulat kryesore që duhet t’i dish
-
-## Formula bazë e kohës së CPU-së
-
-Koha e CPU-së = Numri i instruksioneve × CPI × koha e ciklit të klokut.
-
-## Formula alternative
-
-Meqë koha e ciklit = 1 / frekuenca, atëherë Koha e CPU-së = (Numri i instruksioneve × CPI) / frekuenca.
-
-## Performanca
-
-Performanca është në raport të zhdrejtë me kohën. Pra, nëse koha zvogëlohet, performanca rritet.
-
-## Speedup
-
-Speedup = Koha e vjetër / Koha e re.
-
-## Ligji i Amdahl-it
-
-Speedup-i i përgjithshëm varet nga pjesa e detyrës që përfitohet nga përmirësimi dhe nga madhësia e vetë përmirësimit. Sa më e madhe pjesa serike, aq më i kufizuar është speedup-i maksimal.
-
-# 15. Pipeline
-
-## Ideja bazë
-
-Pipeline e ndan ekzekutimin e një instruksioni në faza. Në vend që një instruksion ta përfundojë krejt punën para se të fillojë tjetri, instruksione të ndryshme mund të jenë njëkohësisht në faza të ndryshme.
-
-## Përfitimi
-
-Pipeline rrit throughput-in, sepse procesori punon më vazhdimisht. Nuk do të thotë domosdo që një instruksion i vetëm përfundon shumë më shpejt, por se përfundojnë më shumë instruksione për njësi kohe.
-
-## Kufizimet
-
-Hazard-et, degëzimet dhe varësitë e të dhënave mund ta ulin efikasitetin e pipeline-it.
-
-# 16. Ligji i Amdahl-it
-
-## Çfarë thotë ligji
-
-Nëse vetëm një pjesë e programit mund të përmirësohet ose paralelizohet, atëherë shpejtësia totale e sistemit nuk mund të kalojë një kufi të caktuar. Pjesa serike mbetet pengesa kryesore.
-
-## Interpretimi praktik
-
-Edhe nëse 95% e programit paralelizohet, 5% serik e kufizon rritjen maksimale të shpejtësisë. Kjo është arsyeja pse 'N procesorë = N herë më shpejt' nuk është e vërtetë në praktikë.
-
-## Si bie në provim
-
-Zakonisht jepet përqindja e pjesës që mund të përmirësohet, pastaj jepet speedup-i i asaj pjese ose numri i procesorëve, dhe kërkohet speedup-i total.
-
-# 17. Gjërat që duhen mësuar përmendësh
-
-## Lista e shkurtër e definicioneve
-
-Arkitekturë, organizim, strukturë, funksion, ALU, njësia e kontrollit, regjistër, I/O, bus, von Neumann, Harvard, pipeline, CPI, MIPS, speedup, Amdahl.
-
-## Lista e figurave / ideve
-
-Modeli funksional i kompjuterit, katër komponentët kryesorë të kompjuterit, përbërja e CPU-së, struktura IAS, gjeneratat e kompjuterëve, Moore, multi-core, pipeline.
-
-## Lista e formulave
-
-Koha e CPU-së, lidhja mes frekuencës dhe kohës së ciklit, speedup-i dhe logjika e Amdahl-it.
-
-# 18. Pyetje tipike që mund të dalin
-
-## Teori
-
-Shpjego dallimin mes arkitekturës dhe organizimit. Shpjego dallimin mes von Neumann dhe Harvard. Trego komponentët kryesorë të kompjuterit dhe funksionin e secilit. Çfarë roli ka njësia e kontrollit? Çfarë janë regjistrat?
-
-## Llogaritje
-
-Llogarit kohën e CPU-së kur jepen IC, CPI dhe frekuenca. Krahaso dy kompjuterë kur jepen koha e ciklit dhe CPI. Gjej MIPS rate. Zgjidh detyrë me ligjin e Amdahl-it.
-
-# 19. Plan 3-ditor për mësim
-
-## Dita 1
-
-Mëso pjesën teorike: konceptet themelore, funksionet e kompjuterit, strukturën e kompjuterit, CPU-në, IAS-in, gjeneratat dhe dallimin von Neumann / Harvard.
-
-## Dita 2
-
-Mëso pjesën e evolucionit dhe teknologjisë: Moore, mikroprocesorët, ARM, embedded systems, cloud, dhe arsyen pse multi-core u bë i domosdoshëm.
-
-## Dita 3
-
-Mëso formulat dhe bëj ushtrimet: koha e CPU-së, CPI, MIPS, pipeline si ide, speedup dhe ligji i Amdahl-it. Në fund bëj vetë-pyetje pa i parë shënimet.
-
-# 20. Përmbledhja finale
-
-## Në një fjali për çdo bllok
-
-Kompjuteri është sistem që përpunon, ruan, bart dhe kontrollon të dhëna. Arkitektura tregon çfarë sheh programuesi; organizimi tregon si realizohet në harduer. CPU përbëhet nga ALU, njësia e kontrollit dhe regjistrat. Von Neumann ruan programin dhe të dhënat në të njëjtën memorie; Harvard i ndan. Evolucioni teknologjik kaloi nga gypat, te transistorët, te qarqet e integruara, te mikroprocesorët. Performanca matet me kohën e ekzekutimit dhe varet nga IC, CPI dhe frekuenca. Pipeline dhe multi-core rrisin performancën, por ligji i Amdahl-it e kufizon speedup-in maksimal.
-
-# Tabela e formulave kryesore
-
-|   |   |
-|---|---|
-|**Koncepti**|**Formula / ideja**|
-|Koha e CPU-së|CPU time = IC × CPI × clock cycle time|
-|Koha e ciklit|clock cycle time = 1 / frequency|
-|Speedup|Speedup = old time / new time|
-|Performanca|Performance ∝ 1 / execution time|
-|MIPS|MIPS = instruction count / (execution time × 10^6)|
-
-# Checklist i fundit para provimit
-
-**□** A mund ta shpjegosh dallimin arkitekturë vs organizim pa e ngatërruar?
-
-**□** A i di 4 funksionet bazë të kompjuterit?
-
-**□** A i di 4 komponentët kryesorë të strukturës së kompjuterit?
-
-**□** A i di pjesët kryesore të CPU-së?
-
-**□** A e kupton stored-program concept te von Neumann?
-
-**□** A mund ta dallosh Harvard nga von Neumann?
-
-**□** A e di formulën e kohës së CPU-së?
-
-**□** A mund të llogarisësh speedup dhe detyra të Amdahl-it?
+Kur këto tema kuptohen si një tërësi, materiali nuk duket më si listë slajdesh të ndara, por si një histori e vetme: si ndërtohet kompjuteri, si punon, si u zhvillua dhe si matet fuqia e tij.

@@ -64,7 +64,7 @@ Konstruktimi zgjati prej 1943 deri 1946. Perbehet prej 18,000 grypav elektronik,
 
 ### Makina e John von Naumann-it (Turingut)
 
-Njihet si kopmjuteri IAS, 1952. Bazohet ne konceptin e memorimit te programit dhe te dhenave. ALU punonte me te dhena binare. Njesia e kontrollit interpretonte instruksionet duke i marre ato nga memoria per ti ekzekutuar dhe paisjet H/D kontrolloheshin nga njesia e kontrollit.
+Njihet si kompjuteri IAS, 1952. Bazohet ne konceptin e memorimit te programit dhe te dhenave. ALU punonte me te dhena binare. Njesia e kontrollit interpretonte instruksionet duke i marre ato nga memoria per ti ekzekutuar dhe paisjet H/D kontrolloheshin nga njesia e kontrollit.
 
 Kontributi i ketij është pionierizimi i arkitekturës së kompjuterit, e cila është baza e  kompjuterëve modern. Kjo  përfshin një memorie që mund të lexohet dhe shkruhet, procesor që kryen operacione aritmetike dhe logjike, dhe një mekanizëm për transferimin e të dhënave midis memories dhe procesorit.
 
@@ -226,7 +226,10 @@ Dallimi kryesor në mes Pentium dhe PPC është në arkitekturën që ata adoptu
 - 2000, Pentium 4 (superpipelining, avancim në multimedia)
 - Itanium (64 bita)
 - Itanium 2
-- Pentium Dual-Core E2220 ◼ Pentium G870 ◼ 2019 - Pentium Silver J5040 ◼ 2022 - Pentium Gold G7400TE
+- Pentium Dual-Core E2220 
+- Pentium G870 
+- 2019 - Pentium Silver J5040 
+- 2022 - Pentium Gold G7400TE
 
 ### Zhvillimi i mikroprocesoreve Power PC
 
