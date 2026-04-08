@@ -407,7 +407,7 @@ Një shembull i ekzekutimit pipeline me një uniprocessor mund të jetë mbledhj
 
 **Pipeline në një uniprocessor nuk mund të quhet paralelizëm i vërtetë, sepse vetëm një instruksion ekzekutohet në një kohë të caktuar.**
 
-# Formula n shi
+### Formula n shi
 
 ![Pasted image 20260408131515.png](/img/user/Pasted%20image%2020260408131515.png)
 $$Frekuenca \space e \space klokut_{B} = \frac{nr.cikleve \space te \space kolkut \space CPU_{B}}{koha \space e \space CPU_{B}} = \frac{1.2 * cikle \space klokut_{A}}{6s}$$
@@ -415,3 +415,122 @@ $$Frekuenca \space e \space klokut_{B} = \frac{nr.cikleve \space te \space kolku
 $$nr. cikleve \space te \space klokut_{A} = frekuenca \space e \space klokut_{A} * koha \space e \space CPU_{A}=2GHz*10s=20*10^{9}$$
 
 $$Frekuenca \space e \space klokut_{B} = \frac{1.2*20*10^{9}}{6s}=4GHz$$
+
+## Koha e CPU-së (Koha e ekzekutimit të CPU-së)
+
+CPU time është koha është koha ndërmjet fillimit dhe përfundimit të ekzekutimit të një programi të caktuar.
+
+$$koha \space e \space CPU = numri \space i \space cikleve \space te \space klokut \space te \space CPU \space per \space nje \space program * koha \space e \space ciklit \space te \space kolkut$$
+
+$$koha \space e \space CPU = \frac{numri \space i \space cikleve \space te \space klokut \space te \space CPU \space per \space nje \space program}{frekuenca \space e \space kolkut}$$
+
+**Definojmë numrin e instruksioneve (instruction count) –Ic për një program si numër të instruksioneve të ekzekutuara të makinës për atë program deri sa të ekzekutohet komplet ose për një interval kohor të përcaktuar.**
+
+Nëse njohim numrin e cikleve të klokut dhe numrin e instruksioneve për një ekzekutim të caktuar të një programi të caktuar, atëherë mund të llogarisim numrin mesatar të cikleve të klokut për instruksion **CPI (Clock Cicle per Instruction)**
+$$CPI = \frac{numri \space i \space cikleve \space te \space klokut \space te \space CPU \space per \space nje \space program}{numri \space i \space instruksioneve (IC)}$$
+
+![Pasted image 20260408132448.png](/img/user/Pasted%20image%2020260408132448.png)
+
+$$koha \space e \space CPU = CPI *Ic*T_{clk} = \frac{CPI*Ic}{f_{clk}}$$
+
+ku $f_{clk}$ paraqet frekuencen e klokut te procesorit.
+Një tjetër metrikë e zakonshme e performancës për një procesor është norma (shkalla) me të cilën ekzekutohen instruksionet, të shprehura si **miliona instruksione për sekondë (MIPS)**. E referuar MIPS rate.
+$$t_{CPU}= CPI *Ic*T_{clk}$$
+
+$$MIPS = \frac{Ic}{t_{CPU}*10^6}=\frac{Ic}{CPI*Ic*T_{clk}*10^6}=\frac{f_{clk}}{CPI*10^6}$$
+
+Fatkeqësisht është vështirë të ndërrohet njëri parametër i izoluar komplet prej tjerëve sepse teknologjia bazë është e involvuar në ndërrimin e tjetrës karakteristikë:
+1. **Numri i Instruksioneve për një program** —Përcaktohet nga programi, ISA (seti i instruksioneve) dhe teknologjia e compiler-it 
+2. **Mesatarja e cikleve për Instruksion** —Përcaktohet nga harduare-i i CPU-së 
+3. **Koha e ciklit të klokut** – Përcaktohet nga teknologjia e harduerit dhe organizimi
+
+### Detyra 1
+
+![Pasted image 20260408133107.png](/img/user/Pasted%20image%2020260408133107.png)
+![Pasted image 20260408133129.png](/img/user/Pasted%20image%2020260408133129.png)
+![Pasted image 20260408133140.png](/img/user/Pasted%20image%2020260408133140.png)
+### Detyra 2
+
+![Pasted image 20260408133200.png](/img/user/Pasted%20image%2020260408133200.png)
+
+## Ligji i Amdal-it
+
+**Përdoret për të gjetur përmirësimin maksimal të mundshëm të sistemit kompjuterik kur vetëm një pjesë e sistemit është përmirësuar.**
+
+Ligji i Amdahl-it definon “përmirësimin e shpejtësisë”-speedup-in që mund të fitohet duke shfrytëzuar një përmirësim të një tipari të veçantë.
+
+Çka është speedup-i?
+**Supozojmë që kemi bërë një përmirësim në kompjuter i cili do të përmirësojë performancën e tij kur aj përmirësim shfrytëzohet.**
+
+Pra, Speedup tregon se sa me shpejt ekzekutohet një “task” kur shfrytëzohet kompjuteri me përmirësim në krahasim me kompjuterin origjinal (pa përmirësim).
+Konsideroni qe një program ekzekutohet me vetëm një procesor. Lë të jetë T(1) koha e përgjithshme e ekzekutimit të këtij programi me shfrytëzimin e single processor-it (koha e ekzekutimit të programit në një bërthamë), ndërsa T(N) lë të jetë koha e ekzekutimit të programit në Nbërthama (procesorë). Atëherë,
+![Pasted image 20260408134827.png](/img/user/Pasted%20image%2020260408134827.png)
+
+Nëse vendosni N procesorë, a do të duhet të fitoni speedup-in n herë?
+Gjithmonë ekziston një pjesë e operacionit total që është në mënyrë serike (sekuenciale) dhe nuk mund të paralelizohet pavarësisht se çfarë bëni.
+Në rastin e paralelizmit, nëse shënojmë me P pjesën e programit që mund të paralelizohet (ashtu që të fitohet nga paralelizmi), dhe (1 − P) është pjesa që nuk mund të paralelizohet - mbetet serike (sekuenciale), atëherë përmirësimi maksimal i shpejtësisë që mund të arrihet me N procesorë është:
+![Pasted image 20260408135253.png](/img/user/Pasted%20image%2020260408135253.png)
+![Pasted image 20260408135309.png](/img/user/Pasted%20image%2020260408135309.png)
+
+Ky ekuacion është paraqitur në Fig. 24. Mund të nxirren dy rezultate të rëndësishme:
+1. Nëse P është e vogël, përdorimi i procesorëve paralel ka efekt të vogël. 
+2. Nëse N i afrohet infinitit, atëherë përmirësimi maksimal i shpejtësisë (speedup-i) kufizohet me 1/(1 – P), dhe nuk ka ndikim rritja e numrit të procesorëve.
+
+P.sh nëse P = 90%, atëherë 1- P= 10%, atëherë problemi mund të përshpejtohet maksimumi me faktorin 10, pa marrë parasysh sa është vlera e N. Për këtë arsye procesimi paralel është i dobishëm vetëm për një numër të vogël të procesorëve.
+![Pasted image 20260408135413.png](/img/user/Pasted%20image%2020260408135413.png)
+
+*Pse nuk mund të arrihet paralelizmi 100% në procesorët me shumë bërthama?*
+Keni paralelizëm 100% kur të gjitha bërthamat janë duke kryer punë gjatë gjithë kohës. D.m.th kur edhe bërthamat idle (të pa puna) llogarisin diçka. Varet nga programi që ekzekutoni në sistem. Është vështirë të gjesh një program që mund të jetë plotësisht paralel. Në inxhinieri kompjuterike mund të ekzistoj ndonjë shembulli programit si llogaritja e mbledhjes së një bashkësi numrash. Numrat mund të ndahet në mënyrë të barabartë në procesorë të shumtë. Kështu, secili procesorë do të prodhojë një shumë të parciale. Mirëpo, krejt në fund, një numër i vetëm nga një grup i reduktuar i procesorëve do të kërkohet për të grumbulluar rezultatet e pjesshme. Pra, paska punë që mund të ekzekutohen vetëm sekuencialisht. Mund të theksohet se edhe nëse keni një algoritëm paralel, mund të mos funksionojë përtej një niveli të caktuar paralelizmi.
+
+![Pasted image 20260408140805.png](/img/user/Pasted%20image%2020260408140805.png)
+
+Ligji i Amdalit na jep një mënyrë të shpejtë për të gjetur përmirësimin e shpejtësisë (speedup-in e përgjithshëm) nga disa përmirësime, gjë që varet nga dy faktorë: 
+1. Pjesa e kohës (fraction time) së llogaritjes në kompjuterin original (Fractionenhanced ) që mund të konvertohet për të marrë avantazhin e përmirësimit.
+P.sh. nëse 20 sekondat e kohës së ekzekutimit të një programi që merr 60 sekonda në total mund të përdoren si një përmirësim, atëherë fraksioni është 20/60. Ky raport quhet Raporti i përmirësimit = Fraction enhanced dhe është çdoherë më i vogël se 1.
+2. Përmirësimi i fituar nga mënyra e ekzekutimit të përmirësuar (Speedup enhanced) 
+d.m.th. sa më shpejt do të funksiononte detyra (tasku) nëse mënyra e përmirësuar do të përdorej për të gjithë programin P.sh. Nëse një pjesë e programit merr 2 sekonda në mod përmirësimi, ndërsa 5 sekonda në mod origjinal, atëherë përmirësimi është 5/2. Vërehet se Speedupenhanced është çdoherë më i madh se 1.
+
+Speedup i përgjithshëm është raporti i kohëve të ekzekutimit (pa përmirësim/me përmirësim)
+![Pasted image 20260408141603.png](/img/user/Pasted%20image%2020260408141603.png)
+
+![Pasted image 20260408141622.png](/img/user/Pasted%20image%2020260408141622.png)
+![Pasted image 20260408141640.png](/img/user/Pasted%20image%2020260408141640.png)
+
+## Permbledhje
+
+Vlerësimi i përformancës së CPU-së: 
+Kur kompjuteri përdor CPU-në që funksionon me një shpejtësi konstante të clokut ose frekuencë e klokut f.
+![Pasted image 20260408141745.png](/img/user/Pasted%20image%2020260408141745.png)
+Shpejtësia e klokut të CPU-së varet nga organizimi (dizajni) specifik i CPU-së dhe teknologjia e implementimit të harduerit (VLSI) e përdorur. 
+Prej këtu: *Një instruksion i vetëm i makinës mund të marrë një ose më shumë cikle të CPU-së për t'u përfunduar të quajtur si Ciklet për Instruksion (CPI)*.
+
+Disa nga instruksionet e procesorit që kërkojnë vetëm një cikël kloku për të ekzekutuar janë: 
+**MOV:** Ky instruksion i lejon procesorit të lëviz një vlerë të dhënë nga një lokacion në tjetrin brenda memories se kompjuterit ose ndërmjet regjistrave të ndryshëm. Shpesh njihet si instruksion “Copy” sepse bën kopjimin e te dhënës dhe e vendos në një lokacion të ri, pa ndryshuar të dhënat origjinale. 
+**ADD:** Ky instruksion i lejon procesorit të shtojë dy vlera dhe të ruajë rezultatin në një regjistër të caktuar. 
+**SUB:** instruksioni SUB është një lloj instruksioni që përdoret në procesorët kompjuterikë për të zbritur një vlerë nga një tjetër. Zakonisht përdoret në operacionet aritmetike, ku dy vlera duhet të zbriten nga njëra-tjetra për të marrë një rezultat.
+
+Instruksionet e procesorit janë pjesë e kodit të programit dhe zakonisht ruhen në memorien kryesore (RAM) të sistemit kompjuterik, në disa segmente të caktuara të kësaj memorie të njohura si segmente të kodit. Këto segmente ruajnë kodin e programit, përfshirë instruksionet dhe të dhënat.
+Pasi MM është më e ngadaltë se regjistrat e procesorit, instruksionet por edhe të dhënat e tjera të programit kopjohen në nivele të ndryshme të memories (për shembull, Cache) në mënyrë që të përmirësohet shpejtësia e ekzekutimit të programit.
+Kur një program është gati për të ekzekutuar një instruksion, CPU kopjon instruksionin nga memoria kryesore dhe e vendos atë në regjistrin e instruksioneve (IR-instruction register). Pastaj CPU e interpreton instruksionin dhe e ekzekuton atë, duke përdorur regjistrat e tjera të procesorit si dhe nëse është e nevojshme, duke kryer akses në memorien e kryesore për të përpunuar të dhëna të tjera.
+
+Një program specifik “A” për t’u ekzekutuar në një makinë specifike (CPU), ka parametrat e mëposhtëm: 
+1. Numrin total të instruksioneve të ekzekutuara për program (Ic) 
+2. Numri mesatar i cikleve për instruksion (CPI mesatare)
+![Pasted image 20260408142714.png](/img/user/Pasted%20image%2020260408142714.png)
+3. Koha e ciklit të makinës (CPU-së) 
+
+Koha e CPU-së varet nga programi i cili ekzekutohet, dukë përfshirë: 
+- Numrin e instruksioneve që ekzekutohen 
+- Llojet e instruksioneve të ekzekutuara dhe frekuenca
+![Pasted image 20260408142852.png](/img/user/Pasted%20image%2020260408142852.png)
+
+![Pasted image 20260408143013.png](/img/user/Pasted%20image%2020260408143013.png)
+
+![Pasted image 20260408144444.png](/img/user/Pasted%20image%2020260408144444.png)
+![Pasted image 20260408144507.png](/img/user/Pasted%20image%2020260408144507.png)
+![Pasted image 20260408144517.png](/img/user/Pasted%20image%2020260408144517.png)
+![Pasted image 20260408144541.png](/img/user/Pasted%20image%2020260408144541.png)
+
+![Pasted image 20260408144427.png](/img/user/Pasted%20image%2020260408144427.png)
+
+THE END!
