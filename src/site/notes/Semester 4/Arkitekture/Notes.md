@@ -382,3 +382,11 @@ Madhësia karakteristike- Madhësinë minimale të transistor-it ose telit për�
 Prodhimi në vitin 2015 është referuar si proces “11 nanometra”. performanca e transistorit shkallëzohet linearisht me një zvogëlim linear në tiparin e madhësisë.
 Vonesa në përçues nuk do të thotë që nuk përmirësohet me tiparin e madhësisë
 ![Pasted image 20260407160114.png](/img/user/Pasted%20image%2020260407160114.png)
+
+## Vlerësimi dhe krahasimi performancave të sistemeve kompjuterike
+
+Fraza kompjuteri “X” është më i shpejtë se kompjuteri “Y” përdorët këtu për të kuptuar qe execution time (koha e ekzekutimit) është me e voglë në “X” se në “Y” për taskun e dhënë.
+Në veçanti nëse “X” është n-herë (ku n > 1) më i shpejtë se “Y” do të thotë se:
+$$ n = \frac{koha \space e  \space ekezekutimit  \space te  \space Y}{koha \space e   \space ekezekutimit \space te \space X}$$
+Vlera reçiproke e kohës së ekzekutimit është reçiprokja e performancës së kompjuterit.
+$$ n = \frac{koha \space e  \space ekezekutimit  \space te  \space Y}{koha \space e   \space ekezekutimit \space te \space X}=\frac{\frac{1}{performanca \space Y}}{\frac{1}{performanca \space X}}=\frac{performanca X}{performanca \space Y}$$
