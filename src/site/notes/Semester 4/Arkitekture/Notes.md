@@ -339,7 +339,6 @@ Me rritjen e keto dyjave dolen disa veshtiresi:
 Sot fuqia është sfida më e madhe e dizajnerëve për çdo klasë të kompjuterëve. 
 **Së pari:** fuqia duhet të sjellët në çip dhe të shpërndahet përreth çipit ku mikroprocesorët modern shfrytëzojnë me qindra pina dhe shtresa të shumëfishta interkonektuese për fuqi dhe tokëzim. 
 **Së dyti:** Fuqia harxhohet (shpërndahet) si nxehtësi dhe duhet të largohet.
-
 Për cipat CMOS, tradicionalisht konsumi i fuqisë ka qenë dhe është gjatë komutimit të transistorëve, e quajtur fuqi dinamike.
 Transistori komuton nga 0 -> 1 dhe 1 -> 0 (ngarkimit dhe zbrazjes së kondensatorëve)
 ![Pasted image 20260407153003.png](/img/user/Pasted%20image%2020260407153003.png)
