@@ -589,3 +589,360 @@ if (preg_match('/^[a-zA-Z0-9_\-\.]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/', $email)
 # Klasat dhe objektet në PHP
 
 
+```php
+$now = new DateTime();
+$nextWeek = new DateTime('today +1 week');
+
+echo 'Now: '. $now->format('Y-m-d') ."\n";
+echo 'Next Week: '. $nextWeek->format('Y-m-d') ."\n";
+```
+
+### Objektet e serverit dhe desktopit
+
+Desktop app. mund të ngarkojë një objekt në memorie dhe ta përdorë atë për disa ndërveprime të përdoruesve, një objekt PHP ngarkohet në memorie vetëm për jetëgjatësinë e asaj kërkese HTTP. 
+
+Ne duhet t'i përdorim klasat ndryshe sesa në botën e desktopit, pasi objekti duhet të rikrijohet dhe të ngarkohet në memorie 
+- Ndryshe nga një desktop, ka potencialisht mijëra përdorues që bëjnë kërkesa menjëherë, kështu që jo vetëm që objektet shkatërrohen me përgjigjen ndaj çdo kërkese, por memoria duhet të ndahet midis shumë kërkesave të njëkohshme, secila prej të cilave mund të ngarkojë objekte në memorie ose per çdo kërkesë që e kërkon atë.
+
+### Definimi i klasave
+
+```php
+class Artist { 
+	public $firstName; 
+	public $lastName; 
+	public $birthDate; 
+	public $birthCity; 
+	public $deathDate; 
+}
+```
+
+### Instanca e objekteve
+
+```php
+$dali = new Artist();
+$picasso = new Artist();
+```
+
+Pasi të keni instancen e një objekti, mund të përdorni dhe modifikoni vetitë e secilit veçmas duke përdorur emrin e variables dhe një shigjetë (**->**).
+```php
+$picasso = new Artist(); 
+echo $picasso->firstName= "Pabblo";
+echo $picasso->lastName="Picasso"; 
+echo $picasso->birthDate="Malaga";
+echo $picasso->birthCity= "Octamber 25 1881";
+echo $picasso->deathDate="April 8 1973";
+```
+
+### Konstruktorët
+
+Në PHP, konstruktorët përcaktohen si funksione (siç do ta shihni, të gjitha metodat përdorin fjalën function) me emrin \_\_construct().
+Në konstruktor çdo parametër i caktohet një variabli të brendshëm të klasës duke përdorur sintaksën $this->.
+
+```php
+function __construct($firstName,$lastName, $birthDate,$birthCity, $deathDate=null) { 
+$this->firstName=$firstName; 
+$this->lastName=$lastName; 
+$this->birthDate=$birthDate; 
+$this->birthCity=$birthCityl; 
+$this->deathDate=$deathDate; 
+}}
+
+$picasso=new Artist("Pabblo" ,"Picasso","Malaga", "Octamber 25 1881","April 8 1973"); 
+$dali= new Artist("Salvador","Dali","Figures","May 11 1904", "Jan 23 1989");
+```
+
+### Dekonstruktoret
+
+\_\_destruct() është një metodë në PHP, e cila ekzekutohet automatikisht kur një objekt shkatërrohet ose kur nuk ka më referenca ndaj tij.
+
+```php
+class Example { 
+public function __construct() {
+	echo "Objekti u krijua! \n";
+} 
+public function __destruct() {
+	echo "Objekti eshte fshi! \n";
+} } 
+
+// Krijojmë një objekt
+$obj = new Example();
+echo "Duke ekzekutuar kodin...\n"; 
+// Kur skripta përfundon ose objekti nuk është më i nevojshëm, `__destruct()` ekzekutohet automatikisht.
+
+
+public function __destruct() {
+	$this->conn->close();
+	echo "Lidhja me databazën u mbyll!\n";
+}
+```
+
+## Metodat
+
+Metodat janë si funksionet që I kemi mesuar, përveçse ato janë të lidhura me një klasë.
+Ato përcaktojnë detyrat që çdo instancë e një klase mund të kryejë dhe janë të dobishme pasi lidhin sjelljen me objektet.
+
+```php
+class Artist
+{
+    public function outputAsTable() {
+        $table= "<table>";
+        $table .="<tr> <th colspan='2'>";
+        $table .=$this->firstName." ".$this->lastName;
+        $table .="</th></tr>";
+        $table .="<tr><td>Birth: </td>";
+        $table .="<td>".$this->birthDate."(".$this->birthCity.") </td></tr>";
+        $table .="<tr><td> Death: </td>";
+        $table .="<td>".$this->deathDate."</td></tr></table>";
+        
+        return $table;
+    }
+}
+
+
+$picasso = new Artist( . . . )
+echo $picasso->outputAsTable();
+```
+
+### Aksesueshmëria
+Aksesueshmëria e një anëtari të klasës mund të vendoset si: 
+- Publike prona ose metoda është e aksesueshme për cilindo që ka një referencë për objektin 
+- Private vendos një metodë ose variabël që të jetë e aksesueshme vetëm brenda klasës 
+- Protected lidhet me trashëgiminë…
+
+![Pasted image 20260415202110.png](/img/user/Pasted%20image%2020260415202110.png)
+
+## Anëtarët statikë
+
+- Një anëtar statik është një veti ose metodë që ndajnë të gjitha instancat e një klase. 
+- Ndryshe nga një veti e zakonshme e instances, ku çdo objekt merr vlerën e vet për atë veti, për antëar statik ka vetëm një vlerë në një klase. 
+- Anëtarët statikë përdorin sintaksën **self::** dhe nuk shoqërohen me një objekt 
+- Ato mund të aksesohen pa ndonjë shembull të një objekti Artist duke përdorur emrin e klasës, domethënë nëpërmjet.
+**Artist::$artistCount**
+
+```php
+class Artist {
+    public $firstName;
+    public $lastName;
+    public $birthDate;
+    public $birthCity;
+    public $deathDate;
+    public static $artistCount=0;
+    function __construct($firstName,$lastName, $birthDate,$birthCity, $deathDate) {
+        $this->firstName=$firstName;
+        $this->lastName=$lastName;
+        $this->birthDate=$birthDate;
+        $this->birthCity=$birthCity;
+        $this->deathDate=$deathDate;
+        self::$artistCount ++;
+}}
+```
+
+### Metoda statike
+
+Aplikohet në metoda për t'i lejuar ato të thirren pa instantimin e klasës.
+Kjo është metoda ekuivalente me konstante për klasë.
+```php
+class Math {
+static function katroti($input) {
+	return $input*$input; 
+}}
+echo Math::katroti(8);
+```
+
+#### Konstantet e klasës
+
+`const EARLIEST_DATE = '1 janar 1200’;`
+Qasja brenda dhe jashtë klasës duke përdorur 
+- self::EARLIEST_DATE në klasë dhe 
+- classReference::EARLIEST_DATE jashtë klase
+
+```php
+class Math { const pi = 3.14159; }
+echo "Math::pi = ".Math::pi;
+```
+
+## Kapsulimi
+
+Një mënyrë tjetër për të kuptuar kapsulimin: është fshehja e detajeve të implementimit të një objekti.
+Nëse një klasë e kapsuluar siç duhet i bën vetitë e saj private, atëherë si t'i aksesoni ato? 
+- getters 
+- setters
+
+```php
+public function getFirstName() { 
+	return $this->firstName; 
+}
+```
+
+## Trashëgimia
+
+Trashëgimia ju mundëson të krijoni klasa të reja PHP që ripërdorin, zgjerojnë dhe modifikojnë sjelljen që është përcaktuar në një klasë tjetër PHP. 
+-  PHP ju lejon të trashëgoni vetëm nga një klasë në të njëjtën kohë 
+- Një klasë që trashëgon nga një klasë tjetër thuhet se është një nënklasë ose një klasë e derivuar 
+- Klasa nga e cila trashëgohet zakonisht quhet superklasë ose klasë bazë.
+
+Një klasë PHP përcaktohet si një nënklasë duke përdorur fjalë “extends”.
+
+`class Painting extends Art { . . . }`
+
+```php
+class A {
+    public $attribute1;
+    function operation1() { }
+}
+
+class B extends A {
+    public $attribute2;
+    function operation2() { }
+}
+
+$b = new B();
+$b->operation1();
+$b->attribute1 = 10;
+$b->operation2();
+$b->attribute2 = 10;
+
+$a = new A();
+$a->operation1();
+$a->attribute1 = 10;
+$a->operation2(); // Gabim
+$a->attribute2 = 10; // Gabim
+```
+
+self:: referon gjithmonë klasën ku është shkruar metoda. 
+static:: ndjek trashëgiminë dhe përdor metodën nga klasa që e thërret. 
+Në këtë kod, B::test(); thërret versionin e whichclass() nga A për shkak të self::. 
+Për të marrë whichclass() e B, duhet të përdorim static:: në test().
+
+### Kopjimi objekteve
+Fjala CLONE e cila ju lejon të kopjoni një objekt ekzistues
+```php
+$t = new B();
+$a = clone $t;
+```
+Krijohet një kopje të objektit $t të së njëjtës klasë, me të njëjtat vlera per attribute.
+
+```php
+class Book {
+    private $title;
+    public function __construct($title) {
+        $this->title = $title;
+    }
+}
+
+$book = new Book("PHP Programming");
+echo $book; // Gabim: Object of class Book could not be converted to string
+  
+  
+class Book {
+    private $title;
+    public function __construct($title) {
+        $this->title = $title;
+    }
+  
+    // Metoda __toString() për të shfaqur objektin si tekst
+    public function __toString() {
+        return "Book Title: " . $this->title;
+    }
+}
+
+$book = new Book("PHP Programming");
+echo $book; // Do të printojë: Book Title: PHP Programming
+```
+
+## Krijimi i nje objekti
+
+- **stdClass** është një klasë e paracaktuar dhe e thjeshtë në PHP që mund të përdoret për të krijuar objekte që mund të shtohen në mënyrë dinamike atributet. 
+- Nuk ka metoda; është thjesht një objekt ku mund të shtoni vetë variabla. 
+- Është e dobishme kur nuk nevojiten metoda të komplikuara, dhe kur duam të përdorim objekte të thjeshta. 
+- Përdorimi i **stdClass** mund të jetë shumë i thjeshtë dhe fleksibël.
+
+```php
+// Krijohet një objekt i thjeshtë
+$student = new stdClass();
+
+// Shtohen variabla (atribute) në objekt
+$student->name = "Ali";
+$student->age = 21;
+$student->course = "Computer Science";
+
+// Printohet objektin
+print_r($student);
+```
+
+### trait
+
+```php
+// Krijimi i një trait
+trait Logger {
+    public function log($message) {
+        echo "[LOG]: " . $message . "<br>";
+    }
+}
+
+// Krijimi i një trait tjetër
+trait Notifier {
+    public function notify($user) {
+        echo "Notifying " . $user . "<br>";
+    }
+}
+
+// Krijimi i një klase që përdor të dy trait-et
+class User {
+    use Logger, Notifier; // Përfshijmë të dy trait-et
+    public function createUser($name) {
+        echo "User $name created.<br>";
+        $this->log("User $name was added to the system.");
+        $this->notify($name);
+    }
+}
+
+// Përdorimi
+$user = new User();
+$user->createUser("Dhuratë");
+```
+
+### Klasa abstakte
+
+Nëse deklarojmë një klasë si abstrakte atëherë implementimi kryhet në nënklasën e cila trashigon mbiklasën.
+Një klasë e cila përmban një metodë abstrakte është automatikisht një klasë abstrakte dhe duhet të deklarohet si abstrakte. 
+Klasat abstrakte nuk mund të instancohen: 
+- Vëtem nënklasat që kanë implementuar të gjitha metodat mund të instancohen.
+
+```php
+abstract class Art {
+    private $name;
+    private $artist;
+    private $yearCreated;
+    //… getters, setters
+
+}
+  
+class Painting extends Art {
+    private $medium;
+    //…constructor, getters, setters
+    public function __toString() {
+        return parent::__toString() . ", Medium: ".$this->getMedium();
+    }
+}
+```
+
+## Polimorfizmi
+
+Polimorfizmi është nocioni që një objekt mund të ofroj shumë gjëra në të njëjtën kohë.
+![Pasted image 20260415210250.png](/img/user/Pasted%20image%2020260415210250.png)
+
+## Interfaces
+
+Një ndërfaqe është një konstruksion klasik që përmban vetëm konstante dhe metoda abstrakte.
+Në shumë mënyra, një ndërfaqe është e ngjashme me një klasë abstrakte, por qëllimi i një ndërfaqe është të specifikojë sjelljen për objektet.
+```php
+interface Viewable { 
+	public function getSize();
+	public function getPNG();
+}
+```
+
+Në PHP, një klasë mund të thuhet se zbaton një ndërfaqe, duke përdorur fjalën implements: 
+`class Painting extends Art implements Viewable { ... }`
+![Pasted image 20260415211111.png](/img/user/Pasted%20image%2020260415211111.png)
