@@ -481,3 +481,111 @@ Ndërpresin menjëherë ekzekutimin e faqes nëse nuk trajtohen
 Shembuj: 
 - Thirrje e funksioneve që nuk ekzistojnë 
 - Probleme kritike në kod
+
+### Kontrollimi i vlerave
+
+![Pasted image 20260415163058.png](/img/user/Pasted%20image%2020260415163058.png)
+
+### Kontrolloni për një numër
+
+![Pasted image 20260415163130.png](/img/user/Pasted%20image%2020260415163130.png)
+
+## Raportimi i gabimeve në PHP
+
+Ekzistojnë tre menyra kryesore të raportimit të gabimeve:
+- error_reporting 
+- display_errors 
+- log_errors
+
+### Vendosja e error_reporting
+
+**Sintaksa error_reporting**, tregon cilin lloj të gabimit të raportoni.
+Mund të vendoset në mënyrë programore brenda çdo fajlli PHP: `error_reporting(E_ALL);`
+Mund të vendoset gjithashtu brenda fajllit php.ini: **error_reporting = E_ALL**
+
+```php
+<?php
+// Çaktivizoni raportimin e gabimit
+error_reporting(0);
+// Raportoni gabimet e kohës së ekzekutimit
+error_reporting(E_ERROR | E_WARNING | E_PARSE);
+// Raportoni të gjitha gabimet
+error_reporting(E_ALL);
+// Njësoj si raportimi i gabimit (E_ALL);
+ini_set("error_reporting", E_ALL);
+// Raportoni të gjitha gabimet përveç E_NOTICE
+error_reporting(E_ALL & ~E_NOTICE);
+?>
+```
+
+### Vendsja e display_errors
+
+**Cilësimi display_error** specifikon nëse mesazhet e gabimit duhet ose jo të shfaqen në shfletues. 
+Mund të vendoset nëpërmjet funksionit **ini_set()**: `ini_set(' display_error ','0’);`
+Mund të vendoset gjithashtu brenda fajllit php.ini: **display_error = Off**
+### Vendosja e log_error
+
+Vendndodhja për të ruajtur logs mund të caktohetnë mënyrë programore: 
+`ini_set('error_log', '/restricted/my-errors.log’); `
+Mund të vendoset gjithashtu brenda fajllit **php.ini**: **error_log = /restricted/my-errors.log**
+
+Gjithashtu mund të dërgoni mesazhe në logs e gabimeve në çdo kohë nëpërmjet funksionit **error_log()**:
+![Pasted image 20260415164527.png](/img/user/Pasted%20image%2020260415164527.png)
+
+## Trajtimi i gabimeve procedurale
+
+Lidhja me një bazë të dhënash, mund të ketë një gabim...
+
+![Pasted image 20260415164645.png](/img/user/Pasted%20image%2020260415164645.png)
+
+### Try, catch, finally
+
+![Pasted image 20260415164745.png](/img/user/Pasted%20image%2020260415164745.png)
+### Metodat e objektit Exception
+
+![Pasted image 20260415164815.png](/img/user/Pasted%20image%2020260415164815.png)
+![Pasted image 20260415165017.png](/img/user/Pasted%20image%2020260415165017.png)
+
+## Trajtuesit e personalizuar
+
+`set_exception_handler('my_exception_handler');`
+![Pasted image 20260415165126.png](/img/user/Pasted%20image%2020260415165126.png)
+
+## Regular Expressions- RegEx
+
+![Pasted image 20260415165834.png](/img/user/Pasted%20image%2020260415165834.png)
+
+Sh. **308-9932** => `^\d{3}–\d{4}$`
+
+Viza është një karakter i mirëfilltë; pjesa tjetër janë të gjitha metakaraktere
+Simboli ^ dhe $ tregojnë fillimin dhe fundin e vargut,
+Metakarakteri \d tregon një shifër, ndërsa metakarakteret {3} dhe {4} tregojnë respektivisht tre dhe katër përsëritje të ndeshjes së mëparshme (d.m.th., një shifër).
+
+`^\d{3}–\d{4}$`
+Një shprehje e rregullt më e sofistikuar për një numër telefoni nuk do të lejonte që shifra e parë në numrin e telefonit të ishte zero ("0") ose një ("1").Shprehja e rregullt e modifikuar për këtë do të ishte: 
+`^[2-9]\d{2}–\d{4}$` 
+Mund ta bëjmë shprehjen tonë të rregullt pak më fleksibël duke lejuar ose një hapësirë të vetme (440 6061), një pikë (440.6061) ose një vizë (440-6061) midis dy grupeve të numrave.Këtë mund ta bëjmë nëpërmjet metakarakterit \[ ]:
+`^[2-9]\d{2}[–\s\.]\d{4}$`
+
+```php
+<?php
+$email = "arion@gmail.com";
+
+if (preg_match('/^[a-zA-Z0-9_\-\.]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/', $email)) { 
+	echo "Email $email eshte valide.";
+	echo "<br>";
+} else {
+	echo "Email $email nuk eshte valide.";
+	echo "<br>";
+}
+?>
+```
+
+### Validimi PHP
+
+![Pasted image 20260415170800.png](/img/user/Pasted%20image%2020260415170800.png)
+![Pasted image 20260415170821.png](/img/user/Pasted%20image%2020260415170821.png)
+
+# Klasat dhe objektet në PHP
+
+
