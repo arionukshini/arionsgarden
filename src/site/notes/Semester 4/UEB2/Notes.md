@@ -446,6 +446,10 @@ if(!empty($_POST["username"])&&!empty($_POST["pass"]) )
 ?>
 ```
 
+![Pasted image 20260415220553.png](/img/user/Pasted%20image%2020260415220553.png)
+![Pasted image 20260415220609.png](/img/user/Pasted%20image%2020260415220609.png)
+![Pasted image 20260415220922.png](/img/user/Pasted%20image%2020260415220922.png)
+
 ## $\_GET dhe $\_POST Superglobals
 Aksesoni të dhënat në një varg pyetjesh të dërguar nga klienti: 
 - Nëse të dhënat dërgohen përmes kërkesës HTTP GET: të dhënat e aksesueshme nga PHP brenda URL-së dhe të ruajtura në: $\_Get vargun, $\_Get[“var_1”] dhe $\_Get[“var_2”] 
