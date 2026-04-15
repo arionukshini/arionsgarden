@@ -265,6 +265,23 @@ if (flock($file,LOCK_EX)) {
 } else { echo "Gabim gjate...!"; }
 ```
 
+`feof()` kontrollon nëse " end-of-file " (EOF) është arritur për një fajll të hapur. 
+`fgets()` lexon një rresht, derisa të ndeshet me një karakter p.sh. \n. 
+- fgetss () ose fgetcsv() 
+- P.sh $p = fgetcsv($fp, 0, "\t");
+
+Ky kod lexon një karakter të vetëm në të njëjtën kohë nga fajll duke përdorur `fgetc()` dhe e ruan atë në $char, derisa të arrihet fundi i fajllit.
+Më pas bën një përpunim të vogël për të zëvendësuar karakteret e tekstit në fund të rreshtit (\n) me ndërprerje të rreshtave HTML ( \<br> ).
+
+```php
+$fp = fopen("porosia.txt", 'a');
+while (!feof($fp)) { 
+	$char = fgetc($fp); 
+	if (!feof($fp)) 
+		echo ($char== "\n" ? "<br>": $char); 
+}
+```
+
 Mund të lexoni të gjithë fajllin me një komand. Janë disa mënyra të ndryshme se si mund të realizohet: `readfile("porosia.txt");`.
 
 Mënyra tjeter që mund të lexoni nga një fajll është të përdorni funksionin fread() për të lexuar te dhenat nga fajlli: 
@@ -273,4 +290,102 @@ $file = fopen("porosia.txt","r");
 echo fread($file,filesize("porosia.txt"));
 fclose($file);
 ```
+
+`File()` - për të lexuar fajllin në një grup rreshtash
+
+```php
+$line=file("porosia.txt");
+foreach ($line as $l) {
+	echo $l."<br>";
+}
+```
+
+`File_get_contents()` - për të lexuar fajllin në një variabël vargu
+
+```php
+$page=file_get_contents("https://fiek.uni-pr.edu/");
+$page=preg_split("/\n/",$page );
+
+foreach ($page as $p) {
+	echo "<br>".$p."<br>";
+}
+```
+
+`File_put_contents()` - për të shkruar përmbajtjen e një vargu në një fajll 
+
+```php
+$shto_x="PhD.Dhurate Hyseni \n";
+file_put_contents("porosia.txt", $shto_x, FILE_APPEND);
+$f=file("profesoret.txt");
+foreach ($f as $l) { echo $l."<br>"; }
+```
+
+`opendir(), readdir(), closedir()` per direktorite.
+
+Nëse dëshironi të kontrolloni nëse një fajlle ekziston pa e hapur atë, mund të përdorni `file_exists()`, si: 
+```php
+if (file_exists("porosia.txt")) {
+	echo 'Jane disa porosi duke pritur per procesim...';
+} else {
+	echo 'Nuk ka porosi ne fajll.';
+}
+``` 
+Mund të kontrollohet madhësinë e një fajlli duke përdorur funksionin filesize(): 
+`echo filesize("porosia.txt");`
+
+Nëse dëshirojmë të fshim fajllin e porosisë pasi të jenë përpunuar porositë, mund ta përdorim unlink().
+Mund të manipuloni dhe zbuloni pozicionin e pointerit të fajllit me funksionin ftell().
+
+![Pasted image 20260415132236.png](/img/user/Pasted%20image%2020260415132236.png)
+![Pasted image 20260415133918.png](/img/user/Pasted%20image%2020260415133918.png)
+
+rewind() – Kthehu në fillim të file-it
+```php
+$file = fopen("example.txt", "r");
+echo fgets($file);
+rewind($file);
+```
+fseek() – Lëviz në një pozicion specific 
+```php
+fseek($fp, 10, SEEK_SET); // shkon te byte 10
+fseek($fp, 5, SEEK_CUR); // lëviz 5 byte përpara
+fseek($fp, -10, SEEK_END); // 10 byte para fundit 
+```
+SEEK_SET nga fillimi
+SEEK_CUR nga pozicioni aktual
+SEEK_END nga fundi
+
+# Arrays
+
+Deklarimi me konstruktor `array();`
+
+```php
+$v_Zbrast= array();
+
+$v_MeElemente_1= array("com","edu", "net", "org", "gov");
+
+$v_MeElemente_2=["com","edu", "net", "org", "gov"];
+
+$v_Zbrast[0]="elementi1"; $v_Zbrast[1]="elementi2"; $v_Zbrast[2]="elementi3";
+
+$v_Zbrast[]="elementi4";
+$v_Zbrast[]="elementi5";
+$v_Zbrast[]="elementi6";
+  
+for($i=0; $i<count($v_MeElemente_1); $i++)
+    echo "Elementi: ".$i." eshte <b> ".$v_MeElemente_1[$i]."</b></br>";
+    
+    
+$cmimet = array('Molla'=>100, 'Buka'=>10, 'Uji'=>1);
+echo " ".$cmimet["Molla"];
+
+
+$v_MeElemente_3=array(0=>"edu", 1=>"com", 2=>"net", 3=>"org",4=>"gov", 5=>"net");
+
+$v_MeElemente_4=array("edu"=>"education","com"=>"commercial","net"=>"network","gov"=>"government", "org"=>"organization" );
+
+for($i=0; $i< count($v_MeElemente_4);$i++)
+    echo "Elementi: ".$v_MeElemente_3[$i]." eshte <br>".$v_MeElemente_4[$v_MeElemente_3[$i]]."</b></br>";
+```
+
 
