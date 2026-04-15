@@ -388,4 +388,96 @@ for($i=0; $i< count($v_MeElemente_4);$i++)
     echo "Elementi: ".$v_MeElemente_3[$i]." eshte <br>".$v_MeElemente_4[$v_MeElemente_3[$i]]."</b></br>";
 ```
 
+`rang()` për të krijuar një sekuencë në rritje të numrave në një varg
 
+```php
+$v_MeElemente_5= range(1,10,2);
+for($i=0; $i<count($v_MeElemente_5); $i++)
+    echo "Elementi: ".$i." eshte <b> ".$v_MeElemente_5[$i]."</b></br>";
+
+$v_MeElemente_6=range("A", "B");
+echo "Elementi ".$v_MeElemente_6[0]; // Elementi A
+```
+
+### Exploding Arrays
+
+E merr nje fjali si "Studentet e dalluar ne Web Programim" dhe e ndan pjese pjese dhe e shendrron ne array. 
+
+```php
+$inp = "Studentet e dalluar ne Web Programim";
+
+$temp = explode(' ', $inp);
+print_r($temp);
+
+$tekst = implode(",", $temp);
+print_r($tekst);
+```
+`count($v_MeElemente_1)`
+
+![Pasted image 20260415141042.png](/img/user/Pasted%20image%2020260415141042.png)
+
+`urlencode()` Karakteret speciale si : dhe / në URL-në "ridrejtim" janë koduar si %3A dhe %2F për të shmangur ndërhyrjen në strukturën e URL-së së përgjithshme.
+`rawurlencode()` Zëvendëson të gjitha karakteret e tjera jo-alfanumerike përveç -, \_, ., dhe ~ me një shenjë përqindjeje të ndjekur nga dy shifra heksadecilam. Ky funksion zëvendëson gjithashtu hapësirat me një përqindje të ndjekur nga dy shifra heks: %20
+![Pasted image 20260415143656.png](/img/user/Pasted%20image%2020260415143656.png)
+
+```php
+<html>
+<body>
+    <form method="POST" >
+        <label>Username</label> <br/>
+        <input type="textbox" name="username"/ > <br/>
+        <label>Pass</label> <br/>
+    <input type="password" name="pass"/ > <br/>
+    <input type="submit" value="Dergo"/>
+    </form>
+</body>
+</html>
+
+<?php
+
+if(!empty($_POST["username"])&&!empty($_POST["pass"]) )
+{
+	$v=$_POST["username"] ." ".$_POST["pass"];
+	$a= rawurlencode($v);
+	echo ' <br>Te dhenat: '.$v;
+	echo ' <br>Te dhenat rawurlencode: '.$a;
+}
+
+?>
+```
+
+## $\_GET dhe $\_POST Superglobals
+Aksesoni të dhënat në një varg pyetjesh të dërguar nga klienti: 
+- Nëse të dhënat dërgohen përmes kërkesës HTTP GET: të dhënat e aksesueshme nga PHP brenda URL-së dhe të ruajtura në: $\_Get vargun, $\_Get[“var_1”] dhe $\_Get[“var_2”] 
+- Nëse të dhënat dërgohen përmes kërkesës HTTP POST: të dhënat nuk janë të dukshme nga PHP në URL, por të aksesuesh me brenda kërkesës HTTP POST: $\_Post vargu, $\_Pos[“var_1”] dhe $\_Post[“var_2”]
+
+# Errors
+
+include() dhe require(), ngarkon një fajll në një skript PHP.
+
+Po kur fajlli nuk mund të përfshihet (ai nuk ekziston, ose serveri nuk e lejon aksesin në të)? 
+- Include- shfaqet vetëm një paralajmërim (E_WARNING) dhe ekzekutimi vazhdon 
+- Require- shfaqet një gabim (E_ERROR) dhe ekzekutimi ndalon
+
+include_once() dhe require_once(), i njëjtë me include dhe require përveç, nëse fajlli tashmë është përfshirë, nuk do të kërkohet prap
+
+## Llojet e gabimeve
+
+**Gabimet e pritshme (Expected Errors):**
+Janë gabime që parashikohen të ndodhin gjatë ekzekutimit.
+Shembuj: 
+- Qasja e përdoruesit (input i gabuar) 
+- Problemet me lidhjen e bazës së të dhënave
+Duhet të trajtohen me kontroll (p.sh. validim, try-catch) 
+
+**Paralajmërimet (Warnings):**
+Janë probleme që gjenerojnë një mesazh paralajmërues nga PHP
+Nuk e ndalojnë ekzekutimin e faqes
+Mund të ndikojnë në funksionalitet, por skripti vazhdon 
+
+**Gabime fatale (Fatal Errors):** 
+Janë gabime serioze 
+Ndërpresin menjëherë ekzekutimin e faqes nëse nuk trajtohen 
+Shembuj: 
+- Thirrje e funksioneve që nuk ekzistojnë 
+- Probleme kritike në kod
