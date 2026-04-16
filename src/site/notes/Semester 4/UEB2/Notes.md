@@ -553,6 +553,7 @@ Lidhja me një bazë të dhënash, mund të ketë një gabim...
 ## Trajtuesit e personalizuar
 
 `set_exception_handler('my_exception_handler');`
+
 ![Pasted image 20260415165126.png](/img/user/Pasted%20image%2020260415165126.png)
 
 ## Regular Expressions- RegEx
