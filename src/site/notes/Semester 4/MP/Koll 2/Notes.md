@@ -272,4 +272,104 @@ Disa nga përfitimet e grafikëve Gantt janë:
 
 ![Pasted image 20260507194358.png](/img/user/Pasted%20image%2020260507194358.png)
 
+# PLANIFIKIMI I BURIMEVE
 
+## ÇKA JANË BURIMET E KUSHTEZUARA
+
+Deri tani nisja dhe renditja e aktiviteteve është bazuar kryesisht në konsiderimet teknike dhe logjike. Per shembull, ndertimi i një shtepije do të realizohet nëpermjet e aktiviteteve kryesore, të renditura: 
+1) hapja dhe ndertimi i themeleve 
+2) ndërtimi i mureve dhe 
+3) punimet e çatisë.
+
+Kjo nënkupton që nuk mund të kryhet aktiviteti 2 pa përfunduar i pari e kështu me radhë.
+Rrjeti i projektit përshkruan kuzhtëzimet teknike dhe supozon që personeli dhe pajisjet janë në dispozicion për të kryer punën që kërkohet. Por, jo gjithmonë ndodh kështu!
+
+Burimet në një projekt janë **njerëzit**, **pajisjet** dhe **materialet** që nevojiten për të realizuar aktivitetet e projektit. 
+Disponueshmëria ose mungesa e burimeve ndikon drejtpërdrejt në mënyrën se si projekti planifikohet dhe menaxhohet.
+
+1. Njerëzit
+Përbëjnë burimin më të rëndësishëm dhe shpesh kufizimin kryesor në projekt. Burimet njerëzore klasifikohen sipas aftësive që sjellin si p.sh. programues, inxhinier mekanik, inspektor, drejtor marketingu, mbikëqyrës, etj.
+Kur nuk ka staf të mjaftueshëm apo burime kritike, puna paralele nuk është e mundur. Në projekte ku përdorimi i burimeve është i kufizuar, ekipet përballen menjëherë me vështirësi në realizimin e aktiviteteve. 
+
+2. Materialet
+
+Materialet janë një nga burimet më të zakonshme që duhet marrë parasysh gjatë skedulimit të projektit. Disponueshmëria ose mungesa e tyre lidhet drejtpërdrejt me mundësinë e vonesave në projekt. 
+Kur pritet mungesë materialesh, ato duhet të përfshihen qartë në planin e rrjetit të projektit dhe në skedulin përkatës, në mënyrë që të shmangen vonesa të panevojshme. 
+
+3. Pajisjet
+
+Pajisjet paraqiten zakonisht sipas llojit, madhësisë dhe sasisë. Për shembull, nëse një projekt ka nevojë për një vinç pas gjashtë muajsh dhe organizata zotëron katër të tillë, zakonisht supozohet se ky burim nuk do të shkaktojë vonesa.
+Identifikimi i kufizimeve të pajisjeve para nisjes së projektit ndihmon në shmangien e përplasjeve dhe vonesave. Skedulimi i pajisjeve është veçanërisht i rëndësishëm kur ato ndahen ndërmjet departamenteve, pasi duhet të jenë në dispozicion në kohën e duhur kur kërkohen për aktivitetet e projektit.
+
+Momentet ekstreme të lidhjes ndërmjet përdorimit të kohës dhe përdorimit të burimeve janë: 
+- Koha e kufizuar 
+- Burimet e kufizuara ose të kushtëzuara 
+- Kushtëzimi i kombinuar (miks)
+
+**Koha e kufizuar.** Projekti duhet të përfundohet brenda një afati të caktuar, duke përdorur burime sa më efikase. Në këtë situatë, koha përbën kufizimin kryesor, ndërsa përdorimi i burimeve nuk është faktori kritik.
+
+**Burime të kufizuara (apo të kushtëzuara).** Projekti duhet të realizohet duke mos e tejkaluar nivelin e paracaktuar të burimeve. Në këtë rast, koha nuk është kufizimi kryesor; fokusi është në përdorimin sa më racional të burimeve dhe respektimin e kufizimeve të vendosura, edhe nëse kjo kërkon një kohë më të gjatë për përfundimin e projektit.
+
+**Kushtëzimi miks.** Projekti në tërësi është i kufizuar nga burimet, por disa aktivitete ose komponente kanë kufizime më të forta kohore. Për shembull, nëse disa afate kritike duhet të përmbushen, ato aktivitete trajtohen si të kufizuara nga koha brenda një projekti që përgjithësisht menaxhohet me kufizime të burimeve.
+Në këto raste, ekipi duhet të hartojë një orar dhe plan të alokimit të burimeve që minimizon përdorimin total të burimeve, duke siguruar njëkohësisht dedikimin e duhur për të respektuar afatet kritike.
+
+Për të menaxhuar një projekt me sukses, është thelbësore të kuptohet nevoja për të përshtatur dhe optimizuar orarin në përputhje me burimet që kemi në dispozicion. Ky proces kërkon vëmendje të veçantë ndaj dy sfidave kryesore: 
+- Identifikimi dhe sigurimi i burimeve të nevojshme për projektin
+- Skedulimi dhe renditja e duhur e këtyre burimeve gjatë gjithë ciklit të projektit.
+
+### NGARKESA E BURIMEVE
+
+Koncepti i ngarkesës së burimit i referohet sasisë së burimeve individuale që kërkohen nga plani i projektit gjatë periudhave të caktuara kohore. Ai ofron një pamje të përgjithshme të kërkesave të projektit për burimet e kompanisë. 
+Zakonisht krijohet një tabelë e përgjithshme e ngarkesës së burimeve, ku identifikohen burimet e nevojshme për çdo detyrë individuale. Në praktikë, ngarkesa e burimit synon të sigurojë burimet e duhura, në sasinë e duhur, për çdo aktivitet të projektit.
+
+SZP është burimi kryesor i informacionit për varësitë e aktiviteteve, kohëzgjatjet e tyre dhe kërkesat për burime. Ajo përbën inputin më të rëndësishëm si për skedulin e projektit, ashtu edhe për buxhetin. SZP lidh drejtpërdrejt skedulin me kërkesat specifike për burime. 
+Përfitimet e procesit të ngarkesës së burimeve janë të qarta: ai shërben si mjet kontrolli kundrejt orarit origjinal. Kur orari (skeduli) analizohet në raport me ngarkesën e burimeve, ekipi identifikon shpejt mbingarkesat, alokimet joefikase dhe, në disa raste, mungesat e burimeve të nevojshme.
+
+### NIVELIMI I BURIMIT 
+
+Nivelimi i burimeve është procesi që adreson sfidat e kufizimeve të projektit. Qëllimi është përdorimi i procedurave që minimizojnë luhatjet në kërkesën për burime përgjatë ciklit të jetës së projektit. 
+Nivelimi i burimeve ka dy objektiva kryesore: 
+- Të sigurojë që kërkesat për burime të jenë të koordinuara me disponueshmërinë e tyre në kohën e duhur. 
+- Të mundësojë që aktivitetet të skedulohen me një tranzicion sa më të qëndrueshëm midis niveleve të përdorimit të burimeve.
+
+Nivelimi i burimeve është i vlefshëm sepse mundëson krijimin e një profili të qartë të kërkesave për burime përgjatë gjithë ciklit të jetës së projektit. Qëllimi është minimizimi i luhatjeve nga periudha në periudhë, në mënyrë që përdorimi i burimeve të jetë sa më i qëndrueshëm. 
+Sa më herët të jemi në gjendje të parashikojmë dhe planifikojmë nevojat për burime, aq më i lehtë bëhet menaxhimi i tranzicionit natyror nga një aktivitet në tjetrin pa ndërprerje. 
+Sfida kryesore është marrja e vendimeve të duhura të prioritarizimit, në mënyrë që burimet e duhura t’u caktohen aktiviteteve të duhura, në kohën e duhur.
+
+Kur ka më shumë aktivitete sesa burime, përdoren rregulla prioritare:
+- **Aktivitetet me rezervë më të vogël** – përparësi atyre që s’kanë kohë për vonesa. 
+- **Aktivitetet me kohëzgjatje më të shkurtër** – mbarojnë shpejt dhe lirojnë burime. 
+- **Aktivitetet që fillojnë më herët** – respektohet logjika e projektit.
+- **Aktivitetet me më shumë pasardhës** – shmangen vonesat zinxhir.
+- **Aktivitetet që kërkojnë më shumë burime** – mbështeten së pari detyrat kritike.
+
+Nivelimi i burimeve sjell disa avantazhe: 
+- **Përdorim më të qëndrueshëm i burimeve** - kërkon më pak ndërhyrje nga menaxheri i projektit dhe e bën më të lehtë sigurimin e burimit në kohën e duhur. 
+- **Minimizon gabimet në planifikim** - përdorimi konstant i burimit lejon një politikë më të saktë të “tamam në kohë” (just-in-time). 
+- **Përmirëson moralin e ekipit, kur burimi është njerëzor** - shmang luhatjet e panevojshme të punës dhe probleme të pagesave.
+
+Implikimet e nivelimit të burimeve nuk janë vetëm menaxheriale, por edhe financiare. Kur përdorimi i burimeve nivelohet, edhe kostot e lidhura me to bëhen më të qëndrueshme. 
+Në aspektin e kostos, nivelimi i forcës punëtore është veçanërisht i rëndësishëm. Për shumë organizata, marrja dhe largimi i stafit kanë kosto të konsiderueshme; prandaj, është më pak e kushtueshme të ruhet një kërkesë e qëndrueshme për punë, sesa të krijohen luhatje që kërkojnë pagesa shtesë.
+
+### HAPAT E NEVOJSHEM PER NIVELIMIN E BURIMIT
+
+Për nivelimin e burimeve, duhet të ndiqen hapat në vijim: 
+
+Hapi 1: Ndërtimi i tabelës së ngarkesës së burimeve. 
+Hapi 2: Përcaktimi i afateve të përfundimit të vonshëm për aktivitetet. 
+Hapi 3: Identifikimi i mbingarkesës së burimeve. 
+Hapi 4: Nivelimi i ngarkesës së burimeve.
+
+#### SHEMBULL : NIVELIMI I BURIMI 
+Shembulli i nivelimit te burimit ilustron sfiden që grupet e projektit ndeshin kur tentojne te aplikojne nivelimin e burimit te nje rrjeti aktivitetesh te ndertuar. 
+Supozojme se eshte ndertuar diagrama rrjet bazuar ne informatat ne tabelen ne vijim. Per sejcilin prej ketyre aktiviteteve mund te llogarisim fillimin e hershem (FH), mbarimin e hershem (MH), fillimin e vonshem (FV) dhe mbarimin e vonshem (MV) si dhe rezervën e aktiviteteve.
+
+![Pasted image 20260507214807.png](/img/user/Pasted%20image%2020260507214807.png)
+![Pasted image 20260507214817.png](/img/user/Pasted%20image%2020260507214817.png)
+![Pasted image 20260507214832.png](/img/user/Pasted%20image%2020260507214832.png)
+![Pasted image 20260507214846.png](/img/user/Pasted%20image%2020260507214846.png)
+![Pasted image 20260507214855.png](/img/user/Pasted%20image%2020260507214855.png)
+![Pasted image 20260507214907.png](/img/user/Pasted%20image%2020260507214907.png)
+![Pasted image 20260507214917.png](/img/user/Pasted%20image%2020260507214917.png)
+![Pasted image 20260507214926.png](/img/user/Pasted%20image%2020260507214926.png)
+![Pasted image 20260507214947.png](/img/user/Pasted%20image%2020260507214947.png)
