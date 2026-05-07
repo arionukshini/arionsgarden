@@ -226,3 +226,50 @@ Dallimet kryesore midis diagrameve AOA dhe AON janë:
 
 ![Pasted image 20260507190513.png](/img/user/Pasted%20image%2020260507190513.png)
 ![Pasted image 20260507190606.png](/img/user/Pasted%20image%2020260507190606.png)
+
+#### LLOJET E AKTIVITETEVE
+
+Ekzistojne disa lloje të aktiviteteve në rrjetin e projektit, si:
+- Aktivitetet ne seri 
+- Aktivitetet paralele 
+- Aktivitetet bashkuese 
+- Aktivitetet shperthyese
+
+#### VLERESIMI I KOHEZGJATJES SE AKTIVITETEVE
+
+Hapi tjeter ne ndertimin e rrjetit eshte vleresimi i kohezgjatjes se aktiviteteve per cdo hap ne projekt. 
+Ka nje sere menyrash alternative te vleresimit te kohes, duke perfshire:
+- Eksperiencen e kaluar. 
+- Opinionin e eksperteve. 
+- Modelet matematikore.
+
+Per te nxjerre nje vleresim te arsyeshem te propabilitetit per kohezgjatjen e aktivitetit ,duhet te identifikohen tre vlera:
+1. Kohezgjatja e mundshme e aktivitetit
+2. Kohezgjatja pesimiste e aktivitetit 
+3. Kohezgjatja optimiste e aktivitetit
+
+Bazuar ne keto mund te llogaritet **KOHA E VLERESUAR (TE)** sipas formules: 
+![Pasted image 20260507193455.png](/img/user/Pasted%20image%2020260507193455.png)
+
+*Shembull:*
+![Pasted image 20260507193532.png](/img/user/Pasted%20image%2020260507193532.png)
+![Pasted image 20260507193603.png](/img/user/Pasted%20image%2020260507193603.png)
+![Pasted image 20260507193613.png](/img/user/Pasted%20image%2020260507193613.png)
+
+**Rruga kritike** është rruga më e gjatë e aktiviteteve të varura në rrjetin e projektit, që përcakton kohën minimale të përfundimit të projektit. 
+Nëse cilido aktivitet në **rrugën kritike vonohet, i gjithë projekti vonohet**, sepse këto aktivitete nuk kanë kohë rezervë (float / slack = 0).
+
+#### GRAFIKU GANTT
+
+Grafiku GANTT konsiderohet si një mjet efektiv dhe i lehtë për t’u lexuar, pasi tregon statusin aktual të çdo pakete pune në krahasim me progresin e planifikuar për secilën prej tyre.
+Si rezultat, grafiku Gantt vlerësohet si shumë i dobishëm për renditjen dhe rialokimin e burimeve ndërmjet detyrave të projektit.
+
+Disa nga përfitimet e grafikëve Gantt janë: 
+- Janë të thjeshtë për t’u lexuar dhe kuptuar; 
+- Lejojnë përditësimin dhe kontrollin e vazhdueshëm të projektit; 
+- Janë mjaft të vlefshëm për identifikimin e nevojave për burime dhe caktimin e tyre sipas detyrave; 
+- Janë të lehtë për t’u ndryshuar dhe për t’u përshtatur me ndryshimet në planin e projektit.
+
+![Pasted image 20260507194358.png](/img/user/Pasted%20image%2020260507194358.png)
+
+
