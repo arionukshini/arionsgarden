@@ -33,6 +33,9 @@ Vijushmeria - 10%
 Bonus - 10%
 
 Provimi ka 15 pyetje. Duhet 50% per te kaluar.
+
+- Diagram me NAT (100% bje)
+
 # Siguria e te dhenave
 
 Provim - 50%
