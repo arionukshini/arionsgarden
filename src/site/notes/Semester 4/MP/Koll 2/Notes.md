@@ -373,3 +373,304 @@ Supozojme se eshte ndertuar diagrama rrjet bazuar ne informatat ne tabelen ne vi
 ![Pasted image 20260507214917.png](/img/user/Pasted%20image%2020260507214917.png)
 ![Pasted image 20260507214926.png](/img/user/Pasted%20image%2020260507214926.png)
 ![Pasted image 20260507214947.png](/img/user/Pasted%20image%2020260507214947.png)
+
+# Menaxhimi i Rrezikut
+
+**RREZIKU** *përkufizohet si një ngjarje ose gjendje e pasigurt e cila, nëse ndodh, ka një ndikim pozitiv ose negativ në objektivat e projektit, si kosto, afat apo cilësi.* 
+Çdo rrezik ka një shkak dhe një pasojë!
+
+Disa rreziqe mund të parashikohen para fillimit të projektit (p.sh. defekt i pajisjeve, ndryshim në kërkesat teknike), ndërsa të tjera janë të paparashikueshme (p.sh. kriza financiare globale).
+Edhe pse ndonjëherë rreziku mund të ketë efekte pozitive, fokusi kryesor i menaxhimit të rrezikut është në ato që mund të shkojnë keq dhe si të përballohen.
+
+## Qka eshte menaxhimi i rrezikut?
+
+**Menaxhimi i rrezikut** synon te identifikoje rreziqet e mundshme, te zvogeloj nikimin e tyre dhe te pergatise plane rezerve per ngjarjet qe mund te ndodhin.
+
+### PROCESI I MENAXHIMIT TË RREZIKUT TË PROJEKTIT
+
+Procesi i menaxhimit të rrezikut paraqitet si një qasje proaktive për të identifikuar, parashikuar dhe kontrolluar rreziqet gjatë ciklit jetësor të projektit. 
+Rreziku është më i lartë në fazat e hershme të projektit, kur pasiguria është e madhe dhe shumë pyetje mbeten pa përgjigje. 
+Kostoja e ndikimit të një rreziku rritet sa më shumë që projekti avancon.
+
+Burimet e rrezikut mund të jenë:
+1. të brendshme (gabime teknike, vonesa, mungesë resursesh)
+2. të jashtme (inflacioni, kursi i këmbimit, rregulloret qeveritare).
+
+## MENAXHIMI I RISKUT – NJË PROCES ME KATËR HAPA
+
+Procesi i menaxhimit te rrezikut përfshin katër hapa kryesorë: 
+1. IDENTIFIKIMI I RREZIKUT 
+2. VLERËSIMI I RREZIKUT 
+3. REAGIMI NDAJ RREZIKUT 
+4. KONTROLLI DHE DOKUMENTIMI
+
+**HAPI 1: IDENTIFIKIMI I RREZIKUT**
+
+Identifikimi i rrezikut është hapi i parë në procesin e menaxhimit të rrezikut dhe synon të krijojë një listë sa më të plotë të të gjitha rreziqeve që mund të ndikojnë në projekt. 
+Gjatë fazës së planifikimit, menaxheri i projektit formon një ekip për menaxhimin e rrezikut, i cili përbëhet nga anëtarët kryesorë dhe palët e interesit. 
+Përmes seancave të brainstorming dhe teknikave të tjera, ekipi identifikon problemet e mundshme, duke inkurajuar mendimin e hapur pasi edhe rreziqet që duken të pamundura mund të ndodhin.
+
+#### Çfarë rreziqe mund te ketë në projekt?
+
+Llojet kryesore të rreziqeve në projekt janë: 
+- Rreziqe Teknike – Lidhen me pasiguri në teknologji, dizajn, kërkesa teknike ose funksionalitet të produktit. 
+- Rreziqe të afatit kohor– Ngjarje që mund të shkaktojnë vonesa në aktivitetet ose në përfundimin e projektit. 
+- Rreziqe të kostos – Tejkalim i buxhetit për shkak të gabimeve në vlerësime ose ndryshimeve në kosto. 
+- Rreziqe të burimeve njerëzore– Lidhur me mungesë stafi, mungesë aftësish ose ndryshime në ekip. 
+- Rreziqe të palëve të Interesuara – Ndryshime në kërkesat e klientit, mospërputhje në pritshmëri ose mungesë komunikimi. 
+- Rreziqe organizative / kontraktuale– Lidhur me strukturën e organizatës, kontratat ose mungesën e mbështetjes nga menaxhmenti. 
+- Rreziqe të mjedisit të jashtëm– Faktorë të jashtëm ndaj projektit, si ndryshime ligjore, politike, ekonomike ose klimatike.
+
+Ekzistojnë një numër metodash sasiore dhe cilësore të cilat janë në dispozicion për identifikimin e faktorëve të rrezikut specifik për industrinë, të cilat përfshijnë: 
+- Takimet brainstorming
+- Opinioni i eksperteve
+- Historia ne te kaluaren
+- Vleresimet e bazuara ne grup
+
+**HAPI 2: VLERËSIMI I RREZIKUT**
+
+Faza e vlerësimit të rrezikut vjen pas identifikimit të tij dhe synon të përcaktojë cilët rreziqe janë më të rëndësishëm. 
+Jo të gjitha rreziqet kërkojnë vëmendje; disa janë të parëndësishme, ndërsa të tjera paraqesin kërcënime serioze për projektin. 
+Menaxherët i vlerësojnë rreziqet sipas gjasës së ndodhjes dhe ndikimit që ato kanë mbi objektivat e projektit (kosto, kohë, shtrirje, cilësi).
+
+**Analiza e skenarëve** është teknika më e lehtë dhe më e përdorur zakonisht për analizimin e rreziqeve. Anëtarët e ekipit vlerësojnë rëndësinë e secilit rrezik në aspektin e: 
+- Probabilitetit (gjasës) – sa gjasa ka të ndodhë ngjarja. 
+- Ndikimit (impaktit) – sa i madh është efekti në projekt (kosto, kohë, cilësi, fushëveprim).
+
+Shprehur thjeshtë, rreziqet duhet të vlerësohen në aspektin e gjasës që ngjarja të ndodhë dhe ndikimit ose pasojave të ndodhjes së saj.
+Rreziqet e vogla mund të injorohen, ndërsa ato kritike kërkojnë masa parandaluese.
+
+**MATRICA E RREZIKUT (RISK MATRIX):**
+
+Shpesh, organizatat e gjejnë të dobishme të kategorizojnë ashpërsinë e rreziqeve të ndryshme përmes një matrice të vlerësimit të rrezikut. Kjo matricë zakonisht ndërtohet në bazë të ndikimit dhe gjasës që ngjarja e rrezikut të ndodhë. 
+Matrica është e ndarë në zona të kuqe, të verdha dhe të gjelbra, që përfaqësojnë përkatësisht rreziqe të mëdha, mesatare dhe të vogla.
+
+Zona e kuqe – rreziqe të mëdha (duhet reagim i menjëhershëm) 
+Zona e verdhë – rreziqe mesatare 
+Zona e gjelbër – rreziqe të vogla ose të pranueshme
+![Pasted image 20260512155931.png](/img/user/Pasted%20image%2020260512155931.png)
+
+**HAPI 3: REAGIMI NDAJ RREZIKUT**
+
+Kur identifikohet një rrezik, ekipi i projektit duhet të vendosë si do të reagojë. Ekzistojnë katër mënyra kryesore për t’u përballur me rreziqet: 
+1. Zbutje e rrezikut 
+2. Shmangie e rrezikut 
+3. Transferim i rrezikut
+4. Pranim i rrezikut.
+
+**PLANET EMERGJENTE/ PLANI REZERVË**
+
+Planet emergjente (Plani rezervë) është një plan alternativ që përdoret nëse një rrezik i parashikuar bëhet realitet. 
+Ai përfshin veprime për të reduktuar ose zbutur ndikimin negativ të rrezikut 
+Diferenca kryesore me reagimin ndaj rrezikut është se reagimi bëhet përpara se rreziku të ndodhë dhe është pjesë e planit fillestar, ndërsa plani i kontingjencës hyn në fuqi vetëm pasi rreziku të ndodhë.
+
+Pasi të jenë identifikuar rreziqet, ekipi i projektit duhet të përgatisë plane emergjente (kontigjente) – veprime që do të ndërmerren nëse rreziku ndodh. Çdo plan duhet të përfshijë: 
+- Çfarë do të bëhet 
+- Shkaktarët (triggers) që nxisin zbatimin e planit 
+- Kush është përgjegjës për monitorimin dhe veprimin.
+
+**FONDET EMERGJENTE DHE REZERVAT KOHORE**
+
+Fondet emergjente dhe rezervat kohore përdoren për të përballuar rreziqet dhe pasiguritë në një projekt. 
+Fondet emergjente janë para shtesë të ndara për probleme të papritura. Ato mbulojnë si rreziqet e njohura, ashtu edhe ato të panjohura. Shuma e tyre varet nga niveli i pasigurisë në projekt. 
+Këto fonde ndahen në dy lloje: 
+- Rezerva buxhetore – për rreziqe të njohura në aktivitete të caktuara 
+- Rezerva menaxheriale – për rreziqe të mëdha dhe të paparashikuara që ndikojnë në të gjithë projektin 
+Nëse rreziku nuk ndodh, fondi përkatës hiqet; nëse ndodh, paratë shtohen në buxhetin e projektit. Këto rezerva duhet të jenë të ndara nga kostot dhe afatet normale për të shmangur konfuzionin apo keqpërdorimin.
+
+**Rezervat kohore (time buffers)** funksionojnë si “rezerva kohe” për të mbrojtur orarin e projektit nga vonesat.
+
+Rezerva kohe shtohet për: 
+- Aktivitetet me rrezik të lartë 
+- Pikat ku bashkohen shumë aktivitete 
+- Aktivitetet në rrugën kritike ose afër saj 
+- Aktivitetet që kërkojnë burime të rralla
+Ndonjëherë, shtohet edhe një rezervë kohe për gjithë projektin (p.sh., +30 ditë në një projekt 300 ditor). 
+Si fondet ashtu edhe rezervat kohore ndihmojnë që projekti të përfundojë me sukses dhe në kohë, edhe kur ndodhin probleme të papritura.
+
+**HAPI 4: KONTROLLI DHE DOKUMENTIMI**
+
+Kontrolli i rrezikut është hapi i fundit në procesin e menaxhimit të rrezikut dhe ka për qëllim zbatimin, monitorimin dhe përditësimin e planeve të rrezikut gjatë gjithë projektit. 
+Të gjitha të dhënat për rreziqet regjistrohen në një Regjistër të Rrezikut (Risk Register), i cili përfshin përshkrimin, kategorinë, probabilitetin, ndikimin, reagimin, planin e kontigjencës, përgjegjësin dhe statusin aktual. 
+Regjistri i rrezikut është shtylla kryesore e hapit të fundit në procesin e menaxhimit të rrezikut.
+
+Menaxheri i projektit duhet te krijoje nje mjedis te hapur komunikimi qe te diskutohen problemet, sepse fshehja e tyre eshte me e rrezikshme se vete rreziku.
+
+#### MENAXHIMI I KONTROLLIT TË NDRYSHIMEVE
+
+Shumica e ndryshimeve ndahen në tre lloje: 
+- Ndryshime në fushën e projektit (scope) – shtime ose modifikime në dizajn apo funksione. 
+- Zbatimi i planeve rezerve – kur ndodhin rreziqe që ndikojnë në kosto ose afate. 
+- Përmirësime të propozuara – ide ose sugjerime nga anëtarët e ekipit.
+
+Për t’i menaxhuar si duhet, nevojitet një proces i kontrollit të ndryshimeve, i cili duhet të: 
+- Identifikojë dhe përshkruajë ndryshimin e propozuar. 
+- Vlerësojë ndikimin e tij në orar, buxhet dhe fushëveprim. 
+- Rishikojë dhe miratojë ose refuzojë ndryshimin. 
+- Zgjidhë konfliktet që mund të dalin. 
+- Njoftojë palët e përfshira dhe caktojë përgjegjësinë. 
+- Përditësojë planin zyrtar të projektit dhe të ndjekë çdo ndryshim.
+
+Përfitimet e një sistemi të mirë kontrolli të ndryshimeve: 
+- Parandalon ndryshimet e panevojshme. 
+- Mban të saktë të dhënat e kostove dhe afateve. 
+- Ruhet integriteti dhe përgjegjësia e projektit. 
+- Çdo ndryshim bëhet i dukshëm dhe i gjurmueshëm.
+Në përfundim, dokumentimi dhe kontrolli i çdo ndryshimi ndihmon që projekti të mbetet i organizuar, të ecë sipas planit dhe të vlerësohet më lehtë në fund.
+
+#### MENAXHIMI I MUNDESIVE
+
+Sikurse e pamë deri më tani, fokusimi ishte tek rreziqet negative dhe çfarë mund të shkojë keq në një projekt. 
+Por, ka edhe një anë të kundërt të kësaj: çfarë mund të shkojë mirë në një projekt. Kjo zakonisht referohet si një rrezik pozitiv ose mundësi.
+
+Ka katër tipe të ndryshme reagimi ndaj mundësive: 
+1. Shfrytëzimi – Përdorimi i mundësisë për të maksimizuar përfitimet dhe rezultate pozitive për projektin. 
+2. Ndarja – Përcjellja e mundësisë tek një palë tjetër që mund ta shfrytëzojë atë më mirë. 
+3. Zmadhimi – Rritja e mundësisë për të maksimizuar përfitimet duke ndërmarrë hapa për të përmirësuar mundësinë. 
+4. Pranimi – Pranimi i mundësisë dhe lejimi që ajo të ndodhë, pa ndërhyrje të mëtejshme, duke e konsideruar atë si një mundësi pozitive që mund të kontribuojë në suksesin e projektit.
+
+# PËRSHPEJTIMI I PROJEKTIT
+
+Ndonjehere projekti mund te rezultoje me afate me te gjata se premtuar, menaxheri duhet te marre masa per te reduktuar kohezgjatjen e projektit.
+
+***Përshpejtimi i projekteve** është procesi i ndërmarrë për të përfunduar një projekt më shpejt se sa ishte planifikuar fillimisht, duke reduktuar kohën totale të realizimit të aktiviteteve ose të gjithë projektit. Ky zakonisht bëhet pa ulur cilësinë e punës, por shpesh kërkon rritje të resurseve, kostove, ose rrezikut.*
+
+ARSYET KRYESORE PËR REDUKTIMIN E KOHËZGJATJES:
+
+- Presion për të dale më shpejt në treg 
+- Konkurrencë më agresive 
+- Teknologji që ndryshon shpejt 
+- Kërkesa të klientit për afate më të shpejta 
+- Kosto të vonesës (penalitete)
+
+Pse është e vështirë të shkurtohet projekti? 
+- Shumica e aktiviteteve varen nga rruga kritike 
+- Çdo ndryshim prek kostot, burimet dhe cilësinë 
+- Shpejtimi krijon kompromis mes kohës, kostos dhe riskut
+
+Metodat kryesore për shkurtimin e kohëzgjatjes së rrugës kritike janë: 
+- Eliminimi i aktiviteteve të panevojshme në rrugën kritike. 
+- Riplanifikimi i detyrave nga seri në paralele 
+- Shkurtimi i kohëzgjatjes së aktiviteteve kritike 
+- Shkurtimi i aktiviteteve që fillojnë më herët. 
+- Shkurtimi i aktiviteteve me kohëzgjatje më të gjatë. 
+- Shkurtimi i aktiviteteve më të thjeshta për të reduktuar kohë shpejt. 
+- Prioritet aktiviteteve që kanë koston më të ulët për t’u shkurtuar.
+
+Metodat kur burimet NUK JANË të kufizuara 
+- Shtimi i burimeve (crashing): rrit kapacitetin dhe shkurton kohën, por jo gjithmonë është efikas (rrit koston dhe kompleksitetin). 
+- Outsourcing: siguron teknologji/ekspertizë shtesë dhe liron burimet e brendshme, por kërkon koordinim dhe kontroll cilësie. 
+- Overtime (orë shtesë): rrit prodhimin pa zgjeruar ekipin, por sjell lodhje dhe kosto shtesë. 
+- Ekip i dedikuar: shmang multitasking dhe rrit fokusin dhe shpejtësinë e ekzekutimit. 
+- Do it Twice: zgjidhje e shpejtë fillestare -version i plotë më vonë.
+
+Metodat kur burimet JANË të kufizuara
+- Rritja e efikasitetit: përmirësim i proceseve, eliminim i pengesave dhe reduktim i humbjeve. 
+- Fast-tracking: kryerja paralele e aktiviteteve që normalisht janë në sekuencë (rrit rrezikun). 
+- Reduktimi i shtrirjes (scope reduction): heqja e funksioneve jo-thelbësore për të kursyer kohë. 
+- Ulja e cilësisë: opsion ekstrem për të përmbushur afate shumë të ngushta (me ndikim negativ në rezultat).
+
+Në praktikë, projektet përshpejtohen duke: 
+- planifikuar orë shtesë (overtime) 
+- përdorur outsourcing 
+- shtuar burime (resurse njerëzore, mjete dhe pajisje)
+Këto metoda përfaqësojnë forma të crashing, pasi synojnë shkurtimin e kohës duke rritur kapacitetin e punës, zakonisht me kosto më të lartë. Metoda të tjera për përshpejtim përfshijnë: 
+- fast-tracking (kryerja paralele e aktiviteteve) 
+- qasjen “do it twice” (zgjidhje e shpejtë fillestare + version i plotë më vonë)
+Këto teknika ndryshojnë mënyrën e realizimit të projektit dhe mund të rrisin rrezikun, prandaj kërkojnë vlerësim të kujdesshëm të kohës , kostos dhe cilësisë.
+
+Çfarë duhet vlerësuar para përshpejtimit:
+- Kostoja e përshpejtimit 
+- Përfitimi i përfundimit më herët 
+- Penalltitë 
+- Lirimi i burimeve për projekte të tjera
+
+Mënyrat më të zakonshme për të ulur koston e projektit: 
+- Reduktimi i shtrirjes (scope): dorëzimi i më pak funksioneve ul ndjeshëm shpenzimet.
+- Delegimi i detyrave te klienti: klienti merr përsipër disa aktivitete (p.sh., testime, trajnime, punë të thjeshta).
+- Outsourcing: përdorimi i nënkontraktorëve me kosto më të ulët ose ekspertizë më efikase.
+- Brainstorming me ekipin: identifikimi i zgjidhjeve më ekonomike pa kompromentuar objektivat kryesore.
+Në këto raste, fokusi është ruajtja e vlerës së projektit, duke gjetur mënyra më të lira për të arritur rezultate të ngjashme.
+
+# MONITORIMI, KONTROLLI DHE MBYLLJA E PROJEKTIT
+
+Monitorimi synon të sigurojë që projekti po ecën në përputhje me planin, të zbulojë herët problemet dhe të sigurojë përdorim efikas të burimeve.
+Gjatë procesit të monitorimit vlerësohen afatet, kostot, cilësia, burimet dhe rreziqet. 
+
+Menaxheri i projektit është përgjegjës për mbledhjen dhe analizimin e të dhënave të progresit. 
+Ai duhet të sigurojë komunikim të qartë me ekipin dhe palët e interesit në mënyrë që informacioni i monitorimit të përdoret për përmirësime të vazhdueshme.
+
+##### PROBLEMET E ZAKONSHME NË MONITORIM
+
+Vonesat, mungesa e burimeve, ndryshimet e paautorizuara dhe mungesa e të dhënave të sakta janë disa nga sfidat që hasen gjatë monitorimit të projekteve.
+
+##### KONTROLLI I PROJEKTIT
+
+Kontrolli është procesi i identifikimit të devijimeve nga plani dhe marrjes së veprimeve korrigjuese.
+##### QËLLIMET E KONTROLLIT
+
+Kontrolli synon të minimizojë rreziqet, të korrigjojë devijimet dhe të garantojë që rezultatet e projektit janë në përputhje me pritshmëritë e klientit dhe organizatës. 
+
+##### PROCESI I KONTROLLIT
+
+Procesi i kontrollit përfshin matjen e performancës, krahasimin me planin, analizimin e devijimeve dhe ndërmarrjen e masave korrigjuese ose parandaluese.
+
+##### LLOJET E KONTROLLIT
+
+Format kryesore të kontrollit në një project janë: 
+- Kontrolli i cilësisë
+- kontrolli i kostos
+- kontrolli i kohës
+- kontrolli i ndryshimeve
+
+### TRE REZULTATET KRYESORE TË MBYLLJES
+
+Procesi i mbylljes së projektit jep tre rezultate kryesore: 
+1) Përmbylljen e projektit, që përfshin përfundimin e dorëzimeve, mbylljen e llogarive, çlirimin dhe risistemimin e burimeve, si dhe përgatitjen e raportit final
+2) Auditimin e projektit, i cili analizon suksesin, vështirësitë, arsyet e devijimeve dhe mësimet e nxjerra
+3) Vlerësimin e performancës, ku shqyrtohet puna e ekipit, e individëve dhe e menaxherit të projektit. Këto tre elemente së bashku sigurojnë që projekti të përfundojë në mënyrë profesionale dhe që përvoja e fituar të përdoret si bazë për përmirësim të vazhdueshëm.
+
+### LLOJET E MBYLLJES SË PROJEKTIT
+
+Llojet e përmbylljes së projektit: 
+- Normale: Projekti përfundon sipas planit dhe dorëzohet produkti ose shërbimi. 
+- Parakohshme: Projekti mbyllet më herët, me disa pjesë të eliminuara, duke sjellë rreziqe. 
+- Përhershme (Perpetual): Projekti nuk duket se mbaron për shkak të shtesave të vazhdueshme. 
+- I dështuar: Projekti ndalet për shkak të problemeve, me arsyet e qarta të komunikueshme.
+
+### AKTIVITETET E PERMBYLLJES
+
+Aktivitetet kryesore për përmbylljen e projektit: 
+- Marrja e pranimit të dorëzimit nga klienti. 
+- Mbyllja dhe lëshimi i burimeve për përdorim tjetër. 
+- Lirimi i anëtarëve të ekipit. 
+- Mbyllja e llogarive dhe pagesa e faturave. 
+- Dorëzimi i projektit tek klienti. 
+- Hartimi i raportit përfundimtar.
+
+### AUDITIMI I PROJEKTIT
+
+Auditimet e projektit vlerësojnë performancën, arsyet e përzgjedhjes dhe rolin e projektit në organizatë. 
+- Kontrollojnë funksionimin e ekipit dhe faktorët e jashtëm që ndikojnë projektin. 
+- Mund të bëhen gjatë projektit për korrigjime ose pas përfundimit për përmirësime të projekteve të ardhshme.
+
+### VLERËSIMI I PERFORMANCËS DHE MBYLLJA PËRFUNDIMTARE
+
+- Gjatë mbylljes, vlerësohet performanca e ekipit, e individëve dhe e menaxherit të projektit, jo vetëm në aspektin e respektimit të afateve, kostos dhe cilësisë, por edhe në bashkëpunim, komunikim dhe kënaqësi të klientit. 
+- Vlerësimet shërbejnë për zhvillimin profesional të anëtarëve të ekipit dhe për ndërtimin e ekipeve më të forta në të ardhmen.
+
+Një projekt konsiderohet plotësisht i mbyllur vetëm pasi të jenë përfunduar përmbyllja operacionale, auditimi dhe vlerësimi i performancës.
+
+# MENAXHIMI I PROJEKTEVE AGILE
+
+## LINDJA E AGILE
+
+Për të menaxhuar projekte më fleksibile dhe më dinamike u zhvillua menaxhimi i projekteve Agile. 
+Në vend të planifikimit të të gjithë projektit që në fillim, Agile: 
+- përdor cikle iterative dhe inkrementale 
+- ndan projektin në pjesë të vogla funksionale 
+- fokusohet në bashkëpunim me klientin 
+- përshtatet vazhdimisht ndaj ndryshimeve
+Agile është veçanërisht i përshtatshëm për projekte eksploruese dhe inovative.
+
+### METODAT TRADICIONALE KUNDREJT AGILE

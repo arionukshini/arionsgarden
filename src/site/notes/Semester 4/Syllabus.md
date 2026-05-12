@@ -54,4 +54,4 @@ Pjesmarrja aktive në ligjerata - 10%
 Projekti Grupor - 10%
 
 1. Pjesmarrja active në ligjerata nenkupton prezencne fiike dhe pjesmarrje në detyra te ndryshme gjatë ligjeratave.
-2. Për të hyrë ne kollokviumin e dyte duhet te keni minimum 20 pike ne kollokviumin e pare
+2. Për të hyrë ne kollokviumin e dyte duhet te keni minimum 20 pike ne kollokviumin e pare.
