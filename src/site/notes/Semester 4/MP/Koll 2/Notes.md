@@ -674,3 +674,204 @@ Në vend të planifikimit të të gjithë projektit që në fillim, Agile:
 Agile është veçanërisht i përshtatshëm për projekte eksploruese dhe inovative.
 
 ### METODAT TRADICIONALE KUNDREJT AGILE
+
+Qasjet tradicionale të menaxhimit të projekteve fokusohen në: 
+- planifikim të detajuar që në fillim 
+- përcaktim të qartë të fushëveprimit 
+- afate dhe buxhete fikse 
+- kontroll të vazhdueshëm të projektit
+Në këtë qasje: 
+- projekti ndahet në aktivitete përmes WBS 
+- identifikohen rreziqet dhe resurset
+- krijohet një plan bazë për kohën dhe koston
+Ideja kryesore është që projekti mund të kontrollohet nëse planifikohet mirë që në fillim.
+
+#### WATERFALL DHE PROBLEMET NË PROJEKTET E SOFTUERIT
+
+Para Agile, projektet softuerike mbështeteshin kryesisht në metodologjinë Waterfall, ku projekti kalon në mënyrë lineare nga një fazë në tjetrën.
+Kjo qasje supozon që kërkesat mund të përcaktohen që në fillim dhe zhvillimi dhe testimi realizohen sipas planit fillestar.
+Megjithatë, në projektet e softuerit: 
+- kërkesat ndryshojnë shpesh
+- klientët shpesh nuk e dinë saktë çfarë duan
+Për këtë arsye shumë projekte Waterfall vonoheshin ose anuloheshin.
+
+![Pasted image 20260512210657.png](/img/user/Pasted%20image%2020260512210657.png)
+
+## MANIFESTI AGILE
+
+Manifesti Agile u krijua në vitin 2001 nga 17 ekspertë të zhvillimit të softuerit, të cilët kërkonin një qasje më fleksibile dhe më bashkëpunuese për menaxhimin dhe zhvillimin e projekteve. Manifesti thekson rëndësinë e komunikimit, përshtatjes ndaj ndryshimeve dhe krijimit të vlerës për klientin.
+
+**Vlerat Kryesore të Agile Manifestit**
+
+- Individët dhe ndërveprimet mbi proceset dhe mjetet – Prioritet i jepet komunikimit dhe bashkëpunimit në ekip. 
+- Softueri funksional mbi dokumentimin gjithëpërfshirës – Progresi matet përmes rezultateve funksionale dhe produkteve që punojnë. 
+- Bashkëpunimi me klientin mbi negocimin e kontratave – Klientët përfshihen vazhdimisht gjatë zhvillimit të projektit. 
+- Reagimi ndaj ndryshimit mbi ndjekjen e një plani – Projekti përshtatet ndaj kërkesave dhe ndryshimeve, edhe në faza të vona të zhvillimit.
+
+### MENAXHIMI I PROJEKTEVE AGILE
+
+MP Agile bazohet në planifikimin “rolling wave”, ku projekti zhvillohet gradualisht dhe jo në detaje të plota që në fillim. Në metodologjinë Agile:
+- dizajni evoluon me kalimin e kohës 
+- puna realizohet përmes iteracioneve 
+- iteracionet janë “time boxes” prej 1–4 javësh 
+- Çdo iteracion shton funksionalitete të reja në produkt
+
+Qëllimi i çdo iteracioni është krijimi i një produkti funksional, demonstrimi i progresit dhe marrja e feedback-ut nga klienti.
+Në këtë mënyrë produkti evoluon vazhdimisht gjatë projektit.
+
+#### Përparësitë e Zhvillimit Iterativ
+
+Proceset iterative ofrojnë: 
+- integrim dhe testim të vazhdueshëm 
+- demonstrim të shpeshtë të progresit 
+- përshtatje më të shpejtë ndaj ndryshimeve
+Problemet identifikohen herët dhe korrigjohen me më pak kosto.
+
+### METODAT DHE PARIMET KRYESORE TË AGILE
+
+MP Agile nuk është një metodë e vetme, por një familje metodash të dizajnuara për t’iu përgjigjur sfidave të projekteve të paparashikueshme. 
+Disa nga metodat më të njohura janë: 
+- Scrum 
+- Extreme Programming (XP) 
+- Lean Development 
+- Kanban
+**Scrum** është metodologjia Agile më e përdorur në praktikë.
+
+### PARIMET KRYESORE TË AGILE
+
+Parimet kryesore të metodologjisë Agile janë: 
+- Fokus në vlerën për klientin – Prioritetet përcaktohen sipas nevojave të klientit dhe biznesit. 
+- Dorëzim iterativ dhe inkremental – Projekti ndahet në pjesë të vogla funksionale për të krijuar vlerë vazhdimisht. 
+- Eksperimentim dhe përshtatje – Supozimet testohen herët dhe kërkesat përmirësohen përmes feedback-ut. 
+- Vetë-organizim – Ekipet vendosin vetë si do të organizohet dhe realizohet puna. 
+- Përmirësim i vazhdueshëm – Ekipet reflektojnë, mësojnë dhe përshtaten gjatë projektit.
+
+**SCRUM** - Ideja kryesore eshte qe ekipi te funksionoje si nje njesi e vetme dhe te bashkepunoj vazhdimisht gjate zhvillimit te produktit.
+
+Scrum fillon me një përkufizim të përgjithshëm të projektit dhe me vlerësime të përafërta për kohën dhe koston. Megjithatë, planifikimi i detajuar në fillim konsiderohet jo efektiv, sepse kërkesat ndryshojnë gjatë projektit.
+
+Një veçori është një funksionalitet i dobishëm që krijon vlerë për klientin. 
+Shembuj të veçorive: 
+- ndryshimi i PIN-it në aplikacion bankar 
+- pagesa online 
+- qasja wireless 3G
+Veçoritë: 
+- prioritizohen sipas rëndësisë për klientin 
+- zhvillohen gradualisht gjatë sprint-eve 
+- rivlerësohen vazhdimisht gjatë projektit
+
+#### ELEMENTET KRYESORE TË SCRUM
+
+Scrum bazohet në disa elemente kryesore që ndihmojnë në organizimin dhe menaxhimin e projektit: 
+- Sprint-et 
+- Rolet në Scrum 
+- Takimet Scrum 
+- Product Backlog dhe Sprint Backlog 
+- User Stories
+- Burndown Charts
+
+**SPRINTI**
+Sprint-i është cikli kryesor i punës në Scrum.
+Sprint-i është një periudhë e shkurtër pune në Scrum, dhe zgjat zakonisht nga 1 deri në 4 javë.
+![Pasted image 20260512212841.png](/img/user/Pasted%20image%2020260512212841.png)
+
+Pas çdo sprint-i 
+- mblidhet feedback 
+- rivlerësohen prioritetet 
+- fillon sprint-i tjetër
+
+#### ZHVILLIMI I VEÇORIVE NË SCRUM
+
+Në Scrum, çdo veçori zhvillohet përmes katër fazave kryesore: 
+- Analiza – analizohen dhe rishikohen kërkesat funksionale 
+- Dizajni – krijohet dizajni që përmbush kërkesat 
+- Ndërtimi – zhvillohet funksionaliteti i produktit 
+- Testimi – veçoria testohet dhe dokumentohet
+
+Rolet kryesore ne Scrum janë: 
+1. Product Owner (Pronari i Produktit)
+2. Development Team (Ekipi i Zhvillimit) 
+3. Scrum Master
+
+Pronari i produktit përfaqëson klientin dhe kujdeset që ekipi të punojë në funksionalitetet më të rëndësishme të produktit. Ai krijon dhe organizon Product Backlog-un, vendos prioritetet dhe përcakton çfarë duhet të realizohet në sprint.
+Gjithashtu, ai kontrollon rezultatet e punës dhe sigurohet që produkti të përmbushë nevojat e klientit.
+Qëllimi kryesor i tij është të sigurojë sa më shumë vlerë për klientin.
+
+Ekipi I zhvillimit është ekipi që zhvillon produktin dhe realizon funksionalitetet e planifikuara gjatë sprint-it. Ai është përgjegjës për përmbushjen e objektivave të sprint-it dhe dorëzimin e një produkti funksional.
+Qëllimi kryesor i ekipit është zhvillimi dhe dorëzimi i një produkti funksional me cilësi të lartë.
+
+Scrum Master është personi që ndihmon ekipin të zbatojë procesin Scrum në mënyrë efektive. Ai lehtëson aktivitetet e ekipit, ndihmon në planifikim dhe siguron që praktikat Scrum të ndiqen si duhet gjatë projektit.
+
+#### TAKIMET SCRUM
+
+Takimet kryesore përfshijnë: 
+- Sprint Planning 
+- Daily Scrum 
+- Sprint Review 
+- Sprint Retrospective
+
+Në praktikë përdoret shpesh edhe Release Planning për planifikimin e përgjithshëm të projektit.
+![Pasted image 20260512214407.png](/img/user/Pasted%20image%2020260512214407.png)
+
+##### RELEASE PLANNING
+Release Planning përdoret për të përcaktuar objektivat kryesore të projektit dhe për të krijuar planin e përgjithshëm të release-it. Në këtë fazë identifikohen funksionalitetet kryesore të produktit, prioritetet më të rëndësishme në backlog dhe rreziqet kryesore të projektit.
+Gjatë këtij takimi, Product Owner bashkëpunon me ekipin dhe Scrum Master për të bërë vlerësime fillestare të kohës dhe kostos.
+Release Planning ndihmon ekipin dhe menaxhmentin të monitorojnë progresin dhe të bëjnë përshtatje gjatë projektit.
+
+##### SPRINT PLANNING
+Sprint Planning mbahet në fillim të çdo sprint-i dhe ka për qëllim planifikimin e punës që do të realizohet gjatë atij sprint-i.
+Në këtë takim, Product Owner përcakton funksionalitetet me prioritet më të lartë, ndërsa Development Team vlerëson se çfarë është e realizueshme brenda sprint-it.
+Nëse është e nevojshme, funksionalitetet ndahen në detyra më të vogla dhe krijohet Sprint Backlog, i cili përmban detyrat konkrete dhe përgjegjësitë fillestare të ekipit.
+Pas përfundimit të takimit, objektivat e sprint-it nuk duhet të ndryshohen dhe ekipi angazhohet për realizimin e tyre gjatë sprint-it.
+
+##### DAILY SCRUM
+Daily Scrum është takimi ditor i ekipit Scrum dhe konsiderohet zemra e një projekti Agile. Takimi mbahet çdo ditë në të njëjtën kohë dhe vend, zakonisht zgjat rreth 15 minuta dhe zhvillohet në këmbë për të krijuar fokus dhe ndjenjë urgjence.
+Gjatë takimit, çdo anëtar i ekipit përgjigjet në tre pyetje kryesore:
+1. Çfarë keni bërë që nga Scrum-i i fundit? 
+2. Çfarë do të bëni deri në Scrum-in e ardhshëm? 
+3. Çfarë po ju pengon në punën tuaj? 
+Daily Scrum ndihmon në koordinim, transparencë dhe identifikim të hershëm të problemeve gjatë projektit.
+
+##### SPRINT REVIEW
+Në fund të çdo sprint-i, ekipi prezanton funksionalitetet dhe inkrementet e produktit që janë zhvilluar gjatë sprint-it tek Product Owner dhe palët e tjera të interesuara. Qëllimi i këtij takimi është të analizohet progresi i produktit dhe të merret feedback për rezultatet e realizuara.
+Gjatë Sprint Review: 
+- Product Owner përcakton cilat elemente konsiderohen “të përfunduara” (done) 
+- elementet që kërkojnë punë shtesë rikthehen në Product Backlog 
+- ekipi mund të propozojë përmirësime ose funksionalitete të reja
+Sprint Review ndihmon në përshtatjen dhe përmirësimin gradual të produktit gjatë projektit.
+
+##### SPRINT RETROSPECTIVE 
+Sprint Retrospective mbahet në fund të çdo sprint-i dhe ka për qëllim reflektimin mbi mënyrën se si ka punuar ekipi gjatë sprint-it të kaluar. Në këtë takim analizohet sa mirë ka funksionuar bashkëpunimi dhe identifikohen veprime konkrete për përmirësimin e sprint-eve të ardhshme.
+Takimi zakonisht lehtësohet nga Scrum Master, ndërsa ekipi diskuton:
+- çfarë ka funksionuar mirë 
+- çfarë duhet të ndryshohet 
+- si mund të përmirësohet mënyra e bashkëpunimit dhe punës
+Sprint Retrospective tregon fokusin e Scrum në përmirësimin e vazhdueshëm, jo vetëm të produktit por edhe të punës së ekipit.
+
+#### LISTAT (ARTEFAKTET) KRYESORE NË SCRUM
+
+Scrum përdor dy lista (artefakte) kryesore për menaxhimin e punës: 
+1. Product Backlog 
+2. Sprint Backlog
+
+##### PRODUCT BACKLOG
+Product Backlog menaxhohet nga Product Owner dhe përfaqëson listën e prioritizuar të veçorive, kërkesave dhe funksionaliteteve që dëshirohen në produktin final.
+Product Backlog: 
+- përkufizon veçoritë kryesore të produktit 
+- prioritizohet sipas vlerës për klientin 
+- përfshin vlerësime për kohën, koston dhe punën e mbetur 
+Product Backlog është dinamik dhe përditësohet vazhdimisht gjatë projektit.
+
+##### SPRINT BACKLOG
+Sprint Backlog zhvillohet dhe menaxhohet nga Development Team dhe përfaqëson sasinë e punës që ekipi angazhohet të përfundojë gjatë sprint-it. 
+Sprint Backlog: 
+- përmban detyrat dhe aktivitetet konkrete të sprint-it 
+- tregon personin përgjegjës për secilën detyrë 
+- regjistron orët e mbetura të punës 
+- paraqet statusin e detyrave (To Do, In Progress, Done)
+Sprint Backlog përdoret për ndjekjen e progresit dhe organizimin e punës gjatë sprint-it.
+
+
+
+
+
