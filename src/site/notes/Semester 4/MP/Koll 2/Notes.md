@@ -871,6 +871,74 @@ Sprint Backlog:
 - paraqet statusin e detyrave (To Do, In Progress, Done)
 Sprint Backlog përdoret për ndjekjen e progresit dhe organizimin e punës gjatë sprint-it.
 
+##### USER STORIES NË AGILE PROJECT MANAGEMENT
+
+Në Agile, kërkesat e projektit shpesh shprehen përmes User Stories, të cilat janë përshkrime të shkurtra të funksionaliteteve nga perspektiva e përdoruesit fundor.
+Ato zakonisht ndjekin strukturën: “Si \[përdoruesi\], dua \[funksionaliteti\], në mënyrë që \[përfitimi\].”
+Shembull: “Si klient i bankës, dua të ndryshoj PIN-in tim, në mënyrë që të rris sigurinë e llogarisë.”
+
+User Stories: 
+- ndihmojnë ekipin të kuptojë nevojat e përdoruesit 
+- janë pjesë e Product Backlog 
+- prioritizohen nga Product Owner 
+- mund të modifikohen lehtësisht gjatë projektit
+
+### GRAFIKËT BURNDOWN NË SCRUM
+Burndown Charts janë grafikë shumë të përdorur në Scrum. Ata ndihmojnë ekipin të shohë nëse puna po ecën sipas planit dhe sa punë ka mbetur deri në përfundim.
+Ekzistojnë dy lloje kryesore te Burndown Chart: 
+1. Sprint Burndown Chart 
+2. Release Burndown Chart
+
+**Sprint Burndown Chart**
+Sprint Burndown Chart përdoret për të ndjekur progresin ditor të sprint-it dhe për të monitoruar sasinë e punës së mbetur në Sprint Backlog. Krahasimi ndërmjet vijës ideale dhe progresit real tregon nëse ekipi është përpara apo prapa planit.
+![Pasted image 20260512224759.png](/img/user/Pasted%20image%2020260512224759.png)
+
+**Release Burndown Chart**
+Release Burndown Chart përdoret për të monitoruar progresin e përgjithshëm të projektit dhe për të vlerësuar datën e mundshme të përfundimit. Në Agile, Product Backlog ndryshon vazhdimisht, prandaj edhe vlerësimet e përfundimit mund të ndryshojnë gjatë projektit.
+![Pasted image 20260512224823.png](/img/user/Pasted%20image%2020260512224823.png)
+
+### MENAXHIMI I PUNËS NË SCRUM 
+Scrum nuk përdor mjete tradicionale të menaxhimit të projekteve, si grafikët Gantt apo diagramet e rrjetit. Në vend të tyre, ai mbështetet në Daily Scrum, Sprint Backlog, bashkëpunimin intensiv të ekipit dhe përfshirjen aktive të Product Owner për të menaxhuar rrjedhën e punës. 
+Rreziku reduktohet përmes sprint-eve të shkurtra, testimit të vazhdueshëm dhe feedback-ut të shpeshtë. 
+Për një qasje alternative në ndjekjen e punës përdoret edhe metoda **Kanban**.
+
+## KANBAN
+Kanban është një metodë Lean e zhvilluar fillimisht nga Toyota dhe më pas e përshtatur në Agile për menaxhimin e rrjedhës së punës.
+Në formën më të thjeshtë, tabela Kanban ndahet në: 
+- To do 
+- Work in Progress (WIP) 
+- Done
+
+Kanban bazohet në konceptin “Pull System”, që do të thotë se puna merret vetëm kur ekipi ka kapacitet për ta realizuar dhe detyrat nuk shtyhen automatikisht përpara.
+
+### PËRPARËSITË E KANBAN 
+Kanban ndihmon ekipin të vizualizojë rrjedhën e punës, të fokusohet në detyrat më kritike dhe të identifikojë pengesat më shpejt. Gjithashtu, ai mbështet përmirësimin e vazhdueshëm të proceseve dhe organizimin më efikas të punës.
+Në praktikë, Kanban mund të përdoret përmes tabelave fizike ose mjeteve online si: 
+- Jira 
+- Trello 
+- Asana 
+- Azure DevOps 
+- AgileZen
+
+### SFIDAT NË IMPLEMENTIMIN E AGILE 
+Agile nuk e plotëson gjithmonë nevojën e menaxhmentit për kontroll të saktë të kohës, kostos dhe fushëveprimit të projektit.
+Gjithashtu, implementimi i Agile mund të sjellë sfida organizative: 
+- ekipet vetë-organizuese mund të bien ndesh me kulturat tradicionale hierarkike 
+- bashkëpunimi intensiv nuk i përshtatet çdo punonjësi
+- implementimi kërkon kohë, trajnim dhe ndryshim kulture organizative
+Për këtë arsye, shumë organizata e implementojnë Agile gradualisht.
+
+Kur funksionon më mirë Agile? 
+- projekte të vogla 
+- ekipe 5–9 persona 
+- ndryshime të shpeshta të kërkesave
+Kur Agile nuk funksionon mirë? 
+- projekte shumë të mëdha 
+- koordinim kompleks ndërmjet ekipeve 
+- mungesë e përfshirjes së klientit
+
+Për këtë arsye, shumë kompani përdorin modele hibride: Agile + Waterfall.
+
 
 
 
