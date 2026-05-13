@@ -21,7 +21,7 @@ Kjo qasje është një gabim i madh dhe i kushtueshëm.
 
 ### FAKTORËT QË NDIKOJNË NË CILËSINË E VLERËSIMEVE
 
-- **Horizonti i planifikimit:** vlerësimet për ngjarjet aktuale janë pothuajse 100 për qind të sakta, por saktësia zvogëlohet për ngjarjet që janë më të largëta në kohë. 
+- **Horizonti i planifikimit:** vlerësimet për ngjarjet aktuale janë pothuajse 100% të sakta, por saktësia zvogëlohet për ngjarjet që janë më të largëta në kohë. 
 - **Kompleksiteti i projektit:** sa më i komlikuar të jetë projekti, vlerësimi është më i vështirë 
 - **Njerëzit:** Saktësia e vlerësimeve varet nga aftësitë e personave që i bëjnë ato. 
 - **Struktura organizative:** Struktura e projektit që zgjidhet për ta menaxhuar projektin do të ndikojë në vlerësimet e kohës dhe kostos. 
@@ -938,6 +938,12 @@ Kur Agile nuk funksionon mirë?
 - mungesë e përfshirjes së klientit
 
 Për këtë arsye, shumë kompani përdorin modele hibride: Agile + Waterfall.
+
+# Detyra
+
+https://www.youtube.com/watch?v=R-oN1nMP78Q - Very Good
+https://www.youtube.com/watch?v=lXJagU9U1ow - Alright, not really
+https://www.youtube.com/watch?v=mCXyUiexj0o - Gantt
 
 
 
