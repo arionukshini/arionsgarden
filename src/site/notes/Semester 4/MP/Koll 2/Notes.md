@@ -681,12 +681,13 @@ Qasjet tradicionale të menaxhimit të projekteve fokusohen në:
 - përcaktim të qartë të fushëveprimit 
 - afate dhe buxhete fikse 
 - kontroll të vazhdueshëm të projektit
+
 Në këtë qasje: 
 - projekti ndahet në aktivitete përmes WBS 
 - identifikohen rreziqet dhe resurset
 - krijohet një plan bazë për kohën dhe koston
-Ideja kryesore është që projekti mund të kontrollohet nëse planifikohet mirë që në fillim.
 
+Ideja kryesore është që projekti mund të kontrollohet nëse planifikohet mirë që në fillim.
 #### WATERFALL DHE PROBLEMET NË PROJEKTET E SOFTUERIT
 
 Para Agile, projektet softuerike mbështeteshin kryesisht në metodologjinë Waterfall, ku projekti kalon në mënyrë lineare nga një fazë në tjetrën.
