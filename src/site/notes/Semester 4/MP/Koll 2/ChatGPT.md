@@ -262,7 +262,7 @@ Për çdo aktivitet përdoren:
 
 Koha e vlerësuar llogaritet me formulën PERT:
 
-TE=\frac{O+4M+P}{6}
+$TE=\frac{O+4M+P}{6}$
 
 Kjo formulë jep një kohë më reale për aktivitetin.
 
