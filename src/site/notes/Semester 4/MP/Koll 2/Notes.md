@@ -181,10 +181,10 @@ Më poshtë janë disa terma që përdoren gjatë ndërtimit të rrjeteve të pr
 - Paraardhësit aktivitetet qe duhet te perfundohen para se te fillojne aktivitetet e mevonshme ne rrjet 
 - Pasardhësit - aktivitetet që nuk mund të fillojnë derisa aktivitetet e mëparshme të kenë përfunduar. Keto aktivitete ndjekin detyrat paraardhëse.
 
-- Fillimi i hershëm (ES)- Është data më e hershme në të cilën një aktivitet mund të fillojë 
-- Fillimi i vonshëm (LS) Është data më e vonshme në të cilën një aktivitet mund të fillojë pa shkaktuar vonesë në përfundimin e projektit). 
-- Mbarimi i hershëm (EF)- Është data më e hershme në të cilën një aktivitet mund të përfundojë, nëse fillon në datën e tij të hershme (ES). 
-- Mbarimi I vonshëm (LF) - Është data më e vonshme në të cilën një aktivitet mund të përfundojë pa shkaktuar vonesë në përfundimin e projektit.
+- Fillimi i hershëm (FH)- Është data më e hershme në të cilën një aktivitet mund të fillojë 
+- Fillimi i vonshëm (FV) Është data më e vonshme në të cilën një aktivitet mund të fillojë pa shkaktuar vonesë në përfundimin e projektit). 
+- Mbarimi i hershëm (MH)- Është data më e hershme në të cilën një aktivitet mund të përfundojë, nëse fillon në datën e tij të hershme (FH). 
+- Mbarimi I vonshëm (MV) - Është data më e vonshme në të cilën një aktivitet mund të përfundojë pa shkaktuar vonesë në përfundimin e projektit.
 
 - Rezerva - sasia e kohës që nje aktivitet mund të vonohet nga fillimi i hershëm i tij pa vonuar përfundimin e projektit.
 - Rruga kritike - rruga përgjatë gjithë rrjetit të projektit me kohëzgjatjen më të madhe. 
@@ -288,6 +288,7 @@ Burimet në një projekt janë **njerëzit**, **pajisjet** dhe **materialet** q�
 Disponueshmëria ose mungesa e burimeve ndikon drejtpërdrejt në mënyrën se si projekti planifikohet dhe menaxhohet.
 
 1. Njerëzit
+
 Përbëjnë burimin më të rëndësishëm dhe shpesh kufizimin kryesor në projekt. Burimet njerëzore klasifikohen sipas aftësive që sjellin si p.sh. programues, inxhinier mekanik, inspektor, drejtor marketingu, mbikëqyrës, etj.
 Kur nuk ka staf të mjaftueshëm apo burime kritike, puna paralele nuk është e mundur. Në projekte ku përdorimi i burimeve është i kufizuar, ekipet përballen menjëherë me vështirësi në realizimin e aktiviteteve. 
 
@@ -533,7 +534,7 @@ Ka katër tipe të ndryshme reagimi ndaj mundësive:
 
 Ndonjehere projekti mund te rezultoje me afate me te gjata se premtuar, menaxheri duhet te marre masa per te reduktuar kohezgjatjen e projektit.
 
-***Përshpejtimi i projekteve** është procesi i ndërmarrë për të përfunduar një projekt më shpejt se sa ishte planifikuar fillimisht, duke reduktuar kohën totale të realizimit të aktiviteteve ose të gjithë projektit. Ky zakonisht bëhet pa ulur cilësinë e punës, por shpesh kërkon rritje të resurseve, kostove, ose rrezikut.*
+***Përshpejtimi i projekteve*** *është procesi i ndërmarrë për të përfunduar një projekt më shpejt se sa ishte planifikuar fillimisht, duke reduktuar kohën totale të realizimit të aktiviteteve ose të gjithë projektit. Ky zakonisht bëhet pa ulur cilësinë e punës, por shpesh kërkon rritje të resurseve, kostove, ose rrezikut.*
 
 ARSYET KRYESORE PËR REDUKTIMIN E KOHËZGJATJES:
 
