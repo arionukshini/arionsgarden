@@ -928,12 +928,14 @@ Gjithashtu, implementimi i Agile mund të sjellë sfida organizative:
 - ekipet vetë-organizuese mund të bien ndesh me kulturat tradicionale hierarkike 
 - bashkëpunimi intensiv nuk i përshtatet çdo punonjësi
 - implementimi kërkon kohë, trajnim dhe ndryshim kulture organizative
+
 Për këtë arsye, shumë organizata e implementojnë Agile gradualisht.
 
 Kur funksionon më mirë Agile? 
 - projekte të vogla 
 - ekipe 5–9 persona 
 - ndryshime të shpeshta të kërkesave
+
 Kur Agile nuk funksionon mirë? 
 - projekte shumë të mëdha 
 - koordinim kompleks ndërmjet ekipeve 
