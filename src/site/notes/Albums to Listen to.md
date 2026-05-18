@@ -29,3 +29,13 @@ B4TM
 
 Trilogy
 My Dear Melancholy
+
+### LUCKI
+
+Drugs R Bad
+Alternative Trap
+X
+Almost There
+sex money drugs
+GEMINI
+FLAWLESS LIKE ME
