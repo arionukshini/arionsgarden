@@ -63,7 +63,7 @@ Shtimi i një vlerësimi të rrezikut në procesin e vlerësimit ndihmon për t�
 
 ## METODAT PËR VLERËSIMIN E KOHËS DHE KOSTOS SË PROJEKTIT
 
-1. VLERËSIMI NGA LART–POSHTË (TOP-DOWN) •
+1. VLERËSIMI NGA LART–POSHTË (TOP-DOWN)
 	- Bazohet në përvojën ose vlerësimet e menaxherëve të lartë. 
 	- Përdoret në fazat e hershme të projektit kur mungojnë detajet. 
 	- Shpesh është më e shpejtë, por më pak e saktë. 
