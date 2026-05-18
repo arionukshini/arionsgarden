@@ -39,3 +39,23 @@ Almost There
 sex money drugs
 GEMINI
 FLAWLESS LIKE ME
+
+### Don Toliver
+
+Love
+
+### Lucy
+
+Unmusique
+
+### 2hollis
+
+boy
+
+### PrettiFun
+
+Every album
+
+### Rich Amiri
+
+Grit & Grace
