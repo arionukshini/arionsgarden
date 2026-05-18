@@ -27,3 +27,5 @@ B4TM
 
 ### The Weeknd
 
+Trilogy
+My Dear Melancholy
