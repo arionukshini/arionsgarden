@@ -454,3 +454,100 @@ Fillimisht, modeli Request / Response ishte pa gjendje (stateless) – të gjith
 Janë emër=vlerë që ruhen brenda një ose më shumë fajlla teksti që menaxhohen nga shfletuesi. 
 Cookies janë një zgjidhje e ndryshme për problemin e ruajtjes së gjendjes në një numër transaksionesh, ndërkohë që kanë ende një URL të pastër. 
 Një cookies është një pjesë e vogël e informacionit
+
+### Pse Cookies?
+
+Ndërsa informacioni i cookie-ve ruhet dhe merret nga shfletuesi, informacioni në një cookie udhëton brenda /heder së HTTP. 
+- Faqet që përdorin cookie nuk duhet të varen nga disponueshmëria e tyre për veçori kritike.
+- Përdoruesi mund të fshijë cookie-t ose t’i ndryshoj ato. 
+
+Mund të vendosni një cookie në makinën e një përdoruesi duke dërguar një hedera HTTP që përmban të dhëna në formatin e mëposhtëm:
+**Set-Cookie: name=value; \[expires=date;\] \[path=path;\] \[domain=domain_name;\] \[secure;\] [HttpOnly]**
+
+Një sesion nuk ka deklarat skadence dhe kështu do të fshihet në fund të sesionit të shfletimit të përdoruesit. 
+Cookie-t e vazhdueshme kanë një datë skadimi të specifikuar;
+
+```php
+$name = "perdoruesi"; 
+$value = "test"; 
+setcookie($name, $value);
+```
+
+```php
+<?php
+$e = time()+60*60*24;
+$name = "perdoruesi";
+$value = "test";
+setcookie($name, $value, $e);
+
+//Ose
+
+setcookie("TestCookie", $value, strtotime( '+30 days' ) );
+?>
+```
+
+```php
+<?php
+$expiryTime = time()+60*60*24;
+$name = "perdoruesi";
+$value = "test";
+setcookie($name, $value, $expiryTime);
+if( !isset($_COOKIE['perdoruesi']) ) {
+	//nuk eshte valid
+}
+else {
+	echo "Emri i përdoruesit i marrë nga cookie është: ";
+	echo $_COOKIE['perdoruesi'];
+}
+?>
+```
+
+```php
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30)); 
+
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "https://fiek.uni-pr.edu/"); 
+
+setcookie("user", "", time() - 3600); //fshirja e cookies
+```
+
+## Sessionet
+
+Çdo sesion i shfletuesit ka gjendjen e vet të sesionit, e cila: 
+- Ruhet në server si një file i serializuar 
+- Deserializohet dhe ngarkohet në memorie sa herë që bëhet një kërkesë nga përdoruesi
+Kjo lejon që aplikacioni të rivendosë gjendjen e përdoruesit pa ruajtur informacion në anën e klientit.
+
+Të gjitha mjediset moderne të zhvillimit ofrojnë mekanizma për gjendjen e sesionit. 
+Gjendja e sesionit është një mekanizëm i bazuar në server, që mundëson: 
+- Ruajtjen dhe marrjen e objekteve të çdo lloji për çdo përdorues individual. 
+- Menaxhimin e të dhënave komplekse të lidhura me një sesion specifik. 
+Shembull në PHP: 
+- Variablat e sesionit ruhen në **$\_SESSION** 
+- Aktivizimi i sesionit bëhet me funksionin **session_start()**
+
+```php
+session_start();
+$_SESSION['session_var'] = "PHP!";
+echo 'Permbajtja e '.$_SESSION['session_var'].' eshte ' .$_SESSION['session_var'].'<br>';
+```
+
+Sesionet në PHP identifikohen me një ID unike të sesionit 32 bajt. Kjo transmetohet mbrapa dhe me radhë midis përdoruesit dhe serverit nëpërmjet një cookies sesioni.
+
+Një server kryesor përpunon të gjitha kërkesat. 
+Ruajtja e sesionit është më e thjeshtë (në memorie ose në fajlla). 
+Nuk ka problem me konsistencën, sepse të gjitha kërkesat kalojnë përmes të njëjtit server.
+
+```php
+<?php
+// Tell PHP we won't be using cookies for the session
+ini_set('session.use_cookies', '0');
+ini_set('session.use_only_cookies',0);
+ini_set('session.use_trans_sid',1);
+session_start();
+// Start the view
+?>
+
+<p><b>No Cookies for You!</b>/p>
+```
+
+# AJAX
