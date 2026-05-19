@@ -4,24 +4,41 @@
 
 E kishim bo edhe per admin edhe per user, sikur a di qka na bojke arbena sot, o po e poshter.
 
-Login/Register:
-- qasja si user edhe si admin 
-- passswordi mu hashu 
-- salted hash, mu bo check passwordi me salted hash
-- show password najqysh (tina)
+# Tina:
 
-Admin:
-- shfaq krejt databazat ne program (si puntoret), me opsionin me shtu edhe update databases, pjesa e departamentit, kontrates, pagave (arijola)
-- lidhja e tabelave me puntoret qe me shfaq info te puntoreve tek kontratat etj (arijola)
-- **Paga:** bonus, paga neto/bruto, ditet pushimi, oret pune/mas orarit, historiku i pagave (3 muj), llogaritje e pages mujore (perfshine ditore, bonus etj, me kod) (alketa)
-- prompt per exit te programit (po/jo) (arjanita)
-- opsion per log out tek hamburger menu (arjanita)
-- **Kontrata:** sa kontrata jan aktive, te skaduara, ne pritje, (arion)
-- Eksportim i databazave ne pdf/excel (edison)
-- kontrollon nese kontrata eshte aktive/expired etj e jo me shkru qka dush (arjanita)
+1. Kur behet register, hash passwordin me salt, dmth salted hash.
+2. Ne reset password dhe confirm password, te krahasohet me salt.
+3. Nese munesh me shfaq passwordin te account, normal kur eshte hash nuk munesh kshtuqe ska problem qe jo
+4. Qasja si user dhe admin, qita duhet me fol edhe niher se **shm.** nese jan dy persona me emer te njejt qysh mi marr prej databazes, nashta duhet mja bo secilit puntor nje username special.
 
-Database:
-- departamenti, te shfaq depratamenti i financave, etj e jo lokacioni prishtine/prizren (arion)
+# Arion:
+
+1. Permisimi i departamentit, nuk shfaq lokacionin por lloj departamenti
+2. **Kontrata:** sa kontrata jan aktive, te skaduara, ne pritje
+
+# Arijola
+
+1. Krijon view per tabelat e tjera te databazes, pra si punetoret, por tash per pagat, kontratat etj.
+2. Shton opsionin per me shtu, fshi, perditesu databazen prej programit (si punetoret)
+3. Lidh tabelat me keys (primary/foreign), qe **shm.** tek kontratat permes emplyeeid mu shfaq emri mbiemri i punetorit
+
+# Arjanite punetorja
+
+1. Opsionin per logout ne hamburger menu
+2. Propmpt per exit te programit **sh.** (exit to desktop, exit to main menu, cancel)
+3. Validim i pjeses se kontrates tek puntoret, pra kur shtohet nje ose perditesohet, pjesa e kontrates te ket validim qe te jet "Active/Expired" e jo najsen pa sense, ose munesh me bo me dropdown menu, me zgjedh
+
+# Alketa
+
+1. Perditesim i tabeles salaries (pagave), me shtu bonus, paga neto/bruto, oret pune/mas orarit, historiku i pagave deri ne 3 muj, ditet pushimi (qe don qita)
+2. Llogaritje e pages mujore ne program, pra permes kodit e jo databaze
+
+# Edison:
+
+1. Export i databazave ne format pdf/excel
+
+
+### WIP:
 
 **Bonus:**
 - heqja nga paga nese useri nuk kyqet pra nuk ben check in ne pune
