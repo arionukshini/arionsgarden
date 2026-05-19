@@ -15,6 +15,7 @@ E kishim bo edhe per admin edhe per user, sikur a di qka na bojke arbena sot, o 
 
 1. Permisimi i departamentit, nuk shfaq lokacionin por lloj departamenti ✅
 2. **Kontrata:** sa kontrata jan aktive, te skaduara, ne pritje
+3. ErrorHandling
 
 # Arijola
 
