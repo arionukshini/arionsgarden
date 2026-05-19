@@ -163,7 +163,7 @@ while ($row = $result1->fetch()) {
 ```
 ![Pasted image 20260519093218.png](/img/user/Pasted%20image%2020260519093218.png)
 
-### Funksionet e marrjes 👀
+### Funksionet e marrjes
 
 ![Pasted image 20260519103402.png](/img/user/Pasted%20image%2020260519103402.png)
 
