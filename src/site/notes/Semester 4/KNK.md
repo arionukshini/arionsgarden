@@ -45,6 +45,11 @@ E kishim bo edhe per admin edhe per user, sikur a di qka na bojke arbena sot, o 
 **Bonus:**
 - heqja nga paga nese useri nuk kyqet pra nuk ben check in ne pune
 
+Design:
+- iconat per taskbar, window etj.
+- logo ne program dhe dizajnim me te mire jo bland
+- window size me e pershtatshme
+
 User: 
 - pagen e vet
 - kontraten, kur i skadon e sene
