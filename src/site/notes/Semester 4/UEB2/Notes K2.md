@@ -68,4 +68,97 @@ $connection = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME);
 ?>
 ```
 
-Idk bro i think its time to wrap ts up
+### Trajtimi i gabimeve
+
+Teknikat procedurale të mysqli përdorin deklarata të kushtëzuara (if...else).
+Teknika PDO përdor try-catch e cila mbështetet në thrown exceptions kur ndodh një gabim.
+
+#### Qasja Procedurale
+
+Trajtimi i gabimeve të lidhjes me mysqli (versioni 1)
+```php
+$connection = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME);
+$error = mysqli_connect_error();
+if ($error != null) {
+	$output = "E pa mundur te qasemi n DB_Test" . $error;
+	exit($output);
+}
+```
+
+Trajtimi i gabimeve të lidhjes me mysqli (versioni 2)
+```php
+$connection = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME);
+if ( mysqli_connect_errno() ) {
+	die( mysqli_connect_error() ); // die() e njejt me exit() 
+}
+```
+
+#### Object-Oriented PDO me try-catch
+
+```php
+try { 
+	$connectionString = "mysql:host=localhost;dbname=dbtest";
+	$user = "root";
+	$pass = "";
+	$pdo = new PDO($connectionString, $user, $pass);
+}
+catch (PDOException $e) {
+	die( $e->getMessage() ); 
+}
+```
+
+##### Mënyrat e menaxhimit të gabimeve në PDO
+
+- **PDO::ERRMODE_SILENT** 
+	- Modaliteti i paracaktuar. 
+	- PDO vetëm vendos kodin e gabimit pa shfaqur mesazh. 
+	- Përdoret zakonisht kur aplikacioni është në përdorim normal. 
+- **PDO::ERRMODE_WARNING**
+	- Përveç kodit të gabimit, PDO shfaq edhe një mesazh paralajmërues. 
+	- Është i dobishëm gjatë testimit dhe korrigjimit, sepse tregon problemet pa ndalur ekzekutimin e aplikacionit. 
+- **PDO::ERRMODE_EXCEPTION** 
+- *Përveç kodit të gabimit, PDO vendos një PDOException. Ky modalitet:* 
+	- Jep informacion të detajuar për gabimin 
+	- Ndërpret ekzekutimin në pikën ku ndodh gabimi 
+	- Është shumë i dobishëm gjatë korrigjimit dhe zhvillimit
+
+```php
+try { 
+	$connectionString = "mysql:host=localhost;dbname=dbtest";
+	$user = "root";
+	$pass = "";
+	$pdo = new PDO($connectionString, $user, $pass); 
+	// useful during initial development and debugging 
+	$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING , PDO::ERRMODE_EXCEPTION);
+	.... 
+}
+```
+
+## Ekzekutimi i Query
+
+Ekzekutimi i një query SELECT (mysqli)
+```php
+$connection = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME);
+$sql = "SELECT * FROM tbl_llogin ORDER BY Emri";
+$result = mysqli_query($connection, $sql);
+```
+
+Ekzekutimi i nje query SELECT (PDO)
+```php
+$sql = "SELECT * FROM tbl_llogin ORDER BY Emri";
+$result = $pdo->query($sql);
+```
+
+### Përpunimi i Rezultateve për query
+
+```php
+$connectionString = "mysql:host=localhost;dbname=dbtest";
+$user = "dhurata";
+$pass = "123456"; $pdo = new PDO($connectionString, $user, $pass); $sql1 = "SELECT * FROM tbl_llogin ORDER BY Emri";
+$result1 = $pdo->query($sql1);
+while ($row = $result1->fetch()) {
+	echo $row['id'] . "-" . $row['Emri'] ."-". $row['Mbiemri'];
+	echo "<br/>";
+}
+```
+![Pasted image 20260519093218.png](/img/user/Pasted%20image%2020260519093218.png)
