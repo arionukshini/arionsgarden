@@ -162,3 +162,155 @@ while ($row = $result1->fetch()) {
 }
 ```
 ![Pasted image 20260519093218.png](/img/user/Pasted%20image%2020260519093218.png)
+
+### Funksionet e marrjes 👀
+
+![Pasted image 20260519103402.png](/img/user/Pasted%20image%2020260519103402.png)
+
+```php
+$row = $result->fetch(); 
+$rows = $result->fetchAll(); 
+$obj = $result->fetchObject(); 
+$row = mysqli_fetch_assoc($result);
+```
+
+```php
+class login { 
+	public $ID;
+	public $Emri;
+	public $Mbiemri;
+	public $Adresa;
+	public $Vendbanimi; 
+} 
+$connectionString = "mysql:host=localhost;dbname=dbtest";
+$user = "dhurata"; 
+$pass = "123456"; 
+$pdo = new PDO($connectionString, $user, $pass); 
+$sql1 = "SELECT * FROM tbl_llogin ORDER BY Emri"; 
+$result1 = $pdo->query($sql1); 
+
+while ($r=$result1->fetchObject("llogin")) { 
+	echo 'ID: '.$r->id."<br/>"; 
+	echo 'Emri: '.$r->Emri."<br/>"; 
+	echo 'Mbiemri: '.$r->Mbiemri."<br/>"; 
+	echo 'Adresa: '.$r->Adresa."<br/>"; 
+	echo 'Vendbanimi: '.$r->Vendbanimi."<br/>"; 
+}
+```
+
+![Pasted image 20260519103738.png](/img/user/Pasted%20image%2020260519103738.png)
+
+```php
+class login { 
+	public $ID;
+	public $Emri;
+	public $Mbiemri;
+	public $Adresa;
+	public $Vendbanimi;
+	function __construct($record) {
+		$this->ID=$record["id"]; 
+		$this->Emri=$record["Emri"];
+		$this->Mbiemri=$record["Mbiemri"];
+		$this->Adresa=$record["Adresa"];
+		$this->Vendbanimi=$record["Vendbanimi"]; 
+	} 
+} 
+
+$sql1 = "SELECT * FROM tbl_llogin ORDER BY Emri";
+$result1 = $pdo->query($sql1);
+
+while ($row=$result1->fetch()) {
+	$p = new login($row);
+	echo 'ID: '.$p->ID."<br>";
+	echo 'Emri: '.$p->Emri."<br>";
+	echo 'Mbiemri: '.$p- >Mbiemri."<br>";
+	echo 'Adresa: '.$p- >Adresa."<br>";
+	echo 'Vendbanimi: '.$p- >Vendbanimi."<br>";
+	echo '<hr>'; 
+}
+```
+
+### Mbyllja e lidhjes
+
+```php
+$host = "localhost";
+$database = "dbtest";
+$user = "dhurata";
+$pass = "123456";
+$connection = mysqli_connect($host, $user, $pass, $database);
+$result = mysqli_query($connection, "SELECT * FROM tbl_llogin ORDER BY Emri");
+// lironi kujtesën e përdorur nga grupi i rezultateve.
+//Kjo është e nevojshme nëse do të ekzekutoni një query tjetër në këtë lidhje 
+mysqli_free_result($result);
+mysqli_close($connection);
+
+
+$connectionString = "mysql:host=localhost;dbname=dbtest";
+$user = "dhurata";
+$pass = "123456";
+$pdo = new PDO($connectionString, $user, $pass);
+$pdo = null;
+```
+
+## Shembull i pasigurt
+
+```php
+$username = $_POST['username']; 
+$sql = "SELECT * FROM users WHERE username = '$username'"; 
+$result = $pdo->query($sql);
+```
+
+## Shembull i sigurt
+
+```php
+$username = $_POST['username']; 
+$sql = "SELECT * FROM users WHERE username = ?"; 
+$stmt = $pdo->prepare($sql); 
+$stmt->execute([$username]);
+```
+
+**prepare()** krijon query-n me placeholder. 
+**execute()** vendos vlerat reale në mënyrë të sigurt. 
+Kjo e mbron aplikacionin nga SQL Injection.
+
+## Puna me parametrat
+
+```php
+<?php
+include_once 'db.php';
+//duke shfrytezuar PDO 
+$sql = "UPDATE tbl_Kategoria SET Pershkrimi='Biznes' WHERE Pershkrimi='Web'";
+$count = $pdo->exec($sql);
+echo "<p>U modifikua me suksese " . $count . " rreshti</p>";
+
+//duke shfrytezuar mysqli()
+$sql = "UPDATE tbl_Kategoria SET Pershkrimi='Web' WHERE Pershkrimi='Biznes'";
+if ( mysqli_query($con1, $sql) ) { 
+	$count = mysqli_affected_rows($con1); 
+	echo "<p>U modifikua me suksese " . $count . " rreshti</p>"; 
+} 
+?>
+```
+
+
+```php
+$from = $_POST['old']; 
+$to = $_POST['new']; 
+$sql = "UPDATE tbl_Kategoria SET Pershkrimi= '$to' WHERE Pershkrimi= '$from'"; 
+$count = $pdo->exec($sql);
+```
+Ndërsa kjo funksionon, ajo hap faqen tonë në një nga sulmet më të zakonshme të sigurisë në ueb, “SQL injection attack”.
+
+## Ilustrim i SQL injection
+
+![Pasted image 20260519123123.png](/img/user/Pasted%20image%2020260519123123.png)
+
+### Pastrimi i të dhënave të përdoruesve
+
+Në MySQL, hyrjet e përdoruesit mund të pastrohet në PHP duke përdorur metodën mysqli_real_escape_string() ose, nëse përdorni PDO, metodën quote()
+```php
+$from = $pdo->quote($_POST['old']);
+$to = $pdo-> quote($_POST['new']);
+$sql = "UPDATE tbl_Kategoria SET Pershkrimi=$to WHERE Pershkrimi=$from";
+$count = $pdo->exec($sql);
+```
