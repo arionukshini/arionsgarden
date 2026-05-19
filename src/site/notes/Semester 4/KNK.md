@@ -13,7 +13,7 @@ E kishim bo edhe per admin edhe per user, sikur a di qka na bojke arbena sot, o 
 
 # Arion:
 
-1. Permisimi i departamentit, nuk shfaq lokacionin por lloj departamenti
+1. Permisimi i departamentit, nuk shfaq lokacionin por lloj departamenti ✅
 2. **Kontrata:** sa kontrata jan aktive, te skaduara, ne pritje
 
 # Arijola
@@ -26,7 +26,7 @@ E kishim bo edhe per admin edhe per user, sikur a di qka na bojke arbena sot, o 
 
 1. Opsionin per logout ne hamburger menu
 2. Propmpt per exit te programit **sh.** (exit to desktop, exit to main menu, cancel)
-3. Validim i pjeses se kontrates tek puntoret, pra kur shtohet nje ose perditesohet, pjesa e kontrates te ket validim qe te jet "Active/Expired" e jo najsen pa sense, ose munesh me bo me dropdown menu, me zgjedh
+3. Validim i pjeses se kontrates tek puntoret, pra kur shtohet nje ose perditesohet, pjesa e kontrates te ket validim qe te jet "Active/Expired/Pending" e jo najsen pa sense, ose munesh me bo me dropdown menu, me zgjedh
 
 # Alketa
 
@@ -36,6 +36,7 @@ E kishim bo edhe per admin edhe per user, sikur a di qka na bojke arbena sot, o 
 # Edison:
 
 1. Export i databazave ne format pdf/excel
+2. Shfaqja e te dhenave te sakta ne dashboard, average pay etj.
 
 
 ### WIP:
