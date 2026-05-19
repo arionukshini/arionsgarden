@@ -550,4 +550,360 @@ session_start();
 <p><b>No Cookies for You!</b>/p>
 ```
 
+# AJAX dhe Avancimi JavaScript & jQuery
+
+## JavaScript dhe Objektet
+
+JavaScript nuk ka mekanizëm formal për klasa si gjuhët tjera OOP.  
+Objektet mund të krijohen direkt me **object literals**.
+
+```js
+var car = {
+	type: "Fiat",
+	model: 500,
+	color: "white"
+};
+```
+
+Objektet kanë:
+
+- **Properties** → të dhëna të objektit
+- **Methods** → funksione të objektit
+
+```js
+car.color = "blue";
+car.start();
+```
+
+### Object Literals
+
+Object literal është një listë me çifte **key-value**.
+
+```js
+var oneDie = {
+	color: "FF0000",
+	faces: [1,2,3,4,5,6]
+};
+```
+
+Aksesimi bëhet me:
+
+```js
+oneDie.color
+```
+
+## Simulimi i Klasave
+
+Në JavaScript klasat mund të simulohen me funksione.
+
+```js
+var oneDie = new Die("0000FF");
+```
+
+Metodat mund të shtohen me funksione anonime, por kjo nuk është efikase sepse krijohen për çdo objekt.
+
+### Vetitë (Prototype)
+
+Përdorimi i vetive/prototype:
+
+- Metodat deklarohen vetëm një herë
+- Ndahen nga të gjitha objektet
+- Kursen memorie
+
+## jQuery
+
+jQuery është bibliotekë JavaScript që:
+
+- e bën manipulimin e DOM më të lehtë
+- redukton kodin
+- funksionon në shumë shfletues
+- përdor sintaksë më të thjeshtë
+
+Themelues: John Resig
+
+### CDN
+
+jQuery zakonisht ngarkohet përmes CDN:
+
+- zvogëlon ngarkesën e serverit
+- rrit shpejtësinë
+- përdor cache të shfletuesit
+
+## Selektorët në jQuery
+
+jQuery përdor:
+
+```js
+jQuery()
+```
+ose:
+```js
+$()
+```
+
+### Selektorët bazë
+
+- `$(" * ")` → të gjithë elementët
+- `$("p")` → elementët `<p>`
+- `$(".class")` → sipas klasës
+- `$("#id")` → sipas ID
+
+Shembull:
+
+```js
+var singleElement = $("#grab");
+var allLinks = $("a");
+```
+
+![Pasted image 20260519150919.png](/img/user/Pasted%20image%2020260519150919.png)
+
+## Modifikimi i DOM
+
+jQuery përdoret për:
+
+- ndryshimin e përmbajtjes
+- shtimin/heqjen e elementeve
+- ndryshimin e stileve
+- reagime dinamike në faqe
+
 # AJAX
+
+## Çfarë është AJAX?
+
+AJAX (Asynchronous JavaScript and XML) është teknikë që lejon:
+
+- komunikim me serverin pa rifreskuar faqen
+- përditësim dinamik të përmbajtjes
+- eksperiencë më të shpejtë për përdoruesin
+
+## Teknologjitë e AJAX
+
+AJAX kombinon:
+
+- HTML/CSS → prezantimi
+- DOM → manipulimi dinamik
+- XML ose JSON → bartja e të dhënave
+- XMLHttpRequest / fetch → komunikimi me server
+- JavaScript → logjika
+
+## XMLHttpRequest
+
+Objekti `XMLHttpRequest` përdoret për:
+
+- dërgim të të dhënave në server
+- marrje të përgjigjeve
+- përditësim të faqes pa reload
+
+### Operacionet kryesore
+
+- `open()` → hap kërkesën
+- `send()` → dërgon kërkesën
+- `responseText` → përgjigja e serverit
+- `status` → kodi HTTP
+- `readyState` → gjendja e kërkesës
+
+## Komunikimi Sinkron vs Asinkron
+
+### Sinkron
+
+Përdoruesi:
+
+1. klikon
+2. pret
+3. faqja rifreskohet
+
+### Asinkron
+
+Përdoruesi:
+
+- vazhdon të përdorë faqen
+- të dhënat ngarkohen në sfond
+
+AJAX përdor modelin asinkron.
+
+# XML
+
+## Çfarë është XML?
+
+XML (Extensible Markup Language):
+
+- përdoret për ruajtje dhe shkëmbim të të dhënave
+- ka strukturë pemë
+- përdor tagje të personalizuara
+
+Shembull:
+
+```xml
+<mesazhi>
+	<to>Altin</to>
+	<from>Ardi</from>
+	<body>Pershendetje</body>
+</mesazhi>
+```
+
+### Struktura XML
+
+- Root → elementi kryesor
+- Child → elementët brenda root
+- Subchild → elementë të brendshëm
+
+## JSON
+
+JSON (JavaScript Object Notation):
+
+- format i lehtë për shkëmbim të të dhënave
+- më i thjeshtë dhe më i shpejtë se XML
+- përdor strukturë key-value
+
+Shembull:
+
+```json
+{"employees":[ 
+	{"name":"Sonoo", "email":"sonoojaiswal1987@gmail.com"},
+	{"name":"Rahul", "email":"rahul32@gmail.com"}, 
+	{"name":"John", "email":"john32bob@gmail.com"} 
+]}
+
+const text = '{"name":"John", "birth":"1986-12-14", "city":"New York"}';
+const obj = JSON.parse(text); 
+obj.birth = new Date(obj.birth);
+``````
+
+## Avantazhet e JSON
+
+**Avantazhi 1:**
+	Në ndryshim nga XML, JSON ndjek një stil kompakt për të përmirësuar lexueshmërinë e përdoruesve të tij. Ndërsa punon me një sistem kompleks, JSON tenton të bëjë përmirësime thelbësore.
+**Më i shpejtë:** 
+	Procesi i analizimit JSON është më i shpejtë se ai i XML sepse biblioteka e manipulimit DOM në XML kërkon memorie shtesë për trajtimin e fajllave të mëdhenj XML. Megjithatë, JSON kërkon më pak të dhëna që përfundimisht rezulton në uljen e kostos dhe rritjen e shpejtësisë së analizimit.
+ **E lexueshme:** 
+	 Struktura JSON është lehtësisht e lexueshme dhe e drejtpërdrejtë. Pavarësisht nga gjuha e programimit që po përdorni, lehtë mund të hartoni objektet e domenit.Të dhënat e strukturuara: Në JSON, përdoret një strukturë e të dhënave të hartës, ndërsa XML ndjek një strukturë peme. Çiftet key-value kufizojnë detyrën, por lehtësojnë modelin parashikues dhe lehtësisht të kuptueshëm.
+
+- më i lexueshëm
+- më kompakt
+- më i shpejtë
+- përdor më pak memorie
+- i lehtë për API
+
+## PHP dhe JSON
+
+### json_encode()
+
+Konverton array/object në JSON.
+
+```php
+$arr = array("name"=>"Rahul");
+echo json_encode($arr);
+```
+
+### json_decode()
+
+Konverton JSON në array/object PHP.
+
+```php
+$json = '{"a":1,"b":2}';
+var_dump(json_decode($json, true));
+```
+
+PHP na lejon të kodojmë dhe deshifrojmë JSON me ndihmën e funksioneve json_encode() dhe json_decode.
+
+```php
+<?php
+$arr2 = array('firstName' => 'Rahul', 'lastName' => 'Kumar', 'email' => 'rahul@gmail.com');
+echo json_encode($arr2);
+?>
+
+<?php
+$json = '{"a":1,"b":2,"c":3,"d":4,"e":5}';
+var_dump(json_decode($json, true));
+?> 
+# AJAX Requests
+
+## GET Requests
+
+GET përdoret për:
+
+- marrje të të dhënave
+- kërkesa të thjeshta
+- URL query parameters
+
+```js
+$.get("test.php");
+```
+
+### Parametrat e GET
+
+```js
+$.get(url, data, success, dataType);
+```
+
+- `url` → adresa
+- `data` → parametrat
+- `success()` → callback
+- `dataType` → tipi i të dhënave
+
+## jqXHR
+
+Kërkesat AJAX kthejnë objekt `jqXHR`.
+
+Ka metoda:
+
+- `.done()`
+- `.fail()`
+- `.always()`
+
+Përdoret për trajtim modular të kërkesave.
+
+## Shembull AJAX me XMLHttpRequest
+
+```js
+var xmlhttp = new XMLHttpRequest();
+
+xmlhttp.onreadystatechange = function() {
+	if(this.readyState == 4 && this.status == 200) {
+		document.getElementById("txtHint").innerHTML =
+		this.responseText;
+	}
+}
+
+xmlhttp.open("GET", "gethint.php?q="+str, true);
+xmlhttp.send();
+```
+
+## POST Requests
+
+POST përdoret kur:
+
+- dërgojmë shumë të dhëna
+- dërgojmë forma
+- duam URL më të pastra
+- upload fajllash
+
+```js
+$.post("vote.php", postData);
+```
+
+### serialize()
+
+`serialize()` konverton formën në string key-value.
+
+```js
+var postData = $("#voteForm").serialize();
+$.post("vote.php", postData);
+```
+
+# $.ajax()
+
+`$.get()` dhe `$.post()` janë versione të shkurtuara të:
+
+```js
+$.ajax()
+```
+
+`$.ajax()` jep kontroll të plotë mbi:
+
+- metodën
+- parametrat
+- headers
+- callback functions
+- dataType
+- error handling
