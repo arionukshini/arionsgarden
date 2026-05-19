@@ -307,10 +307,135 @@ Ndërsa kjo funksionon, ajo hap faqen tonë në një nga sulmet më të zakonshm
 
 ### Pastrimi i të dhënave të përdoruesve
 
-Në MySQL, hyrjet e përdoruesit mund të pastrohet në PHP duke përdorur metodën mysqli_real_escape_string() ose, nëse përdorni PDO, metodën quote()
+Në MySQL, hyrjet e përdoruesit mund të pastrohet në PHP duke përdorur metodën **mysqli_real_escape_string()** ose, nëse përdorni PDO, metodën **quote()**
 ```php
 $from = $pdo->quote($_POST['old']);
 $to = $pdo-> quote($_POST['new']);
 $sql = "UPDATE tbl_Kategoria SET Pershkrimi=$to WHERE Pershkrimi=$from";
 $count = $pdo->exec($sql);
+```
+
+### Deklarata të përgatitura
+
+```php
+$stmt = $conn->prepare("INSERT INTO tbl_Profesori (emri, mbiemri, email) VALUES (?, ?, ?)"); 
+$stmt->bind_param($firstname, $lastname, $email); 
+
+// set parameters and execute
+$firstname = "John"; 
+$lastname = "Doe"; 
+$email = "john@example.com"; 
+$stmt->execute(); 
+
+$firstname = "Julie"; 
+$lastname = "Dooley"; 
+$email = "julie@example.com"; 
+$stmt->execute(); 
+
+echo “Rekordi ri eshte ruajtur me sukses!"; 
+$stmt->close(); 
+$conn->close();
+```
+```php
+$id = $_GET['id'];
+$sql = "SELECT Title, CopyrightYear FROM Books WHERE ID=?"; 
+// krijoni një deklaratë të përgatitur
+if ($statement = mysqli_prepare($connection, $sql)) { 
+	// lidhja e parametrave s - string, b - blob, i - int, etc 
+	mysqli_stmt_bindm($statement, 'i' , $id); 
+	// ekzekutimi 
+	mysqli_stmt_execute($statement);
+	...
+```
+
+#### PDO
+
+```php
+$id = $_GET['id']; 
+
+/* metoda 1: ?- parameter */ 
+$sql = "SELECT Title, CopyrightYear FROM Books WHERE ID = ?";
+$statement = $pdo->prepare($sql); 
+$statement->bindValue(1, $id);
+$statement->execute(); 
+
+/* metoda 2 */ 
+$sql = "SELECT Title, CopyrightYear FROM Books WHERE ID = :id"; 
+$statement = $pdo->prepare($sql); 
+$statement->bindValue(':id', $id); 
+$statement->execute();
+```
+
+### Përdorimi i transaksioneve
+
+#### MySQLi
+```php
+$result1 = mysqli_query($conn1, "INSERT INTO tbl_Kategori (Pershkrimi) VALUES ('Histori')"); 
+$result2 = mysqli_query($conn1, "INSERT INTO tbl_Kategori (Pershkrimi) VALUES ('Art')"); 
+if ($result1 && $result2) { 
+	/* commit transaction */ 
+	mysqli_commit($conn1); 
+} else {
+	/* rollback transaction */ 
+	mysqli_rollback($conn1);
+}
+```
+
+#### PDO
+```php
+$pdo = new PDO($connString,$user,$pass); 
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+ 
+try { 
+	// begin a transaction 
+	$pdo->beginTransaction(); 
+	$pdo->query("INSERT INTO Categories (CategoryName) VALUES('Philosophy')"); 
+	$pdo->query("INSERT INTO Categories (CategoryName) VALUES ('Art')"); 
+	$pdo->commit(); 
+} catch (Exception $e) { 
+	$pdo->rollback(); 
+}
+```
+
+### Lista me lidhje
+
+![Pasted image 20260519125421.png](/img/user/Pasted%20image%2020260519125421.png)
+
+```php
+$sql = "SELECT * FROM Categories ORDER BY CategoryName"; 
+$result = $pdo->query($sql); 
+while ($row = $result->fetch()) { 
+	echo '<li>'; 
+	echo '<a href="list.php?category='. $row['ID']. '">';
+	echo $row['CategoryName'];
+	echo '</a>';
+	echo '</li>'; 
+}
+```
+
+## Fajlli për konektim, db.php
+
+```php
+<?php
+//Menyra I
+$host="localhost";
+$database="dbtest";
+$user="root";
+$pass="123456";
+$con1=mysqli_connect($host, $user,$pass,
+$database);
+if(!$con1) {
+	die('Gabim:' .mysqli_connect_error());
+}
+
+//Menyra II 
+try { 
+	$con2="mysql:host=localhost;dbname=dbtest";
+	$user1="root"; 
+	$pass1="123456"; 
+	$pdo=new PDO($con2,$user1,$pass1);
+} catch (PDOExeption $th) {
+	die( $th->getMessage()); 
+} 
+?>
 ```
