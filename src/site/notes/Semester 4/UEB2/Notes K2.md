@@ -439,3 +439,18 @@ try {
 } 
 ?>
 ```
+
+# Menaxhimi Applikacionit (Përdorimi i kontrollit të Sesioneve dhe Cookies në PHP)
+
+Një faqe ueb mund të kalojë informacionin e vargut të query nga shfletuesi te serveri duke përdorur njërën nga dy metodat: 
+- një varg pyetjesh brenda URL-së (GET) dhe 
+- një varg pyetjesh brenda header së HTTP (POST)
+
+Fillimisht, modeli Request / Response ishte pa gjendje (stateless) – të gjithë shfletuesit dukeshin njësoj. Kjo ishte shumë problematike dhe zgjati shumë pak, pasi nuk lejonte personalizim apo ruajtje të gjendjes së përdoruesit.
+
+# Cookies
+
+**Cookies** - nga ana e klientit për gjendjen e vazhdueshme të informacionit. 
+Janë emër=vlerë që ruhen brenda një ose më shumë fajlla teksti që menaxhohen nga shfletuesi. 
+Cookies janë një zgjidhje e ndryshme për problemin e ruajtjes së gjendjes në një numër transaksionesh, ndërkohë që kanë ende një URL të pastër. 
+Një cookies është një pjesë e vogël e informacionit
