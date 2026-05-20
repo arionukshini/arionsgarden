@@ -38,7 +38,7 @@ X
 Almost There
 sex money drugs
 GEMINI
-FLAWLESS LIKE ME
+FLAWLESS LIKE ME (currently listening)
 
 ### Don Toliver
 
