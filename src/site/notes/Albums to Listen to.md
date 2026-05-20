@@ -38,7 +38,6 @@ X
 Almost There
 sex money drugs
 GEMINI
-FLAWLESS LIKE ME (currently listening)
 
 ### Don Toliver
 
@@ -61,4 +60,4 @@ Every album
 
 ### Rich Amiri
 
-Grit & Grace
+Grit & Grace  (currently listening)
