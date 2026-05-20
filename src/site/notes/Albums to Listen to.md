@@ -57,7 +57,3 @@ boy
 ### PrettiFun
 
 Every album
-
-### Rich Amiri
-
-Grit & Grace  (currently listening)
