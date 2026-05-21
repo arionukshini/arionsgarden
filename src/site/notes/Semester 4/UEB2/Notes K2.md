@@ -88,7 +88,7 @@ if ($error != null) {
 Trajtimi i gabimeve të lidhjes me mysqli (versioni 2)
 ```php
 $connection = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME);
-if ( mysqli_connect_errno() ) {
+if ( mysqli_connect_error() ) {
 	die( mysqli_connect_error() ); // die() e njejt me exit() 
 }
 ```
@@ -189,7 +189,7 @@ $pdo = new PDO($connectionString, $user, $pass);
 $sql1 = "SELECT * FROM tbl_llogin ORDER BY Emri"; 
 $result1 = $pdo->query($sql1); 
 
-while ($r=$result1->fetchObject("llogin")) { 
+while ($r=$result1->fetchObject("login")) { 
 	echo 'ID: '.$r->id."<br/>"; 
 	echo 'Emri: '.$r->Emri."<br/>"; 
 	echo 'Mbiemri: '.$r->Mbiemri."<br/>"; 
