@@ -223,9 +223,9 @@ while ($row=$result1->fetch()) {
 	$p = new login($row);
 	echo 'ID: '.$p->ID."<br>";
 	echo 'Emri: '.$p->Emri."<br>";
-	echo 'Mbiemri: '.$p- >Mbiemri."<br>";
-	echo 'Adresa: '.$p- >Adresa."<br>";
-	echo 'Vendbanimi: '.$p- >Vendbanimi."<br>";
+	echo 'Mbiemri: '.$p->Mbiemri."<br>";
+	echo 'Adresa: '.$p->Adresa."<br>";
+	echo 'Vendbanimi: '.$p->Vendbanimi."<br>";
 	echo '<hr>'; 
 }
 ```
@@ -757,7 +757,7 @@ JSON (JavaScript Object Notation):
 
 Shembull:
 
-```json
+```js
 {"employees":[ 
 	{"name":"Sonoo", "email":"sonoojaiswal1987@gmail.com"},
 	{"name":"Rahul", "email":"rahul32@gmail.com"}, 
@@ -816,6 +816,7 @@ echo json_encode($arr2);
 $json = '{"a":1,"b":2,"c":3,"d":4,"e":5}';
 var_dump(json_decode($json, true));
 ?> 
+```
 # AJAX Requests
 
 ## GET Requests
