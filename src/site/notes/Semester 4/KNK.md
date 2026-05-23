@@ -59,3 +59,12 @@ User:
 - depratamentin
 - nese nuk eshte emri ne databaze, te qet qe nuk je i punesuar
 - pas kyqjes, nese kontrata skadon ne 2 jave, jep prompt per qe eshte duke u skadu kontrata
+
+
+# Per fund
+
+- Translate krejt senet
+- Fshirja e kodit te pa perdorur
+- Navigimi i krejt programit me tab edhe me shortcuts
+- Testimi per bugs
+- ErrorHandling
