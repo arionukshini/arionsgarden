@@ -27,8 +27,8 @@ E kishim bo edhe per admin edhe per user, sikur a di qka na bojke arbena sot, o 
 
 1. Opsionin per logout ne hamburger menu ✅
 2. Propmpt per exit te programit **sh.** (exit to desktop, exit to main menu, cancel) ✅
-3. Validim i pjeses se kontrates tek puntoret, pra kur shtohet nje ose perditesohet, pjesa e kontrates te ket validim qe te jet "Active/Expired/Pending" e jo najsen pa sense, ose munesh me bo me dropdown menu me zgjedh
-4. Navigimim me tab ne welcome screen edhe ku ka met, po ashtu me enter me mujt mu kyq etj. (ne fund)
+3. Validim i pjeses se kontrates tek puntoret, pra kur shtohet nje ose perditesohet, pjesa e kontrates te ket validim qe te jet "Active/Expired/Pending" e jo najsen pa sense, ose munesh me bo me dropdown menu me zgjedh ✅
+4. Navigimim me tab ne welcome screen edhe ku ka met, po ashtu me enter me mujt mu kyq etj. (ne fund) 
 5. Welcome screen teksti nuk eshte ne mes dhe bohet cutout, dmth nuk shfaqet krejt teksti (ne ekran temin, ama besoj te krejt del gabim veq nese e bon maximize edhe apet teksti eshte left side)
 
 # Alketa
@@ -40,6 +40,7 @@ E kishim bo edhe per admin edhe per user, sikur a di qka na bojke arbena sot, o 
 
 1. Export i databazave ne format pdf/excel
 2. Shfaqja e te dhenave te sakta ne dashboard, average pay etj.
+3. readme
 
 
 ### WIP:
