@@ -41,6 +41,7 @@ E kishim bo edhe per admin edhe per user, sikur a di qka na bojke arbena sot, o 
 1. Export i databazave ne format pdf/excel
 2. Shfaqja e te dhenave te sakta ne dashboard, average pay etj.
 3. readme
+4. Kur fshine puntorin, jep prompt nese don mi fshi, sepse fshin edhe kontraten edhe salaries
 
 
 ### WIP:
