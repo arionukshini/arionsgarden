@@ -4,12 +4,15 @@
 
 E kishim bo edhe per admin edhe per user, sikur a di qka na bojke arbena sot, o po e poshter.
 
+# User: 
+
+qe don me punu hin te branch users edhe vetum qka ka me punu se ka shum mi shkru qitu
+
 # Tina:
 
 1. Kur behet register, hash passwordin me salt, dmth salted hash.
 2. Ne reset password dhe confirm password, te krahasohet me salt.
-3. Nese munesh me shfaq passwordin te account, normal kur eshte hash nuk munesh kshtuqe ska problem qe jo
-4. Qasja si user dhe admin, qita duhet me fol edhe niher se **shm.** nese jan dy persona me emer te njejt qysh mi marr prej databazes, nashta duhet mja bo secilit puntor nje username special.
+3. Qasja si user dhe admin, qita duhet me fol edhe niher se **shm.** nese jan dy persona me emer te njejt qysh mi marr prej databazes, nashta duhet mja bo secilit puntor nje username special.
 
 # Arion:
 
