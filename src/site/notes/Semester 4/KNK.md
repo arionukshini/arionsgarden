@@ -19,9 +19,9 @@ E kishim bo edhe per admin edhe per user, sikur a di qka na bojke arbena sot, o 
 
 # Arijola
 
-1. Krijon view per tabelat e tjera te databazes, pra si punetoret, por tash per pagat, kontratat etj.
-2. Shton opsionin per me shtu, fshi, perditesu databazen prej programit (si punetoret)
-3. Lidh tabelat me keys (primary/foreign), qe **shm.** tek kontratat permes emplyeeid mu shfaq emri mbiemri i punetorit
+1. Krijon view per tabelat e tjera te databazes, pra si punetoret, por tash per pagat, kontratat etj. ✅
+2. Shton opsionin per me shtu, fshi, perditesu databazen prej programit (si punetoret) ✅
+3. Lidh tabelat me keys (primary/foreign), qe **shm.** tek kontratat permes emplyeeid mu shfaq emri mbiemri i punetorit ✅
 
 # Arjanite punetorja
 
@@ -29,12 +29,11 @@ E kishim bo edhe per admin edhe per user, sikur a di qka na bojke arbena sot, o 
 2. Propmpt per exit te programit **sh.** (exit to desktop, exit to main menu, cancel) ✅
 3. Validim i pjeses se kontrates tek puntoret, pra kur shtohet nje ose perditesohet, pjesa e kontrates te ket validim qe te jet "Active/Expired/Pending" e jo najsen pa sense, ose munesh me bo me dropdown menu me zgjedh ✅
 4. Navigimim me tab ne welcome screen edhe ku ka met, po ashtu me enter me mujt mu kyq etj. (ne fund) 
-5. Welcome screen teksti nuk eshte ne mes dhe bohet cutout, dmth nuk shfaqet krejt teksti (ne ekran temin, ama besoj te krejt del gabim veq nese e bon maximize edhe apet teksti eshte left side)
 
 # Alketa
 
-1. Perditesim i tabeles salaries (pagave), me shtu bonus, paga neto/bruto, oret pune/mas orarit, historiku i pagave deri ne 3 muj, ditet pushimi (qe don qita)
-2. Llogaritje e pages mujore ne program, pra permes kodit e jo databaze
+1. Perditesim i tabeles salaries (pagave), me shtu bonus, paga neto/bruto, oret pune/mas orarit, historiku i pagave deri ne 3 muj, ditet pushimi (qe don qita) ✅
+2. Llogaritje e pages mujore ne program, pra permes kodit e jo databaze 
 
 # Edison:
 
