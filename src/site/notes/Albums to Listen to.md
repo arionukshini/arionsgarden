@@ -10,8 +10,6 @@ Alive
 4L
 
 ### Slayr
-HeavenTunes
-Gaia 2
 Stay Safe
 Gaia
 BeFour My Creation
