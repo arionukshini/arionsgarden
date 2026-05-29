@@ -34,12 +34,12 @@ Qe keni naj ide a diqka qe ju bje nmen qe shkon me programin shtone ose shkruni.
 2. popup qe kontrata juaj do te skadoj nese ben login si user dhe kontrata mbraon brenda 2 jave, ndryshoje nsql qe don kontratat qe mos me shtu tan kohen new info
 3. shto icona per taskbar dhe windows, krijon folder tek recourses/icons
 4. opsion i export i databazave ne format pdf/excel per admin part
-
 # Alketa
 
 1. Llogaritje e pages mujore ne program, pra permes kodit e jo databaze, merr pagat, ditet pushim, ditet e punes dhe krejt info te tjera dhe kur ben input ditet e punesh paga e kalkuluar ndryshon, pra paga bruto/neto eshte veq e kjo e kalkuluar eshte veq, pra e shkrun 20 dite pune vet bohet update ajo seamless.
 2. pjesen e my contract, shfaq kur ja ke fillu punes, kur mbaron kontrata, llojin e kontrata, statusin e saj
 3. pjesen e departments, shfaq departamentin qe je ti, koleget e te atij departamenti, pra merr puntoret e tjere me department_id te njejt
+
 # Edison:
 
 
