@@ -10,9 +10,9 @@ qe don me punu hin te branch users edhe vetum qka ka me punu se ka shum mi shkru
 
 # Tina:
 
-1. Kur behet register, hash passwordin me salt, dmth salted hash.
-2. Ne reset password dhe confirm password, te krahasohet me salt.
-3. Qasja si user dhe admin, qita duhet me fol edhe niher se **shm.** nese jan dy persona me emer te njejt qysh mi marr prej databazes, nashta duhet mja bo secilit puntor nje username special.
+1. Kur behet register, hash passwordin me salt, dmth salted hash. ✅
+2. Ne reset password dhe confirm password, te krahasohet me salt. ✅
+3. Qasja si user dhe admin, qita duhet me fol edhe niher se **shm.** nese jan dy persona me emer te njejt qysh mi marr prej databazes, nashta duhet mja bo secilit puntor nje username special. (tu punu te users)
 
 # Arion:
 
@@ -41,9 +41,9 @@ qe don me punu hin te branch users edhe vetum qka ka me punu se ka shum mi shkru
 # Edison:
 
 1. Export i databazave ne format pdf/excel
-2. Shfaqja e te dhenave te sakta ne dashboard, average pay etj.
+2. Shfaqja e te dhenave te sakta ne dashboard, average pay etj. ✅
 3. readme
-4. Kur fshine puntorin, jep prompt nese don mi fshi, sepse fshin edhe kontraten edhe salaries
+4. Kur fshine puntorin, jep prompt nese don mi fshi, sepse fshin edhe kontraten edhe salaries ✅
 
 
 ### WIP:
