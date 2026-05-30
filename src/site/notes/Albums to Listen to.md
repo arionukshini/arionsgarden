@@ -45,14 +45,6 @@ Almost There
 sex money drugs
 GEMINI
 
-### NineVictims
-Tumblr Music
-FOR NOTHING
-B4EM
-B4FN
-Studio Addict
-B4SA
-B4TM
 ### Lucy
 
 Unmusique
@@ -65,6 +57,15 @@ boy
 ### PrettiFun
 
 Every album
+
+### NineVictims
+Tumblr Music
+FOR NOTHING
+B4EM
+B4FN
+Studio Addict
+B4SA
+B4TM
 
 ### Under Underground
 
