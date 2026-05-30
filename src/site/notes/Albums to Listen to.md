@@ -41,7 +41,7 @@ GEMINI
 
 Love Sick
 Heaven or Hell
-OCTANE (again, right now)
+OCTANE (again, right now, ts too fyre)
 Life of a DON
 
 ### Lucy
