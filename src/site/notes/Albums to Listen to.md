@@ -4,6 +4,13 @@
 
 # Albums
 
+## AOTY:
+
+**Octane - Don Toliver**
+**Half Blood (Bloodluxe) - Slayr**
+
+## To Review:
+
 ### Yeat
 LIFESTYLE
 Alive
@@ -14,19 +21,21 @@ Stay Safe
 Gaia
 BeFour My Creation
 
-### NineVictims
-Tumblr Music
-FOR NOTHING
-B4EM
-B4FN
-Studio Addict
-B4SA
-B4TM
-
 ### The Weeknd
 
 Trilogy
 My Dear Melancholy
+
+### Don Toliver
+
+Love Sick
+Heaven or Hell
+OCTANE (again, right now, ts too fyre)
+Life of a DON
+
+### fakemink
+
+terrified.
 
 ### LUCKI
 
@@ -37,16 +46,18 @@ Almost There
 sex money drugs
 GEMINI
 
-### Don Toliver
-
-Love Sick
-Heaven or Hell
-OCTANE (again, right now, ts too fyre)
-Life of a DON
-
+### NineVictims
+Tumblr Music
+FOR NOTHING
+B4EM
+B4FN
+Studio Addict
+B4SA
+B4TM
 ### Lucy
 
 Unmusique
+SISTERHOOD
 
 ### 2hollis
 
@@ -55,3 +66,10 @@ boy
 ### PrettiFun
 
 Every album
+
+### Under Underground
+
+The Point of No Return - XenoBand
+The High School Dropout - Dugui HG
+Get Rich or Die Sippin - Lil Shine
+
