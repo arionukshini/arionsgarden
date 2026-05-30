@@ -30,7 +30,7 @@ My Dear Melancholy
 
 ### LUCKI
 
-Drugs R Bad
+Drugs R Bad (needs relisten)
 Alternative Trap
 X
 Almost There
@@ -41,7 +41,7 @@ GEMINI
 
 Love Sick
 Heaven or Hell
-OCTANE (again)
+OCTANE (again, right now)
 Life of a DON
 
 ### Lucy
