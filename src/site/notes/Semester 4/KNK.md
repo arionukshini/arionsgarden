@@ -28,7 +28,7 @@ Qe keni naj ide a diqka qe ju bje nmen qe shkon me programin shtone ose shkruni.
 2. historiku i pagave, bone qaty poshte atynve pjeseve, ose anash tankohen ose me button me bo slide prej te djathtes ne te majte pra si sidebar
 3. bone fix pjesen e kalkulo pagen tek pjesa e pages tek admin se nuk shfaq sen
 
-# Arjanite punetorja
+# Arjanite punetorja 
 
 
 1. Navigimim me tab ne welcome screen edhe ku ka met, po ashtu me enter me mujt mu kyq etj. (ne fund) 

@@ -30,7 +30,6 @@ My Dear Melancholy
 
 Love Sick
 Heaven or Hell
-OCTANE (again, right now, ts too fyre)
 Life of a DON
 
 ### fakemink
