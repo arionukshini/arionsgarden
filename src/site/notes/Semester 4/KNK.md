@@ -32,6 +32,8 @@ E kishim bo edhe per admin edhe per user, sikur a di qka na bojke arbena sot, o 
 
 me bo sync me databaze qe mos mi bo update krejt senet manualisht, dhe me bo design per ta nashta
 
+me ndrru passwordin kur bon login tani
+
 # Ide tjera:
 
 check in function, pra tabele per check in, ne dashbord te userit, eshte nje section i vogel me buttonat check in dhe check out, ku e shton tek tabela entry check in dhe check out, pra ne fillim bon insert tani update, kjo pra per me llogarite ditet e punes qe ke punu etj.
