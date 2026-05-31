@@ -17,12 +17,6 @@ E kishim bo edhe per admin edhe per user, sikur a di qka na bojke arbena sot, o 
 1. perkthim i krejt programit (ne fund) 
 
 
-# Alketa
-
-1. Llogaritje e pages mujore ne program, pra permes kodit e jo databaze, merr pagat, ditet pushim, ditet e punes dhe krejt info te tjera dhe kur ben input ditet e punesh paga e kalkuluar ndryshon, pra paga bruto/neto eshte veq e kjo e kalkuluar eshte veq, pra e shkrun 20 dite pune vet bohet update ajo seamless.
-2. pjesen e my contract, shfaq kur ja ke fillu punes, kur mbaron kontrata, llojin e kontrata, statusin e saj
-3. pjesen e departments, shfaq departamentin qe je ti, koleget e te atij departamenti, pra merr puntoret e tjere me department_id te njejt
-
 # Arion:
 
 1. ErrorHandling (ne fund)
