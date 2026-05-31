@@ -24,6 +24,7 @@ E kishim bo edhe per admin edhe per user, sikur a di qka na bojke arbena sot, o 
 # Edison:
 
 1. readme
+2. demo data bej me realistic, datat dmth
 
 
 
