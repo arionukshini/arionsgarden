@@ -30,7 +30,8 @@ button.setOnAction(event -> label.setText("Clicked"));
   
 ```java  
 KeyFrame frame = new KeyFrame(Duration.millis(16), event -> {  
-    circle.setCenterX(circle.getCenterX() + 2);});  
+    circle.setCenterX(circle.getCenterX() + 2);
+});  
 Timeline timeline = new Timeline(frame);  
 timeline.setCycleCount(Animation.INDEFINITE);  
 timeline.play();  
@@ -54,7 +55,10 @@ field.setTextFormatter(new TextFormatter<String>(change ->
   
 ```java  
 class MyShape extends Pane {  
-    private void draw() {        getChildren().clear();        getChildren().add(new Circle(50, 50, 40));    }}  
+    private void draw() {        
+    getChildren().clear();        
+    getChildren().add(new Circle(50, 50, 40));    
+}}  
 ```  
   
 ## PreparedStatement  
