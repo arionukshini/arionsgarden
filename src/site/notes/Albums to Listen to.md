@@ -13,7 +13,6 @@
 
 ### Yeat
 
-LIFESTYLE
 Alive
 4L
 
