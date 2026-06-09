@@ -623,42 +623,1158 @@ Mund te trajtohen duke i caktivizuar perkohesisht interruptet tjera derisa te pe
 
 ---
 
-# Kapitulli 4 - Vend per shenime
+# Kapitulli 4 - Memoria kesh
 
-Ketu do te shtohet permbledhja e kapitullit 4 pasi te lexohet PDF-i perkates.
+## Cka duhet te dish pas ketij kapitulli
 
-## Konceptet kryesore
+Pas ketij kapitulli duhet te jesh ne gjendje te:
 
--
+- Shpjegosh karakteristikat kryesore te sistemeve memoruese.
+- Kuptosh pse perdoret hierarkia e memories.
+- Shpjegosh qellimin e memories kesh.
+- Dallosh hit, miss, hit rate, miss rate dhe miss penalty.
+- Perdoresh formulen e kohes efektive te qasjes ne memorie.
+- Dallosh pasqyrimin direkt, asociativ dhe set-asociativ.
+- Kuptosh politikat e zevendesimit dhe politikat e shkrimit.
+- Shpjegosh pse perdoren nivele te shumta te keshit.
 
-## Pyetje per provim
+## 1. Sistemi memorues kompjuterik
 
--
+Memoria eshte nje nga komponentet me te rendesishem te arkitektures se kompjuterit. Sistemet memoruese dallohen sipas:
+
+- lokacionit,
+- kapacitetit,
+- njesise se transferit,
+- metodes se qasjes,
+- performances,
+- llojit fizik,
+- karakteristikave fizike,
+- kostos.
+
+Ne sisteme moderne nuk perdoret vetem nje lloj memorie. Per shkak te kerkesave te ndryshme per shpejtesi, kapacitet dhe kosto, perdoret **hierarki e memories**.
+
+## 2. Lokacioni i memories
+
+Sipas lokacionit, memoria ndahet ne:
+
+| Lloji | Shembuj | Tipare |
+|---|---|---|
+| **Memorie interne** | Regjistra, cache, RAM | Brenda sistemit kryesor, shume e shpejte. |
+| **Memorie eksterne** | HDD, SSD, USB flash, disqe optike, cloud storage | Kapacitet me i madh, me e ngadalshme. |
+
+Regjistrat jane me afer CPU-se dhe me te shpejtet. RAM-i eshte memoria kryesore e punes. Memoria eksterne ruan te dhenat ne menyre me te perhershme.
+
+## 3. Kapaciteti dhe njesia e adresueshme
+
+**Kapaciteti** tregon sa te dhena mund te ruaje memoria.
+
+Per memorien interne, kapaciteti zakonisht shprehet ne:
+
+- byte,
+- KB,
+- MB,
+- GB.
+
+**Njesia e adresueshme** eshte njesia me e vogel qe mund te adresohet nga procesori. Ne shume sisteme moderne kjo eshte bajti.
+
+Raporti kryesor:
+
+```text
+2^A = N
+```
+
+Ku:
+
+- `A` = numri i biteve te adreses,
+- `N` = numri i njesive te adresueshme.
+
+Shembull i rendesishem: nje sistem 32-bit mund te adresoje maksimalisht `2^32` njesi. Nese njesia eshte bajti, atehere maksimumi eshte rreth 4 GB.
+
+## 4. Njesia e transferit
+
+**Njesia e transferit** eshte sasia e te dhenave qe transferohet ne nje operacion.
+
+Per memorien interne, njesia e transferit lidhet me numrin e linjave elektrike brenda/jashte modulit memorues.
+
+Transferi mund te behet:
+
+- me fjale,
+- me blloqe,
+- me faqe, varur nga niveli i hierarkise.
+
+Te cache zakonisht transferohet nje **bllok** ose **cache line**, jo vetem fjala e kerkuar.
+
+## 5. Metodat e qasjes
+
+Metodat kryesore te qasjes ne memorie:
+
+| Metoda | Shpjegimi | Shembull |
+|---|---|---|
+| **Qasje sekuenciale** | Te dhenat lexohen ne rend. Koha e qasjes varet nga pozita. | Shiriti magnetik. |
+| **Qasje direkte** | Blloqet kane adresa fizike; arrihet afersisht lokacioni, pastaj kerkohet sakte. | Disku magnetik. |
+| **Qasje e rastit** | Cdo lokacion adresohet direkt dhe koha e qasjes eshte afersisht konstante. | RAM. |
+| **Qasje asociative** | Kerkimi behet sipas permbajtjes, jo sipas adreses. | Cache asociative. |
+
+## 6. Performanca e memories
+
+Termat kryesore:
+
+- **Koha e qasjes** - koha nga kerkesa deri te marrja e te dhenes.
+- **Koha e ciklit memorues** - koha e qasjes plus koha e nevojshme para se te filloje qasja tjeter.
+- **Shpejtesia e transmetimit** - sa shpejt transferohen te dhenat brenda ose jashte memories.
+
+Per memorie me qasje te rastit:
+
+```text
+Shpejtesia e transmetimit = 1 / koha e ciklit
+```
+
+## 7. Lloji fizik dhe karakteristikat fizike
+
+Sipas llojit fizik, memoriet mund te jene:
+
+- gjysmepercjellese,
+- magnetike,
+- optike,
+- flash.
+
+Sipas karakteristikave fizike:
+
+- **Volatile** - humb permbajtjen kur largohet energjia. Shembull: RAM.
+- **Nonvolatile** - ruan permbajtjen edhe pa energji. Shembull: ROM, flash, SSD.
+
+## 8. Hierarkia e memories
+
+Hierarkia e memories organizohet nga memoriet me te shpejta dhe me te shtrenjta drejt memorieve me te ngadalta dhe me te lira.
+
+Renditja tipike:
+
+```text
+Regjistra -> L1 Cache -> L2 Cache -> L3 Cache -> RAM -> SSD/HDD -> Cloud/arkiv
+```
+
+Duke levizur poshte hierarkise:
+
+- kostoja per bit bie,
+- kapaciteti rritet,
+- koha e qasjes rritet,
+- frekuenca e qasjes nga procesori zvogelohet.
+
+Ideja kryesore: **memoriet e vogla dhe te shpejta mbajne te dhenat qe perdoren shpesh, ndersa memoriet e medha dhe me te ngadalta mbajne pjesen tjeter.**
+
+## 9. Pse nevojitet hierarkia e memories
+
+CPU-ja punon shume me shpejt se memoria kryesore. Nese CPU-ja do te priste gjithmone RAM-in ose diskun, performanca do te binte shume.
+
+Hierarkia e memories zgjidh problemin duke vendosur memorie te shpejte afer CPU-se.
+
+Shembull:
+
+- CPU-ja kerkon instruksione dhe te dhena.
+- Se pari kontrollohen regjistrat/cache.
+- Nese mungojne, kerkohet RAM-i.
+- Nese mungojne ne RAM, perdoret memoria sekondare.
+
+## 10. Principet e memories kesh
+
+**Memoria kesh** eshte memorie e vogel, shume e shpejte dhe me kosto te larte. Ajo ruan kopje te blloqeve te memories kryesore qe perdoren shpesh.
+
+Qellimi:
+
+- te zvogeloje kohen mesatare te qasjes ne memorie,
+- te zvogeloje pritjen e CPU-se,
+- te shfrytezoje lokalitetin e referencave.
+
+Kur CPU-ja kerkon nje fjale:
+
+1. Kerkohet ne cache.
+2. Nese gjendet, i dergohet CPU-se menjehere.
+3. Nese nuk gjendet, merret blloku nga memoria kryesore dhe vendoset ne cache.
+4. Pastaj fjala dergohet te CPU-ja.
+
+## 11. Cache hit dhe cache miss
+
+| Termi | Kuptimi |
+|---|---|
+| **Hit** | E dhena e kerkuar gjendet ne cache. |
+| **Hit rate (h)** | Probabiliteti qe kerkesa te jete hit. |
+| **Miss** | E dhena nuk gjendet ne cache. |
+| **Miss rate (m)** | Probabiliteti i mungeses ne cache. `m = 1 - h`. |
+| **Miss penalty** | Koha shtese per ta sjelle bllokun nga niveli me i ulet i memories. |
+
+Formula e rendesishme:
+
+```text
+EMAT = Tc + m * Tm
+```
+
+Ku:
+
+- `EMAT` = Effective Memory Access Time,
+- `Tc` = koha e qasjes ne cache,
+- `m` = miss rate,
+- `Tm` = miss penalty.
+
+## 12. Lokaliteti i referencave
+
+Cache funksionon mire per shkak te **lokalitetit te referencave**.
+
+Dy forma kryesore:
+
+- **Lokaliteti hapesinor** - nese perdoret nje lokacion, ka gjase te perdoren edhe lokacionet afer tij.
+- **Lokaliteti kohor** - nese perdoret nje e dhene tani, ka gjase te perdoret perseri se shpejti.
+
+Shembull: instruksionet e programit shpesh ekzekutohen me radhe, prandaj kur merret nje instruksion, ia vlen te merret edhe blloku qe e permban.
+
+## 13. Nivelet e keshit
+
+Procesoret moderne zakonisht kane disa nivele cache.
+
+| Niveli | Tipare |
+|---|---|
+| **L1** | Me i shpejti, me i vogli, zakonisht brenda cdo berthame. |
+| **L2** | Me i madh se L1, pak me i ngadalte. |
+| **L3** | Me i madh, me i ngadalte se L1/L2, shpesh i perbashket per disa berthama. |
+| **L4 / L0** | Mund te ekzistojne ne disa CPU moderne, varur nga dizajni. |
+
+Rrjedha tipike:
+
+```text
+CPU -> L1 -> L2 -> L3 -> RAM
+```
+
+Nese e dhena nuk gjendet ne L1, kerkohet ne L2. Nese nuk gjendet ne L2, kerkohet ne L3. Nese mungon edhe aty, merret nga RAM.
+
+## 14. Cache dhe DMA
+
+Te dhenat nga pajisjet H/D zakonisht nuk kalojne fizikisht permes CPU-se. Per kete perdoret **DMA (Direct Memory Access)**.
+
+Me DMA:
+
+- pajisja H/D transferon te dhena direkt ne RAM,
+- CPU-ja nuk merret me cdo bajt te transferimit,
+- sistemi behet me efikas.
+
+Ne arkitektura moderne duhet pasur kujdes per koherencen ndermjet cache dhe RAM, sepse pajisja mund te ndryshoje RAM-in ndersa CPU-ja ka kopje ne cache.
+
+## 15. Struktura cache / memorie kryesore
+
+Memoria kryesore ndahet ne **blloqe**. Cache ndahet ne **linja**.
+
+- Numri i linjave ne cache eshte me i vogel se numri i blloqeve ne memorien kryesore.
+- Ne cdo moment, vetem disa blloqe te memories kryesore jane rezidente ne cache.
+- Kur lexohet nje fjale nga nje bllok, zakonisht transferohet i gjithe blloku.
+- Cdo linje cache ka nje **tag** qe tregon cili bllok i memories kryesore gjendet aty.
+
+## 16. Elementet e projektimit te cache-it
+
+Elementet kryesore:
+
+- adresat e cache-it,
+- madhesia e cache-it,
+- madhesia e linjes,
+- funksioni i pasqyrimit,
+- algoritmi i zevendesimit,
+- politika e shkrimit,
+- numri i niveleve,
+- cache i ndare ose i unifikuar.
+
+## 17. Cache logjik dhe cache fizik
+
+Kur perdoret memorie virtuale, CPU-ja gjeneron adresa virtuale. MMU i perkthen ne adresa fizike.
+
+| Lloji | Shpjegimi |
+|---|---|
+| **Cache logjik / virtual** | Cache perdor adresa virtuale. Mund te jete me i shpejte sepse qasja ndodh para perkthimit nga MMU. |
+| **Cache fizik** | Cache perdor adresa fizike. Me i sigurt per dallimin ndermjet proceseve, por qasja mund te perfshije perkthimin e adreses. |
+
+Problemi i cache logjik: procese te ndryshme mund te kene adresa virtuale te njejta qe i referohen adresave fizike te ndryshme.
+
+## 18. Cache i ndare dhe cache i unifikuar
+
+| Lloji | Shpjegimi |
+|---|---|
+| **Cache i ndare** | Cache i vecante per instruksione dhe cache i vecante per te dhena. |
+| **Cache i unifikuar** | Instruksionet dhe te dhenat ruhen ne te njejtin cache. |
+
+Cache i ndare mund te rrise bandwidth-in sepse instruksionet dhe te dhenat mund te qasen paralelisht.
+
+## 19. Funksioni i pasqyrimit
+
+Sepse ka me pak linja cache se blloqe ne memorien kryesore, duhet nje rregull qe tregon ku vendoset nje bllok i memories ne cache. Ky rregull quhet **funksion i pasqyrimit**.
+
+Teknikat kryesore:
+
+- pasqyrimi direkt,
+- pasqyrimi asociativ,
+- pasqyrimi set-asociativ.
+
+## 20. Pasqyrimi direkt
+
+Te **pasqyrimi direkt**, cdo bllok i memories kryesore mund te vendoset vetem ne nje linje te caktuar te cache-it.
+
+Formula:
+
+```text
+i = j mod m
+```
+
+Ku:
+
+- `i` = numri i linjes ne cache,
+- `j` = numri i bllokut ne memorien kryesore,
+- `m` = numri total i linjave ne cache.
+
+Struktura e adreses:
+
+```text
+Tag | Line number | Block offset
+```
+
+Perparesi:
+
+- implementim i thjeshte,
+- kosto me e ulet,
+- qasje e shpejte.
+
+Mangesi:
+
+- konfliktet jane te shpeshta,
+- dy blloqe qe pasqyrohen ne te njejten linje nuk mund te qendrojne bashke,
+- mund te kete cache miss edhe kur cache ka hapesire diku tjeter.
+
+## 21. Pasqyrimi asociativ
+
+Te **pasqyrimi plotesisht asociativ**, nje bllok i memories kryesore mund te vendoset ne cilen do linje te cache-it.
+
+Struktura e adreses:
+
+```text
+Tag | Block offset
+```
+
+Perparesi:
+
+- fleksibilitet i larte,
+- me pak konflikte se pasqyrimi direkt,
+- mund te shfrytezoje me mire hapesiren ne cache.
+
+Mangesi:
+
+- duhet krahasuar tag-u me te gjitha linjat ne cache,
+- kerkon qark kompleks,
+- me i shtrenjte per implementim.
+
+Kur cache eshte plot, duhet algoritmi i zevendesimit.
+
+## 22. Pasqyrimi set-asociativ
+
+**Pasqyrimi set-asociativ** eshte kompromis ndermjet pasqyrimit direkt dhe atij asociativ.
+
+Cache ndahet ne sete. Cdo set permban disa linja.
+
+Nje bllok i memories kryesore:
+
+- mund te vendoset vetem ne nje set te caktuar,
+- por brenda atij seti mund te vendoset ne cilendo linje.
+
+Formula:
+
+```text
+set = block_number mod number_of_sets
+```
+
+Nese cdo set ka `k` linja, quhet **k-menyresh set-asociativ**.
+
+Struktura e adreses:
+
+```text
+Tag | Set number | Block offset
+```
+
+Perparesi:
+
+- me pak konflikte se pasqyrimi direkt,
+- me pak kompleks se pasqyrimi plotesisht asociativ,
+- perdoret shume ne sisteme moderne.
+
+## 23. Krahasimi i teknikave te pasqyrimit
+
+| Teknikë | Ku vendoset blloku? | Perparesi | Mangesi |
+|---|---|---|---|
+| **Direkt** | Vetem ne nje linje te caktuar. | I thjeshte dhe i lire. | Shume konflikte. |
+| **Asociativ** | Ne cilen do linje. | Fleksibilitet maksimal. | Qark kompleks dhe i shtrenjte. |
+| **Set-asociativ** | Ne nje set te caktuar, ne cilendo linje te atij seti. | Kompromis shume i mire. | Me kompleks se direkt. |
+
+## 24. Algoritmet e zevendesimit
+
+Kur cache eshte plot dhe ndodh miss, duhet zgjedhur cili bllok te largohet.
+
+Politika te zakonshme:
+
+- **LRU (Least Recently Used)** - largohet blloku qe nuk eshte perdorur per kohen me te gjate.
+- **FIFO (First In First Out)** - largohet blloku qe ka hyre i pari ne cache.
+- **Random** - largohet nje bllok ne menyre te rastit.
+
+LRU zakonisht jep rezultate te mira, por mund te jete me i veshtire per implementim ne cache me asociativitet te larte.
+
+## 25. Politikat e shkrimit
+
+Kur CPU-ja shkruan ne cache, duhet vendosur si sinkronizohet ndryshimi me memorien kryesore.
+
+| Politika | Shpjegimi | Perparesi | Mangesi |
+|---|---|---|---|
+| **Write-through** | Te dhenat shkruhen edhe ne cache edhe ne memorie kryesore. | Memoria kryesore eshte gjithmone e perditesuar. | Me shume trafik ne bus, me ngadale. |
+| **Write-back** | Te dhenat shkruhen vetem ne cache; memoria perditesohet kur blloku largohet. | Me pak trafik, me shpejt. | Me kompleks, duhet bit i modifikimit/dirty bit. |
+
+Te write-through shpesh perdoret **write buffer** per te mos e ndalur CPU-ne gjate shkrimit.
+
+## 26. Permbledhje per mesim te shpejte
+
+Mbaji mend keto:
+
+- **Cache = memorie e vogel dhe e shpejte afer CPU-se**
+- **Qellimi = zvogelim i kohes mesatare te qasjes ne memorie**
+- **Hit = e dhena gjendet ne cache**
+- **Miss = e dhena mungon ne cache**
+- **Miss rate = 1 - hit rate**
+- **EMAT = Tc + m * Tm**
+- **Lokaliteti kohor = e dhena mund te perdoret perseri se shpejti**
+- **Lokaliteti hapesinor = lokacionet afer mund te perdoren se shpejti**
+- **Pasqyrim direkt = nje bllok shkon vetem ne nje linje**
+- **Pasqyrim asociativ = nje bllok mund te shkoje kudo**
+- **Set-asociativ = nje bllok shkon ne nje set, por ne cilendo linje brenda setit**
+- **LRU/FIFO = politika zevendesimi**
+- **Write-through/write-back = politika shkrimi**
+
+## 27. Pyetje te mundshme per provim
+
+## 27.1 Pse perdoret hierarkia e memories?
+
+Sepse CPU-ja eshte shume me e shpejte se memoria kryesore dhe memoria eksterne. Hierarkia vendos memorie te vogla dhe te shpejta afer CPU-se, ndersa memoriet me te medha dhe me te lira vendosen me poshte.
+
+## 27.2 Cfare eshte memoria kesh?
+
+Memoria kesh eshte memorie e vogel dhe shume e shpejte qe ruan kopje te blloqeve te memories kryesore qe perdoren shpesh. Ajo zvogelon kohen mesatare te qasjes ne memorie.
+
+## 27.3 Cfare eshte cache hit dhe cache miss?
+
+Cache hit ndodh kur e dhena e kerkuar gjendet ne cache. Cache miss ndodh kur e dhena nuk gjendet ne cache dhe duhet te merret nga nje nivel me i ulet i hierarkise.
+
+## 27.4 Cfare eshte lokaliteti i referencave?
+
+Eshte prirja e programeve qe te perdorin perseri te dhenat/instruksionet e fundit ose lokacionet afer tyre. Kjo e ben cache-in efektiv.
+
+## 27.5 Cili eshte dallimi mes pasqyrimit direkt dhe asociativ?
+
+Te pasqyrimi direkt, cdo bllok mund te vendoset vetem ne nje linje te caktuar. Te pasqyrimi asociativ, cdo bllok mund te vendoset ne cilendo linje cache.
+
+## 27.6 Cfare eshte pasqyrimi set-asociativ?
+
+Eshte kompromis ku cache ndahet ne sete. Nje bllok shkon ne nje set te caktuar, por mund te vendoset ne cilendo linje brenda atij seti.
+
+## 27.7 Cili eshte dallimi mes write-through dhe write-back?
+
+Write-through shkruan ndryshimin ne cache dhe memorie kryesore menjehere. Write-back shkruan fillimisht vetem ne cache dhe e perditeson memorien kryesore kur blloku largohet nga cache.
 
 ---
 
-# Kapitulli 5 - Vend per shenime
+# Kapitulli 5 - Memoria gjysmepercjellese
 
-Ketu do te shtohet permbledhja e kapitullit 5 pasi te lexohet PDF-i perkates.
+## Cka duhet te dish pas ketij kapitulli
 
-## Konceptet kryesore
+Pas ketij kapitulli duhet te jesh ne gjendje te:
 
--
+- Dallosh DRAM dhe SRAM.
+- Shpjegosh pse DRAM ka nevoje per refresh.
+- Kuptosh pse SRAM perdoret per cache.
+- Shpjegosh llojet kryesore te ROM-it.
+- Shpjegosh rolin e memories flash.
+- Kuptosh organizimin e brendshem te cipeve te memories.
+- Shpjegosh detektimin dhe korrigjimin e gabimeve.
+- Kuptosh idene e kodit te Hamming-ut.
 
-## Pyetje per provim
+## 1. Llojet kryesore te memories gjysmepercjellese
 
--
+Memoria gjysmepercjellese perdoret si memorie kryesore, cache dhe memorie e perhershme ne sisteme kompjuterike.
+
+Llojet kryesore:
+
+- **DRAM**
+- **SRAM**
+- **ROM**
+- **PROM**
+- **EPROM**
+- **EEPROM**
+- **Flash memory**
+
+Ne praktike:
+
+- **DRAM** perdoret kryesisht per memorien kryesore.
+- **SRAM** perdoret kryesisht per cache.
+- **ROM/Flash** perdoren per ruajtje te perhershme te firmware-it dhe te dhenave.
+
+## 2. DRAM - Dynamic RAM
+
+**DRAM** ruan bitet si ngarkese elektrike ne kondensatore.
+
+Qeliza tipike DRAM permban:
+
+- nje transistor,
+- nje kondensator.
+
+Ideja:
+
+- kondensatori i ngarkuar paraqet `1`,
+- kondensatori i pa ngarkuar paraqet `0`.
+
+DRAM quhet dinamike sepse ngarkesa ne kondensator humbet gradualisht.
+
+## 3. Shkrimi dhe leximi ne DRAM
+
+Gjate shkrimit:
+
+- vendoset tension ne linjen e bitit,
+- tensioni i larte paraqet `1`,
+- tensioni i ulet paraqet `0`,
+- aktivizohet linja e adreses,
+- kondensatori ngarkohet ose shkarkohet.
+
+Gjate leximit:
+
+- aktivizohet linja e adreses,
+- transistori lejon leximin e ngarkeses,
+- sense amplifier detekton vleren,
+- leximi mund ta dobesoje ngarkesen, prandaj e dhena duhet restauruar.
+
+## 4. Refresh ne DRAM
+
+Kondensatori ne DRAM shkarkohet gradualisht. Prandaj DRAM duhet te rifreskohet periodikisht.
+
+**Refresh** do te thote:
+
+- lexohet permbajtja,
+- rivendoset vlera e bitit,
+- ngarkesa ne kondensator rikthehet.
+
+Mangesi:
+
+- refresh merr kohe,
+- rrit konsumin e energjise,
+- ndikon negativisht ne performance.
+
+Per provim: **DRAM eshte me e dendur dhe me e lire, por ka nevoje per refresh.**
+
+## 5. SRAM - Static RAM
+
+**SRAM** perdor qeliza statike, zakonisht me flip-flop/latch, jo kondensatore.
+
+Qeliza SRAM zakonisht perbehet nga:
+
+- latch me transistore te kryqezuar,
+- transistore kontrolli per qasje ne qelize.
+
+SRAM nuk ka nevoje per refresh sepse gjendja ruhet sa kohe ka energji.
+
+Per provim: **SRAM eshte me e shpejte se DRAM, por me e shtrenjte dhe me densitet me te vogel.**
+
+## 6. Operacionet ne SRAM
+
+Gjate leximit:
+
+- zgjidhet rreshti/fjala,
+- qeliza lidhet me linjat e bitit,
+- vlera lexohet pa e ndryshuar gjendjen e qelizes.
+
+Leximi duhet te jete **jo-destruktiv**, pra qeliza nuk duhet ta humbe vleren.
+
+Gjate shkrimit:
+
+- linjat e bitit vendosen ne vleren e re,
+- aktivizohet linja e fjales,
+- gjendja e latch-it detyrohet te ndryshoje sipas vleres se re.
+
+## 7. Krahasimi DRAM dhe SRAM
+
+| Tipari | DRAM | SRAM |
+|---|---|---|
+| Ruajtja e bitit | Kondensator + transistor | Flip-flop/latch |
+| Refresh | Po | Jo |
+| Shpejtesia | Me e ngadalshme | Me e shpejte |
+| Densiteti | Me i larte | Me i ulet |
+| Kostoja per bit | Me e ulet | Me e larte |
+| Perdorimi tipik | Memorie kryesore | Cache |
+
+## 8. ROM - Read Only Memory
+
+**ROM** eshte memorie vetem per lexim.
+
+Karakteristikat:
+
+- jo e avullueshme,
+- ruan permbajtjen pa energji,
+- permbajtja zakonisht nuk ndryshohet gjate perdorimit normal,
+- perdoret per firmware dhe programe qe duhet te jene gjithmone te pranishem.
+
+Perparesi:
+
+- programi/te dhenat jane pergjithmone ne memorie,
+- nuk duhet te ngarkohen nga ruajtja sekondare.
+
+Mangesi:
+
+- ndryshimi i permbajtjes eshte i veshtire ose i pamundshem,
+- gabimet ne permbajtje jane problem serioz.
+
+## 9. Llojet e ROM-it
+
+| Lloji | Shpjegimi |
+|---|---|
+| **ROM** | Shkruhet gjate fabrikimit. Nuk ndryshohet me pas. |
+| **PROM** | Prodhohet e zbrazet dhe programohet nje here elektrikisht. |
+| **EPROM** | Mund te fshihet dhe riprogramohet; fshirja zakonisht behet me drite ultraviolet. |
+| **EEPROM** | Mund te fshihet dhe shkruhet elektrikisht, zakonisht ne nivel bajtesh. |
+| **Flash** | Forme e EEPROM, fshin blloqe me shpejtesi me te madhe dhe me densitet me te larte. |
+
+## 10. PROM
+
+**PROM (Programmable ROM)** eshte memorie jo e avullueshme qe shkruhet vetem nje here.
+
+Karakteristikat:
+
+- prodhohet si memorie e zbrazet,
+- programohet me pajisje speciale,
+- pas programimit, te dhenat ruhen pergjithmone,
+- me fleksibile se ROM klasik sepse mund te programohet pas prodhimit.
+
+## 11. EPROM
+
+**EPROM (Erasable PROM)** mund te fshihet dhe riprogramohet.
+
+Karakteristikat:
+
+- lexohet dhe shkruhet elektrikisht,
+- para shkrimit duhet fshire permbajtja,
+- fshirja zakonisht behet duke ekspozuar cipin ne drite ultraviolet,
+- me e shtrenjte se PROM, por me fleksibile.
+
+## 12. EEPROM
+
+**EEPROM (Electrically Erasable PROM)** mund te fshihet dhe shkruhet elektrikisht.
+
+Karakteristikat:
+
+- nuk ka nevoje per drite ultraviolet,
+- mund te perditesohen bajte te vecante,
+- me fleksibile se EPROM,
+- me e shtrenjte dhe me densitet me te ulet se EPROM.
+
+## 13. Flash memory
+
+**Flash memory** eshte forme e memories gjysmepercjellese jo te avullueshme.
+
+Karakteristikat:
+
+- perdor fshirje elektrike,
+- fshin blloqe te qelizave ne nje veprim,
+- eshte me e shpejte se EEPROM per fshirje/shkrim ne blloqe,
+- ka densitet te larte,
+- perdoret ne SSD, USB, karta memorie dhe pajisje mobile.
+
+Flash eshte ndermjet EPROM dhe EEPROM ne kosto dhe funksionalitet.
+
+## 14. Logjika e cipit te memories
+
+Te memoriet gjysmepercjellese, ceshtje kryesore eshte sa bite mund te lexohen ose shkruhen ne te njejten kohe.
+
+Cipi permban matrice te qelizave memoruese.
+
+Matrica mund te organizohet si:
+
+```text
+W fjale x B bite per fjale
+```
+
+Shembull nga kapitulli:
+
+- DRAM 16 Mbit,
+- organizim `4M x 4`,
+- 4 bite lexohen ose shkruhen njekohesisht.
+
+Adresimi mund te ndahet ne:
+
+- adrese rreshti,
+- adrese kolone.
+
+Sinjale te rendesishme:
+
+- **RAS (Row Address Select)** - zgjedh rreshtin.
+- **CAS (Column Address Select)** - zgjedh kolonen.
+- **WE (Write Enable)** - aktivizon shkrimin.
+- **OE (Output Enable)** - aktivizon daljen/leximin.
+
+## 15. Paketimi i cipeve
+
+Nje qark i integruar vendoset ne paketim fizik. Pinat perdoren per lidhje me sistemin e jashtem.
+
+Pinat mund te perfshijne:
+
+- linja adresash,
+- linja te dhenash,
+- sinjale kontrolli,
+- furnizim me energji,
+- tokezim.
+
+Shembull: EPROM 8-Mbit i organizuar si `1M x 8` ka adresa per 1M fjale dhe 8 linja te dhenash.
+
+## 16. Gabimet ne memorie
+
+Memoria gjysmepercjellese mund te kete gabime.
+
+Kategorite:
+
+- **gabime harduerike** - defekte fizike, probleme mjedisi, prodhim, demtime;
+- **gabime softuerike** - ndryshime te perkohshme te biteve, shpesh nga rrezatim ose efekte elektrike.
+
+Gabimet mund te jene:
+
+- te perhershme,
+- te perkohshme.
+
+## 17. Detektimi dhe korrigjimi i gabimeve
+
+Kur te dhenat shkruhen ne memorie:
+
+1. mbi te dhenat aplikohet nje funksion,
+2. gjenerohet nje kod kontrolli,
+3. ruhen te dhenat bashke me kodin.
+
+Nese fjala e te dhenave ka `M` bite dhe kodi ka `K` bite, atehere fjala e ruajtur ka:
+
+```text
+M + K bite
+```
+
+Kur lexohet fjala:
+
+1. nga te dhenat gjenerohet perseri kodi,
+2. kodi i ri krahasohet me kodin e ruajtur,
+3. nga krahasimi kuptohet nese ka gabim.
+
+Rezultatet e mundshme:
+
+- nuk ka gabim,
+- ka gabim qe mund te korrigjohet,
+- ka gabim qe vetem detektohet ose nuk mund te korrigjohet.
+
+## 18. Kodi i Hamming-ut
+
+Kodi i Hamming-ut perdoret per te zbuluar dhe korrigjuar gabimin e nje biti.
+
+Ideja:
+
+- shtohen bite kontrolli/pariteti,
+- gjate leximit krijohet **sindroma**,
+- sindroma tregon nese ka gabim dhe ku ndodhet.
+
+Rregullat nga kapitulli:
+
+- Nese sindroma eshte `0000`, nuk eshte detektuar gabim.
+- Nese sindroma ka vetem nje bit `1`, gabimi eshte ne nje bit kontrolli.
+- Nese sindroma ka me shume se nje bit `1`, vlera numerike e sindromes tregon pozicionin e bitit te te dhenave qe ka gabim.
+
+Per provim: **Hamming mund te korrigjoje gabime me nje bit dhe te ndihmoje ne detektimin e gabimeve ne memorie.**
+
+## 19. Permbledhje per mesim te shpejte
+
+Mbaji mend keto:
+
+- **DRAM = kondensator, ka refresh, perdoret per RAM**
+- **SRAM = latch/flip-flop, nuk ka refresh, perdoret per cache**
+- **ROM = jo e avullueshme, vetem lexim**
+- **PROM = programohet nje here**
+- **EPROM = fshihet dhe riprogramohet**
+- **EEPROM = fshihet/shkruhet elektrikisht**
+- **Flash = fshirje ne blloqe, perdoret ne SSD/USB**
+- **RAS/CAS = zgjedhje rreshti dhe kolone ne DRAM**
+- **ECC = detektim/korrigjim gabimesh**
+- **Kodi i Hamming-ut = korrigjon gabim nje-bit**
+
+## 20. Pyetje te mundshme per provim
+
+## 20.1 Cili eshte dallimi mes DRAM dhe SRAM?
+
+DRAM ruan bitet si ngarkese ne kondensator dhe ka nevoje per refresh. SRAM ruan bitet me latch/flip-flop, nuk ka nevoje per refresh dhe eshte me e shpejte, por me e shtrenjte.
+
+## 20.2 Pse DRAM duhet te rifreskohet?
+
+Sepse kondensatoret shkarkohen gradualisht. Pa refresh, ngarkesa humbet dhe bashke me te humbet edhe e dhena.
+
+## 20.3 Pse SRAM perdoret per cache?
+
+Sepse eshte shume e shpejte dhe nuk ka nevoje per refresh. Kjo e ben te pershtatshme per nivelet e cache-it afer CPU-se.
+
+## 20.4 Cfare eshte ROM?
+
+ROM eshte memorie jo e avullueshme, kryesisht vetem per lexim, qe ruan permbajtjen edhe pa energji. Perdoret per firmware dhe programe te perhershme.
+
+## 20.5 Cili eshte dallimi mes EPROM dhe EEPROM?
+
+EPROM fshihet zakonisht me drite ultraviolet dhe pastaj riprogramohet. EEPROM fshihet dhe shkruhet elektrikisht, madje mund te perditesoje bajte te vecante.
+
+## 20.6 Cfare eshte memoria flash?
+
+Flash eshte memorie jo e avullueshme qe fshihet elektrikisht ne blloqe. Perdoret ne SSD, USB dhe pajisje mobile.
+
+## 20.7 Cfare ben kodi i Hamming-ut?
+
+Kodi i Hamming-ut shton bite kontrolli dhe perdor sindromen per te zbuluar dhe korrigjuar gabime me nje bit ne fjalen e memories.
 
 ---
 
-# Kapitulli 6 - Vend per shenime
+# Kapitulli 6 - Memoria eksterne dhe memoria virtuale
 
-Ketu do te shtohet permbledhja e kapitullit 6 pasi te lexohet PDF-i perkates.
+## Cka duhet te dish pas ketij kapitulli
 
-## Konceptet kryesore
+Pas ketij kapitulli duhet te jesh ne gjendje te:
 
--
+- Shpjegosh organizimin e diskut magnetik.
+- Kuptosh mekanizmin e leximit dhe shkrimit ne disk.
+- Shpjegosh trasete, sektoret, cilindrat dhe kokat.
+- Kuptosh faktoret qe ndikojne ne performancen e diskut.
+- Shpjegosh idene e RAID dhe SSD sipas kapitullit/librit baze.
+- Kuptosh idene e memories virtuale.
+- Shpjegosh faqet, page frames, page table dhe page fault.
+- Dallosh adresen virtuale nga adresa fizike.
 
-## Pyetje per provim
+## 1. Disku magnetik
 
--
+Disku magnetik eshte pajisje ruajtese qe perdor siperfaqe magnetike per te ruajtur te dhena.
+
+Nje disk perbehet nga:
+
+- pjata rrethore,
+- material jo magnetik si substrate,
+- shtrese magnetike ne siperfaqe,
+- koke per lexim/shkrim,
+- mekanizem rrotullimi,
+- kontrollues disku.
+
+Materialet dhe dizajni synojne:
+
+- siperfaqe me uniforme,
+- me pak defekte,
+- ngurtesi me te mire,
+- ruajtje me te besueshme.
+
+## 2. Mekanizmi i shkrimit dhe leximit
+
+Leximi dhe shkrimi kryhen me koken per lexim/shkrim.
+
+Gjate shkrimit:
+
+- rryma kalon neper peshtjelle,
+- krijohet fushe magnetike,
+- fusha magnetizon siperfaqen poshte kokes,
+- krijohen paterna magnetike qe perfaqesojne bitet.
+
+Gjate leximit:
+
+- siperfaqja magnetike leviz nen koke,
+- ndryshimet magnetike induktojne sinjal elektrik,
+- sinjali interpretohet si te dhena binare.
+
+Gjate leximit/shkrimit, koka zakonisht eshte e palevizshme mbi nje trase, ndersa disku rrotullohet.
+
+## 3. Organizimi i te dhenave ne disk
+
+Termat kryesore:
+
+| Termi | Shpjegimi |
+|---|---|
+| **Koka** | Pajisja qe lexon/shkruan mbi siperfaqen e diskut. |
+| **Trase / piste** | Rreth koncentrik ne siperfaqen e diskut ku ruhen te dhenat. |
+| **Sektor** | Ndarje e trasese; njesi baze e adresimit/transferit ne disk. |
+| **Cilinder** | Bashkesi trasash me te njejtin pozicion ne pjata/siperfaqe te ndryshme. |
+| **Cluster** | Grup sektorësh qe sistemi i skedareve i trajton si njesi alokimi. |
+
+## 4. Shpejtesia dhe organizimi i regjistrimit
+
+Problemi: pjeset afer qendres se diskut levizin me ngadale se pjeset afer skajit te jashtem.
+
+Dy qasje:
+
+- **CAV (Constant Angular Velocity)** - disku rrotullohet me shpejtesi kendore konstante.
+- **Regjistrim ne zona te shumefishta** - trasete ndahen ne zona; zonat e jashtme mund te kene me shume sektore.
+
+## 5. CAV - Constant Angular Velocity
+
+Te CAV:
+
+- disku rrotullohet me shpejtesi kendore konstante,
+- blloqet adresohen direkt me trase dhe sektor,
+- koka leviz ne trasen e duhur dhe pret sektorin e duhur.
+
+Perparesi:
+
+- adresim i thjeshte direkt,
+- qasje relativisht e shpejte ne sektorin e kerkuar.
+
+Mangesi:
+
+- trasete e jashtme mund te ruajne me shume te dhena fizikisht, por shpesh nuk shfrytezohen plotesisht nese numri i sektoreve eshte i njejte.
+
+## 6. Karakteristikat fizike te diskut
+
+Disku magnetik mund te klasifikohet sipas:
+
+- koka fikse ose koka te levizshme,
+- disk i largueshem ose i palargueshem,
+- nje pjate ose pjata te shumefishta,
+- nje koke per siperfaqe,
+- organizim me cilindra.
+
+Ne disqe me pjata te shumefishta, kokat per siperfaqe te ndryshme levizin te koordinuara. Trasete me te njejtin pozicion ne siperfaqe te ndryshme formojne cilindrin.
+
+## 7. Formatimi i diskut
+
+Disku duhet te kete menyre per te identifikuar:
+
+- fillimin e trasese,
+- fillimin dhe fundin e sektorit,
+- adresen e sektorit,
+- kontrollin e gabimeve.
+
+Prandaj, disku formatohet me te dhena kontrolli qe nuk jane pjese e te dhenave te perdoruesit.
+
+Fushat tipike:
+
+- ID e sektorit,
+- fusha e te dhenave,
+- kode per detektim gabimesh,
+- hapesira sinkronizuese.
+
+## 8. Performanca e diskut magnetik
+
+Koha totale e qasjes ne disk varet nga disa komponente.
+
+Termat kryesore:
+
+- **Seek time** - koha per te levizur koken ne trasen e duhur.
+- **Rotational latency** - koha e pritjes derisa sektori i duhur te vije nen koke.
+- **Access time** - `seek time + rotational latency`.
+- **Transfer time** - koha per te transferuar te dhenat pasi sektori eshte nen koke.
+
+Formula baze:
+
+```text
+Access time = Seek time + Rotational latency
+```
+
+Koha totale I/O perfshin edhe kohen e transferit dhe vonesa nga kontrolluesi/sistemi.
+
+## 9. RAID dhe SSD
+
+Kapitulli tregon se pjeset per **RAID** dhe **Solid State Drives** duhet te perpunohen edhe nga libri baze.
+
+Ideja e RAID:
+
+- **RAID (Redundant Array of Independent Disks)** perdor disa disqe si nje sistem te vetem logjik.
+- Qellimi eshte rritja e performances, besueshmerise, ose te dyjave.
+- Nivele te ndryshme RAID perdorin striping, mirroring dhe paritet.
+
+Ideja e SSD:
+
+- **SSD (Solid State Drive)** perdor flash memory.
+- Nuk ka pjese mekanike levizese.
+- Ka latency me te ulet se HDD.
+- Eshte me rezistent ndaj goditjeve mekanike.
+- Ka kufizime te shkrimit/fshirjes per qelizat flash.
+
+## 10. Memoria virtuale - ideja kryesore
+
+Memoria virtuale eshte mekanizem qe lejon programet te perdorin nje hapesire adresash me te madhe ose me te rregullt se memoria fizike reale.
+
+Ideja:
+
+- programi punon me adresa virtuale,
+- sistemi i perkthen ne adresa fizike,
+- disa faqe mund te jene ne RAM,
+- disa faqe mund te jene ne disk.
+
+Memoria virtuale quhet virtuale sepse nuk eshte e gjitha RAM fizik.
+
+## 11. Analogjia me cache
+
+Cache ruan nje nenbashkesi te RAM-it.
+
+Memoria virtuale ruan ne RAM nje nenbashkesi te hapesires virtuale te procesit.
+
+Analogjia:
+
+| Cache | Memoria virtuale |
+|---|---|
+| Cache line / bllok | Faqe |
+| Cache miss | Page fault |
+| Cache ruan pjese te RAM-it | RAM ruan pjese te hapesires virtuale |
+| Niveli me i ulet: RAM | Niveli me i ulet: disk |
+
+## 12. Pse perdoret memoria virtuale
+
+Fillimisht, memoria virtuale u perdor per te zgjeruar RAM-in.
+
+Me vone u be e rendesishme edhe per:
+
+- mbrojtjen e memories,
+- izolimin e proceseve,
+- thjeshtimin e programimit,
+- menaxhimin automatik te RAM-it dhe diskut.
+
+Pa memorie virtuale, programeri do te duhej ta ndante manualisht programin ne pjese qe futen ne RAM.
+
+## 13. Proceset dhe hapesira e adresave
+
+Kur nje program ekzekutohet, ai quhet **proces**.
+
+Cdo proces ka hapesiren e vet te adresave.
+
+Programi gjeneron adresa gjate:
+
+- instruksioneve `load`,
+- instruksioneve `store`,
+- marrjes se instruksioneve nga memoria.
+
+Adresat qe gjeneron programi konsiderohen **adresa virtuale**. Ato duhet te perkthen ne **adresa fizike** para qasjes reale ne RAM.
+
+## 14. Faqet dhe page frames
+
+Ne memorien virtuale, hapesira ndahet ne **faqe**.
+
+- **Faqe (page)** - bllok i memories virtuale.
+- **Page frame** - vend ne memorien fizike ku mund te vendoset nje faqe.
+
+Madhesia e faqes zakonisht eshte fuqi e 2-shit, p.sh. 4 KB ose 8 KB.
+
+Nese faqja nuk gjendet ne RAM, ajo duhet te sillet nga disku.
+
+## 15. Page table dhe page fault
+
+Cdo proces ka **page table** qe mbahet nga sistemi operativ.
+
+Page table tregon:
+
+- cila faqe virtuale eshte ne cilin page frame fizik,
+- nese faqja eshte valide,
+- nese faqja eshte ne disk,
+- informata kontrolli dhe mbrojtje.
+
+**Page fault** ndodh kur procesi kerkon nje faqe qe nuk gjendet ne memorien fizike.
+
+Kur ndodh page fault:
+
+1. thirret sistemi operativ,
+2. gjendet faqja ne disk,
+3. nese RAM-i eshte plot, largohet nje faqe tjeter,
+4. faqja e kerkuar sillet ne RAM,
+5. perditesohet page table,
+6. procesi vazhdon.
+
+Algoritme zevendesimi mund te perdoren, p.sh. **LRU (Least Recently Used)**.
+
+## 16. Adresimi virtual dhe fizik
+
+Nje adrese virtuale ndahet ne:
+
+```text
+Numri i faqes | Offset
+```
+
+Nje adrese fizike ndahet ne:
+
+```text
+Numri i page frame | Offset
+```
+
+Offset-i mbetet i njejte, ndersa numri i faqes perkthhet ne numrin e page frame-it.
+
+Shembull nga kapitulli:
+
+Nese hapesira virtuale eshte 8 KB dhe madhesia e faqes eshte 1 KB:
+
+```text
+8 KB / 1 KB = 8 faqe virtuale = 2^3
+```
+
+Pra duhen 3 bite per numrin e faqes. Meqenese 1 KB = `2^10`, duhen 10 bite per offset.
+
+Adresa virtuale:
+
+```text
+3 bite page number | 10 bite offset
+```
+
+Nese memoria fizike eshte 4 KB dhe faqja eshte 1 KB:
+
+```text
+4 KB / 1 KB = 4 page frames = 2^2
+```
+
+Adresa fizike:
+
+```text
+2 bite frame number | 10 bite offset
+```
+
+## 17. Permbledhje per mesim te shpejte
+
+Mbaji mend keto:
+
+- **Disku magnetik ruan te dhena me fusha magnetike**
+- **Koka lexon/shkruan, disku rrotullohet**
+- **Trase = rreth ne disk**
+- **Sektor = njesi brenda trasese**
+- **Cilinder = trase me pozicion te njejte ne disa siperfaqe**
+- **Seek time = levizja e kokes**
+- **Rotational latency = pritja per sektorin**
+- **Access time = seek time + rotational latency**
+- **RAID = disa disqe si nje sistem logjik**
+- **SSD = ruajtje me flash, pa pjese mekanike**
+- **Memoria virtuale = adresa virtuale + perkthim ne adresa fizike**
+- **Faqe = bllok virtual**
+- **Page frame = bllok fizik ne RAM**
+- **Page fault = faqja nuk eshte ne RAM**
+- **Page table = tabela qe lidh faqet virtuale me frame-at fizik**
+
+## 18. Pyetje te mundshme per provim
+
+## 18.1 Cfare eshte disku magnetik?
+
+Disku magnetik eshte pajisje ruajtese qe ruan te dhena ne siperfaqe magnetike. Ai perdor pjata rrotulluese dhe koka per lexim/shkrim.
+
+## 18.2 Si shkruhen te dhenat ne disk magnetik?
+
+Rryma ne koken e shkrimit krijon fushe magnetike, e cila magnetizon zona ne siperfaqen e diskut. Keta paterna magnetike perfaqesojne bitet.
+
+## 18.3 Cfare jane traseja, sektori dhe cilindri?
+
+Traseja eshte rreth koncentrik ne siperfaqen e diskut. Sektori eshte pjese e trasese. Cilindri eshte bashkesi trasash me te njejtin pozicion ne siperfaqe te ndryshme.
+
+## 18.4 Nga cka varet performanca e diskut?
+
+Varet nga seek time, rotational latency, transfer time, kontrolluesi i diskut dhe organizimi i sistemit.
+
+## 18.5 Cfare eshte RAID?
+
+RAID eshte perdorimi i disa disqeve si nje sistem logjik per te rritur performancen, besueshmerine ose te dyjat.
+
+## 18.6 Cfare eshte memoria virtuale?
+
+Memoria virtuale eshte mekanizem qe lejon proceset te perdorin adresa virtuale. Sistemi i perkthen ato ne adresa fizike dhe perdor RAM-in e diskun per te menaxhuar faqet.
+
+## 18.7 Cfare eshte page fault?
+
+Page fault ndodh kur procesi kerkon nje faqe qe nuk gjendet ne RAM. Sistemi operativ duhet ta sjelle faqen nga disku dhe te perditesoje page table.
+
+## 18.8 Cili eshte dallimi mes faqes dhe page frame?
+
+Faqja eshte bllok i memories virtuale. Page frame eshte bllok ne memorien fizike ku mund te vendoset nje faqe.
