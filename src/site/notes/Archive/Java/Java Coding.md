@@ -22,11 +22,8 @@ for (int i = 0; i < 10; i++) {
 ```
 
 - `int i = 0;` → inicializimi
-    
 - `i < 10;` → kushti, sa kohë është true cikli vazhdon
-    
 - `i++` → inkrementimi pas çdo iterimi
-    
 
 ---
 
@@ -43,7 +40,6 @@ while (i < 10) {
 ```
 
 - Nëse kushti është false në fillim, trupi i ciklit nuk ekzekutohet fare.
-    
 
 ---
 
@@ -60,7 +56,6 @@ do {
 ```
 
 - Këtu trupi ekzekutohet një herë edhe pse `i < 0` është false në fillim.
-    
 
 ---
 
@@ -75,9 +70,7 @@ vargu[1] = 10;
 ```
 
 - `vargu.length` → gjatësia e vargut
-    
 - indeksi fillon nga 0
-    
 
 ---
 
@@ -89,9 +82,7 @@ matrix[0][1] = 12;
 ```
 
 - `matrix.length` → numri i rreshtave
-    
 - `matrix[0].length` → numri i kolonave të rreshtit të parë
-    
 
 ---
 
@@ -117,15 +108,10 @@ System.out.println("Numri3: " + numri3);
 ### 3.1 Metodat kryesore të `Scanner`
 
 - `nextInt()` → lexon `int`
-    
 - `nextDouble()` → lexon `double`
-    
 - `nextBoolean()` → lexon `boolean`
-    
 - `next()` → lexon një fjalë (deri tek hapsira)
-    
 - `nextLine()` → lexon të gjithë rreshtin (deri tek enter)
-    
 
 ### 3.2 Problemi me `nextInt()` dhe `nextLine()`
 
@@ -162,11 +148,8 @@ static int random(int x, int y) {
 ```
 
 - `Math.random() * (y - x)` → [0, y-x)
-    
 - `+ x` → [x, y)
-    
 - `Math.round()` → e afron në numër të plotë
-    
 
 ### 4.3 Disa metoda të `Math`
 
@@ -196,9 +179,7 @@ System.out.println("Emri3 == Emri1: " + (emri3 == emri1));
 ```
 
 - `==` krahas(in **referencat**)
-    
 - Strings duhen krahasuar me `.equals()`
-    
 
 ### 5.2 `.equals()` vs `==`
 
@@ -273,9 +254,7 @@ System.out.println("StringBuilder time: " + (end - start));
 ### 6.3 `StringBuffer`
 
 - E ngjashme me `StringBuilder`, por **thread-safe**
-    
 - Më e ngadaltë
-    
 
 ---
 
@@ -283,13 +262,11 @@ System.out.println("StringBuilder time: " + (end - start));
 
 ### 7.1 `ArrayList`
 
-````java
+```java
 import java.util.ArrayList;
 
 ArrayList<Integer> numrat = new ArrayList<>();
-
-num
-
+```
 
 ---
 
@@ -304,7 +281,7 @@ Integer numberToRemove = 10;
 numrat.remove(numberToRemove); // fshin me vlerë
 numrat.remove(0);              // fshin me indeks
 numrat.add(0, 10);             // shton 10 në pozicionin 0
-````
+```
 
 #### Metoda të tjera të dobishme
 
@@ -342,11 +319,8 @@ System.out.println(emrat.size());
 ```
 
 - Nuk lejon duplikate
-    
 - Shumë i shpejtë për kërkime
-    
 - S’ruan rendin
-    
 
 ---
 
@@ -388,9 +362,7 @@ for (var entry : notat.entrySet()) {
 ### 8.1 `static`
 
 - I përket klasës, jo objektit.
-    
 - Shpërndahet mes të gjitha objekteve.
-    
 
 ```java
 class Student {
@@ -423,11 +395,8 @@ Student.uuid = "UUID6";
 ### 8.2 `final`
 
 - **final field** → nuk ndryshohet pasi caktohet
-    
 - **final method** → nuk mund të override-het
-    
 - **final class** → nuk mund të trashëgohet
-    
 
 ```java
 final class Student {}
@@ -447,9 +416,7 @@ class B extends A {
 ### 8.3 `abstract`
 
 - Klasa abstrakte nuk krijon objekte
-    
 - Mund të ketë metoda normale + metoda abstrakte
-    
 
 ```java
 abstract class Punetor {
@@ -484,11 +451,8 @@ class Qeni extends Kafsha {
 ```
 
 - Kontrollon që metoda e prindit ekziston
-    
 - Parandalon gabime në emër (p.sh. `benZhurmee`)
-    
 - Nuk është vetëm dekorativ – bën kontroll real
-    
 
 ---
 
@@ -512,31 +476,18 @@ public void setName(String name) {
 ## 11. Përmbledhje e Shpejtë
 
 - **Loops** → `for`, `while`, `do-while`
-    
 - **Arrays/Matrices** → `int[]`, `int[][]`
-    
 - **Scanner** → input dhe problemi i `nextLine()`
-    
 - **Math** → random, round, min/max
-    
 - **Strings** → equals, replace, split, trim
-    
 - **StringBuilder** → concatenim efikas
-    
 - **ArrayList** → lista dinamike
-    
 - **HashSet** → vlera unike
-    
 - **HashMap** → key-value
-    
 - **static** → veti e klasës
-    
 - **final** → nuk ndryshohet / nuk trashëgohet
-    
 - **abstract** → modele të përgjithshme për klasat
-    
 - **@Override** → siguron override korrekt
-    
 
 ---
 
@@ -610,9 +561,7 @@ class Person {
 ## 13.1 `this`
 
 - i referohet objektit aktual
-    
 - përdoret për të dalluar `field` nga `parameter`
-    
 
 ```java
 class Car {
@@ -625,14 +574,11 @@ class Car {
 ```
 
 - thirrje e constructor brenda klasës: `this()`
-    
 
 ## 13.2 `super`
 
 - i referohet superklasës
-    
 - përdoret për të thirrur constructorin e superklasës
-    
 
 ```java
 class Animal {
@@ -648,7 +594,6 @@ class Dog extends Animal {
 ```
 
 - përdoret për të thirrur metodat e superklasës
-    
 
 ```java
 class A {
@@ -706,13 +651,9 @@ class Z implements X, Y {}
 ### 14.5 Rregullat e Trashëgimisë
 
 - konstruktori i superklasës thirret gjithmonë i pari
-    
 - `private` nuk trashëgohen direkt
-    
 - `final` nuk mund të trashëgohet
-    
 - `static` nuk është pjesë e instancës → nuk override-ohet
-    
 
 ---
 
@@ -721,15 +662,10 @@ class Z implements X, Y {}
 ### 15.1 Rregullat
 
 - Metoda duhet të ketë **të njëjtin emër**
-    
 - Të njëjtin **numër dhe tipe parametrash**
-    
 - Të njëjtin ose më të gjerë **access modifier** (`public` > `protected` > default > private)
-    
 - **Return type** duhet të jetë i njëjtë ose **covariant**
-    
 - Nuk mund të override `static`, `final`, `private`
-    
 
 ### 15.2 Shembull i Saktë
 
@@ -747,26 +683,20 @@ class Dog extends Animal {
 ### 15.3 `@Override` siguron:
 
 - kompilatorin që metoda ekziston te superklasa
-    
 - kap gabimet në emër
-    
 - është annotation funksional (jo dekorim bosh)
-    
 
 ---
 
 # 16. Interfaces
 
-## 16.1 Çfarë është një interface?
+## 16.1 Çfarë është një interface
 
 Interface është kontratë që deklaron **çfarë duhet të bëjë** një klasë, jo **si e bën**.
 
 - të gjitha metodat janë **public abstract** (default)
-    
 - mund të ketë **default methods**, **static methods**, **private methods** (Java 8+)
-    
 - një klasë mund të implementojë **shumë interface**
-    
 
 ## 16.2 Shembull bazik
 

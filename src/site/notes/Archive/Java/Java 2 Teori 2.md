@@ -277,4 +277,3 @@ fw.close();
 * Trajtimi i gabimeve dhe përjashtimeve rrit sigurinë dhe stabilitetin e programeve.
 * `Comparable` dhe `Cloneable` ndihmojnë në krahasimin dhe kopjimin e objekteve.
 * File I/O lejon ndërveprimin me të dhëna të jashtme.
-

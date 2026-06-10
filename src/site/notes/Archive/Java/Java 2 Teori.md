@@ -35,7 +35,7 @@ Polimorfizmi mund të ndahet në dy lloje kryesore:
 
 **Dallimi midis statik dhe dinamik:**
 | Tipi             | Koha | Mënyra | Lidhja me metodën |
-| | | | |
+| ---------------- | ---- | ------ | ----------------- |
 | Statik           | Kompilim | Parametrat | Mbingarkimi |
 | Dinamik          | Ekzekutim | Referenca objekt | Mbishkrimi |
 
@@ -100,7 +100,7 @@ Polimorfizmi mund të ndahet në dy lloje kryesore:
 - Llojet kryesore:
   1. **Checked exceptions** – duhet të deklarohen me `throws`.
   2. **Unchecked exceptions** – `RuntimeException`, nuk kërkojnë deklarim.
-  
+
 **Gabimet më të shpeshta:**
 - Sintaksore: zbulohen nga kompilatori.
 - Gjatë ekzekutimit: ndalojnë programin, p.sh., ndarja me zero.
@@ -129,8 +129,7 @@ Polimorfizmi mund të ndahet në dy lloje kryesore:
 - Diferenca kryesore mes **gabimeve të zhvillimit, gabimeve runtime dhe gabimeve logjike** është e rëndësishme.
 - Përdorimi i try-catch dhe logimit e bën softuerin më të mirë dhe më të menaxhueshëm.
 
-**The key takeaway:**  
+**The key takeaway:**
 Polimorfizmi, abstraksioni, ndërfaqet dhe trajtimi i gabimeve janë **bazat teorike** të POO-së. Kuptimi i tyre teorik bën kodin më fleksibël, ripërdorshëm dhe të qëndrueshëm.
 
 ---
-

@@ -241,12 +241,7 @@ public class CheckDuplicate {
 ## 6. Përfundim
 
 - **Klasat abstrakte**: bazë logjike + metoda abstrakte
-    
 - **Ndërfaqet**: sjellje + implementim shumëfishtë
-    
 - **Polimorfizmi**: statik (compile-time), dinamik (runtime)
-    
 - **Klonimi dhe krahasimi**: `Cloneable`, `Comparable`
-    
 - **Përjashtimet**: `throw`, `try-catch`, klasat e përcaktuara nga përdoruesi
-    

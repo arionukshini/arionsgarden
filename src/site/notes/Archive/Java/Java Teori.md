@@ -4,8 +4,6 @@
 
 # Modifiers në Java – Përmbledhje
 
-## Qysh more pa pagu pi lexon
-
 Java përdor disa **modifikues (modifiers)** që ndryshojnë sjelljen e klasave, metodave dhe variablave. Ndahen në **access modifiers** dhe **non-access modifiers**.
 
 ---
@@ -15,23 +13,17 @@ Java përdor disa **modifikues (modifiers)** që ndryshojnë sjelljen e klasave,
 ### **1. public**
 
 - I qasshëm nga çdo klasë dhe çdo paketë.
-    
 - Përdoret kur diçka duhet të jetë publike dhe e përdorshme kudo.
-    
 
 ### **2. private**
 
 - I qasshëm vetëm brenda të njëjtës klasë.
-    
 - Përdoret për fshehje të të dhënave (encapsulation).
-    
 
 ### **3. protected**
 
 - I qasshëm brenda paketës dhe në subklasa (edhe në paketa të tjera).
-    
 - Përdoret zakonisht për trashëgimi.
-    
 
 ---
 
@@ -40,27 +32,19 @@ Java përdor disa **modifikues (modifiers)** që ndryshojnë sjelljen e klasave,
 ### **4. static**
 
 - I përket klasës, jo instancës.
-    
 - Mund të thirret pa krijuar objekt.
-    
 
 ### **5. final**
 
 - Bën diçka të pandryshueshme.
-    
 - Për variabla → vlera nuk ndryshohet.
-    
 - Për metoda → nuk mund të override-ohen.
-    
 - Për klasa → nuk mund të trashëgohen.
-    
 
 ### **6. abstract**
 
 - Klasa abstrakte → nuk mund të krijojmë objekt prej saj.
-    
 - Metoda abstrakte → pa trup (body) dhe duhet implementuar në subklasa.
-    
 
 ---
 
@@ -82,35 +66,24 @@ Java përdor disa **modifikues (modifiers)** që ndryshojnë sjelljen e klasave,
 Identifikatorët janë **emrat** që u japim:
 
 - variablave
-    
 - metodave
-    
 - klasave
-    
 - paketave
-    
 - ndërfaqeve (interfaces)
-    
 
 ## ✔️ Rregullat për identifikatorët
 
-- **Nuk mund të fillojë me numër.**  
+- **Nuk mund të fillojë me numër.**
     Shembull i gabuar: `1name`
-    
-- **Nuk mund të jetë fjalë e rezervuar.**  
+- **Nuk mund të jetë fjalë e rezervuar.**
     Shembull: `class`, `public`, `static`, etj.
-    
 - **Nuk mund të jetë:** `true`, `false`, `null`
-    
-- **Mund të ketë gjatësi të pakufizuar.**  
+- **Mund të ketë gjatësi të pakufizuar.**
     Nuk ka limit sa i gjatë mund të jetë një emër.
-    
-- **Lejohet të fillojë me shkronjë ose _ ose $.**  
+- **Lejohet të fillojë me shkronjë ose _ ose $.**
     Shembull i saktë: `_name`, `$value`, `emri1`
-    
-- **Java është case-sensitive.**  
+- **Java është case-sensitive.**
     `Name`, `name`, dhe `NAME` janë identifikatorë të ndryshëm.
-    
 
 ---
 
@@ -119,13 +92,9 @@ Identifikatorët janë **emrat** që u japim:
 Tipi **char** ruan **një karakter të vetëm**. Mund të jetë:
 
 - shkronjë (`'A'`)
-    
 - numër si karakter (`'4'`)
-    
 - vlerë ASCII
-    
 - vlerë Unicode
-    
 
 ## ✔️ Shembuj
 
@@ -144,22 +113,18 @@ Java lejon karaktere të veçanta (escape characters). Këto përdoren në strin
 
 ## ✔️ Lista e karaktereve speciale
 
-|Përshkrimi|Escape seq.|Unicode|
-|---|---|---|
-|Backspace|``|``|
-|Tab|||
-|Linefeed (New line)|`||
-|`|`||
-|`|||
-|Carriage return|`||
-|`|`||
-|`|||
-|Escape|`\`|`\`|
+| Përshkrimi          | Escape seq. | Unicode |
+| ------------------- | ----------- | ------- |
+| Backspace           | `\b`        | `\u0008` |
+| Tab                 | `\t`        | `\u0009` |
+| Linefeed (New line) | `\n`        | `\u000A` |
+| Carriage return     | `\r`        | `\u000D` |
+| Escape              | `\\`        | `\u005C` |
 
 ## ✔️ Shembuj
 
 ```java
-char tab = '	';
+char tab = '\t';
 ```
 
 ---
@@ -169,9 +134,7 @@ char tab = '	';
 ## ✔️ Metodat Void
 
 - Nuk kthejnë asnjë vlerë.
-    
 - Shembull:
-    
 
 ```java
 void printoPershendetje() {}
@@ -180,9 +143,7 @@ void printoPershendetje() {}
 ## ✔️ Metodat Return
 
 - Kthejnë një vlerë.
-    
 - Shembull:
-    
 
 ```java
 int shto(int a, int b) { return a + b; }
@@ -191,11 +152,8 @@ int shto(int a, int b) { return a + b; }
 ## ✔️ Metodat Static
 
 - I përkasin klasës.
-    
 - Thirren me emrin e klasës.
-    
 - Shembull:
-    
 
 ```java
 static double sqrt(double x) { return x*x; }
@@ -204,24 +162,18 @@ static double sqrt(double x) { return x*x; }
 ## ✔️ Metodat e Instancës
 
 - I përkasin një objekti.
-    
 - Shembull:
-    
-
 ```java
 obj.shto(5,3);
 ```
 
 ---
-
 # Metodat e Klasës
 
 Metodat e klasës janë funksione që i përkasin vetë klasës. Ato mund të jenë:
 
 - **statike** (të lidhura me klasën)
-    
 - **jo statike** (të lidhura me objektin)
-    
 
 ## Tabelë përmbledhëse
 
@@ -231,17 +183,12 @@ Metodat e klasës janë funksione që i përkasin vetë klasës. Ato mund të je
 |Instancë|Objektit|Përmes objektit|`obj.shto(5,8)`|
 
 ---
-
 # Metodat Statike
 
 - Kanë fjalën **static**.
-    
 - Mund të thirren pa krijuar objekt.
-    
 - I përkasin klasës, jo instancës.
-    
 - Shembull:
-    
 
 ```java
 public class Matematika {
@@ -254,15 +201,11 @@ int rezultati = Matematika.shto(5, 3);
 ```
 
 ---
-
 # Metodat e Instancës (Jo Statike)
 
 - I përkasin një objekti.
-    
 - Duhet krijuar objekt për t’i thirrur.
-    
 - Shembull:
-    
 
 ```java
 public class Person {
@@ -300,9 +243,7 @@ public class Student {
 # Metodat e Mbingarkuara (Method Overloading)
 
 - Janë metoda me **të njëjtin emër**, por me **parametra të ndryshëm**.
-    
 - Dallohen sipas **nënshkrimit të metodës** (emri + parametrat).
-    
 
 ## Shembull
 
@@ -317,24 +258,17 @@ public class Kalkulatori {
 ## Kur ndodh / nuk ndodh Overloading
 
 - ✔️ Ndodh kur ndryshojnë parametrat.
-    
 - ❌ Nuk ndodh vetëm duke ndryshuar:
-    
     - tipin e vlerës së kthyer
-        
     - modifikuesit e qasjes
-        
 
 ---
 
 # Metodat Abstrakte
 
 - Janë metoda pa trup (pa implementim).
-    
 - Mund të përkufizohen vetëm në **klasa abstrakte**.
-    
 - Duhet të implementohen nga klasat që trashëgojnë.
-    
 
 ## Shembull
 
@@ -346,7 +280,6 @@ abstract class Kafsha {
 ```
 
 ---
-
 # Implementimi i Metodave Abstrakte
 
 ```java
@@ -368,27 +301,20 @@ class Macja extends Kafsha {
 ## Vlera konstante
 
 - `Math.PI`
-    
 - `Math.E`
-    
 
 ## Metodat kryesore
 
 - Metoda trigonometrike
-    
 - Metoda eksponenciale
-    
 - Metoda logaritmike
-    
 - `min`, `max`, `abs`, `random`
-    
 
 ---
 
 # Metoda random()
 
 - Jep një vlerë `double` **>= 0.0 dhe < 1.0**.
-    
 
 ### Shembuj
 
@@ -403,11 +329,8 @@ a + Math.random() * b              // [a , a+b)
 # Benefitet e Metodave
 
 - Shkruhet një herë, përdoret kudo (reusability).
-    
 - Fsheh zbatimin (encapsulation).
-    
 - Ul kompleksitetin.
-    
 
 ---
 
@@ -416,15 +339,10 @@ a + Math.random() * b              // [a , a+b)
 Programimi i orientuar në objekte (POO/OOP) bazohet te konceptet e **klasave** dhe **objekteve**. Një objekt përfaqëson një njësi reale me gjendje (atribute) dhe sjellje (metoda). Një klasë është modeli (template) prej të cilit krijohen objektet.
 
 - Objektet shkëmbejnë mesazhe dhe bashkëveprojnë në një program.
-    
 - Java është e dizajnuar si gjuhë plotësisht objekt-orientuar, duke thjeshtuar punën me objekte.
-    
 - Objektet kanë:
-    
     - **Gjendje** – të dhëna, atributet (p.sh. ngjyra, madhësia e një veture)
-        
     - **Sjellje** – metodat (p.sh. si lëviz makina)
-        
 
 ---
 
@@ -435,29 +353,22 @@ Programimi i orientuar në objekte (OOP) mbështetet në **katër shtylla** them
 Katër shtyllat kryesore të OOP janë:
 
 1. **Abstraksioni (Abstraction)**
-    
 2. **Enkapsulimi (Encapsulation)**
-    
 3. **Trashëgimia (Inheritance)**
-    
 4. **Polimorfizmi (Polymorphism)**
-    
 
 ---
 
 # 1️⃣ Abstraksioni (Abstraction)
 
-Abstraksioni përqendrohet në **tregimin e vetëm informatave të nevojshme**, duke fshehur detajet e brendshme të funksionimit.  
+Abstraksioni përqendrohet në **tregimin e vetëm informatave të nevojshme**, duke fshehur detajet e brendshme të funksionimit.
 Qëllimi i tij është **ulja e kompleksitetit** dhe krijimi i modeleve të qarta të objekteve.
 
-### ✔️ Si realizohet abstraksioni?
+### ✔️ Si realizohet abstraksioni
 
 - Përmes **klasave abstrakte**
-    
 - Përmes **metodave abstrakte**
-    
 - Përmes **interface-ve**
-    
 
 ### ✔️ Shembull me klasë abstrakte
 
@@ -491,16 +402,12 @@ class Bicikleta implements Transport {
 }
 ```
 
-### ✔️ Pse përdoret abstraksioni?
+### ✔️ Pse përdoret abstraksioni
 
 - Fsheh detaje të panevojshme
-    
 - Lehtëson zhvillimin
-    
 - Lejon modele të qarta për klasat
-    
 - Redukton kompleksitetin e kodit
-    
 
 ---
 
@@ -511,9 +418,7 @@ Enkapsulimi lidhet me **fshehjen e të dhënave** dhe kontrollimin e qasjes për
 Ky koncept përdor:
 
 - **private** për variablat
-    
 - **public getters/setters** për qasje
-    
 
 ### ✔️ Shembull
 
@@ -534,13 +439,9 @@ class LlogariaBankare {
 ### ✔️ Përfitimet e enkapsulimit
 
 - Rrit sigurinë
-    
 - Parandalon qasjen e paautorizuar
-    
 - Kontrollon mënyrën e modifikimit të të dhënave
-    
 - Lehtëson mirëmbajtjen e kodit
-    
 
 ---
 
@@ -551,11 +452,8 @@ Trashëgimia mundëson krijimin e klasave të reja duke përdorur funksionalitet
 ### ✔️ Termat kryesorë
 
 - **Superclass** → klasa prind
-    
 - **Subclass** → klasa fëmijë
-    
 - **extends** → fjala kyçe për trashëgim në Java
-    
 
 ### ✔️ Shembull bazik
 
@@ -580,13 +478,9 @@ Java **NUK** lejon trashëgimi të shumëfishtë të klasave (multiple inheritan
 Llojet:
 
 1. **Single inheritance** — një subclass trashëgon një superclass
-    
 2. **Multilevel inheritance** — një zinxhir trashëgimor
-    
 3. **Hierarchical inheritance** — një superclass ka disa subclass
-    
 4. **Multiple inheritance (vetëm me interfaces)**
-    
 
 ### ✔️ Shembull Multilevel
 
@@ -605,9 +499,7 @@ Polimorfizmi lejon që **e njëjta metodë të sillet ndryshe**, varësisht nga 
 Dy lloje kryesore:
 
 - **Polimorfizmi statik** (Compile-time) → Method Overloading
-    
 - **Polimorfizmi dinamik** (Run-time) → Method Overriding
-    
 
 ---
 
@@ -644,11 +536,8 @@ k.benZhurme();  // Ham ham!
 ### ✔️ Përfitimet e polimorfizmit
 
 - Kod më i pastër dhe fleksibil
-    
 - Mbështet zëvendësimin e objekteve
-    
 - Zbaton konceptin "one interface, many implementations"
-    
 
 ---
 
@@ -663,17 +552,13 @@ k.benZhurme();  // Ham ham!
 
 ---
 
-në Objekte  
+në Objekte
 Katër shtyllat kryesore të OOP janë:
 
 1. **Abstraksioni**
-    
 2. **Enkapsulimi**
-    
 3. **Trashëgimia (Inheritance)**
-    
 4. **Polimorfizmi (Polymorphism)**
-    
 
 Këto shtylla janë thelbësore për ndërtimin e sistemeve stabile dhe të mirëorganizuar.
 
@@ -684,15 +569,10 @@ Këto shtylla janë thelbësore për ndërtimin e sistemeve stabile dhe të mir�
 Abstraksioni paraqet vetëm informacionin e nevojshëm dhe fsheh detajet e panevojshme.
 
 - Ul kompleksitetin.
-    
 - Përqendrohet në **çfarë bën** objekti, jo **si e bën**.
-    
 - Realizohet përmes:
-    
     - **klasave abstrakte**
-        
     - **metodave abstrakte**
-        
 
 Shembull i abstraksionit: një makinë ka pedale, por nuk e dimë implementimin e brendshëm të motorit.
 
@@ -703,13 +583,9 @@ Shembull i abstraksionit: një makinë ka pedale, por nuk e dimë implementimin 
 Enkapsulimi është procesi i mbajtjes së të dhënave dhe metodave brenda një njësie të vetme (klasa) dhe fshehja e tyre nga qasja e jashtme.
 
 - Arrihet përmes **private fields** dhe **public getters/setters**.
-    
 - Rrit sigurinë.
-    
 - Kontrollon qasjen.
-    
 - Ul mundësinë e gabimeve.
-    
 
 ```java
 private int mosha;
@@ -724,18 +600,13 @@ public void setMosha(int m) { mosha = m; }
 Trashëgimia lejon një klasë të marrë atributet dhe metodat e një klase tjetër.
 
 - Klasa prind → **superclass**
-    
 - Klasa fëmijë → **subclass**
-    
 
 Përfitimet:
 
 - Ripërdorim i kodit
-    
 - Ndërtim i hierarkive
-    
 - Organizim më i mirë i strukturës
-    
 
 Shembull:
 
@@ -753,9 +624,7 @@ Polimorfizmi lejon një metodë të sjellë veprime të ndryshme varësisht obje
 Dy lloje:
 
 - **Polimorfizmi statik** (compile-time) → Method Overloading
-    
 - **Polimorfizmi dinamik** (run-time) → Method Overriding
-    
 
 Shembull i polimorfizmit dinamik:
 
@@ -771,18 +640,13 @@ k.benZhurme();
 ## ✔️ Klasa vs Objekt
 
 - **Klasa** = dizajni i objektit
-    
 - **Objekti** = instance reale e klasës
-    
 
 ## ✔️ Konstruktorët
 
 - Metoda speciale që inicializon objektin.
-    
 - Ka të njëjtin emër si klasa.
-    
 - Mund të jetë i mbingarkuar.
-    
 
 ```java
 class Person {
@@ -811,16 +675,12 @@ super.metoda();
 ## ✔️ Fushat statike dhe jo statike
 
 - **Static** → i përket klasës
-    
 - **Non-static** → i përket objektit
-    
 
 ## ✔️ Heap dhe Stack në Java
 
 - **Heap** → ku ruhen objektet
-    
 - **Stack** → ku ruhen variablat lokale + thirrjet e metodave
-    
 
 ## ✔️ Referencat e objekteve
 
@@ -838,27 +698,19 @@ Java automatikisht largon objektet e pareferencuara.
 Këto janë thelbësore në dizajnin e klasave:
 
 - public
-    
 - private
-    
 - protected
-    
 - default (pa modifier)
-    
 
 ## ✔️ Composition vs Inheritance
 
 - **Inheritance** = “is-a” (Qeni është Kafshë)
-    
 - **Composition** = “has-a” (Makina ka motor)
-    
 
 ## ✔️ Encapsulation vs Abstraction
 
 - Encapsulation fsheh _si_ ruhen të dhënat.
-    
 - Abstraction fsheh _detajet e panevojshme_.
-    
 
 ---
 
@@ -867,13 +719,8 @@ Këto janë thelbësore në dizajnin e klasave:
 OOP në Java bazohet në:
 
 - përdorimin e **klasave** dhe **objekteve**
-    
 - aplikimin e **4 shtyllave** të OOP
-    
 - krijimin e hierarkive të qarta
-    
 - ndarjen e përgjegjësive
-    
 - ripërdorimin e kodit
-    
 - rritjen e sigurisë dhe modularitetit
