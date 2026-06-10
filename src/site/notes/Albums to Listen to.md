@@ -13,7 +13,6 @@
 
 ### Yeat
 
-Alive (currently)
 4L
 
 ### overtonight
