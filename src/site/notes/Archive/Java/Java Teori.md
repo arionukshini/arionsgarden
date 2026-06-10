@@ -4,6 +4,8 @@
 
 # Modifiers në Java – Përmbledhje
 
+## Qysh more pi lexon pa pagu
+
 Java përdor disa **modifikues (modifiers)** që ndryshojnë sjelljen e klasave, metodave dhe variablave. Ndahen në **access modifiers** dhe **non-access modifiers**.
 
 ---
