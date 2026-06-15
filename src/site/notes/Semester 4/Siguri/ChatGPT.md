@@ -4,16 +4,6 @@
 
 # Siguria e te dhenave - permbledhje per provim
 
-Keto shenime jane te shkruara si material studimi nga PDF-te e folderave `ligjerata` dhe `ligjeratat`. Ideja nuk eshte vetem me i mbajt definicionet permendsh, por me kuptu pse perdoret secila teknike, cfare problemi zgjidh, dhe cfare rreziku mbetet.
-
-## PDF-te e lexuara
-
-Nga `ligjerata`: `1 Hyrje ne sigurine e te dhenave.pdf`, `2 Enkriptimi klasik - DES.pdf`, `3 Algoritmi RSA.pdf`, `4 Modet e algoritmeve kriptografike.pdf`, `5 Hash funksionet dhe nenshkrimi digjital.pdf`, `6 XML nenshkrimet digjitale.pdf`, `8 smart kartelat.pdf`, `Syllabusi.pdf`.
-
-Nga `ligjeratat`: `Siguria e te dhenave - Java 1.pdf`, `Siguria e te dhenave - Java 2.pdf`, `Siguria e te dhenave - Java 4.pdf`, `Siguria e te dhenave - Java 5.pdf`, `Siguria e te dhenave - Java 7.pdf`, `Siguria e te dhenave - Java 8.pdf`, `Siguria e te dhenave - Java 12,13.pdf`.
-
-Shenim: ne titujt e PDF-ve `Java` do te thote `jave`/week ne shqip, jo gjuha programuese Java.
-
 ## Qellimi i lendes
 
 Lenda merret me mbrojtjen e te dhenave permes kriptografise, menaxhimit te celesave, certifikatave digjitale, nenshkrimeve digjitale, smart kartelave dhe aplikimeve praktike. Ne provim zakonisht duhet me dit:
@@ -25,21 +15,6 @@ Lenda merret me mbrojtjen e te dhenave permes kriptografise, menaxhimit te celes
 - cka jane XML signatures dhe pse XML canonicalization eshte e rendesishme
 - si punojne smart kartelat ne nivel fizik, logjik dhe aplikativ
 - detyrat praktike: Caesar, Atbash, transpozicion, OTP, DES/3DES, RSA, DHM, hash, salted hash, digital signature, steganografi
-
-## Vleresimi sipas syllabusit
-
-Vleresimi ndahet ne tri pjese kryesore:
-
-- vijueshmeria ne ligjerata dhe ushtrime: 10 pike
-- pjesa praktike/detyrat e shtepise: 40 pike
-- testi me shkrim: 50 pike
-
-Per te kaluar duhen minimumet:
-
-- se paku 5 pike nga vijueshmeria
-- se paku 20 pike nga pjesa praktike
-- se paku 25 pike nga testi
-- totali duhet te jete mbi 50 pike
 
 Testi ka rreth 17-20 pyetje. Pergjigja e sakte jep rreth 3 pike, pergjigja e pjesshme 1 ose 2 pike, ndersa pa pergjigje ose gabim jep 0 pike.
 
