@@ -36,13 +36,8 @@ Love Sick
 Heaven or Hell
 Life of a DON
 
-### fakemink
-
-terrified.
-
 ### LUCKI
 
-Drugs R Bad (needs relisten)
 Alternative Trap
 X
 Almost There
@@ -76,4 +71,10 @@ B4TM
 The Point of No Return - XenoBand
 The High School Dropout - Dugui HG
 Get Rich or Die Sippin - Lil Shine
+
+#### Relisten
+
+terrified. - fakemink
+Drugs R Bad - LUCKI
+Emotions - Nine
 
