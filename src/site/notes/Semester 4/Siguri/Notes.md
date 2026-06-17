@@ -47,3 +47,16 @@
 **6E 00 = CLA NOT SUPPORTED**
 **6F 00 = UNKNOWN ERROR**
 
+# Çelsat
+
+| Rasti                                          | Formula me `n` | Për `n = 6` |       Rezultati |
+| ---------------------------------------------- | -------------: | ----------: | --------------: |
+| **Asimetrik – vetëm çelësat privatë**          |            `n` |         `6` |   **6 privatë** |
+| **Asimetrik – vetëm çelësat publikë**          |            `n` |         `6` |   **6 publikë** |
+| **Asimetrik – çiftet e çelësave**              |            `n` |         `6` |     **6 çifte** |
+| **Asimetrik – të gjithë çelësat individualë**  |           `2n` |     `2 × 6` |   **12 çelësa** |
+| **Simetrik – secili komunikon me secilin**     |     `n(n−1)/2` |  `6(6−1)/2` |   **15 çelësa** |
+| **Një çelës i përbashkët për krejt grupin**    |            `1` |         `1` |     **1 çelës** |
+| **Numri i çifteve të personave/komunikimeve**  |     `n(n−1)/2` |    `6(5)/2` |    **15 çifte** |
+| **Komunikime të drejtuara A→B dhe B→A veçmas** |       `n(n−1)` |     `6 × 5` | **30 drejtime** |
+
