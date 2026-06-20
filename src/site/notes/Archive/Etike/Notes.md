@@ -304,9 +304,9 @@ Most hacking is a form of digital trespassing. Even without bad intentions, it v
 
 **Trademark:** is a recognizable name, word, sign (logo), design, or expression which identifies products or services of a particular source from those of others:
 - Protects both manifestation and idea.
-![Pasted image 20260123221742.png](/img/user/Archive/Pasted%20image%2020260123221742.png)
+![Pasted image 20260123221742.png](/img/user/Archive/Mat%203/Images/Pasted%20image%2020260123221742.png)
 **Examples:** Nike's trademark "Just Do It" and the Swoosh logo.
-![Pasted image 20260123221750.png](/img/user/Archive/Pasted%20image%2020260123221750.png)
+![Pasted image 20260123221750.png](/img/user/Archive/Mat%203/Images/Pasted%20image%2020260123221750.png)
 
 **Trade secret:** a secret device or technique used by a company in manufacturing its products: o Can be a formula, practice, process, design, instrument, pattern, commercial method, or compilation of information not generally known or reasonably ascertainable by others by which a business can obtain an economic advantage over competitors or customers.
 **Example:** Coca Cola formula
