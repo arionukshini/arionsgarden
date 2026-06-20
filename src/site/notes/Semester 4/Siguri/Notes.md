@@ -4,7 +4,7 @@
 
 # RSA
 
-![Pasted image 20260617201122.png](/img/user/Pasted%20image%2020260617201122.png)
+![Pasted image 20260617201122.png](/img/user/Semester%204/Images/Pasted%20image%2020260617201122.png)
 
 # C# RSA
 

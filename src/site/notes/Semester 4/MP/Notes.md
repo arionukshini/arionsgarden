@@ -80,7 +80,7 @@ Kostoja i referohet te gjitha burimeve financiare te nevojshme per te perfunduar
 
 Ndryshimi i njeres ndikon te tjeret.
 
-![Pasted image 20260325145747.png](/img/user/Pasted%20image%2020260325145747.png)
+![Pasted image 20260325145747.png](/img/user/Semester%204/Images/Pasted%20image%2020260325145747.png)
 
 #### KOMPONENTET QE MUND TE NDRYSHOJNE PERGJEATE CILKIT TE JETES SE PROJEKTIT
 1. Interesi i klientit
@@ -99,7 +99,7 @@ Ndryshimi i njeres ndikon te tjeret.
 
 Strategjia eshte nje plan afatgjate qe nje organizate, biznes apo individ ndjek per te arritur objektivat e saj. Percakton drejtimin dhe veprimet kryesore.
 
-![Pasted image 20260325150811.png](/img/user/Pasted%20image%2020260325150811.png)
+![Pasted image 20260325150811.png](/img/user/Semester%204/Images/Pasted%20image%2020260325150811.png)
 
 Ka dy arsye kryesore pse menaxherët e projekteve duhet të njohin misionin dhe strategjinë e organizatës:
 1. Marrja e vendimeve të duhura – Kur menaxherët e projekteve kuptojnë strategjinë, ata mund të marrin vendime më të informuara dhe të harmonizuara me objektivat organizative.
@@ -114,7 +114,7 @@ Një mision i përgjigjet pyetjes, çfarë po bëjmë tani për të arritur vizi
 
 Deklarata efektive e misionit duhet të përmbajë: Konsumatorët, produktet dhe shërbimet, tregjet, teknologjia, kujdesi për ekzistencën, rritjen dhe përfitimin, filozofia, koncepti personal, kujdesi për imazhin publik, kujdesi për të punësuarit.
 
-![Pasted image 20260325153326.png](/img/user/Pasted%20image%2020260325153326.png)
+![Pasted image 20260325153326.png](/img/user/Semester%204/Images/Pasted%20image%2020260325153326.png)
 
 
 Hapi me rëndësi është vlerësimi i mjedisit të brendshëm dhe të jashtëm të ndërmarrjes. Ky vlerësim ndihmon në identifikimin e pikave të forta dhe të dobëta të brendshme. Analiza e mjedisit të brendshëm dhe të jashtëm njihet si analiza SWOT, e cila përfshin:
@@ -133,19 +133,19 @@ Për t’u konsideruar SMART, objektivat duhet të përmbajnë këto komponente:
 #### Jonumerike/jofinanciare:
 
 Modeli checklist
-![Pasted image 20260325160349.png](/img/user/Pasted%20image%2020260325160349.png)
+![Pasted image 20260325160349.png](/img/user/Semester%204/Images/Pasted%20image%2020260325160349.png)
 
 Modeli i vleresimit me pike te peshezuara
-![Pasted image 20260325160422.png](/img/user/Pasted%20image%2020260325160422.png)
+![Pasted image 20260325160422.png](/img/user/Semester%204/Images/Pasted%20image%2020260325160422.png)
 
 
 #### Numerike:
 
 Metoda financiare më e përhapur për marrjen e vendimeve në zgjedhjen e projekteve është Metoda e Vlerës Neto Aktuale (NPV). Kjo metodë parashikon ndryshimin e vlerës së biznesit nëse projekti ndërmerret, duke marrë parasysh flukset e ardhshme të parave dhe normën e kthimit.
 Qëllimi kryesor i përdorimit të IRR (Normës së Brendshme të Kthimit) është përcaktimi i pikës kritike, respektivisht momentit kur 𝑁𝑃𝑉 = 0 (zero). NPV ndihmon vetëm në identifikimin e kahjes së projektit (investimit), duke treguar nëse ai sjell fitim apo humbje.
-![Pasted image 20260325161401.png](/img/user/Pasted%20image%2020260325161401.png)
-![Pasted image 20260325161423.png](/img/user/Pasted%20image%2020260325161423.png)
-![Pasted image 20260325161455.png](/img/user/Pasted%20image%2020260325161455.png)
+![Pasted image 20260325161401.png](/img/user/Semester%204/Images/Pasted%20image%2020260325161401.png)
+![Pasted image 20260325161423.png](/img/user/Semester%204/Images/Pasted%20image%2020260325161423.png)
+![Pasted image 20260325161455.png](/img/user/Semester%204/Images/Pasted%20image%2020260325161455.png)
 
 # Struktura dhe kultura
 
@@ -204,7 +204,7 @@ Në praktikë, ekzistojnë lloje të ndryshme të sistemeve matricore, në varë
 2. Matrica e balancuar
 3. Matrica e fortë
 
-![Pasted image 20260326132458.png](/img/user/Pasted%20image%2020260326132458.png)
+![Pasted image 20260326132458.png](/img/user/Semester%204/Images/Pasted%20image%2020260326132458.png)
 
 #### Avantazhet e strukturës matricë
 -  Efikasiteti – Përdorim më i mirë i burimeve dhe menaxhim i centralizuar.
@@ -225,7 +225,7 @@ Kultura organizative është sistemi i vlerave, normave dhe besimeve që bashkon
 Lidershipi përkufizohet si aftësia e një individi ose grupi për të ndikuar, motivuar dhe drejtuar të tjerët drejt arritjes së qëllimeve të përbashkëta.
 Ai përfshin një grup qëndrimesh dhe sjelljesh që orienton njerëzit në një drejtim të përbashkët, duke u mundësuar atyre të punojnë së bashku në mënyrë efektive dhe të përshtaten me mjedise në ndryshim.
 
-![Pasted image 20260326134857.png](/img/user/Pasted%20image%2020260326134857.png)
+![Pasted image 20260326134857.png](/img/user/Semester%204/Images/Pasted%20image%2020260326134857.png)
 
 # Menaxhimi konflikteve
 
@@ -243,7 +243,7 @@ Procesi i zhvillimit të grupit është dinamik. Grupet kalojnë në faza të nd
 - Faza e katërt: Veprimi 
 - Faza e pestë: Shpërndarja
 
-![Pasted image 20260326162027.png](/img/user/Pasted%20image%2020260326162027.png)
+![Pasted image 20260326162027.png](/img/user/Semester%204/Images/Pasted%20image%2020260326162027.png)
 
 Qe nje grup i projektit te jetë efektiv duhet të ketë karakteristikat ne vijim:
 - Kuptim i qartë i misionit të projektit 
@@ -338,7 +338,7 @@ Një teknikë e përdorur në praktikë është matrica e prioriteteve (priority
 - cilit kriter duhet t’i vendosim kufizime (constrain) 
 - cilin duhet ta përmirësojmë (enhance)
 - cilin mund ta pranojmë (accept)
-![Pasted image 20260405184429.png](/img/user/Pasted%20image%2020260405184429.png)
+![Pasted image 20260405184429.png](/img/user/Semester%204/Images/Pasted%20image%2020260405184429.png)
 
 ### NDRYSHIMI I PRIORITETEVE GJATË PROJEKTIT
 
@@ -368,7 +368,7 @@ Paketa e Punës është njësia më e vogël e punës që mund të planifikohet,
 5. Cakton një person përgjegjës (kush). 
 6. Përcakton pikat e monitorimit për matjen e progresit (sa mirë po kryhet puna).
 
-![Pasted image 20260406211927.png](/img/user/Pasted%20image%2020260406211927.png)
+![Pasted image 20260406211927.png](/img/user/Semester%204/Images/Pasted%20image%2020260406211927.png)
 
 ## 4. INTEGRIMI I SZP ME STRUKTURËN ORGANIZATIVE (OBS) 
 Ndërsa SZP (WBS) përcakton punën që duhet bërë, Struktura e Ndarjes Organizative (OBS – Organizational Breakdown Structure) përcakton kush e bën atë. 
@@ -379,13 +379,13 @@ Kombinimi i WBS me OBS krijon një sistem përgjegjësie dhe raportimi, i cili n
 
 ### MATRICA E CAKTIMIT TË PËRGJEGJËSISË
 
-![Pasted image 20260406215430.png](/img/user/Pasted%20image%2020260406215430.png)
+![Pasted image 20260406215430.png](/img/user/Semester%204/Images/Pasted%20image%2020260406215430.png)
 
 ## 5. KODIMI I SZP-SË (WBS) PËR SISTEMIN E INFORMACIONIT
 
 Për të arritur përdorshmërinë maksimale të një Strukture të Zbërthimit të Punës (WBS), është i nevojshëm përdorimi i një sistemi kodimi.
 Skema më e përdorur në praktikë është numërimi hierarkik (numeric indentation).
-![Pasted image 20260406215523.png](/img/user/Pasted%20image%2020260406215523.png)
+![Pasted image 20260406215523.png](/img/user/Semester%204/Images/Pasted%20image%2020260406215523.png)
 
 ### HAPAT PËR ZHVILLIMIN E PLANIT TË KOMUNIKIMIT 
 Hapat kryesorë në zhvillimin e planit të komunikimit: 
@@ -416,12 +416,12 @@ Dokumentacioni i mbylljes së projektit përfshin:
 
 Metoda financiare më e përhapur për marrjen e vendimeve në zgjedhjen e projekteve është Metoda e Vlerës Neto Aktuale (NPV). Kjo metodë parashikon ndryshimin e vlerës së biznesit nëse projekti ndërmerret, duke marrë parasysh flukset e ardhshme të parave dhe normën e kthimit.
 
-![Pasted image 20260325161401.png](/img/user/Pasted%20image%2020260325161401.png)
-![Pasted image 20260406224821.png](/img/user/Pasted%20image%2020260406224821.png)
-![Pasted image 20260406224831.png](/img/user/Pasted%20image%2020260406224831.png)
+![Pasted image 20260325161401.png](/img/user/Semester%204/Images/Pasted%20image%2020260325161401.png)
+![Pasted image 20260406224821.png](/img/user/Semester%204/Images/Pasted%20image%2020260406224821.png)
+![Pasted image 20260406224831.png](/img/user/Semester%204/Images/Pasted%20image%2020260406224831.png)
 
 Qëllimi kryesor i përdorimit të IRR (Normës së Brendshme të Kthimit) është përcaktimi i pikës kritike, respektivisht momentit kur 𝑁𝑃𝑉 = 0 (zero). NPV ndihmon vetëm në identifikimin e kahjes së projektit (investimit), duke treguar nëse ai sjell fitim apo humbje. Kusht i domosdoshëm për llogaritjen e IRR-së është të kemi dy vlera të ndryshme të NPVsë, ku njëra është pozitive dhe tjetra negative. Formula për llogaritjen e IRR-së është:
-![Pasted image 20260406224918.png](/img/user/Pasted%20image%2020260406224918.png)
+![Pasted image 20260406224918.png](/img/user/Semester%204/Images/Pasted%20image%2020260406224918.png)
 
 IRR është norma e diskontimit për të cilën NPV = 0. Ajo tregon kthimin që gjeneron projekti. 
 - IRR > norma e diskontimit → Projekti pranohet 

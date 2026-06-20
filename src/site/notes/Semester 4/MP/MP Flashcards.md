@@ -121,14 +121,14 @@ NPV ose Vlera Neto Aktuale është metoda financiare më e përhapur për marrje
 Ajo parashikon ndryshimin e vlerës së biznesit nëse projekti ndërmerret, duke marrë parasysh flukset e ardhshme të parasë dhe normën e kthimit.
 
 NPV Formula #card 
-![Pasted image 20260325161401.png](/img/user/Pasted%20image%2020260325161401.png)
+![Pasted image 20260325161401.png](/img/user/Semester%204/Images/Pasted%20image%2020260325161401.png)
 
 IRR #card
 IRR ose Norma e Brendshme e Kthimit përcakton pikën kritike ku NPV bëhet zero.
 Ajo tregon kthimin që gjeneron projekti.
 
 IRR Formula #card 
-![Pasted image 20260325161455.png](/img/user/Pasted%20image%2020260325161455.png)
+![Pasted image 20260325161455.png](/img/user/Semester%204/Images/Pasted%20image%2020260325161455.png)
 
 Kushti për llogaritjen e IRR #card
 Për llogaritjen e IRR-së duhet të kemi dy vlera të ndryshme të NPV-së:

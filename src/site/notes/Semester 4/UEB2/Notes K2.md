@@ -161,11 +161,11 @@ while ($row = $result1->fetch()) {
 	echo "<br/>";
 }
 ```
-![Pasted image 20260519093218.png](/img/user/Pasted%20image%2020260519093218.png)
+![Pasted image 20260519093218.png](/img/user/Semester%204/Images/Pasted%20image%2020260519093218.png)
 
 ### Funksionet e marrjes
 
-![Pasted image 20260519103402.png](/img/user/Pasted%20image%2020260519103402.png)
+![Pasted image 20260519103402.png](/img/user/Semester%204/Images/Pasted%20image%2020260519103402.png)
 
 ```php
 $row = $result->fetch(); 
@@ -198,7 +198,7 @@ while ($r=$result1->fetchObject("login")) {
 }
 ```
 
-![Pasted image 20260519103738.png](/img/user/Pasted%20image%2020260519103738.png)
+![Pasted image 20260519103738.png](/img/user/Semester%204/Images/Pasted%20image%2020260519103738.png)
 
 ```php
 class login { 
@@ -303,7 +303,7 @@ Ndërsa kjo funksionon, ajo hap faqen tonë në një nga sulmet më të zakonshm
 
 ## Ilustrim i SQL injection
 
-![Pasted image 20260519123123.png](/img/user/Pasted%20image%2020260519123123.png)
+![Pasted image 20260519123123.png](/img/user/Semester%204/Images/Pasted%20image%2020260519123123.png)
 
 ### Pastrimi i të dhënave të përdoruesve
 
@@ -399,7 +399,7 @@ try {
 
 ### Lista me lidhje
 
-![Pasted image 20260519125421.png](/img/user/Pasted%20image%2020260519125421.png)
+![Pasted image 20260519125421.png](/img/user/Semester%204/Images/Pasted%20image%2020260519125421.png)
 
 ```php
 $sql = "SELECT * FROM Categories ORDER BY CategoryName"; 
@@ -655,7 +655,7 @@ var singleElement = $("#grab");
 var allLinks = $("a");
 ```
 
-![Pasted image 20260519150919.png](/img/user/Pasted%20image%2020260519150919.png)
+![Pasted image 20260519150919.png](/img/user/Semester%204/Images/Pasted%20image%2020260519150919.png)
 
 ## Modifikimi i DOM
 

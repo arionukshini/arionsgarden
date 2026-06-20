@@ -25,7 +25,7 @@ Kompjuterët kryejnë katër funksione kryesore:
 - Bartin të dhënat 
 - Kontrollojnë funksionet e sipërpërmendura.
 
-![Pasted image 20260401172013.png](/img/user/Pasted%20image%2020260401172013.png)
+![Pasted image 20260401172013.png](/img/user/Semester%204/Images/Pasted%20image%2020260401172013.png)
 
 Kompjuteri duhet te jete i afte qe te barte te dhena mes vetes dhe rrethies se jashtme.
 
@@ -34,21 +34,21 @@ Kur te dhenat levizin me distance me te gjate, procesi njihet si komunikim i te 
 *Se fundi duhet te kete kontroll te ketyre tri funksioneve (procesimit, ruajtjes dhe bartjes se te dhenave).* 
 
 Kompjuteri mund të funksionojë si një pajisje për bartjen e të dhënave (Fig. 2a), thjesht transferimin e të dhënave nga një linjë periferike ose e komunikimit në një tjetër.
-![Pasted image 20260401173053.png](/img/user/Pasted%20image%2020260401173053.png)
+![Pasted image 20260401173053.png](/img/user/Semester%204/Images/Pasted%20image%2020260401173053.png)
 
 Kompjuteri mund të funksionojë si pajisje për ruajtjen e të dhënave (Fig. 2b), me të dhëna të transferuara nga rrethina e jashtme në kujtesë të kompjuterit (storage) – leximi dhe anasjelltas – shkrimi.
-![Pasted image 20260401173126.png](/img/user/Pasted%20image%2020260401173126.png)
+![Pasted image 20260401173126.png](/img/user/Semester%204/Images/Pasted%20image%2020260401173126.png)
 
 Diagrami në Fig. 2c tregon operacionet që përfshijnë procesimin e të dhënave, në të dhëna ose në kujtesë.
-![Pasted image 20260401173217.png](/img/user/Pasted%20image%2020260401173217.png)
+![Pasted image 20260401173217.png](/img/user/Semester%204/Images/Pasted%20image%2020260401173217.png)
 
 Diagrami në Fig. 2d tregon operacionet që përfshijnë procesimin e të dhënave dhe rrugëtimin ndërmjet kujtesës dhe rrethinës së jashtme.
-![Pasted image 20260401173251.png](/img/user/Pasted%20image%2020260401173251.png)
+![Pasted image 20260401173251.png](/img/user/Semester%204/Images/Pasted%20image%2020260401173251.png)
 
 ## Struktura e kompjuterit
 
 Ne figuren me poshte eshte paraqitja me e thjeshte e nje kompjuteri. 
-![Pasted image 20260401173703.png](/img/user/Pasted%20image%2020260401173703.png)
+![Pasted image 20260401173703.png](/img/user/Semester%204/Images/Pasted%20image%2020260401173703.png)
 
 Ekzistojne keter komponente kryesore strukturore:
 1. **Njesia qendrore e procesimit (CPU):** Kontrollon operacionet e kompjuterit dhe kryen funksionet e procesimit te te dhenave. Referohet shpesh vetem si **procesor**.
@@ -73,7 +73,7 @@ Në Fig. 7 është paraqitur struktura e përgjithshme e kompjuterit IAS i cili 
 **Njësia Aritmetiko-Logjike (ALU)** e aftë për të vepruar me të dhëna binare. 
 **Njësia e kontrollit**, e cila interpreton instrusionet në memorie dhe bën që ato të ekzekutohen.
 **Pajisjet hyrëse/dalëse (I/O)** që operojnë nga njësia e kontrollit.
-![Pasted image 20260401182841.png](/img/user/Pasted%20image%2020260401182841.png)
+![Pasted image 20260401182841.png](/img/user/Semester%204/Images/Pasted%20image%2020260401182841.png)
 
 - Memoria për të dhëna dhe instruksione bazohet në 1000 lokacione memoruese (fjalë) prej 40 bita secila.
 - Instruksionet: 2 x 20 bita 
@@ -86,7 +86,7 @@ Në Fig. 7 është paraqitur struktura e përgjithshme e kompjuterit IAS i cili 
 	- Accumulator dhe Multiplier Quotient
 
 Fig. 8 tregon që Njësia e kontrollit dhe Njësia Aritmetiko-Logjike (ALU) përmbajnë lokacione memoruese, të quajtura regjistra të definuar si në vijim:
-![Pasted image 20260402104725.png](/img/user/Pasted%20image%2020260402104725.png)
+![Pasted image 20260402104725.png](/img/user/Semester%204/Images/Pasted%20image%2020260402104725.png)
 
 ### Bashkesia e regjistrave (memoria e CPU)
 
@@ -104,7 +104,7 @@ Kjo memorie bazohet ne 1000 lokacione memoruese prej 40 shifrave binare secila. 
 Numrat paraqiten ne forme binare, instruksioni poashtu eshte kod binar. *Secili numer eshte reprezentuar nga biti i parashenjes dhe nje vlere 39 bite.*
 - Formati i fjlaes per instruksione
 Nje fjale permben dy instruksione nga 20 bita, ku secili instruksion bazohet ne nje kod operues 8 bite i cili specifikon operacionin dhe adrese 12 bite qe percakton nje nga fjalet ne memorie (0-999).
-![Pasted image 20260402105844.png](/img/user/Pasted%20image%2020260402105844.png)
+![Pasted image 20260402105844.png](/img/user/Semester%204/Images/Pasted%20image%2020260402105844.png)
 
 Secili cikel i instruksionit perfshine dy nencikle:
 - Sjellja e instruksionit
@@ -138,11 +138,11 @@ IBM nuk ishte kompania e pare qe ofroi kete teknologji te re, por ishte NCR & RC
 
 ### Klasifikimi i kompjutereve sipas gjeneratave
 
-![Pasted image 20260402141151.png](/img/user/Pasted%20image%2020260402141151.png)
+![Pasted image 20260402141151.png](/img/user/Semester%204/Images/Pasted%20image%2020260402141151.png)
 
 Figura paraqet konfigurimin e IBM 7094, i gjenerates se dyte. E rendesishme per ket lloj kompjuteri ishte perdorimi i kanaleve te te dhenave.
 Ky kanal eshte nje modul i pavarur I/O me procesorin e vet dhe grupin e vet te instruksioneve.
-![Pasted image 20260402141436.png](/img/user/Pasted%20image%2020260402141436.png)
+![Pasted image 20260402141436.png](/img/user/Semester%204/Images/Pasted%20image%2020260402141436.png)
 
 ## Gjenerata e tretë (Qarqet e integruara)
 
@@ -151,7 +151,7 @@ Dy lloje të komponentëve janë të nevojshme: gates (portat) dhe memory cells 
 
 **Porta** është një komponentë që implementon një funksion të thjeshtë logjik ose Boolean (Fig. 11 ). Quhen porta sepse ato kontrollojnë rrjedhën e të dhënave në të njëjtën mënyrë si në kanal.
 **Qeliza memoruese** (Fig. 12) është një komponentë që mund të ruaj një bit të të dhënash; kështu që kjo komponentë mund të jetë në njërën nga dy gjendjet stabile në çdo kohë.
-![Pasted image 20260402142028.png](/img/user/Pasted%20image%2020260402142028.png)
+![Pasted image 20260402142028.png](/img/user/Semester%204/Images/Pasted%20image%2020260402142028.png)
 
 Duke lidhur numer te madh te keto dyjave konstruktohet kompjuteri.
 
@@ -162,10 +162,10 @@ Këtë mund t'a lidhim me katër funksionet themelore:
 **Kontrolli:** Rrugët ndërmjet komponentëve mund të bartin sinjale kontrolluese.
 
 **Qarku i integruar (IC)** – komponentët si transistorët, rezistorët dhe përçuesit mund të fabrikohen në një pllakë gjysmëpërçuese të silicit (Vafer). Këto komponentë përmes një procesi të metalizimit duke formuar qarqe. Fig. 13 paraqet konceptet bazë të ndërtimit të qarkut të integruar. Një vafer i hollë i Silicit është ndarë në një matricë të zonave të vogla, secila me disa milimetra katrorë. Mostër e qarkut identik është ndërtuar në secilën sipërfaqe dhe vaferi është ndarë në chipa. Secili Chip ka shumë porta dhe/ose qeliza memoruese plus një një numër të hyrjeve dhe daljeve për lidhje.
-![Pasted image 20260402145038.png](/img/user/Pasted%20image%2020260402145038.png)
+![Pasted image 20260402145038.png](/img/user/Semester%204/Images/Pasted%20image%2020260402145038.png)
 
 Sistemi IBM/360, Nga viti 1964, IBM kishte një kontroll të fortë në tregun e kompjuterave me Serinë e makinave 7000. Kjo ishte familja e parë e planifikuar e kompjuterëve. Familja mbulonte një gamë të gjerë të performancës dhe të kostos. Tabela 2 tregon disa nga karakteristikat kryesore të modeleve të ndryshme në vitin 1965 (secili anëtar i familjes dallon nga një model numër).
-![Pasted image 20260402145123.png](/img/user/Pasted%20image%2020260402145123.png)
+![Pasted image 20260402145123.png](/img/user/Semester%204/Images/Pasted%20image%2020260402145123.png)
 
 DEC PDP-8 Në të njëjtin vit që IBM lëshoi sistemin e parë të IBM/360, një tjetër kompjuter u shfaq: PDP-8 nga Digital Equipment Corporation Çmimi prej 16,000 dollarësh llogaritej mjaft e lirë për secilin teknik laboratori që të ketë një të tillë. Vetëm disa muaj më parë sistemi IBM/360 seri e kompjuterë mainframe kushtonte qindra mijëra dollar.
 
@@ -176,7 +176,7 @@ Modelet e vonshme te PDP-8 perdoren nje strukture e cila quhej OMNIBUS (magjistr
 Me kohe, u be e mundur te paketoheshin me shume komponente ne te njejtin chip. Kjo reprezenton ligjin e Moor-it.
 Gordon Moor ishte bashkethemelues i Intelit.
 Numri i transistoreve brenda cipit do te dyfishohet per qdo dy vite.
-![Pasted image 20260402151131.png](/img/user/Pasted%20image%2020260402151131.png)
+![Pasted image 20260402151131.png](/img/user/Semester%204/Images/Pasted%20image%2020260402151131.png)
 
 Për 15 vite, nga 1986 deri në 2001, performanca e procesorit u rrit me një mesatare prej 52%, por deri në vitin 2018, kjo ishte ngadalësuar në vetëm 3.5% në vit - një ndalesë virtuale. Arsyja kryesore eshte se po i afrohemi kurfirit fizik. Kjo do të thotë një fund për s*hkallëzimin e Dennard - një tjetër 'ligj' kompjuterik, i cili thotë se ndërsa transistorët bëhen më të vegjël, kërkesat e tyre për energji gjithashtu zvogëlohen, duke e bërë nevojën për energji për zonë afërsisht konstante, edhe pse transistorët janë të paketuar më dendur.*
 
@@ -193,8 +193,8 @@ Pasi densiteti i elementeve ne chip vazhdoi te rritet, shume elemente u vendosen
 **Zbulim i madh u arrit ne vitin 1971, kur Intel zhvilloi 4004.**
 4004 ishte qipi i pare qe permbante te gjitha komponentet e nje CPU ne nje paketim te vetem.
 Procesori 8080 ishte një mikroprocesor 8 bitësh.
-![Pasted image 20260402155013.png](/img/user/Pasted%20image%2020260402155013.png)
-![Pasted image 20260402155030.png](/img/user/Pasted%20image%2020260402155030.png)
+![Pasted image 20260402155013.png](/img/user/Semester%204/Images/Pasted%20image%2020260402155013.png)
+![Pasted image 20260402155030.png](/img/user/Semester%204/Images/Pasted%20image%2020260402155030.png)
 
 ### Evoluimi i mikroprocesoreve
 
@@ -252,8 +252,8 @@ Sistemet ARM fillimisht janë disejnur për përdorim ne mikrokompjuterët në p
 Përkufizim i përgjithshëm: *Një kombinim i harduerit dhe softuerit kompjuterik, dhe ndoshta edhe pjesë të tjera shtesë mekanike, të dizajnuara për të kryer një funksion të dedikuar. Në shumë raste, sistemet e ngulitura janë pjesë e një sistemi ose produkti më të madh p.sh në vetura , makina larëse etj.*
 
 Fig. 16 tregon organizimin e një sistemi të integruar ku përveç procesorit dhe memories, ka një numër elementesh që ndryshojnë nga kompjuteridesktop ose laptop me qëllim të përgjithshëm.
-![Pasted image 20260402182333.png](/img/user/Pasted%20image%2020260402182333.png)
-![Pasted image 20260402182423.png](/img/user/Pasted%20image%2020260402182423.png)
+![Pasted image 20260402182333.png](/img/user/Semester%204/Images/Pasted%20image%2020260402182333.png)
+![Pasted image 20260402182423.png](/img/user/Semester%204/Images/Pasted%20image%2020260402182423.png)
 
 ## **Permbledhje**
 
@@ -273,7 +273,7 @@ Ky prefix është zgjeruar pastaj edhe te iPhone e kështu me radhë.
 
 ## Arkitektura e Harvardit
 
-![Pasted image 20260402183256.png](/img/user/Pasted%20image%2020260402183256.png)
+![Pasted image 20260402183256.png](/img/user/Semester%204/Images/Pasted%20image%2020260402183256.png)
 
 Kjo i referohet nje strukture memorie ne te cilen procesori eshte i lidhur me dy lokacione memorie te pavarura nepermjet dy grupeve te pavarura te basave.
 Ne origjinalen, nje lokacion memoie mban istruksionet e programit dhe tjetri mban te dhenat.
@@ -322,13 +322,13 @@ Si zgjidhet ky problem?
 
 Performanca e procesorit ka ecur shume perpara ne krahasim me komponentet e tjere te kompjuterit.
 
-![Pasted image 20260407151951.png](/img/user/Pasted%20image%2020260407151951.png)
+![Pasted image 20260407151951.png](/img/user/Semester%204/Images/Pasted%20image%2020260407151951.png)
 
 Çfarë është më e rëndësishme? Madhësia e RAM-it apo shpejtësia e procesorit?
 Me një CPU të ngadaltë dhe shumë RAM, ju keni një pajisje të ngadaltë. Me një CPU të shpejtë dhe me pak RAM, ju keni një pajisje të vonuar performance. 
 *Të dyja janë po aq të rëndësishme pasi punojnë së bashku për të rritur performancën e kompjuterit.*
 
-![Pasted image 20260407152222.png](/img/user/Pasted%20image%2020260407152222.png)
+![Pasted image 20260407152222.png](/img/user/Semester%204/Images/Pasted%20image%2020260407152222.png)
 
 Faktoret per rritjen e performances jane: rritja e frekuences se taktit dhe dendesia e komponenteve.
 Me rritjen e keto dyjave dolen disa veshtiresi:
@@ -341,7 +341,7 @@ Sot fuqia është sfida më e madhe e dizajnerëve për çdo klasë të kompjute
 **Së dyti:** Fuqia harxhohet (shpërndahet) si nxehtësi dhe duhet të largohet.
 Për cipat CMOS, tradicionalisht konsumi i fuqisë ka qenë dhe është gjatë komutimit të transistorëve, e quajtur fuqi dinamike.
 Transistori komuton nga 0 -> 1 dhe 1 -> 0 (ngarkimit dhe zbrazjes së kondensatorëve)
-![Pasted image 20260407153003.png](/img/user/Pasted%20image%2020260407153003.png)
+![Pasted image 20260407153003.png](/img/user/Semester%204/Images/Pasted%20image%2020260407153003.png)
 *Vlera më e ultë e frekuencës së klokut në mënyrë direkte redukton fuqinë.*
 
 Fuqia: Me rritjen e densitetit dhe shpejtësisë së taktit rritet edhe dendësia e fuqisë (W/cm2 ) në çip (problemet me ftohje).
@@ -355,14 +355,14 @@ Vonesa RC: shpejtësia midis transistorëve kufizohet me R dhe C të përçuesve
 Latenca është koha ndërmjet fillimit dhe përfundimit të një ngjarje.
 
 Një tjetër fushë e fokusit në projektim është menaxhimi i pajisjeve të hyrje/dalje. Ndërsa kompjuterët bëhen më të shpejtë dhe më të fuqishem, zhvillohen aplikacione më të sofistikuara që mbështesin përdorimin e periferikëve me kërkesa intensive për hyrje/dalje.
-![Pasted image 20260407154507.png](/img/user/Pasted%20image%2020260407154507.png)
+![Pasted image 20260407154507.png](/img/user/Semester%204/Images/Pasted%20image%2020260407154507.png)
 
 Mikroprocesorët modern ofrojnë  teknika me qëllim të përmirësimit të efiqiencës së energjisë. Teknikat për reduktimin e fuqisë janë: 
 1. **Do nothing well:** Shumica e mikroprocesorëve sot shkyçin klokun e moduleve joaktive për të ruajtur energjinë dhe fuqinë dinamike.
 2. **Skalimi Dinamik Tension – Frekuencë (DVFS):** (direkt nga formula e mëparshme. PMD-të, laptopët madje edhe serverët kanë perioda të aktivitetit të ultë ku nuk kanë nevojë të operojnë me frekuencë dhe tension të lartë. Mikroprocesorët modern kryesisht ofrojnë disa frekuenca kloku dhe tensione në të cilat operojnë që të shfrytëzojnë me pak fuqi dhe energji).
 
 Në Fig. 4 paraqitet kursimi potencial i fuqisë për një server për tre kloke të ndryshme: 2,4 GHz, 1,8 GHz dhe 1 GHz.
-![Pasted image 20260407154920.png](/img/user/Pasted%20image%2020260407154920.png)
+![Pasted image 20260407154920.png](/img/user/Semester%204/Images/Pasted%20image%2020260407154920.png)
 
 3. Dizajnimi për raste tipike. Duke marrë parasysh që PMD-të dhe laptopët shpesh janë “të papunë”, atëherë iu ofrojnë memories dhe kujtesës një mod pune me gjendje të ultë të fuqisë për të kursyer energjinë. Në këtë mod s’mund t’iu qaseni DRAM-it ose DISK-ut derisa të ktheheni në aktivitet të plotë për shkrim/lexim. 
 4. Overclocking-u Nga viti 2008 Inteli ofrojë “ turbo modin” i dedikuar që çipi të punojë me takt më të lartë për periudha të shkurta kohore. Në këtë mod rritet fuqia konsumuese e procesorit duke gjeneruar kështu më shumë nxehtësi. P.sh. 3.3 GHz Core i7 mund të ekzekutojë shkurt për 3.6 GHz. (“duke shkyçur të gjitha bërthamat tjera dhe duke mbetur vetëm ajo me klok më të lartë”)
@@ -372,18 +372,18 @@ Në Fig. 4 paraqitet kursimi potencial i fuqisë për një server për tre kloke
 Disa procesorë brenda nje çipi. Shumica e CPU-ve moderne kanë shumë bërthama (nga 2 në 64 e mw lart). Performanca me të gjitha bërthamat ose me disa bërthama është një metrikë shumë e rëndësishme. Jo të gjitha bërthamat janë të barabarta: dallojnë në performance dhe efikasitetit, ose dallojnë në klokat e tyre.
 Intel dhe AMD tani rrisin numrin e bërthamave përgjatë gjeneratave, pra një CPU me dy bërthama është pothuajse si dy CPU me një bërthamë të ngjitur së bashku. CPU-të me katër bërthama është si 4 CPU me një bërthamë të ngjitur së bashku.
 
-![Pasted image 20260407155658.png](/img/user/Pasted%20image%2020260407155658.png)
-![Pasted image 20260407155710.png](/img/user/Pasted%20image%2020260407155710.png)
-![Pasted image 20260407155728.png](/img/user/Pasted%20image%2020260407155728.png)
-![Pasted image 20260407155741.png](/img/user/Pasted%20image%2020260407155741.png)
-![Pasted image 20260407155811.png](/img/user/Pasted%20image%2020260407155811.png)
+![Pasted image 20260407155658.png](/img/user/Semester%204/Images/Pasted%20image%2020260407155658.png)
+![Pasted image 20260407155710.png](/img/user/Semester%204/Images/Pasted%20image%2020260407155710.png)
+![Pasted image 20260407155728.png](/img/user/Semester%204/Images/Pasted%20image%2020260407155728.png)
+![Pasted image 20260407155741.png](/img/user/Semester%204/Images/Pasted%20image%2020260407155741.png)
+![Pasted image 20260407155811.png](/img/user/Semester%204/Images/Pasted%20image%2020260407155811.png)
 
 ### Shkallëzimi i transistorëve
 
 Madhësia karakteristike- Madhësinë minimale të transistor-it ose telit përçues në dimension x ose y është zvogëluar nga 10 mikrona në vitin 1971 në 0.032 mikrona në vitin 2011 (rreth 300 X). 
 Prodhimi në vitin 2015 është referuar si proces “11 nanometra”. performanca e transistorit shkallëzohet linearisht me një zvogëlim linear në tiparin e madhësisë.
 Vonesa në përçues nuk do të thotë që nuk përmirësohet me tiparin e madhësisë
-![Pasted image 20260407160114.png](/img/user/Pasted%20image%2020260407160114.png)
+![Pasted image 20260407160114.png](/img/user/Semester%204/Images/Pasted%20image%2020260407160114.png)
 
 ## Vlerësimi dhe krahasimi performancave të sistemeve kompjuterike
 
@@ -411,7 +411,7 @@ Një shembull i ekzekutimit pipeline me një uniprocessor mund të jetë mbledhj
 
 ### Formula n shi
 
-![Pasted image 20260408131515.png](/img/user/Pasted%20image%2020260408131515.png)
+![Pasted image 20260408131515.png](/img/user/Semester%204/Images/Pasted%20image%2020260408131515.png)
 $$Frekuenca \space e \space klokut_{B} = \frac{nr.cikleve \space te \space kolkut \space CPU_{B}}{koha \space e \space CPU_{B}} = \frac{1.2 * cikle \space klokut_{A}}{6s}$$
 
 $$nr. cikleve \space te \space klokut_{A} = frekuenca \space e \space klokut_{A} * koha \space e \space CPU_{A}=2GHz*10s=20*10^{9}$$
@@ -431,7 +431,7 @@ $$koha \space e \space CPU = \frac{numri \space i \space cikleve \space te \spac
 Nëse njohim numrin e cikleve të klokut dhe numrin e instruksioneve për një ekzekutim të caktuar të një programi të caktuar, atëherë mund të llogarisim numrin mesatar të cikleve të klokut për instruksion **CPI (Clock Cicle per Instruction)**
 $$CPI = \frac{numri \space i \space cikleve \space te \space klokut \space te \space CPU \space per \space nje \space program}{numri \space i \space instruksioneve (IC)}$$
 
-![Pasted image 20260408132448.png](/img/user/Pasted%20image%2020260408132448.png)
+![Pasted image 20260408132448.png](/img/user/Semester%204/Images/Pasted%20image%2020260408132448.png)
 
 $$koha \space e \space CPU = CPI *Ic*T_{clk} = \frac{CPI*Ic}{f_{clk}}$$
 
@@ -448,12 +448,12 @@ Fatkeqësisht është vështirë të ndërrohet njëri parametër i izoluar komp
 
 ### Detyra 1
 
-![Pasted image 20260408133107.png](/img/user/Pasted%20image%2020260408133107.png)
-![Pasted image 20260408133129.png](/img/user/Pasted%20image%2020260408133129.png)
-![Pasted image 20260408133140.png](/img/user/Pasted%20image%2020260408133140.png)
+![Pasted image 20260408133107.png](/img/user/Semester%204/Images/Pasted%20image%2020260408133107.png)
+![Pasted image 20260408133129.png](/img/user/Semester%204/Images/Pasted%20image%2020260408133129.png)
+![Pasted image 20260408133140.png](/img/user/Semester%204/Images/Pasted%20image%2020260408133140.png)
 ### Detyra 2
 
-![Pasted image 20260408133200.png](/img/user/Pasted%20image%2020260408133200.png)
+![Pasted image 20260408133200.png](/img/user/Semester%204/Images/Pasted%20image%2020260408133200.png)
 
 ## Ligji i Amdal-it
 
@@ -466,25 +466,25 @@ Ligji i Amdahl-it definon “përmirësimin e shpejtësisë”-speedup-in që mu
 
 Pra, Speedup tregon se sa me shpejt ekzekutohet një “task” kur shfrytëzohet kompjuteri me përmirësim në krahasim me kompjuterin origjinal (pa përmirësim).
 Konsideroni qe një program ekzekutohet me vetëm një procesor. Lë të jetë T(1) koha e përgjithshme e ekzekutimit të këtij programi me shfrytëzimin e single processor-it (koha e ekzekutimit të programit në një bërthamë), ndërsa T(N) lë të jetë koha e ekzekutimit të programit në Nbërthama (procesorë). Atëherë,
-![Pasted image 20260408134827.png](/img/user/Pasted%20image%2020260408134827.png)
+![Pasted image 20260408134827.png](/img/user/Semester%204/Images/Pasted%20image%2020260408134827.png)
 
 Nëse vendosni N procesorë, a do të duhet të fitoni speedup-in n herë?
 Gjithmonë ekziston një pjesë e operacionit total që është në mënyrë serike (sekuenciale) dhe nuk mund të paralelizohet pavarësisht se çfarë bëni.
 Në rastin e paralelizmit, nëse shënojmë me P pjesën e programit që mund të paralelizohet (ashtu që të fitohet nga paralelizmi), dhe (1 − P) është pjesa që nuk mund të paralelizohet - mbetet serike (sekuenciale), atëherë përmirësimi maksimal i shpejtësisë që mund të arrihet me N procesorë është:
-![Pasted image 20260408135253.png](/img/user/Pasted%20image%2020260408135253.png)
-![Pasted image 20260408135309.png](/img/user/Pasted%20image%2020260408135309.png)
+![Pasted image 20260408135253.png](/img/user/Semester%204/Images/Pasted%20image%2020260408135253.png)
+![Pasted image 20260408135309.png](/img/user/Semester%204/Images/Pasted%20image%2020260408135309.png)
 
 Ky ekuacion është paraqitur në Fig. 24. Mund të nxirren dy rezultate të rëndësishme:
 1. Nëse P është e vogël, përdorimi i procesorëve paralel ka efekt të vogël. 
 2. Nëse N i afrohet infinitit, atëherë përmirësimi maksimal i shpejtësisë (speedup-i) kufizohet me 1/(1 – P), dhe nuk ka ndikim rritja e numrit të procesorëve.
 
 P.sh nëse P = 90%, atëherë 1- P= 10%, atëherë problemi mund të përshpejtohet maksimumi me faktorin 10, pa marrë parasysh sa është vlera e N. Për këtë arsye procesimi paralel është i dobishëm vetëm për një numër të vogël të procesorëve.
-![Pasted image 20260408135413.png](/img/user/Pasted%20image%2020260408135413.png)
+![Pasted image 20260408135413.png](/img/user/Semester%204/Images/Pasted%20image%2020260408135413.png)
 
 *Pse nuk mund të arrihet paralelizmi 100% në procesorët me shumë bërthama?*
 Keni paralelizëm 100% kur të gjitha bërthamat janë duke kryer punë gjatë gjithë kohës. D.m.th kur edhe bërthamat idle (të pa puna) llogarisin diçka. Varet nga programi që ekzekutoni në sistem. Është vështirë të gjesh një program që mund të jetë plotësisht paralel. Në inxhinieri kompjuterike mund të ekzistoj ndonjë shembulli programit si llogaritja e mbledhjes së një bashkësi numrash. Numrat mund të ndahet në mënyrë të barabartë në procesorë të shumtë. Kështu, secili procesorë do të prodhojë një shumë të parciale. Mirëpo, krejt në fund, një numër i vetëm nga një grup i reduktuar i procesorëve do të kërkohet për të grumbulluar rezultatet e pjesshme. Pra, paska punë që mund të ekzekutohen vetëm sekuencialisht. Mund të theksohet se edhe nëse keni një algoritëm paralel, mund të mos funksionojë përtej një niveli të caktuar paralelizmi.
 
-![Pasted image 20260408140805.png](/img/user/Pasted%20image%2020260408140805.png)
+![Pasted image 20260408140805.png](/img/user/Semester%204/Images/Pasted%20image%2020260408140805.png)
 
 Ligji i Amdalit na jep një mënyrë të shpejtë për të gjetur përmirësimin e shpejtësisë (speedup-in e përgjithshëm) nga disa përmirësime, gjë që varet nga dy faktorë: 
 1. Pjesa e kohës (fraction time) së llogaritjes në kompjuterin original (Fractionenhanced ) që mund të konvertohet për të marrë avantazhin e përmirësimit.
@@ -493,16 +493,16 @@ P.sh. nëse 20 sekondat e kohës së ekzekutimit të një programi që merr 60 s
 d.m.th. sa më shpejt do të funksiononte detyra (tasku) nëse mënyra e përmirësuar do të përdorej për të gjithë programin P.sh. Nëse një pjesë e programit merr 2 sekonda në mod përmirësimi, ndërsa 5 sekonda në mod origjinal, atëherë përmirësimi është 5/2. Vërehet se Speedupenhanced është çdoherë më i madh se 1.
 
 Speedup i përgjithshëm është raporti i kohëve të ekzekutimit (pa përmirësim/me përmirësim)
-![Pasted image 20260408141603.png](/img/user/Pasted%20image%2020260408141603.png)
+![Pasted image 20260408141603.png](/img/user/Semester%204/Images/Pasted%20image%2020260408141603.png)
 
-![Pasted image 20260408141622.png](/img/user/Pasted%20image%2020260408141622.png)
-![Pasted image 20260408141640.png](/img/user/Pasted%20image%2020260408141640.png)
+![Pasted image 20260408141622.png](/img/user/Semester%204/Images/Pasted%20image%2020260408141622.png)
+![Pasted image 20260408141640.png](/img/user/Semester%204/Images/Pasted%20image%2020260408141640.png)
 
 ## Permbledhje
 
 Vlerësimi i përformancës së CPU-së: 
 Kur kompjuteri përdor CPU-në që funksionon me një shpejtësi konstante të clokut ose frekuencë e klokut f.
-![Pasted image 20260408141745.png](/img/user/Pasted%20image%2020260408141745.png)
+![Pasted image 20260408141745.png](/img/user/Semester%204/Images/Pasted%20image%2020260408141745.png)
 Shpejtësia e klokut të CPU-së varet nga organizimi (dizajni) specifik i CPU-së dhe teknologjia e implementimit të harduerit (VLSI) e përdorur. 
 Prej këtu: *Një instruksion i vetëm i makinës mund të marrë një ose më shumë cikle të CPU-së për t'u përfunduar të quajtur si Ciklet për Instruksion (CPI)*.
 
@@ -518,21 +518,21 @@ Kur një program është gati për të ekzekutuar një instruksion, CPU kopjon i
 Një program specifik “A” për t’u ekzekutuar në një makinë specifike (CPU), ka parametrat e mëposhtëm: 
 1. Numrin total të instruksioneve të ekzekutuara për program (Ic) 
 2. Numri mesatar i cikleve për instruksion (CPI mesatare)
-![Pasted image 20260408142714.png](/img/user/Pasted%20image%2020260408142714.png)
+![Pasted image 20260408142714.png](/img/user/Semester%204/Images/Pasted%20image%2020260408142714.png)
 3. Koha e ciklit të makinës (CPU-së) 
 
 Koha e CPU-së varet nga programi i cili ekzekutohet, dukë përfshirë: 
 - Numrin e instruksioneve që ekzekutohen 
 - Llojet e instruksioneve të ekzekutuara dhe frekuenca
-![Pasted image 20260408142852.png](/img/user/Pasted%20image%2020260408142852.png)
+![Pasted image 20260408142852.png](/img/user/Semester%204/Images/Pasted%20image%2020260408142852.png)
 
-![Pasted image 20260408143013.png](/img/user/Pasted%20image%2020260408143013.png)
+![Pasted image 20260408143013.png](/img/user/Semester%204/Images/Pasted%20image%2020260408143013.png)
 
-![Pasted image 20260408144444.png](/img/user/Pasted%20image%2020260408144444.png)
-![Pasted image 20260408144507.png](/img/user/Pasted%20image%2020260408144507.png)
-![Pasted image 20260408144517.png](/img/user/Pasted%20image%2020260408144517.png)
-![Pasted image 20260408144541.png](/img/user/Pasted%20image%2020260408144541.png)
+![Pasted image 20260408144444.png](/img/user/Semester%204/Images/Pasted%20image%2020260408144444.png)
+![Pasted image 20260408144507.png](/img/user/Semester%204/Images/Pasted%20image%2020260408144507.png)
+![Pasted image 20260408144517.png](/img/user/Semester%204/Images/Pasted%20image%2020260408144517.png)
+![Pasted image 20260408144541.png](/img/user/Semester%204/Images/Pasted%20image%2020260408144541.png)
 
-![Pasted image 20260408144427.png](/img/user/Pasted%20image%2020260408144427.png)
+![Pasted image 20260408144427.png](/img/user/Semester%204/Images/Pasted%20image%2020260408144427.png)
 
 THE END!

@@ -82,7 +82,7 @@ Shtimi i një vlerësimi të rrezikut në procesin e vlerësimit ndihmon për t�
 4. Metoda e Kurbës së të Mësuarit (Learning Curve) – Aplikohet kur puna përsëritet; sa më shumë përvojë fitohet, aq më pak kohë ose kosto kërkohet për njësi.
 
 Këto metoda janë më të shpejta dhe më të lira se vlerësimet “bottom-up”, por më pak të sakta, pasi bazohen në supozime të përgjithshme, jo në analiza të detajuara.
-![Pasted image 20260507121544.png](/img/user/Pasted%20image%2020260507121544.png)
+![Pasted image 20260507121544.png](/img/user/Semester%204/Images/Pasted%20image%2020260507121544.png)
 
 ### METODAT “BOTTOM-UP” PËR VLERËSIMIN E KOHËS DHE KOSTOS SË PROJEKTIT
 
@@ -199,7 +199,7 @@ Dallimet kryesore midis diagrameve AOA dhe AON janë:
 - Paraqitja e aktiviteteve: Në diagramet AOA, aktivitetet përfaqësohen me shigjeta, ndërsa në diagramet AON, aktivitetet përfaqësohen me nyje. 
 - Paraqitja e ngjarjeve: Në diagramet AOA, ngjarjet përfaqësohen me nyje, ndërsa në diagramet AON, ngjarjet nuk përfaqësohen në mënyrë eksplicite.
 
-![Pasted image 20260507190142.png](/img/user/Pasted%20image%2020260507190142.png)
+![Pasted image 20260507190142.png](/img/user/Semester%204/Images/Pasted%20image%2020260507190142.png)
 
 ### **Tetë rregullat e mëposhtme zbatohen në mënyrë të përgjithshme gjatë zhvillimit të një rrjeti projekti:**
 
@@ -224,8 +224,8 @@ Dallimet kryesore midis diagrameve AOA dhe AON janë:
 
 ## NDERTIMI I RRJETIT SIPAS AOA DHE AON
 
-![Pasted image 20260507190513.png](/img/user/Pasted%20image%2020260507190513.png)
-![Pasted image 20260507190606.png](/img/user/Pasted%20image%2020260507190606.png)
+![Pasted image 20260507190513.png](/img/user/Semester%204/Images/Pasted%20image%2020260507190513.png)
+![Pasted image 20260507190606.png](/img/user/Semester%204/Images/Pasted%20image%2020260507190606.png)
 
 #### LLOJET E AKTIVITETEVE
 
@@ -249,12 +249,12 @@ Per te nxjerre nje vleresim te arsyeshem te propabilitetit per kohezgjatjen e ak
 3. Kohezgjatja optimiste e aktivitetit
 
 Bazuar ne keto mund te llogaritet **KOHA E VLERESUAR (TE)** sipas formules: 
-![Pasted image 20260507193455.png](/img/user/Pasted%20image%2020260507193455.png)
+![Pasted image 20260507193455.png](/img/user/Semester%204/Images/Pasted%20image%2020260507193455.png)
 
 *Shembull:*
-![Pasted image 20260507193532.png](/img/user/Pasted%20image%2020260507193532.png)
-![Pasted image 20260507193603.png](/img/user/Pasted%20image%2020260507193603.png)
-![Pasted image 20260507193613.png](/img/user/Pasted%20image%2020260507193613.png)
+![Pasted image 20260507193532.png](/img/user/Semester%204/Images/Pasted%20image%2020260507193532.png)
+![Pasted image 20260507193603.png](/img/user/Semester%204/Images/Pasted%20image%2020260507193603.png)
+![Pasted image 20260507193613.png](/img/user/Semester%204/Images/Pasted%20image%2020260507193613.png)
 
 **Rruga kritike** është rruga më e gjatë e aktiviteteve të varura në rrjetin e projektit, që përcakton kohën minimale të përfundimit të projektit. 
 Nëse cilido aktivitet në **rrugën kritike vonohet, i gjithë projekti vonohet**, sepse këto aktivitete nuk kanë kohë rezervë (float / slack = 0).
@@ -270,7 +270,7 @@ Disa nga përfitimet e grafikëve Gantt janë:
 - Janë mjaft të vlefshëm për identifikimin e nevojave për burime dhe caktimin e tyre sipas detyrave; 
 - Janë të lehtë për t’u ndryshuar dhe për t’u përshtatur me ndryshimet në planin e projektit.
 
-![Pasted image 20260507194358.png](/img/user/Pasted%20image%2020260507194358.png)
+![Pasted image 20260507194358.png](/img/user/Semester%204/Images/Pasted%20image%2020260507194358.png)
 
 # PLANIFIKIMI I BURIMEVE
 
@@ -365,15 +365,15 @@ Hapi 4: Nivelimi i ngarkesës së burimeve.
 Shembulli i nivelimit te burimit ilustron sfiden që grupet e projektit ndeshin kur tentojne te aplikojne nivelimin e burimit te nje rrjeti aktivitetesh te ndertuar. 
 Supozojme se eshte ndertuar diagrama rrjet bazuar ne informatat ne tabelen ne vijim. Per sejcilin prej ketyre aktiviteteve mund te llogarisim fillimin e hershem (FH), mbarimin e hershem (MH), fillimin e vonshem (FV) dhe mbarimin e vonshem (MV) si dhe rezervën e aktiviteteve.
 
-![Pasted image 20260507214807.png](/img/user/Pasted%20image%2020260507214807.png)
-![Pasted image 20260507214817.png](/img/user/Pasted%20image%2020260507214817.png)
-![Pasted image 20260507214832.png](/img/user/Pasted%20image%2020260507214832.png)
-![Pasted image 20260507214846.png](/img/user/Pasted%20image%2020260507214846.png)
-![Pasted image 20260507214855.png](/img/user/Pasted%20image%2020260507214855.png)
-![Pasted image 20260507214907.png](/img/user/Pasted%20image%2020260507214907.png)
-![Pasted image 20260507214917.png](/img/user/Pasted%20image%2020260507214917.png)
-![Pasted image 20260507214926.png](/img/user/Pasted%20image%2020260507214926.png)
-![Pasted image 20260507214947.png](/img/user/Pasted%20image%2020260507214947.png)
+![Pasted image 20260507214807.png](/img/user/Semester%204/Images/Pasted%20image%2020260507214807.png)
+![Pasted image 20260507214817.png](/img/user/Semester%204/Images/Pasted%20image%2020260507214817.png)
+![Pasted image 20260507214832.png](/img/user/Semester%204/Images/Pasted%20image%2020260507214832.png)
+![Pasted image 20260507214846.png](/img/user/Semester%204/Images/Pasted%20image%2020260507214846.png)
+![Pasted image 20260507214855.png](/img/user/Semester%204/Images/Pasted%20image%2020260507214855.png)
+![Pasted image 20260507214907.png](/img/user/Semester%204/Images/Pasted%20image%2020260507214907.png)
+![Pasted image 20260507214917.png](/img/user/Semester%204/Images/Pasted%20image%2020260507214917.png)
+![Pasted image 20260507214926.png](/img/user/Semester%204/Images/Pasted%20image%2020260507214926.png)
+![Pasted image 20260507214947.png](/img/user/Semester%204/Images/Pasted%20image%2020260507214947.png)
 
 # Menaxhimi i Rrezikut
 
@@ -449,7 +449,7 @@ Matrica është e ndarë në zona të kuqe, të verdha dhe të gjelbra, që për
 Zona e kuqe – rreziqe të mëdha (duhet reagim i menjëhershëm) 
 Zona e verdhë – rreziqe mesatare 
 Zona e gjelbër – rreziqe të vogla ose të pranueshme
-![Pasted image 20260512155931.png](/img/user/Pasted%20image%2020260512155931.png)
+![Pasted image 20260512155931.png](/img/user/Semester%204/Images/Pasted%20image%2020260512155931.png)
 
 **HAPI 3: REAGIMI NDAJ RREZIKUT**
 
@@ -697,7 +697,7 @@ Megjithatë, në projektet e softuerit:
 - klientët shpesh nuk e dinë saktë çfarë duan
 Për këtë arsye shumë projekte Waterfall vonoheshin ose anuloheshin.
 
-![Pasted image 20260512210657.png](/img/user/Pasted%20image%2020260512210657.png)
+![Pasted image 20260512210657.png](/img/user/Semester%204/Images/Pasted%20image%2020260512210657.png)
 
 ## MANIFESTI AGILE
 
@@ -775,7 +775,7 @@ Scrum bazohet në disa elemente kryesore që ndihmojnë në organizimin dhe mena
 **SPRINTI**
 Sprint-i është cikli kryesor i punës në Scrum.
 Sprint-i është një periudhë e shkurtër pune në Scrum, dhe zgjat zakonisht nga 1 deri në 4 javë.
-![Pasted image 20260512212841.png](/img/user/Pasted%20image%2020260512212841.png)
+![Pasted image 20260512212841.png](/img/user/Semester%204/Images/Pasted%20image%2020260512212841.png)
 
 Pas çdo sprint-i 
 - mblidhet feedback 
@@ -813,7 +813,7 @@ Takimet kryesore përfshijnë:
 - Sprint Retrospective
 
 Në praktikë përdoret shpesh edhe Release Planning për planifikimin e përgjithshëm të projektit.
-![Pasted image 20260512214407.png](/img/user/Pasted%20image%2020260512214407.png)
+![Pasted image 20260512214407.png](/img/user/Semester%204/Images/Pasted%20image%2020260512214407.png)
 
 ##### RELEASE PLANNING
 Release Planning përdoret për të përcaktuar objektivat kryesore të projektit dhe për të krijuar planin e përgjithshëm të release-it. Në këtë fazë identifikohen funksionalitetet kryesore të produktit, prioritetet më të rëndësishme në backlog dhe rreziqet kryesore të projektit.
@@ -893,11 +893,11 @@ Ekzistojnë dy lloje kryesore te Burndown Chart:
 
 **Sprint Burndown Chart**
 Sprint Burndown Chart përdoret për të ndjekur progresin ditor të sprint-it dhe për të monitoruar sasinë e punës së mbetur në Sprint Backlog. Krahasimi ndërmjet vijës ideale dhe progresit real tregon nëse ekipi është përpara apo prapa planit.
-![Pasted image 20260512224759.png](/img/user/Pasted%20image%2020260512224759.png)
+![Pasted image 20260512224759.png](/img/user/Semester%204/Images/Pasted%20image%2020260512224759.png)
 
 **Release Burndown Chart**
 Release Burndown Chart përdoret për të monitoruar progresin e përgjithshëm të projektit dhe për të vlerësuar datën e mundshme të përfundimit. Në Agile, Product Backlog ndryshon vazhdimisht, prandaj edhe vlerësimet e përfundimit mund të ndryshojnë gjatë projektit.
-![Pasted image 20260512224823.png](/img/user/Pasted%20image%2020260512224823.png)
+![Pasted image 20260512224823.png](/img/user/Semester%204/Images/Pasted%20image%2020260512224823.png)
 
 ### MENAXHIMI I PUNËS NË SCRUM 
 Scrum nuk përdor mjete tradicionale të menaxhimit të projekteve, si grafikët Gantt apo diagramet e rrjetit. Në vend të tyre, ai mbështetet në Daily Scrum, Sprint Backlog, bashkëpunimin intensiv të ekipit dhe përfshirjen aktive të Product Owner për të menaxhuar rrjedhën e punës. 

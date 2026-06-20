@@ -72,7 +72,7 @@ for($i=1; $i<=5;$i++) {
 ?>
 ```
 
-![Pasted image 20260414210252.png](/img/user/Pasted%20image%2020260414210252.png)
+![Pasted image 20260414210252.png](/img/user/Semester%204/Images/Pasted%20image%2020260414210252.png)
 
 Deklarimi i konstanteve:
 ```php
@@ -91,7 +91,7 @@ echo Const_2;
 **phpinfo()** - shfaq informacionin e sistemit (d.m.th., konfigurimin aktual të php) 
 **$\_SERVER ['HTTP_USER_AGENT’];** - informata per shfletuesin
 
-![Pasted image 20260414211301.png](/img/user/Pasted%20image%2020260414211301.png)
+![Pasted image 20260414211301.png](/img/user/Semester%204/Images/Pasted%20image%2020260414211301.png)
 
 ## Funksionet:
 
@@ -181,11 +181,11 @@ echo $a; // 100
 
 ### Funksionet e integruara
 
-![Pasted image 20260414220337.png](/img/user/Pasted%20image%2020260414220337.png)
+![Pasted image 20260414220337.png](/img/user/Semester%204/Images/Pasted%20image%2020260414220337.png)
 
 **trim()** largon hapësirat nga të dy anët e një string
 
-![Pasted image 20260414220516.png](/img/user/Pasted%20image%2020260414220516.png)
+![Pasted image 20260414220516.png](/img/user/Semester%204/Images/Pasted%20image%2020260414220516.png)
 
 **func_get_args()** është një funksion i PHP që përdoret brenda një funksioni tjetër dhe kthen të gjithë argumentet e dërguara në atë funksion si një array 
 - funksione me numër të ndryshueshëm parametrash 
@@ -199,14 +199,14 @@ Fushëveprimi i Variablave:
 - Global 
 - Function parameters
 - 
-![Pasted image 20260414221011.png](/img/user/Pasted%20image%2020260414221011.png)
-![Pasted image 20260414221039.png](/img/user/Pasted%20image%2020260414221039.png)
+![Pasted image 20260414221011.png](/img/user/Semester%204/Images/Pasted%20image%2020260414221011.png)
+![Pasted image 20260414221039.png](/img/user/Semester%204/Images/Pasted%20image%2020260414221039.png)
 
 ### Përdorimi variablave superglobale
 - PHP përfshin vargje të ndryshme globale të paracaktuara, të quajtura superglobale 
 - Superglobalë përmbajnë informacione për klientin, serverin dhe mjedisin që mund t'i përdorni në skriptet tuaja 
 - Superglobalë janë vargje shoqëruese –elementet e të cilëve referohen me një çelës alfanumerik në vend të një numri indeksi
-![Pasted image 20260414221258.png](/img/user/Pasted%20image%2020260414221258.png)
+![Pasted image 20260414221258.png](/img/user/Semester%204/Images/Pasted%20image%2020260414221258.png)
 
 for: inicializimi, kushti dhe operacionet post-loop si në JavaScript
 foreach: veçanërisht i dobishëm për përsëritjen nëpër vargje
@@ -250,12 +250,12 @@ Per te hapur nje file perdorim
 `$fp = fopen("$document_root/../orders/orders.txt", 'w’);`
 
 File Modes per fopen()
-![Pasted image 20260414230906.png](/img/user/Pasted%20image%2020260414230906.png)
+![Pasted image 20260414230906.png](/img/user/Semester%204/Images/Pasted%20image%2020260414230906.png)
 
 Pasi të kemi mbaruar përdorimin e një fajlli, duhet të mbyllim atë, duke përdorur fclose() funksionon si më poshtë: `fclose($fp)`.
 
 Funksioni flock() bllokon dhe liron një fajll:
-![Pasted image 20260414233446.png](/img/user/Pasted%20image%2020260414233446.png)
+![Pasted image 20260414233446.png](/img/user/Semester%204/Images/Pasted%20image%2020260414233446.png)
 
 ```php
 $file = fopen("order1.txt","a");
@@ -336,8 +336,8 @@ Mund të kontrollohet madhësinë e një fajlli duke përdorur funksionin filesi
 Nëse dëshirojmë të fshim fajllin e porosisë pasi të jenë përpunuar porositë, mund ta përdorim unlink().
 Mund të manipuloni dhe zbuloni pozicionin e pointerit të fajllit me funksionin ftell().
 
-![Pasted image 20260415132236.png](/img/user/Pasted%20image%2020260415132236.png)
-![Pasted image 20260415133918.png](/img/user/Pasted%20image%2020260415133918.png)
+![Pasted image 20260415132236.png](/img/user/Semester%204/Images/Pasted%20image%2020260415132236.png)
+![Pasted image 20260415133918.png](/img/user/Semester%204/Images/Pasted%20image%2020260415133918.png)
 
 rewind() – Kthehu në fillim të file-it
 ```php
@@ -414,11 +414,11 @@ print_r($tekst);
 ```
 `count($v_MeElemente_1)`
 
-![Pasted image 20260415141042.png](/img/user/Pasted%20image%2020260415141042.png)
+![Pasted image 20260415141042.png](/img/user/Semester%204/Images/Pasted%20image%2020260415141042.png)
 
 `urlencode()` Karakteret speciale si : dhe / në URL-në "ridrejtim" janë koduar si %3A dhe %2F për të shmangur ndërhyrjen në strukturën e URL-së së përgjithshme.
 `rawurlencode()` Zëvendëson të gjitha karakteret e tjera jo-alfanumerike përveç -, \_, ., dhe ~ me një shenjë përqindjeje të ndjekur nga dy shifra heksadecilam. Ky funksion zëvendëson gjithashtu hapësirat me një përqindje të ndjekur nga dy shifra heks: %20
-![Pasted image 20260415143656.png](/img/user/Pasted%20image%2020260415143656.png)
+![Pasted image 20260415143656.png](/img/user/Semester%204/Images/Pasted%20image%2020260415143656.png)
 
 ```php
 <html>
@@ -446,9 +446,9 @@ if(!empty($_POST["username"])&&!empty($_POST["pass"]) )
 ?>
 ```
 
-![Pasted image 20260415220553.png](/img/user/Pasted%20image%2020260415220553.png)
-![Pasted image 20260415220609.png](/img/user/Pasted%20image%2020260415220609.png)
-![Pasted image 20260415220922.png](/img/user/Pasted%20image%2020260415220922.png)
+![Pasted image 20260415220553.png](/img/user/Semester%204/Images/Pasted%20image%2020260415220553.png)
+![Pasted image 20260415220609.png](/img/user/Semester%204/Images/Pasted%20image%2020260415220609.png)
+![Pasted image 20260415220922.png](/img/user/Semester%204/Images/Pasted%20image%2020260415220922.png)
 
 ## $\_GET dhe $\_POST Superglobals
 Aksesoni të dhënat në një varg pyetjesh të dërguar nga klienti: 
@@ -488,11 +488,11 @@ Shembuj:
 
 ### Kontrollimi i vlerave
 
-![Pasted image 20260415163058.png](/img/user/Pasted%20image%2020260415163058.png)
+![Pasted image 20260415163058.png](/img/user/Semester%204/Images/Pasted%20image%2020260415163058.png)
 
 ### Kontrolloni për një numër
 
-![Pasted image 20260415163130.png](/img/user/Pasted%20image%2020260415163130.png)
+![Pasted image 20260415163130.png](/img/user/Semester%204/Images/Pasted%20image%2020260415163130.png)
 
 ## Raportimi i gabimeve në PHP
 
@@ -534,31 +534,31 @@ Vendndodhja për të ruajtur logs mund të caktohetnë mënyrë programore:
 Mund të vendoset gjithashtu brenda fajllit **php.ini**: **error_log = /restricted/my-errors.log**
 
 Gjithashtu mund të dërgoni mesazhe në logs e gabimeve në çdo kohë nëpërmjet funksionit **error_log()**:
-![Pasted image 20260415164527.png](/img/user/Pasted%20image%2020260415164527.png)
+![Pasted image 20260415164527.png](/img/user/Semester%204/Images/Pasted%20image%2020260415164527.png)
 
 ## Trajtimi i gabimeve procedurale
 
 Lidhja me një bazë të dhënash, mund të ketë një gabim...
 
-![Pasted image 20260415164645.png](/img/user/Pasted%20image%2020260415164645.png)
+![Pasted image 20260415164645.png](/img/user/Semester%204/Images/Pasted%20image%2020260415164645.png)
 
 ### Try, catch, finally
 
-![Pasted image 20260415164745.png](/img/user/Pasted%20image%2020260415164745.png)
+![Pasted image 20260415164745.png](/img/user/Semester%204/Images/Pasted%20image%2020260415164745.png)
 ### Metodat e objektit Exception
 
-![Pasted image 20260415164815.png](/img/user/Pasted%20image%2020260415164815.png)
-![Pasted image 20260415165017.png](/img/user/Pasted%20image%2020260415165017.png)
+![Pasted image 20260415164815.png](/img/user/Semester%204/Images/Pasted%20image%2020260415164815.png)
+![Pasted image 20260415165017.png](/img/user/Semester%204/Images/Pasted%20image%2020260415165017.png)
 
 ## Trajtuesit e personalizuar
 
 `set_exception_handler('my_exception_handler');`
 
-![Pasted image 20260415165126.png](/img/user/Pasted%20image%2020260415165126.png)
+![Pasted image 20260415165126.png](/img/user/Semester%204/Images/Pasted%20image%2020260415165126.png)
 
 ## Regular Expressions- RegEx
 
-![Pasted image 20260415165834.png](/img/user/Pasted%20image%2020260415165834.png)
+![Pasted image 20260415165834.png](/img/user/Semester%204/Images/Pasted%20image%2020260415165834.png)
 
 Sh. **308-9932** => `^\d{3}–\d{4}$`
 
@@ -588,8 +588,8 @@ if (preg_match('/^[a-zA-Z0-9_\-\.]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/', $email)
 
 ### Validimi PHP
 
-![Pasted image 20260415170800.png](/img/user/Pasted%20image%2020260415170800.png)
-![Pasted image 20260415170821.png](/img/user/Pasted%20image%2020260415170821.png)
+![Pasted image 20260415170800.png](/img/user/Semester%204/Images/Pasted%20image%2020260415170800.png)
+![Pasted image 20260415170821.png](/img/user/Semester%204/Images/Pasted%20image%2020260415170821.png)
 
 # Klasat dhe objektet në PHP
 
@@ -714,7 +714,7 @@ Aksesueshmëria e një anëtari të klasës mund të vendoset si:
 - Private vendos një metodë ose variabël që të jetë e aksesueshme vetëm brenda klasës 
 - Protected lidhet me trashëgiminë…
 
-![Pasted image 20260415202110.png](/img/user/Pasted%20image%2020260415202110.png)
+![Pasted image 20260415202110.png](/img/user/Semester%204/Images/Pasted%20image%2020260415202110.png)
 
 ## Anëtarët statikë
 
@@ -935,7 +935,7 @@ class Painting extends Art {
 ## Polimorfizmi
 
 Polimorfizmi është nocioni që një objekt mund të ofroj shumë gjëra në të njëjtën kohë.
-![Pasted image 20260415210250.png](/img/user/Pasted%20image%2020260415210250.png)
+![Pasted image 20260415210250.png](/img/user/Semester%204/Images/Pasted%20image%2020260415210250.png)
 
 ## Interfaces
 
@@ -950,4 +950,4 @@ interface Viewable {
 
 Në PHP, një klasë mund të thuhet se zbaton një ndërfaqe, duke përdorur fjalën implements: 
 `class Painting extends Art implements Viewable { ... }`
-![Pasted image 20260415211111.png](/img/user/Pasted%20image%2020260415211111.png)
+![Pasted image 20260415211111.png](/img/user/Semester%204/Images/Pasted%20image%2020260415211111.png)
