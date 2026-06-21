@@ -46,7 +46,6 @@ GEMINI
 
 ### Lucy
 
-Unmusique
 SISTERHOOD
 
 ### 2hollis
@@ -68,8 +67,6 @@ B4TM
 
 ### Under Underground
 
-The Point of No Return - XenoBand
-The High School Dropout - Dugui HG
 Get Rich or Die Sippin - Lil Shine
 
 #### Relisten
