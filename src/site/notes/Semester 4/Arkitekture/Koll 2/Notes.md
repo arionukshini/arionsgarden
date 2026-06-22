@@ -106,3 +106,47 @@ Funksionet kryesore të një moduli H/D (I/O Module) përfshijnë:
 - Zbulimin e gabimit
 
 #### Kontroll dhe timing
+
+Kontrolli i transferit të të dhënave nga një pajisje e jashtme për procesorin mund të përfshijë sekuencën e hapave vijues:
+1. Procesori ‘merr në pyetje’ modulin I/O për të kontrolluar statusin e pajisjes së bashkangjitur. 
+2. Moduli I/O i kthen statusin e pajisjes 
+3. Nëse pajisja është operacionale dhe e gatshme për të transmetuar, procesori kërkon transferimin e të dhënave, përmes një komande në modulin I/O. 
+4. Moduli I / O merr një njësi të të dhënave (p.sh., 8 ose 16 bit) nga pajisje e jashtme. 
+5. Të dhënat transferohen nga moduli I / O te procesori.
+
+#### Komunikimi i procesorit
+
+Dekodimi i komandës: Moduli I / O pranon komandat nga procesori, të cilat dërgohen zakonisht si sinjale në busin e kontrollit, p.sh disku magnetik.
+
+#### Komunikimi i pajisjes I/O
+
+![Pasted image 20260622180625.png](/img/user/Pasted%20image%2020260622180625.png)
+Fig. 6 paraqet organizimin e brendshëm të një moduli hyrës/dalës dhe komunikimin e tij me CPU-në dhe pajisjen periferike.
+
+#### Baferimi i të dhënave
+
+Baferimi është i nevojshëm për shkak të mospërputhjes së shpejtësisë ndërmjet procesorit, memories dhe pajisjeve periferike gjatë transferimit të të dhënave.
+
+*Një bafer është një hapësirë e memories që përdoret për ruajtjen e përkohshme të të dhënave gjatë transferimit të tyre nga një komponent në tjetrin.*
+
+Print buffering quhet spooling.
+
+YouTube player mbanë ca hapësirë në memorie, që quhet bafer, ku para-ngarkon një numër frames kornizash paraprakisht, dhe vazhdon ta shtojë atë në të njëjtën kohë video shfaqet.
+
+## Basi i sistemit (System Bus)
+
+Basi i sistemit mundëson shkëmbimin e të dhënave, adresave dhe sinjaleve kontrolluese ndërmjet komponentëve të sistemit kompjuterik.
+
+**Komponentët kryesorë të Basit të Sistemit:**
+
+**Data Bus:** përdoret për transferimin dykahësh të të dhënave ndërmjet CPUsë, memories dhe moduleve H/D. Gjerësia e tij (p.sh. 32-bit ose 64-bit) ndikon në sasinë e të dhënave që transferohen në një operacion. 
+**Address Bus:** përdoret për transferimin e adresave të memories dhe pajisjeve H/D, komunikim njekahesh.
+**Control Bus:** përdoret për transmetimin e sinjaleve kontrolluese dhe sinkronizuese, si: Read, Write, Interrupt, Clock, Reset. 
+
+Performanca e sistemit kompjuterik ndikohet drejtpërdrejt nga karakteristikat e Basit të Sistemit. **Performanca e bus-it varet kryesisht nga:**
+
+**Gjerësia e bus-it (Bus Width):** përcakton sa bita mund të transferohen njëkohësisht. P.sh.: një Data Bus 32-bit transferon 32 bit në një cikël, ndërsa një Data Bus 64-bit transferon 64 bit në një cikël. 
+**Frekuenca e punës:** përcakton sa herë në sekondë realizohen transferimet e të dhënave. 
+**Shpejtësia e transferimit:** varet nga kombinimi i gjerësisë së bus-it dhe frekuencës së tij.
+
+## 3.2 Funksionimi i Kompjuteritit
