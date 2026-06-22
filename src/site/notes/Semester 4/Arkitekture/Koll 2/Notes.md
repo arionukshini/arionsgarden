@@ -149,4 +149,31 @@ Performanca e sistemit kompjuterik ndikohet drejtpërdrejt nga karakteristikat e
 **Frekuenca e punës:** përcakton sa herë në sekondë realizohen transferimet e të dhënave. 
 **Shpejtësia e transferimit:** varet nga kombinimi i gjerësisë së bus-it dhe frekuencës së tij.
 
-## 3.2 Funksionimi i Kompjuteritit
+## Funksionimi i Kompjuteritit
+
+Në formën më të thjeshtë, përpunimi i instruksioneve përbëhet nga dy hapa kryesorë:
+1. Fetch Cycle (Cikli i sjelljes së instruksionit): Procesori lexon (fetch) instruksionin nga memoria kryesore. 
+2. Execute Cycle (Cikli i ekzekutimit): Procesori ekzekuton instruksionin e sjellur.
+
+Në fillim të çdo cikli të instruksionit, procesori sjell instruksionin nga memoria duke përdorur adresën e ruajtur në regjistrin: **PC (Program Counter)**. 
+Pas çdo sjelljeje të instruksionit: 
+- procesori zakonisht e rrit automatikisht vlerën e PC-së; 
+- në mënyrë që të sjellë instruksionin vijues nga adresa pasuese e memories.
+
+### Sjellja dhe ekzekutimi i instruksionit (Instruction Fetch and Execute)
+
+Procesori fillimisht sjell instruksionin nga memoria (Fetch Cycle), pastaj e interpreton dhe e ekzekuton atë (Execute Cycle). Ky proces përsëritet vazhdimisht derisa sistemi të ndalet (HALT).
+![Pasted image 20260622183327.png](/img/user/Pasted%20image%2020260622183327.png)
+
+Në përgjithësi, veprimet e procesorit ndahen në katër kategori kryesore:
+1. Processor–Memory: Transferimi i të dhënave ndërmjet procesorit dhe memories.
+2. Processor–I/O: Transferimi i të dhënave ndërmjet procesorit dhe pajisjeve hyrëse/dalëse përmes moduleve I/O.
+3. Data Processing: Kryerja e operacioneve aritmetike dhe logjike mbi të dhënat.
+4. Control: Ndryshimi i rrjedhës së ekzekutimit të programit. P.sh.një instruksion mund të kërkojë që instruksioni i ardhshëm të merret nga një adresë tjetër e memories. Në këtë rast përditësohet regjistri PC me adresën e re të ekzekutimit.
+### Kompjuteri hipotetik
+
+Për të lehtësuar kuptueshmërinë e ekzekutimit të instruksioneve do të supozojmë se kemi një kompjuter hipotetik të thjeshtuar i cili përmban:
+- Procesori përmban një regjistër të thjeshtë të të dhënave që quhet Akumulator (AC).
+- Instruksionet dhe të dhënat janë me madhësi 16 bit të gjata (gjatësia e fjalës në bit).
+
+Formati i instruksionit siguron 4 bit për opcode (kodin e operacionit) kështu që nuk mund të ketë sa më shumë se $2^4$ = 16 kode të ndryshme të operacionit dhe 12 bit për adresë pra, deri në $2^{12}$ = 4096 (4 K) fjalë të ndryshme mund të adresohen direkt.
