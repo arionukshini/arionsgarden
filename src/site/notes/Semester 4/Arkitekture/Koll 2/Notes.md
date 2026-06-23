@@ -39,7 +39,7 @@ Ekzistojne dy qasje per realizimin e funksioneve kompjuterike:
 
 Hardueri projektohet per nje funksion te caktuar dhe programi realizohet fizikish ne harduer.
 
-![Pasted image 20260622160304.png](/img/user/Pasted%20image%2020260622160304.png)
+![Pasted image 20260622160304.png](/img/user/Semester%204/Images/Pasted%20image%2020260622160304.png)
 
 ### Programimi ne softuer
 
@@ -50,11 +50,11 @@ Kompjuteret perdorin programimin ne softuer, ne vend te ndryshimit te harduerit.
 - gjeneron sinjale kontrolluese për harduerin.
 
 **Epersia kryesore** - funksioni i sistemit ndryshohet përmes softuerit, pa ndryshuar harduerin.
-![Pasted image 20260622160543.png](/img/user/Pasted%20image%2020260622160543.png)
+![Pasted image 20260622160543.png](/img/user/Semester%204/Images/Pasted%20image%2020260622160543.png)
 
 ## CPU
 
-![Pasted image 20260622160729.png](/img/user/Pasted%20image%2020260622160729.png)
+![Pasted image 20260622160729.png](/img/user/Semester%204/Images/Pasted%20image%2020260622160729.png)
 
 Figura paraqet pamjen ne nivel te larte te komponenteve kryesore te sistemit kompjuterik dhe komunikimin ndermjet tyre. 
 
@@ -89,12 +89,12 @@ Në procesorët modernë përdoren edhe:
 Moduli memorues bazohet në një bashkësi të lokacioneve memoruese të definuar me adresa të numëruara në mënyrë sekuenciale (0,1,2…n-3, n-1), memoria kryesore mund të organizohet si matricë e bitve. Secili rresht reprezenton një lokacion memorues.
 
 Për një memorie 96-bite (Fig. 4) ne mund të organizojmë si: 12 × 8 bit, ose 8 × 12 bit, ose 6 × 16 bit, ose madje si 96 × 1 bit apo edhe si 1 × 96 bit
-![Pasted image 20260622162420.png](/img/user/Pasted%20image%2020260622162420.png)
+![Pasted image 20260622162420.png](/img/user/Semester%204/Images/Pasted%20image%2020260622162420.png)
 
 ## Moduli I/O
 
 Të gjitha pajisjet I/O janë më të ngadalshme se memoria kryesore (dhe CPUja), prandaj duhen modulet I/O.
-![Pasted image 20260622162611.png](/img/user/Pasted%20image%2020260622162611.png)
+![Pasted image 20260622162611.png](/img/user/Semester%204/Images/Pasted%20image%2020260622162611.png)
 
 Pajisjet e jashtme zakonisht nuk lidhen direkt në basin e sistemit kompjuterik. Moduli I/O është një interfejs (ndërfaqe) për pajisjet e jashtme (periferikët) me CPU dhe Memorien.
 
@@ -120,7 +120,7 @@ Dekodimi i komandës: Moduli I / O pranon komandat nga procesori, të cilat dër
 
 #### Komunikimi i pajisjes I/O
 
-![Pasted image 20260622180625.png](/img/user/Pasted%20image%2020260622180625.png)
+![Pasted image 20260622180625.png](/img/user/Semester%204/Images/Pasted%20image%2020260622180625.png)
 Fig. 6 paraqet organizimin e brendshëm të një moduli hyrës/dalës dhe komunikimin e tij me CPU-në dhe pajisjen periferike.
 
 #### Baferimi i të dhënave
@@ -163,7 +163,7 @@ Pas çdo sjelljeje të instruksionit:
 ### Sjellja dhe ekzekutimi i instruksionit (Instruction Fetch and Execute)
 
 Procesori fillimisht sjell instruksionin nga memoria (Fetch Cycle), pastaj e interpreton dhe e ekzekuton atë (Execute Cycle). Ky proces përsëritet vazhdimisht derisa sistemi të ndalet (HALT).
-![Pasted image 20260622183327.png](/img/user/Pasted%20image%2020260622183327.png)
+![Pasted image 20260622183327.png](/img/user/Semester%204/Images/Pasted%20image%2020260622183327.png)
 
 Në përgjithësi, veprimet e procesorit ndahen në katër kategori kryesore:
 1. Processor–Memory: Transferimi i të dhënave ndërmjet procesorit dhe memories.
@@ -189,7 +189,7 @@ Formati i instruksionit siguron 4 bit për opcode (kodin e operacionit) kështu 
 0 biti i parashenjës
 1-15 vlera e numrit
 
-![Pasted image 20260622184516.png](/img/user/Pasted%20image%2020260622184516.png)
+![Pasted image 20260622184516.png](/img/user/Semester%204/Images/Pasted%20image%2020260622184516.png)
 
 **Regjistrat e brendshëm të CPU**
 - Numëruesi i programit (PC) = adresa e instruksionit 
@@ -201,15 +201,15 @@ Formati i instruksionit siguron 4 bit për opcode (kodin e operacionit) kështu 
 - 0010 (2H) = ruaje AC në memorie 
 - 0101 (5H) = mbledh AC me përmbajtjen e memories
 
-![Pasted image 20260622184708.png](/img/user/Pasted%20image%2020260622184708.png)
+![Pasted image 20260622184708.png](/img/user/Semester%204/Images/Pasted%20image%2020260622184708.png)
 
-![Pasted image 20260622215048.png](/img/user/Pasted%20image%2020260622215048.png)
-![Pasted image 20260622215105.png](/img/user/Pasted%20image%2020260622215105.png)
-![Pasted image 20260622215119.png](/img/user/Pasted%20image%2020260622215119.png)
-![Pasted image 20260622215148.png](/img/user/Pasted%20image%2020260622215148.png)
-![Pasted image 20260622215203.png](/img/user/Pasted%20image%2020260622215203.png)
-![Pasted image 20260622215216.png](/img/user/Pasted%20image%2020260622215216.png)
-![Pasted image 20260622215240.png](/img/user/Pasted%20image%2020260622215240.png)
+![Pasted image 20260622215048.png](/img/user/Semester%204/Images/Pasted%20image%2020260622215048.png)
+![Pasted image 20260622215105.png](/img/user/Semester%204/Images/Pasted%20image%2020260622215105.png)
+![Pasted image 20260622215119.png](/img/user/Semester%204/Images/Pasted%20image%2020260622215119.png)
+![Pasted image 20260622215148.png](/img/user/Semester%204/Images/Pasted%20image%2020260622215148.png)
+![Pasted image 20260622215203.png](/img/user/Semester%204/Images/Pasted%20image%2020260622215203.png)
+![Pasted image 20260622215216.png](/img/user/Semester%204/Images/Pasted%20image%2020260622215216.png)
+![Pasted image 20260622215240.png](/img/user/Semester%204/Images/Pasted%20image%2020260622215240.png)
 
 Për çdo cikël instruksioni të caktuar, disa gjendje mund të jenë zero dhe tjerat mund të vizitohen më shumë se një herë. 
 Përshkrimi i gjendjeve bëhet sa vijon:
@@ -228,17 +228,17 @@ Përshkrimi i gjendjeve bëhet sa vijon:
 - Interruptet (ndërprerjet) sigurojnë kryesisht një mënyrë për të përmirësuar efikasitetin e procesimit. P.sh. shumë pajisje eksterne janë shumë më të ngadalshme se procesori. 
 - "*Një ngjarje që i kërkon CPU-së të ndalojë ekzekutimin e programit aktual dhe të sigurojë ca shërbime në lidhje me ngjarjen*" = **Interrapt**
 
-![Pasted image 20260622221003.png](/img/user/Pasted%20image%2020260622221003.png)
+![Pasted image 20260622221003.png](/img/user/Semester%204/Images/Pasted%20image%2020260622221003.png)
 
 Pajisjet periferike (Device) gjenerojnë kërkesa për ndërprerje kur kanë nevojë për shërbim nga CPU-ja. Këto kërkesa dërgohen te **Interrupt Controller**, i cili menaxhon, prioritizon dhe përcjell ndërprerjet drejt procesorit.
-![Pasted image 20260622221253.png](/img/user/Pasted%20image%2020260622221253.png)
+![Pasted image 20260622221253.png](/img/user/Semester%204/Images/Pasted%20image%2020260622221253.png)
 
 CPU-ja mund të pranojë dy lloje kryesore të ndërprerjeve:
 - **Maskable Interrupts** – ndërprerje që mund të çaktivizohen ose injorohen përkohësisht nga procesori. 
 - **Non-Maskable Interrupts (NMI)** – ndërprerje kritike që nuk mund të injorohen dhe duhet të trajtohen menjëherë.
 Ky mekanizem mundeson qe procesori te reagoje ne menyre efikase.
 
-![Pasted image 20260622222628.png](/img/user/Pasted%20image%2020260622222628.png)
+![Pasted image 20260622222628.png](/img/user/Semester%204/Images/Pasted%20image%2020260622222628.png)
 
 #### Polling
 CPU-ja periodikisht verifikon çdo pajisje “të shoh” nëse ka nevojë për shërbime. 
@@ -268,13 +268,13 @@ Programi I/O përbëhet nga tri pjesë kryesore:
 	- Kontrollohet rezultati i operacionit. 
 	- Vendoset një flag për sukses ose dështim.
 
-![Pasted image 20260622223512.png](/img/user/Pasted%20image%2020260622223512.png)
+![Pasted image 20260622223512.png](/img/user/Semester%204/Images/Pasted%20image%2020260622223512.png)
 Fig. 13.a Rrjedha e programit të kontrolluar pa interrapte
 
-![Pasted image 20260623103155.png](/img/user/Pasted%20image%2020260623103155.png)
+![Pasted image 20260623103155.png](/img/user/Semester%204/Images/Pasted%20image%2020260623103155.png)
 Fig. 13.b Rrjedha e programit të kontrolluar me interrapte: pritja e shkurtë
 
-![Pasted image 20260623103223.png](/img/user/Pasted%20image%2020260623103223.png)
+![Pasted image 20260623103223.png](/img/user/Semester%204/Images/Pasted%20image%2020260623103223.png)
 Fig. 13.c Rrjedha e programit të kontrolluar me interrapte: pritja e gjatë
 
 ### Interruptet dhe Cikli i Instruksionit
@@ -289,7 +289,7 @@ Procesori:
 - realizon shërbimin për pajisjen I/O, 
 - dhe më pas vazhdon ekzekutimin normal të programit.
 
-![Pasted image 20260623123505.png](/img/user/Pasted%20image%2020260623123505.png)
+![Pasted image 20260623123505.png](/img/user/Semester%204/Images/Pasted%20image%2020260623123505.png)
 
 SO* janë përgjegjës për pezullimin e programit të userit dhe më pas rifillimin e tij në të njëjtën pikë.
 
@@ -301,7 +301,7 @@ Kalkulimi (mbajtja e evidencave)
 Sistemi Operativ është menaxher i resurseve
 
 Në fazën e interraptit, procesori kontrollon për të parë nëse ka ndodhur ndonjë ndërprerje, e treguar nga prania e sinjalit të ndonjë interrapti. Nëse nuk ka ndërprerje në pritje, procesori vazhdon te faza e marrjes (fetches) dhe merr instruksionet e ardhshme të programit aktual.
-![Pasted image 20260623124045.png](/img/user/Pasted%20image%2020260623124045.png)
+![Pasted image 20260623124045.png](/img/user/Semester%204/Images/Pasted%20image%2020260623124045.png)
 
 Nëse një interrupt është në pritje atëherë:
 1. Procesori e suspendon (ndërpret) ekzekutimin e programit aktual 
@@ -344,12 +344,12 @@ Mangësitë e kësaj qasje:
 #### Trajtimi i ndërprerjve të shumëfishta - sekuencore
 
 Kur ndodh një interrupt, procesori pezullon përkohësisht programin e përdoruesit. Kontrolli transferohet te rutina përkatëse e interrupt-it (Interrupt Handler X). Gjatë trajtimit të këtij interrupt-i, interruptet të tjera çaktivizohen përkohësisht. - Nëse ndodh një interrupt tjetër (Interrupt Handler Y), ai nuk trajtohet menjëherë, por mbetet në pritje (Fig. 16)
-![Pasted image 20260623125539.png](/img/user/Pasted%20image%2020260623125539.png)
+![Pasted image 20260623125539.png](/img/user/Semester%204/Images/Pasted%20image%2020260623125539.png)
 
 #### Trajtimi i interrapteve të mbivendosura (Nested i Interrupts)
 
 Programi i përdoruesit ekzekutohet normalisht derisa ndodh interrupt-i X. Procesori kalon te Interrupt Handler X, ruhet ne stack kur kalon tek Y. Gjatë ekzekutimit të tij mund të ndodhë një interrupt tjetër (Y) me prioritet më të lartë (Fig. 17)
-![Pasted image 20260623125655.png](/img/user/Pasted%20image%2020260623125655.png)
+![Pasted image 20260623125655.png](/img/user/Semester%204/Images/Pasted%20image%2020260623125655.png)
 
 # 4 - MEMORIA KESH
 
@@ -382,7 +382,7 @@ Memoria Cache dhe përdoret për:
 
 ## NË PËRGJITHËSI PËR SISTEMIN MEMORUES KOMPJUTERIK
 
-![Pasted image 20260623135247.png](/img/user/Pasted%20image%2020260623135247.png)
+![Pasted image 20260623135247.png](/img/user/Semester%204/Images/Pasted%20image%2020260623135247.png)
 
 **Lokacioni (vendndodhja):** i referohet faktit nëse memoria kompjuterike është interne apo eksterne.
 
@@ -428,7 +428,7 @@ RAM-i mbi kufirin 4 GB nuk ka adresa që sistemi 32-bit mund t’ia caktojë dhe
 - Shpejtësia e transmetimit: Kjo paraqet shpejtësinë me të cilën të dhënat mund të transferohen Brenda apo jashtë njësisë memoruese. Për memorien me qasje të rastit, kjo është e barabartë me 1/(koha e ciklit).
 
 Për memorie që nuk janë me qasje të rastit, vlejnë relacionet e mëposhtme:
-![Pasted image 20260623151705.png](/img/user/Pasted%20image%2020260623151705.png)
+![Pasted image 20260623151705.png](/img/user/Semester%204/Images/Pasted%20image%2020260623151705.png)
 
 **Karakteristikat fizike:** Ne memoriet volatile (të avullueshme)-informatat humben kur shkyçet furnizimi me energji elektrike, në kontrast me memoriet nonvoltile që informacioni njëherë ruhet dhe mbetet aty pa u dëmtuar edhe kur nuk ka energji elektrike.
 **Organizimi:** për memoriet me qasje të rastit, organizimi është thelbësor. Kjo nënkupton rregullimin fizik të bitëve për të formuar fjalët.
@@ -445,9 +445,9 @@ Në përbërje të kompjuterit gjendet edhe memoria fikse ROM (për ruajtje të 
 Memoria virtuale - trajtohet si memorie me kapacitet më të madh por me shpejtësi të përafërt me memorien qendrore.
 
 Në Fig. 1 është treguar hierarkia e memories e ndarë në nivele. Niveli 1 paraqet memorien më të shpejtë por më të vogël, ndërsa Niveli n paraqet memorien më të ngadaltë por më të madhe.
-![Pasted image 20260623162534.png](/img/user/Pasted%20image%2020260623162534.png)
+![Pasted image 20260623162534.png](/img/user/Semester%204/Images/Pasted%20image%2020260623162534.png)
 
-![Pasted image 20260623162836.png](/img/user/Pasted%20image%2020260623162836.png)
+![Pasted image 20260623162836.png](/img/user/Semester%204/Images/Pasted%20image%2020260623162836.png)
 
 Duke shkuar nga lartë-poshtë hierarkisë së memorieve kemi sa vijon:
 1. Rënie e kostos për bit 
@@ -459,7 +459,7 @@ Duke shkuar nga lartë-poshtë hierarkisë së memorieve kemi sa vijon:
 
 Një program që ekzekutohet gjatë gjithë kohës në kompjuter, është kernel-i.
 Kerneli është një program që menaxhon kërkesat input / output nga softueri dhe i përkthen ato në instruksione për CPU-në dhe komponentë të tjera elektronike të një kompjuteri.
-![Pasted image 20260623163650.png](/img/user/Pasted%20image%2020260623163650.png)
+![Pasted image 20260623163650.png](/img/user/Semester%204/Images/Pasted%20image%2020260623163650.png)
 
 Kerneli ka kontrollë komplete mbi çdo gjë që ndodh në sistem.
 Eshte pjesa e pare e S.O qe ngarkohet gjate startimit.
@@ -467,14 +467,14 @@ Kur një kompjuter dështon në “ngritje” kjo nënkupton që kerneli është
 
 Kerneli siguron shërbimet themelore për pjesët tjera të S.O, zakonisht duke përfshirë këtu menaxhimin e memories, menaxhimin e proceseve, menaxhimin e fajllave dhe menaxhimin I/O.
 
-![Pasted image 20260623175250.png](/img/user/Pasted%20image%2020260623175250.png)
+![Pasted image 20260623175250.png](/img/user/Semester%204/Images/Pasted%20image%2020260623175250.png)
 
 ## PRINCIPET E KESH MEMORIES
 
 Në Fig. 5.a paraqitet memoria kryesore (me kapacitet të madh dhe shpejtësi më të ulët) së bashku me memorien kesh, e cila ka kapacitet më të vogël por shpejtësi shumë më të lartë. 
 Shfrytëzimi i memories kesh zvogëlon kohën e pritjes së procesorit gjatë marrjes së të dhënave nga memoria kryesore, duke reduktuar numrin e gjendjeve të pritjes (wait states).
 
-![Pasted image 20260623182158.png](/img/user/Pasted%20image%2020260623182158.png)
+![Pasted image 20260623182158.png](/img/user/Semester%204/Images/Pasted%20image%2020260623182158.png)
 
 **Cache memoria** ruan kopje të blloqeve të memories kryesore që përdoren më shpesh, prandaj kur procesori kërkon të lexojë/shkruaj një fjalë nga/në memorie, fillimisht kontrollohet nëse ajo gjendet në cache.
 Për shkak të fenomenit të lokalitetit të referencave (locality of reference), kur një bllok i të dhënave sillet në cache, ekziston probabilitet i lartë që procesori ta përdorë përsëri atë adresë memorieje ose adresat fqinje brenda të njëjtit bllok.
@@ -483,7 +483,7 @@ Për shkak të fenomenit të lokalitetit të referencave (locality of reference)
 1. **Lokaliteti hapësinor (Spatial locality):** I referohet fenomenit që, kur një adresë e memories referencohet, ka shumë mundësi që adresat fqinje të referencohen brenda një kohe të shkurtër.
 2. **Lokaliteti kohor (Temporal locality):** I referohet fenomenit që, nëse një lokacion i memories është referencuar së fundmi, ka shumë mundësi që të referencohet përsëri në të ardhmen e afërt.
 
-![Pasted image 20260623184009.png](/img/user/Pasted%20image%2020260623184009.png)
+![Pasted image 20260623184009.png](/img/user/Semester%204/Images/Pasted%20image%2020260623184009.png)
 
 CPU-të moderne po ashtu kanë edhe kesh shumë të vogël “L0” cache, i cili shpesh është pak KB.
 
@@ -501,4 +501,101 @@ Në sistemet klasike por edhe moderne, të dhënat nga pajisjet I/O nuk kalojnë
 - Procesori vetëm e kontrollon ose inicializon transferimin.
 - Pas përfundimit të transferimit, procesori njoftohet me një ndërprerje (interrupt).
 
-Vetëm kur procesori i lexon këto të dhëna nga RAM-i, ato mund të ngarkohen në cache. Pra, rrjedha tipike është: I/O → RAM → Cache → Procesor dhe jo: I/O → Procesor → RAM
+Vetëm kur procesori i lexon këto të dhëna nga RAM-i, ato mund të ngarkohen në cache. Pra, rrjedha tipike është: I/O → RAM → Cache → Procesor dhe jo: I/O → Procesor → RAM.
+
+Per qellime te keshimit memoria kryesore konsiderohet te jete e ndare ne blloqe me madhesi fikse, ku secili bllok perbehet nga K fjale. Prandaj memoria kryesore permban: $M = \frac{2^n}{K}$ blloqe.
+Cache memoria perbehet nga m blloqe te quajtura linja (chache lines). Qdo linje permban: K fjale te te dhenave, dhe nje etikete (tag) prej disa bitesh, e cila perdoret per identifikimin e bollokut te memories kryesore te ruajtur ne ate linje cache.
+
+![Pasted image 20260623191834.png](/img/user/Semester%204/Images/Pasted%20image%2020260623191834.png)
+
+Numri i linjave ne kesh memorie është më i vogël se numri i blloqeve ne memorie kryesore (m < M).
+Pasi ka më shumë blloqe të MM se sa linja keshi, një linjë individuale nuk mund të jetë në mënyrë unike përherë e dedikuar për një bllok të veçante të memories. Prej këtu, çdo linjë e keshit ka një tag (etiketë) që identifikon se cili bllok i memories aktualisht po ruhet.
+
+![Pasted image 20260623194903.png](/img/user/Semester%204/Images/Pasted%20image%2020260623194903.png)
+![Pasted image 20260623195918.png](/img/user/Semester%204/Images/Pasted%20image%2020260623195918.png)
+
+**Kur fjala gjendet në kesh (cache hit),** baferi i adresës dhe baferi i të dhënave janë disabled për komunikim sepse komunikimi bëhet vetëm ndërmjet procesorit dhe cache-it, pa trafik përmes basave te sistemit.
+**Kur fjala nuk gjendet në kesh (cache miss),** adresa e dëshiruar ngarkohet në sistem bas dhe të dhënat vijnë përmes baferit të të dhënave edhe në kesh ashtu edhe në procesor.
+
+#### Terminologjia themelore
+
+- Hit: CPU gjen përmbajtjen e adresës së memories në chache. 
+- Hit rate (h) është probabiliteti i gjetjes së suksesshmem në cache nga CPU-ja 
+- Miss: CPU dështon të gjejë në cache.(shkakton udhëtim në nivele me te thella të hierarkisë së memories) 
+- Miss rate (m) është probabiliteti i mungesës në cache dhe është i barabartë me 1-h. 
+- Miss penalty: “koha e penaltisë” shoqërohet me shërbimin e mungesës në një nivel partikular të hierarkisë së memories (rezulton në vonesë ekstra –p.sh. është koha për ta “pasqyruar “ bllokun prej memorje- në cache). Pra, koha për të zëvendësuar një bllok prej nivelit më të ulët, duke përfshirë kohën e qasjes në nivel më të ulët + kohën e transferit të bllokut.
+
+### Effective Memory Access Time (EMAT)
+
+Koha e kerkimit ne cache për të “pa” nëse lokacioni i memories është veq aty. Pas cache miss (mungesës në cache), koha për të shkuar në nivele më të thella në hierarkinë e memories.
+$$EMAT = T_{C} + m * T_{m}$$
+ku m eshte cache miss rate, Tc koha e qasjes dhe Tm eshte miss penalty
+
+Adresa – çdo fjalë (e dhënë) ka një adresë në memorie. Procesori bën një kërkesë për një të dhënë (fjalë) duke gjeneruar adresën e të dhënës së caktuar.
+Fjala mund të gjendet në ndonjë nivel më të ultë të hierarkisë dhe vendoset në cache para se me vazhduar. Fjala – njësia “natyrale” e organizimit të memories.
+
+Bllok- Një bashkësi e fjalëve (p.sh block 0).
+Set - grup i blloqeve në cache.
+
+## ELEMENTET E PROJEKTIMIT TË KESH-it
+
+Kohë pas kohe iu referohemi përdorimit të keshit në kompjuterët e përformancës së lartë (high-performance computing – HPC).
+
+- Adresat e Kesh-it: Logjike dhe Fizike.
+- Politikat e shkrimit: Write through and Write back.
+- Madhesia e Kesh-it
+- Madhesia e linjes
+- Funksioni pasqyrimit: Direkt, Asociative, Set associative
+- Numri i niveleve te keshit: Me nje, dy ose tre nivele. I unifikuar ose i ndare.
+
+Algoritmi i zevendesimit:
+- I perdorur me se paku se fundmi (Least recently used - LRU)
+- I pari brenda i pari jashte (First in first out- FIFO)
+- Me se paku i perdorur (Least frequently used - LFU)
+- E rastit (Random)
+
+### Adresat e KESH-it
+
+Memoria virtuale është një “mundësi e zgjerimit të memories” që lejon programet të adresojnë memorien nga një pikëpamje logjike, pa marrë parasysh sasinë e memories kryesore të disponueshme fizikisht.
+Për të lexuar dhe shkruar nga memoria kryesore, një njësi harduerike e quajtur **Njësia e menaxhimit të memories (MMU) përkthen çdo adresë virtuale në një adresë fizike në memorien kryesore.**
+
+Të gjitha kërkesat hyrëse të të dhënave dërgohen në MMU, e cila përcakton nëse të dhënat duhet të nxirren nga ruajtja në cache apo në RAM.
+Kur përdoren adresat virtuale, dizajnuesi i sistemit mund të zgjedh të vendosë cache-in midis procesorit dhe MMU (Fig. 9.a) ose midis MMU dhe memories kryesore.
+
+![Pasted image 20260623212502.png](/img/user/Semester%204/Images/Pasted%20image%2020260623212502.png)
+
+**Epersitë e keshit logjik -** shpejtësia e qasjes në cache është më e shpejtë se sa për një cache fizike, sepse cache mund të përgjigjet përpara se MMU të kryejë një përkthim të adresave. 
+**Të metat e keshit logjik –** shumica e sistemeve memoruese virtuale furnizojnë çdo aplikacion me të njëjtën hapësirë të adresave virtuale. Pra, çdo aplikacion shef një një memorie virtuale që starton me adresën 0.
+
+![Pasted image 20260623212613.png](/img/user/Semester%204/Images/Pasted%20image%2020260623212613.png)
+
+![Pasted image 20260623222103.png](/img/user/Semester%204/Images/Pasted%20image%2020260623222103.png)
+
+## Funksioni i pasqyrimit
+
+Zgjedhja e funksionit të pasqyrimit përcakton se si është organizuar keshi Mund të përdoren tre teknik
+- Pasqyrimi direkt, 
+- Pasqyrimi asociativ, dhe 
+- Pasqyrimi set asociativ.
+
+*Gjatë pasqyrimit në kesh, blloku i memories kryesore thjesht kopjohet në kesh dhe faktikisht nuk largohet prej memories kryesore.*
+
+![chrome_VnWPe5vs8L.png](/img/user/Semester%204/Images/chrome_VnWPe5vs8L.png)
+![Pasted image 20260623223835.png](/img/user/Pasted%20image%2020260623223835.png)
+
+- Meqenëse ka më shumë blloqe në memorie se sa (blloqe) linja keshi, një linjë individuale nuk mund të jetë në mënyrë unike përherë e dedikuar për një bllok të veçantë. 
+- Prej këtu, çdo linjë e keshit ka një tag (etiketë) që identifikon bllokun aktual nga memoria kryesore që po ruhet në linjën (bllokun) e memories kesh. 
+- Tagu është zakonisht një pjesë e adresës së memories kryesore!!!
+
+### Pasqyrimi direkt
+
+Një bllok i veçantë i memories kryesore mund të pasqyrohet vetëm në një linjë të veçantë të kesh-it.
+Numri i linjës (rreshtit) të kesh-it në të cilin mund të pasqyrohet një bllok i veçantë nga memoria kryesore jepet me shprehjen: 
+$$i = j \space modulo \space m$$
+i - numri i linjës në memorien kesh 
+j - numri i bllokut në memorien kryesore (adresa e bllokut të MM) 
+m - numri i tërësishëm i linjave në kesh
+
+![Pasted image 20260623224726.png](/img/user/Pasted%20image%2020260623224726.png)
+
+
