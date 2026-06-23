@@ -351,3 +351,154 @@ Kur ndodh një interrupt, procesori pezullon përkohësisht programin e përdoru
 Programi i përdoruesit ekzekutohet normalisht derisa ndodh interrupt-i X. Procesori kalon te Interrupt Handler X, ruhet ne stack kur kalon tek Y. Gjatë ekzekutimit të tij mund të ndodhë një interrupt tjetër (Y) me prioritet më të lartë (Fig. 17)
 ![Pasted image 20260623125655.png](/img/user/Pasted%20image%2020260623125655.png)
 
+# 4 - MEMORIA KESH
+
+Kompjuterë personalë: desktopë, laptopë 
+Sisteme me performancë të lartë: serverë, superkompjuterë 
+Pajisje mobile: telefona inteligjentë, tabletë 
+Sisteme embedded dhe IoT 
+Platforma edukative dhe zhvillimore: Raspberry Pi dhe të ngjashme 
+Sisteme industriale të automatizimit: PLC dhe kontrollorë industrialë.
+
+Perdorin:
+- procesorë multi-core,
+- memorie cache me shumë nivele 
+- integrim të lartë të funksioneve në një çip (SoC).
+- komunikim të shpejtë ndërmjet komponentëve
+
+Hierarkia e memories organizohet nga memoriet:
+- më të shpejta dhe më të shtrenjta, 
+- drejt më të ngadalta dhe më ekonomike. 
+Hierarkia tipike e memories përfshin: 
+- Regjistrat (Registers), 
+- Cache Memory, 
+- RAM,SSD/HDD ose Flash Memory.
+
+**Memoria cache** është një element esencial në sistemet moderne kompjuterike. 
+Memoria Cache dhe përdoret për: 
+- rritjen e shpejtësisë së qasjes në të dhëna, 
+- uljen e vonesës ndërmjet CPU-së dhe memories kryesore,
+- përmirësimin e performancës së përgjithshme të sistemit.
+
+## NË PËRGJITHËSI PËR SISTEMIN MEMORUES KOMPJUTERIK
+
+![Pasted image 20260623135247.png](/img/user/Pasted%20image%2020260623135247.png)
+
+**Lokacioni (vendndodhja):** i referohet faktit nëse memoria kompjuterike është interne apo eksterne.
+
+**Kapaciteti:** Kapaciteti i memories tregon sasinë e të dhënave që memoria mund të ruajë.
+
+Për memorien interne: bytes (1 Byte = 8 bits) ose words (8, 16, 32, 64 bit).
+
+Për memorien eksterne: GB, TB, PB.
+
+Procesorët aktual-modern zakonisht kan madhesi fjale, 32 ose 64 bit.
+
+**Njësia e adresueshme** paraqet sasinë minimale të memories që CPU-ja mund ta adresojë drejtpërdrejt.
+Çdo lokacion në memorie ka një adresë unike.
+Procesori përdor adresat për leximin dhe shkrimin e të dhënave në memorie.
+
+Llojet kryesore: 
+1. Byte-addressable memory, ku cdo adresë i referohet: 1 byte (8 bits).
+2. Word-addressable memory, ku cdo adresë i referohet: 1 word-i të plotë.
+
+Madhësia e word-it varet nga arkitektura e procesorit. 
+Procesor 8-bit → 1 word = 8 bits 
+Procesor 16-bit → 1 word = 16 bits
+...
+
+Marredhenia ndermjet adresave dhe memories $2^{A}=N$ ku:
+A = numri i biteve te adreses
+N = numri i njesive te adresueshme
+
+$2^{32} = 4 GB$
+RAM-i mbi kufirin 4 GB nuk ka adresa që sistemi 32-bit mund t’ia caktojë dhe, si rezultat, nuk mund të përdoret drejtpërdrejt.
+
+**Njësia e transferit:** Për memorie interne, njësia e transferit është e barabartë me numrin e linjave elektrike brenda dhe jashtë modulit memorues.
+
+**Metoda e qasjes:** Nje tjeter karakteristik e sistemeve memoruese. Kjo perfshim:
+- Qasjsen sekuenciale: Memoria eshte e organizuar ne njesi te te dhenave qe quhen rreshta.
+- Qasjen direkte: sikurse të qasja sekuenciale, qasja direkte përfshin mekanizmin e përbashkët (share) lexo-shkruaj. Megjithatë blloqet individuale ose rreshtat kanë një adresë unike e bazuar në lokacion fizik.
+- Qasjen e rastit (Random access): Çdo lokacion i adresueshem në memorie ka një mekanizëm unik fizikisht të adresueshem.
+- Qasjen associative (shoqëruese): Ky është një lloj i qasjes së rastit në memorie që mundëson një krahasim të lokacioneve të dëshiruara të bitit brenda një fjale për një përshtatje specifike dhe për ta bërë këtë për të gjitha fjalët njëkohësisht.
+
+**Parametrat e performances:**
+- Koha e qasjes (latency- vonesa): Për memorien me qasje të rastit, kjo është koha e nevojshme që të kryhet operacioni i shkrimit ose leximit.
+- Koha e ciklit memorues: Ky koncept aplikohet te memoriet me qasje të rastit dhe përbëhet prej kohës së qasjes plus koha shtesë e kërkuar para se një qasje e dytë mund të fillojë.
+- Shpejtësia e transmetimit: Kjo paraqet shpejtësinë me të cilën të dhënat mund të transferohen Brenda apo jashtë njësisë memoruese. Për memorien me qasje të rastit, kjo është e barabartë me 1/(koha e ciklit).
+
+Për memorie që nuk janë me qasje të rastit, vlejnë relacionet e mëposhtme:
+![Pasted image 20260623151705.png](/img/user/Pasted%20image%2020260623151705.png)
+
+**Karakteristikat fizike:** Ne memoriet volatile (të avullueshme)-informatat humben kur shkyçet furnizimi me energji elektrike, në kontrast me memoriet nonvoltile që informacioni njëherë ruhet dhe mbetet aty pa u dëmtuar edhe kur nuk ka energji elektrike.
+**Organizimi:** për memoriet me qasje të rastit, organizimi është thelbësor. Kjo nënkupton rregullimin fizik të bitëve për të formuar fjalët.
+
+## Hierarkia e memories
+
+- memoria kryesore (qendrore, memoria e punës, primare) - RAM 
+- memoria e jashtme (eksterne, sekondare) - hard disqet, memoriet gjysmëperçuese, cloud storage, shiritat magnetik, CD dhe DVD disku etj.
+
+Në përbërje të kompjuterit gjendet edhe memoria fikse ROM (për ruajtje të përhershme të të dhënave – të dhënat shënohen vetëm një herë dhe mund të lexohen sa herë që duam.
+
+*Për shkak të harmonizimit të shpejtësisë në mes të: Procesorit - RAM-it - memories eksterne, përdoret një memorie ndërmjetësuese - **kesh memorie** (memorie e përkohshme)*
+
+Memoria virtuale - trajtohet si memorie me kapacitet më të madh por me shpejtësi të përafërt me memorien qendrore.
+
+Në Fig. 1 është treguar hierarkia e memories e ndarë në nivele. Niveli 1 paraqet memorien më të shpejtë por më të vogël, ndërsa Niveli n paraqet memorien më të ngadaltë por më të madhe.
+![Pasted image 20260623162534.png](/img/user/Pasted%20image%2020260623162534.png)
+
+![Pasted image 20260623162836.png](/img/user/Pasted%20image%2020260623162836.png)
+
+Duke shkuar nga lartë-poshtë hierarkisë së memorieve kemi sa vijon:
+1. Rënie e kostos për bit 
+2. Rritja e kapacitetit
+3. Rritja e kohës së qasjes 
+4. Zvogëlimi i frekuencës së qasjes në memorie nga procesori
+
+### **Kerneli**
+
+Një program që ekzekutohet gjatë gjithë kohës në kompjuter, është kernel-i.
+Kerneli është një program që menaxhon kërkesat input / output nga softueri dhe i përkthen ato në instruksione për CPU-në dhe komponentë të tjera elektronike të një kompjuteri.
+![Pasted image 20260623163650.png](/img/user/Pasted%20image%2020260623163650.png)
+
+Kerneli ka kontrollë komplete mbi çdo gjë që ndodh në sistem.
+Eshte pjesa e pare e S.O qe ngarkohet gjate startimit.
+Kur një kompjuter dështon në “ngritje” kjo nënkupton që kerneli është prishur.
+
+Kerneli siguron shërbimet themelore për pjesët tjera të S.O, zakonisht duke përfshirë këtu menaxhimin e memories, menaxhimin e proceseve, menaxhimin e fajllave dhe menaxhimin I/O.
+
+![Pasted image 20260623175250.png](/img/user/Pasted%20image%2020260623175250.png)
+
+## PRINCIPET E KESH MEMORIES
+
+Në Fig. 5.a paraqitet memoria kryesore (me kapacitet të madh dhe shpejtësi më të ulët) së bashku me memorien kesh, e cila ka kapacitet më të vogël por shpejtësi shumë më të lartë. 
+Shfrytëzimi i memories kesh zvogëlon kohën e pritjes së procesorit gjatë marrjes së të dhënave nga memoria kryesore, duke reduktuar numrin e gjendjeve të pritjes (wait states).
+
+![Pasted image 20260623182158.png](/img/user/Pasted%20image%2020260623182158.png)
+
+**Cache memoria** ruan kopje të blloqeve të memories kryesore që përdoren më shpesh, prandaj kur procesori kërkon të lexojë/shkruaj një fjalë nga/në memorie, fillimisht kontrollohet nëse ajo gjendet në cache.
+Për shkak të fenomenit të lokalitetit të referencave (locality of reference), kur një bllok i të dhënave sillet në cache, ekziston probabilitet i lartë që procesori ta përdorë përsëri atë adresë memorieje ose adresat fqinje brenda të njëjtit bllok.
+
+**Ekzistojnë dy forma të lokalitetit:**
+1. **Lokaliteti hapësinor (Spatial locality):** I referohet fenomenit që, kur një adresë e memories referencohet, ka shumë mundësi që adresat fqinje të referencohen brenda një kohe të shkurtër.
+2. **Lokaliteti kohor (Temporal locality):** I referohet fenomenit që, nëse një lokacion i memories është referencuar së fundmi, ka shumë mundësi që të referencohet përsëri në të ardhmen e afërt.
+
+![Pasted image 20260623184009.png](/img/user/Pasted%20image%2020260623184009.png)
+
+CPU-të moderne po ashtu kanë edhe kesh shumë të vogël “L0” cache, i cili shpesh është pak KB.
+
+**Niveli 1 – Level 1 (L1):** niveli më i shpejtë dhe ndodhet brenda çdo bërthame të procesorit. Koha e qasjes zakonisht është më pak se 1 ns. Në procesorët modernë të vitit 2026, madhësia e memories L1 zakonisht varion: 64 KB – 256 KB për L1 Data Cache dhe 64 KB – 256 KB për L1 Instruction Cache.
+**Niveli 2 (Level 2):** niveli L2 është më i ngadaltë se L1, por ka madhësi më të madhe. Koha e qasjes zakonisht varion nga 2–10 ns. Në procesorët modern, niveli L2 zakonisht varion nga 512 KB deri në 2 MB për bërthamë te procesorët standardë desktop dhe laptop, ndersa deri në 8 MB ose më shumë për bërthamë te disa procesorë high-end dhe serverë modern.
+**Niveli 3(Level 3):** është niveli më i madh i memories kesh dhe njëkohësisht më i ngadalshëm se L1 dhe L2. Koha e qasjes zakonisht është rreth 10–40 ns. Në procesorët modernë të vitit 2026, madhësia e memories L3 zakonisht varion nga 8 MB deri në 64 MB te procesorët desktop dhe laptop, por deri në qindra MB te procesorët e serverave dhe high-end modern. Në shumicën e arkitekturave moderne multicore, niveli L3 është “shared cache”, pra ndahet ndërmjet të gjitha bërthamave të procesorit.
+
+#### Cka nëse nuk gjendet në memorien kryesore (RAM)?
+Nëse të dhënat nuk gjenden në RAM, ndodh një page fault dhe SO e kërkon në memorien virtuale. Faqja përkatëse ngarkohet nga disku në RAM, blloku transferohet në cache dhe më në fund fjala te procesori.
+
+#### Si realizohet rrjedha e të dhënave ndërmjet pajisjeve hyrëse/dalëse (I/O), memories kryesore dhe cache memories në arkitekturën klasike dhe moderne të kompjuterëve?
+
+Në sistemet klasike por edhe moderne, të dhënat nga pajisjet I/O nuk kalojnë fizikisht përmes procesorit. Për këtë përdoret permes mekanizimit DMA (Direct Memory Access).
+- Pajisja I/O transferon të dhënat direkt në RAM dhe anasjelltans nga RAM në I/O
+- Procesori vetëm e kontrollon ose inicializon transferimin.
+- Pas përfundimit të transferimit, procesori njoftohet me një ndërprerje (interrupt).
+
+Vetëm kur procesori i lexon këto të dhëna nga RAM-i, ato mund të ngarkohen në cache. Pra, rrjedha tipike është: I/O → RAM → Cache → Procesor dhe jo: I/O → Procesor → RAM
