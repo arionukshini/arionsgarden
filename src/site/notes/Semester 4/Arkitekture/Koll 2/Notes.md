@@ -598,4 +598,137 @@ m - numri i tërësishëm i linjave në kesh
 
 ![Pasted image 20260623224726.png](/img/user/Pasted%20image%2020260623224726.png)
 
+$m$ blloqet tjera të mëmories kryesore pasqyrohen ne kesh sipas të njëjtës mënyrë, bloku $B_{m}$ i memories pasqyrohet prapë në linjën $L_{0}$ , Blloku $B_{m +1}$ pasqyrohet në linjën $L_{1}$, e kështu më radhë.
+
+Pasi CPU gjeneron një kërkesë në memorie
+- Numri i rreshtit të fushës së adresës në memorie kryesore përdoret për t’iu qas linjës së veçante të keshit. 
+- Fusha e tagut në adresën e CPU është krahasuar më pas me tagun e linjës në kesh. 
+- Nëse dy tagat përputhen, ndodh një hit cache dhe fjala e dëshiruar gjendet në cache. 
+- Nëse dy tagat nuk përputhen, një cache miss ka ndodhur. 
+- Në rastin e cache miss, fjala e kërkuar duhet të sillet nga memoria kryesore 
+- Ajo pastaj ruhet në kesh së bashku me tagun e ri duke zëvendësuar atë të mëparshmen.
+
+![Pasted image 20260624151028.png](/img/user/Pasted%20image%2020260624151028.png)
+
+Funksioni i pasqyrimit implementohet lehtë duke përdorur adresat e memories kryesore. **Me qëllim të qasjes në cache, çdo adresë fizike e memories kryesore mund të shihet si e përbërë nga tre fusha.**
+
+![Pasted image 20260624151356.png](/img/user/Pasted%20image%2020260624151356.png)
+
+**Bitët më pak domëthënës (ẘ)** identifikojnë një fjalë unike ose bajt brenda një blloku të memories kryesore.
+
+**Bitët e mbetur (s)** specifikojnë një prej $2^s$ blloqeve të memories kryesore.
+
+![Pasted image 20260624151728.png](/img/user/Pasted%20image%2020260624151728.png)
+
+### Pasqyrimi asociativ 
+
+**Pasqyrimi plotësisht asociativ (Fully Associative Mapping)**
+
+Blloku nga memoria kryesore mund te vendoset në cilën do linjë të keshit.
+
+Në pasqyrimin plotësisht asociativ: 
+- Një bllok i memories kryesore mund të pasqyrohet në çdo linjë të lirë (në dispozicion) të keshit 
+- Kjo e bën pasqyrimin plotësisht asociativ më fleksibilitet se pasqyrimin direkt.
+- Nëse kesh është i plotësuar, një algoritëm zëvendësues është i nevojshëm për të zëvendësuar një bllok. Algoritmi i zëvendësimit sugjeron që blloku të zëvendësohet nëse të gjitha linjat e cache janë zënë.
+
+![Pasted image 20260624163029.png](/img/user/Pasted%20image%2020260624163029.png)
+
+Në pasqyrimin plotësisht asiociativ, adresa fizike përbehet nga dy fusha: Tagu (etiketa = Block number) dhe Block offset-i (fjala).![Pasted image 20260624163205.png](/img/user/Pasted%20image%2020260624163205.png)
+
+Për të përcaktuar nëse një bllok është në cache, logjika e kontrollit të kesh-it duhet njëkohësisht të shqyrtojë etiketën (tagun) e çdo rreshti për një përshtatje.
+Në këtë rast, logjika e kontrollit të cache interpreton një adresë të memories thjesht si një etiketë dhe një fushë fjale.
+![Pasted image 20260624163706.png](/img/user/Pasted%20image%2020260624163706.png)
+
+Duhet theksuar se asnjëra nga dy fushat e adresës nuk ka kurrfarë lidhje me numrin e linjave të keshit, pra asnjëra fushë në adresë nuk korrespondon me numrin e linjës, kështu që numri e linjave në kesh nuk përcaktohet nga formati i adresës.
+![Pasted image 20260624164442.png](/img/user/Pasted%20image%2020260624164442.png)
+
+![Pasted image 20260624175242.png](/img/user/Pasted%20image%2020260624175242.png)
+
+Me ketë teknikë të pasqyrimit ka një fleksibilitet se cili blok do të zëvendësohet kur një bllok i ri lexohet në kesh. Algoritmet zëvendësuese, dizajnohen për të maksimizuar hit ratio. E metë e pasqyrimit asociativ është kërkesa për qark kompleks për të ekzaminuar etiketat e të gjitha linjave të keshit në paralel.
+
+### Pasqyrimi set asociativ
+
+Pasqyrimi set-asociativ është një kompromis që paraqet pikat e forta të qasjeve direkte dhe asociative duke zvogëluar të metat e tyre. Në këtë rast, keshi përbëhet nga një numër i setave, secili prej të cilave përbëhet nga një numër linjash. Marrëdhëniet janë: 
+$m = v \space x \space k$ 
+$i = j \space modulo \space v$
+
+i = numri setit në kesh 
+j = numri i bllokut në memorie kryesore 
+m = numri i linjave në kesh
+v = numri i setave 
+k = numri i linjave në secilin set
+
+**Një bllok i veçantë i memories kryesore mund të pasqyrohet vetëm në një set keshi të veçantë!!! Kjo referohet si pasqyrim k-menyrësh set-asociativ.**
+
+Kur një blok vendoset në një set të restriktuar në kesh, cache është set asociativ. Në shembullin e mëposhtëm Set-i ka 2 blloqe. 
+Bloku 3 nga memoria kryesore (i cili bllok ka 4 fjalë) mund të shkojë vetëm në Cashe SET i = (3 MOD 2) = 1 në cache.
+![Pasted image 20260624181319.png](/img/user/Pasted%20image%2020260624181319.png)
+**(Adresa e Block-ut) MOD (numri i set-eve në cashe)**
+
+Pra këtu k = 2 atëherë kemi një pasqyrim 2-mënyrësh set asociativ.
+
+![Pasted image 20260624181412.png](/img/user/Pasted%20image%2020260624181412.png)
+
+Me pasqyrim set-asociativ, blloku $B_{j}$ mund të pasqyrohet në ndonjë linjë të set-it j.
+
+![Pasted image 20260624181814.png](/img/user/Pasted%20image%2020260624181814.png)
+
+Me pasqyrim asociativ, çdo fjalë pasqyrohet në shumë linja te keshit. Për pasqyrim set-asociativ, çdo fjalë pasqyrohet në të gjitha linjat e keshit në setin specifik, kështu që blloku Bo pasqyrohet në setin 0 dhe kështu me radhë, prandaj keshi set asociativ mundet fizikisht të implementohet si një k- set asociative kesh.
+![Pasted image 20260624182808.png](/img/user/Pasted%20image%2020260624182808.png)
+
+![Pasted image 20260624182914.png](/img/user/Pasted%20image%2020260624182914.png)
+![Pasted image 20260624182938.png](/img/user/Pasted%20image%2020260624182938.png)
+
+![Pasted image 20260624184422.png](/img/user/Pasted%20image%2020260624184422.png)
+
+## Algoritmet e zëvendësimit
+
+Kur ngjan një “dështim” kontrolleri i Cache-it duhet të zgjedh një bllok që ta zëvendësojë me të dhënën e dëshiruar.
+
+**Te keshi me pasqyrim direkt:** Vetëm një opcion: vetëm një bllok kërkohet për ta gjetur dhe vetëm një bllok duhet zëvendësuar (zëvendësohet blloku në lokacionin ku blloku ardhës ka për të shkuar). 
+Për teknikat e **pasqyrimit asociativ** dhe **set-asociativ** është i nevojshëm një algoritëm zëvendësues për të nxjerrë një bllok nga keshi. 
+Për të arritur shpejtësi të lartë, një algoritëm i tillë duhet të implementohet në harduer. 
+
+Përdoren kryesisht katër algoritme zëvendësimi:
+1. Least Recently used (LRU)- blloku në setin që është përdorur më së pakti gjatë qëndrimit në kesh- nuk është referencuar për një kohë të gjatë- me gjasë është algoritmi më efektiv. Është lehtë i implementueshëm te pasqyrimi dy-mënyrësh set asociative. 
+2. First in First Out (FIFO) -Blloku që ka ndenjur për më shumë kohë në cache. 
+3. Least frequently used (LFU) – zëvendëson bllokun nga seti që është referencuar më së paku –me gjasë algoritmi më i thjeshtë. 
+4. Random - Përfshinë një bllok të zgjedhur rastësisht
+
+E meta e LRU është kompleksiteti i tij: LRU duhet të mbajë një histori qasjeje për secilin bllok, i cili në fund të fundit ngadalëson keshin.
+
+Performanca e memories në hierarki vlerësohet nga **koha efektive e qasjes** (effective access time)-(EAT).
+EAT merr në konsideratë raportin e gjetjes (hit ratio) dhe kohët relative të qasjes në nivelet sukcesive të memories.
+
+EAT për dy nivele të memories jepet me:
+$$EAT = H*Access_{C} + (1-H)*Access_{MM}$$
+ku **H** eshte **cache hit rate**.
+$Access_{C}$ dhe $Access_{MM}$ jane kohet e qasjes per kesh dhe memorie kryesore.
+
+## Teknikat e shkrimit në Cache
+
+Koherenca ndërmjet një fjale në Cache dhe kopjes së saj në memorie duhet të mbahet në çdo kohë. 
+Një grup teknikash përdoren për operacionet e shkrimit për blloqet në memorien kryesore për sa kohë janë edhe në Cache.
+
+Jane dy teknika (strategji) bazike kur shkruhet ne cache:
+1. Write-through
+2. Write-back
+
+**Write –through.** Informata shkruhet në të dyja blloqet, në cache dhe në bllok të nivelit tjetër më poshtë në hierarki. Kjo teknikë mban koherencën ndërmjet informacionit në cache dhe kopjes së tij në memorie dhe e tërë kjo reflekton me koston e kohës shtesë për të shkruar informacion në memorie.
+![Pasted image 20260624224030.png](/img/user/Pasted%20image%2020260624224030.png)
+![Pasted image 20260624224043.png](/img/user/Pasted%20image%2020260624224043.png)
+
+Nevojitet një Write Buffer ndërmjet Cache-it dhe memories.
+Procesori: shkruan te dhënat edhe në Cache edhe në Write buffer
+Kontrolleri i memories: shkruan përmbajtjen e buffer-it në memorie. 
+Write bufferi është vetëm një FIFO.
+
+**Write-back.** Informacioni shkruhet vetëm në bllok të cache-it. Shkrimi në memorie shtyhet deri kur të vjen nevoja për zëvendësim.
+Çdo blloku në cache i jepet një bit i quajtur “dirty bit”, që tregon se të paktën një operacion shkrimi ka ndodhur në bllok.
+Në momentin e zëvendësimit shikohet biti i “papastërtisë”, nëse është i vendosur atëherë shkruhet në memorien kryesore, përndryshe blloku mbishkruhet nga blloku i ri.
+Koherenca sigurohet vetëm në momentin e zëvendësimit.
+
+![Pasted image 20260624224239.png](/img/user/Pasted%20image%2020260624224239.png)
+![Pasted image 20260624224255.png](/img/user/Pasted%20image%2020260624224255.png)
+
 
