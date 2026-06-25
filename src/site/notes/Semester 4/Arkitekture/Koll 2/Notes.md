@@ -731,4 +731,267 @@ Koherenca sigurohet vetëm në momentin e zëvendësimit.
 ![Pasted image 20260624224239.png](/img/user/Pasted%20image%2020260624224239.png)
 ![Pasted image 20260624224255.png](/img/user/Pasted%20image%2020260624224255.png)
 
+# 5 - Memoria Interne
 
+## Memoria kryesore gjysmëperçuese
+
+Avancimet në mikroelektronikë kanë bërë që përdorimi i çipave gjysmëpërçues për memorien kryesore është pothuajse universale.
+Elementi themelor i memories gjysmëperçuese është qeliza memoruese.
+
+Qelizat memoruese kanë veti të caktuara: 
+- Ato shfaqin dy gjendje stabile (ose gjysmëstabile), të cilat mund të përdoren për të përfaqësuar 1 dhe 0 binare. 
+- Janë të afta për të shkruar gjendjen binare 1 ose 0 (së paku njëherë).
+- Janë ta afta për t’u lexuar shumë herë dhe për të kuptuar gjendjen.
+
+![Pasted image 20260625095607.png](/img/user/Pasted%20image%2020260625095607.png)
+
+**Terminali për zgjedhje (select),** siç sugjeron emri -zgjedh një qelizë memoruese për një operacion leximi ose shkrimi. 
+**Terminali i kontrollit** paraqet lexim ose shkrim. 
+**Terminali i tretë (data in)** Për shkrim, siguron një sinjal elektrik që vendosë gjendjen e qelizës në 1 ose 0. I njëjti terminal është edhe për lexim, që në fakt përdoret si dalje për gjendjen e qelizës.
+
+## DRAM-i dhe SRAM-i
+
+Të gjitha llojet e memorieve që shqyrtohen në këtë kapitull janë random access, që nënkupton se fjalët individuale nga memoria arrihen drejtëprdrejtë përmes logjikës së adresimit me tela. 
+Tabela 1 liston llojet kryesore të mëmorieve gjysmëpërçuese. Të gjitha listimet në Tabelën 1 zakonisht referohen memorie me qasje të rastësishme (RAM). 
+Edhe leximi edhe shkrimi realizohen përmes përdorimit të sinjaleve elektrike.
+![Pasted image 20260625100456.png](/img/user/Pasted%20image%2020260625100456.png)
+
+Karakteristikë dalluese e RAM-it është se kjo memorie është volatile (e paqëndrueshme). Një RAM-i duhet siguruar në mënyrë të vazhdueshme furnizim elektrik, sepse në rast ndërprerje të dhënat nga RAM-i humben.
+
+Masë e performancës se memories kryesore janë: 
+- Latenta 
+- Gjerësia e brezit.
+
+**Bandwidth-i** (gjerësia e brezit) i memories është shkalla me të cilën të dhënat mund të lexohen ose ruhen në një memorie gjysmëpërçuese nga një procesor.
+
+Zakonisht shprehet në njësi bajtë/sekondë, megjithëse kjo mund të ndryshojë për sistemet me madhësi të të dhënave natyrore që nuk janë shumëfish i bajtëve (8-bitësh) të përdorur zakonisht.
+
+*Dizajnerët, kryesisht rrisin madhësinë e bllokut që të marrin epërsitë e brezit të lartë të memories.* 
+Në Ch_1 u diskutua që ekziston një “gap” (mospërputhje) ndërmjet performancës së procesorit dhe DRAM-it, mirëpo edhe ndërtimi i keshit më të madh ose shtimi i më shumë niveleve të Cache-it nuk eliminon mospërputhjen. 
+*Nevojiten po ashtu Inovacionet në memorien kryesore.*
+
+Me zhvillimin e memorieve me transfer të vrullshëm, që sot me të madhe përdorën në memoriet Flash dhe DRAM në latentën e memories janë më rëndësi dy parametra metrik: 
+- Koha e qasjes (access time) - Koha ndërmjet kërkesës për lexim dhe kur fjala e dëshiruar arrin. 
+- Koha e ciklit (cylce time) - Koha minimale ndërmjet kërkesave të “palidhura” (unreleated) në memorie.
+
+Pothuaj të gjithë kompjuterët nga viti 1975 përdorin: 
+- DRAM - për memorie kryesore 
+- SRAM - për Cache
+
+### DRAM-i dinamik (DRAM)
+
+Ndërtohen nga qeliza memoruese që ruajnë të dhënat si ngarkesë në kondensatorë.
+Prezenca dhe mungesa e ngarkesës në kondensator interpretohet si një 1 binare ose 0 binare.
+
+Qeliza bazohet nga një transistor i thjeshtë n- kanalësh MOSFET, i njohur si Access transistor dhe një kapaciteti memorues $C_{S}$ dhe sillet si ndërprerës.
+Celula e tillë është e njohur si celulë një transistorike.
+
+Gejti i transistorit është i lidhur në linjën e adresës (rreshtin e fjalës), ndërsa sorsi (drain) është i lidhur në linjën e bit-it.
+
+![Pasted image 20260625103906.png](/img/user/Pasted%20image%2020260625103906.png)
+*Gejti i transistorit është i lidhur në linjën e adresës (rreshtin e fjalës), ndërsa sorsi (drain) është i lidhur në linjën e bit-it.*
+
+| **Shkrimi në DRAM**                                                                                                                                                                           | **Leximi në DRAM**                                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Një sinjal tensioni aplikohet në linjën e bitit.                                                                                                                                              | Zgjidhet linja e adresës, transistori kyçet dhe ngarkesa e ruajtur në kondensator e ushqen linjën e bitit dhe amplifikatorin e ndjesisë (_sense_). |
+| Tensioni i lartë paraqet 1 logjik, ndërsa tensioni i ulët paraqet 0 logjik.                                                                                                                   | Amplifikatori i ndjesisë krahason tensionin e Cₛ me një tension referent dhe përcakton nëse qeliza përmban 1 logjik apo 0 logjik.                  |
+| Kur një sinjal aplikohet në linjën e adresës, lejohet transferimi i ngarkesës në Cₛ. Kur DRAM ruan “1”, kondensatori është i ngarkuar, ndërsa kur ruan “0”, është i shkarkuar në tensionin 0. | Leximi nga qeliza e shkarkon Cₛ, i cili duhet të restaurohet ose të rikthehet për ta përfunduar operacionin.                                       |
+### RAMI STATIK (SRAM)
+
+Një komponentë digjitale.
+Përdorën të njëjtat elemente logjikë si në procesor.
+Vlerat binare ruhen duke përdorur konfigurimin tradicional të portës logjike të flipflopit.
+Ruhen te dhenat aq kohe sa funizohet me energji.
+
+Në teknologjinë CMOS, çdo qelizë memoruese përbëhet nga 6 transistorë. Pra 6 transistorë shfrytëzohen për një bit.
+Qarku i qelizës memoruese është një flip-flop i përbërë nga dy invertorë të lidhur krahë për krahë (të kryqëzuar) dhe dy transitorëve kyçës (të kontrollit) $Q_{5}$ dhe $Q_{6}$.
+![Pasted image 20260625113849.png](/img/user/Pasted%20image%2020260625113849.png)
+
+#### Si kryhet operacioni i leximit?
+
+- Q është në nivel të lartë (**VDD**), ndërsa Q’ në nivel të ulët (**0 V**).
+- Para leximit, linjat **B** dhe **B’** parangarkohen në **VDD/2**.
+- Aktivizimi i linjës së fjalës kyç transistorët **Q5** dhe **Q6**.
+- Linja **B** ngarkohet, ndërsa **B’** shkarkohet.
+- Krijohet një diferencë tensioni ndërmjet **B** dhe **B’**, zakonisht **0.2 V ose më pak**, që tregon se është lexuar vlera **1**.
+
+Vërejmë se qeliza duhet të dizajnohet ashtu që gjendjet Q dhe $\frac{Q}{}$ të mos ndryshojnë gjatë leximit ose të ndryshojnë shumë pakëz ashtu që të mos ndërrohet gjendja (Fig. 4). Këtu është jashtëzakonisht e rëndësishme të theksohet se për të shmangur ndryshimin e gjendjes së flip-flop, domethënë që operacioni ynë për lexim të jetë jo-destruktiv, VQ nuk duhet të kalojë tensionin e pragut të invertorit Q3 - Q4.
+![Pasted image 20260625115401.png](/img/user/Pasted%20image%2020260625115401.png)
+
+#### Si kryhet operacioni i shkrimit?
+
+- Supozojmë se qeliza ruan **1**: Q = **VDD**, ndërsa Q’ = **0 V**.
+- Për të shkruar **0**, linja **B** vendoset në **0 V**, ndërsa **B’** në **VDD**.
+- Linja e fjalës aktivizohet në **VDD**, duke kyçur transistorët e qelizës.
+- Tensioni në **Q** ulet, ndërsa tensioni në **Q’** rritet.
+- Në fund, qeliza ruan **0**: Q = **0 V** dhe Q’ = **VDD**.
+
+![Pasted image 20260625115441.png](/img/user/Pasted%20image%2020260625115441.png)
+
+- Transistori **Q5** punon në ngopje dhe rryma **I5** mbush kapacitetin parazitar **CQ’**, duke rritur tensionin në **Q’**.
+- Njëkohësisht, linja **B = 0 V** shkarkon shpejt kapacitetin **CQ**, duke ulur tensionin në **Q**.
+- Shkrimi është më i shpejtë se leximi, sepse përdor kapacitete të vogla parazitare **CQ** dhe **CQ’**, ndërsa leximi përdor kapacitetet më të mëdha të linjave **B** dhe **B’**.
+- **SRAM-i nuk ka nevojë për refresh**, prandaj koha e qasjes është afër kohës së ciklit.
+- Sot, të tri nivelet e memories **cache** zakonisht integrohen në çipin e procesorit.
+
+#### DRAM në lidhje me SRAM
+
+![Pasted image 20260625115722.png](/img/user/Pasted%20image%2020260625115722.png)
+
+## READ ONLY MEMORY (ROM)
+
+Kujtesë e përhershme 
+- Jo e avullueshme (nuk nevojitet energji elektrike për të ruajtur vlerat e bitit në memorie).
+- Përderisa është e mundshme të lexohet një ROM, nuk ka mundësi të shkruhen të dhëna të reja në të.
+Përdorimi i ROM-it 
+- Mikroprogramim 
+- Librari e subrutinave* për funksionet që përdoren shpesh. 
+- Programet sistemore (BIOS)
+- Tabelat e funksioneve
+
+Epërsia e ROM-it është se të dhënat ose programi janë përgjithmonë në memorie dhe nuk duhet të ngarkohen kurrë nga një pajisje ruajtëse sekondare.
+Ne nuk mund të modifikojmë të dhënat e ROM-it sepse ato lexohen vetëm nga CPU. CPU nuk mund të ketë qasje të drejtpërdrejtë në të dhënat e ROM-it. Kjo është arsyeja që ROM transferon të dhënat në RAM dhe CPU mund të ketë qasje në të dhënat e ROM-it në RAM.
+ROM krijohet si çdo çip, me të dhënat të lidhura në të si pjesë e procesit të fabrikimit. Kjo paraqet dy probleme: 
+- Hapi i futjes së të dhënave përfshin një kosto fikse relativisht të madhe, qoftë një apo mijëra kopje të një ROM-i të veçantë janë fabrikuar. 
+- Nuk ka vend për gabime. Nëse një bit është i gabuar, e gjithë grupi i ROM-ve duhet të hidhen.
+Kapaciteti i ROM-it është më i vogël sesa i RAM-it. Po ashtu më i ngadalshëm dhe më i lirë se sa RAM-i.
+
+### Llojet e ROM-it
+
+- **ROM** - te dhenat shkruhen gjate fabrikimit.
+- **PROM** - nje alternative me e lire eshte ROM i programueshem. Ashtu si ROM, PROM është jovolatile (jo e avullueshme) dhe mund të shkruhet vetëm një herë. Për PROM, procesi i shkrimit kryhet në mënyrë elektrike dhe mund të bëhet nga furnizuesi ose useri në një kohë më vonë pas fabrikimit të çipit. Kërkohen pajisje speciale për qëllim shkrimi. Diferenca themelore ndërmjet një PROM dhe një ROM-i është se PROM-i prodhohet si memorie e zbrazët. Zakonisht programuesit e PROM-it (si pajisje harduerike) lidhen me një kompjuter personal përmes një porti paralel USB, ose ndërfaqes LAN. Një program kompjuterik në kompjuter pastaj transferon të dhënat tek pajisja e programimit ku vendoset PROM-i dhe shkruhen të dhënat në të cilat ruhen përgjithmonë.
+
+#### EPROM – Erasable PROM
+
+Një lloj i memories vetëm për leximin është e memoria kryesisht e lexuar (readmostly memory), e cila nevojitet për aplikacionet në të cilat operacionet e leximit janë shumë më të shpeshta sesa operacionet e shkrimit, por për të cilat kërkohet ruajtje e përhershme. Ekzistojnë tri forma të zakonshme të memories read-mostly memory: EPROM, EEPROM, dhe memoria flash.
+
+- Lexohet dhe shkruhet elektrikisht si me PROM. 
+- Para operacionit të shkrimit, të gjitha qelizat e ruajtjes duhet të fshihen në të njëjtën gjendje fillestare duke ekspozuar çipin në rrezatim ultravjollcë* (përmes një dritareje që është e dizajnuar në çipin e memories). 
+- Procedura e fshirjes mund të kryhet në mënyrë të përsëritur (shumë herë) dhe merr më shumë se 20 minuta. 
+- Më të shtrenjta se sa PROM, epërsia qëndron të mundësia e fshirjes dhe programimit të shumëfishtë.
+
+#### EEPROM – Electrical EPROM
+
+Forma më atraktive e memorieve kryesisht të lexuara është Electrically Erasable Programmable Read-Only Memory (EEPROM).
+
+- Mund të shkruhet në çdo kohë pa fshirë përmbajtjet paraprake; vetëm bajti ose bajtët e adresuar azhurnohen.
+- Operacioni i shkrimit zgjatë me shumë se i leximit (qindra mikrosekonda për bajt).
+- Jovolatile dhe fleksibile në azhurnim duke përdorur kontroll të zakonshëm të magjistraleve (basave)
+- Më të shtrenjta se sa EPROM dhe po ashtu me dendsitet më të vogël, duke mbështetur më pak bitë për çip.
+- Programimi bëhet me pajisje harduerike që lidhen në kompjuter përmes portit serik ose USB.
+
+#### Flash Memoria
+
+- Formë tjetër e memories gjysmëpërçuese është memoria flash (flash - për shkak të shpejtësisë me të cilën mund të riprogramohet). 
+- E paraqitur në vitin 1980, ndërmjetëse midis EPROM dhe EEPROM në çmim dhe funksionalitet. 
+- Përdor teknologjinë e fshirjes elektrike, shumë më shpejt se sa EEPROM 
+- Mundësi e fshirjes vetëm e blloqeve të memories pa pasur nevojë të fshihet tërë çipi. 
+- Sikurse EPROM, përdor vetëm një transistor për bit, dhe kështu arrin densitetin e lartë (krahasuar me EEPROM). 
+- Nuk ofron fshirje të nivel të bajtit. 
+- Po ashtu emërtimi vjen nga fakti se mikroçipi është i organizuar në mënyrë që një pjesë e qelizave të memories të fshihen në një veprim të vetëm ose "flash".
+
+## LOGJIKA E ÇIPIT
+
+![Pasted image 20260625143600.png](/img/user/Pasted%20image%2020260625143600.png)
+
+Për memoriet gjysmëpërçuese, qeshtja kryesore gjatë projektimit është numri i bitëve të të dhënave që mund të lexohen/shkruhen në të njëjtën kohë.
+- Secili çip përmban matricë të qelizave memoruese 
+- Matrica është e organizuar në ë fjalë për B bitë secila.
+
+P.sh Çipi 16 Mbit mund të organizohet si 1 M 16 fjalë.
+
+Zona e memories (matrica e memories) është e organizuar si katër zona katrore me nga 2048 elemente (4 x 2048 x2048) është e mundshme arnazhime të ndryshme fizike. 
+Në çdo rast, elementët e matricës memoruese janë të lidhur nga linja horizontale (rreshtat) dhe linja vertikale (kolona). 
+- Çdo linjë horizontale lidhet me terminalin Select të secilës qelizë në rreshtin e saj 
+- Secila linjë vertikale lidhet me terminalin Data-In/Sense të secilës qelizë në kolonën e saj (Fig. 8) 
+- Linjat e adresave japin adresën e fjalës që do të zgjedhet. 
+- Është e nevojshme log2 ë linja. Në shembullin tonë janë të nevojshme 11 linja të adresave që të zgjedhet njëri nga 2048 rreshtat (= log2 2048 linja = log2 2 11 linja) 
+- Këto 11 linja futen në dekoderin e rreshtit, i cili ka 11 linja në hyrje dhe 2048 linja për dalje.
+
+Me ndihmën e 11 linjave zgjidhet njëra nga 2048 kolonat me 4 bitë për kolonë. Katër linja të të dhënave përdoren për hyrjen dhe daljen e 4 bitëve nga dhe nga një bafer i të dhënave. 
+- Në hyrje (shkruaj) aktivizohet drejtuesi i linjës se bitit për 0 ose 1 sipas vlerës së linjës përkatëse të të dhënave. 
+- Në dalje (lexo), vlera e secilës linjë të bitit pasohet nëpërmjet sense amplifier dhe paraqitet në linjën e të dhënave. 
+- Me ndihmën e linjave të rreshtave zgjedhat rreshti i qelizës që shfrytëzohet për lexim ose shkrim.
+
+Vini re (Fig. 7) se ekzistojnë vetëm 11 linja adresash (A0 – A10), gjysma e numrit që do të prisni për një zonë 2048 * 2048. Kjo është bërë për të ruajtur numrin e pinave. 22 linjat e kërkuara të adresave pasohen përmes logjikës së zgjedhur të jashtme nga çipi dhe multipleksohen në 11 linjat e adresave.
+
+Së pari, 11 sinjalet e adresave pasohen në chip për të përcaktuar adresën e rreshtit të zonës memoruese, dhe më pas 11 sinjalet e tjera të adresave janë paraqitur për adresën e kolonës. Këto sinjale shoqërohen me selektimin e rreshtit të adresës së zgjedhur (RAS) dhe selektimin e kolonës së adresës (CAS) për të siguruar kohën e duhur në chip. Pinat për të mundësuar shkrimin (ëE) dhe daljen (OE) përcaktojnë nëse shkruhet ose lexohet operacioni. Dy pinat e tjerë të cilët nuk paraqiten në Fig. 7 shërbejnë për tokëzim dhe një burim tensioni (Vcc).
+
+![Pasted image 20260625150643.png](/img/user/Pasted%20image%2020260625150643.png)
+![Pasted image 20260625150704.png](/img/user/Pasted%20image%2020260625150704.png)
+![Pasted image 20260625150725.png](/img/user/Pasted%20image%2020260625150725.png)
+
+## Paketimi i çipave
+
+Një IC montohet në një paketim.
+Pinat përdoren për t’u lidhur me rrethinën e jashtme.
+
+![Pasted image 20260625175648.png](/img/user/Pasted%20image%2020260625175648.png)
+- Adresa e fjalës që iu qaset. Për 1M fjalë, nevojiten gjithsej 20 pina (220 = 1M) (A0 – A19). 
+- Të dhënat që duhen lexuar, që përbëhen nga 8 linja (D0 – D7). 
+- Furnizimi me energji elektrike në çip (Vcc). 
+- Një pin tokëzimi (Vss). 
+- Një pin enable i çipit (CE). Pasi mund të ketë më shumë se një çip memorie, secila prej tyre është e lidhur me të njëjtën bas adrese, CE pin përdoret për të treguar nëse adresa është e vlefshme për këtë çip.
+- Një tension programi (Vpp) që furnizohet gjatë programimit (operacionet e shkrimit).
+
+## Korrigjimi i gabimit
+
+Kategoritë e gabimeve: 
+- Dështimet harduerike 
+- Dështimet softuerike
+
+**Dështimet harduerike** 
+Një defekt fizik i përhershëm ashtu që qelizat e memories të afektohen (preken) nuk mund të ruajnë në mënyrë të besueshme të dhënat, por të ngecen në 0 ose 1 ose ose komutime të çrregullta në mes 0 dhe 1. 
+
+**Dështimet softuerike** 
+Një ngjarje e rastit, jo shkatërruese në aspektin fizik që ndryshon përmbajtjen e një ose më shumë qelizave të memories.
+
+### Procesi i Detektimit dhe Korrigjimi i gabimeve
+
+Dështimet hard dhe soft janë të padëshirueshme. Shumica e sistemeve moderne të memories kryesore përfshijnë logjikë për zbulimin/korrigjimin e gabimeve.
+- Kur të dhënat shkruhen në memorie, një kalkulim i përshkruar me funksionin f kryhet në të dhënat për të prodhuar një kod. 
+- Kodi dhe të dhënat ruhen.
+- Nëse një fjalë e të dhënave është M – bitë duhet të ruhet edhe kodi me gjatësi K bitë, atëherë madhësia aktuale e fjalës së ruajtur është M + K bitë.
+
+![Pasted image 20260625181317.png](/img/user/Pasted%20image%2020260625181317.png)
+Kur lexohet fjala e ruajtur më parë, kodi përdoret për të zbuluar/mundësuar korrigjimin e gabimit.
+Një bashkësi e re e K bitëve të kodit gjenerohet nga M bitët e të dhënës dhe krahasohet më bitët e sjellë.
+
+Krahasimi shpie në njërën nga tri rezultatet: 
+- Nuk është detektuar gabim – bitët e të dhënave të sjella dërgohen. 
+- Një gabim është detektuar dhe është e mundur të korrigjohet gabimi, bitët e të dhënave + bitët e korrigjimit të gabimit futen në korrektor, i cili jep një bashkësi të korrigjuar të M bitëve që do të dërgohen. 
+- Një gabim është detektuar, por nuk është mundur të korrigjohet. Kjo konditë raportohet.
+
+Kodet që funksionojnë në këtë mënyrë quhen **kode të korrigjimit të gabimit (errorcorrecting codes).**
+
+**Kodi më i thjeshtë i korrigjimit të gabimit është kodi Hamming-ut i hartuar nga Richard Hamming.**
+
+### KODI I HAMMING-UT
+
+Përdoret për të zbuluar dhe korrigjuar ndryshimin e një biti në një fjalë.
+
+Fig. 12 shfrytëzon diagramet e Venit për të ilustruar përdorimin e këtij kodi në fjalën 4- bitëshe (M = 4). 
+Me prerje të tre rrathëve janë shtatë ndarje (katër të brendshme dhe tri të jashtme). Ne i caktojmë 4 bitët e të dhënës në ndarjet e brendshme (Fig. 12.a). Ndarjet e mbetura mbushen me ata që quhen bitët e paritetit. 
+Çdo bit i paritetit është zgjedhur në mënyrë që numri total i 1-ve në rrethin e tij të jetë qift (Fig. 12.b). Prej këtu, meqenëse rrethi A përfshin tri të dhëna me 1, biti i paritetit në këtë rreth vendoset në 1. 
+Tani, nëse një gabim ndryshon një prej bitëve të të dhënës (Fig. 12.c), aj do të gjendet lehtë. Duke kontrolluar bitët e paritetit, mospërputhjet gjenden në rrethin A dhe rrethin C, por jo edhe në rrethin B. Vetëm një prej shtatë ndarjeve është në A dhe C por jo në B. 
+Gabimi mund të korrigjohet duke e ndryshuar këtë bit.
+
+![Pasted image 20260625182816.png](/img/user/Pasted%20image%2020260625182816.png)
+
+Për të sqaruar konceptet e përfshira, ne do të zhvillojmë një kod që mund të detektojë dhe korrigjojë gabimet me një bit në fjalët 8-bitëshe. 
+Së pari, le të përcaktojmë se sa bitë i gjatë është kodi. Sipas Fig. 11 logjika e krahasimit pranon në hyrje dy vlera K-bitë.
+Një krahasim bit-pas-biti bëhet duke marrë OSE ekskluzive në dy hyrjet. Rezultati quhet *fjala sindromë*. Kështu që, secili bit i sindromës është 0 ose 1 varësisht nëse ekziston ose nuk ekziston një përshtatje në atë pozitë të bitit për dy hyrjet.
+**(0 nëse ka përshtatje në pozitën e bitit përkatës, 1 kur nuk ka përshtatje)**
+
+Fjala sindromë prej këtu është K bitë e gjerë dhe ka një rang ndërmjet 0 dhe $2^K$ - 1. Vlera 0 tregon që nuk është detektuar ndonjë gabim, duke lënë $2^K$ - 1 vlerat që tregojnë nëse ka ndonjë gabim, cili bit ishte në gabim.
+Tani, për shkak se mund të ngjanë një gabim në cilindo nga M bitët e të dhënës ose K bitët verifikues, duhet të kemi:
+$$2^K-1\geq M+K$$
+Ky ekuacion jep numrin e biteve te nevojshem per te korrigjuar nje gabim ne fjalen qe permban M bite te te dhenes.
+
+P.sh për fjalën 8 bitëshe (M = 8), kemi
+$$K=3:2^3-1<8+3$$
+$$K=4:2^4-1>8+4$$
+Prej këtu, tetë bitë të të dhënës kërkojnë 4 bitë për tu verifikuar. 
+Në tri kolonat e para të Tab. 1 gjenden numrat e bitëve për verifikim (kontrollë) për gjatësi të ndryshme të fjalëve të të dhënave
+Tab. 1 Rritja e gjatësisë së fjalës me korrigjimin e gabimit
+![Pasted image 20260625202007.png](/img/user/Pasted%20image%2020260625202007.png)
