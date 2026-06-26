@@ -6,7 +6,7 @@
 # Rrjeta kompjuterike — Flashcards
 
 > [!info] Import në Anki
-> Përdor skedarin `Rrjeta — Anki.csv`. Mapo kolonat `Front`, `Back`, `Tags` te note type **Basic** dhe zgjidh UTF‑8. Kartat më poshtë janë burimi i lexueshëm; CSV-ja është gjeneruar prej tyre.
+> Për kartat me figura, importo **`Rrjeta-kompjuterike.apkg`** në Anki; paketa përmban 132 karta dhe 7 imazhe të ligjëratave. `Rrjeta — Anki.csv` është fallback: ka `#html:true`, note type **Basic** dhe tag/deck mapping të deklaruar, por figurat shfaqen vetëm pasi media files të jenë në Anki collection.media. Kartat më poshtë janë burimi i lexueshëm.
 
 ## Ligjerata 1 — Bazat
 
@@ -88,6 +88,7 @@
 ### 016
 - **Front:** Çfarë është encapsulation?
 - **Back:** Shtimi i header-it të secilës shtresë rreth të dhënave nga shtresa sipër; në marrës header-at hiqen në rend të kundërt.
+- **Image:** ![assets/rrjeta/l1-encapsulation.png|700](/img/user/Semester%204/Rrjeta/assets/rrjeta/l1-encapsulation.png)
 - **Tags:** rrjeta::l1
 
 ### 017
@@ -185,6 +186,7 @@
 ### 035
 - **Front:** Cilat janë nivelet tipike të DNS hierarchy gjatë lookup-ut?
 - **Back:** Local resolver, root name server, TLD name server dhe authoritative name server.
+- **Image:** ![assets/rrjeta/l2-dns-hierarchy.png|700](/img/user/Semester%204/Rrjeta/assets/rrjeta/l2-dns-hierarchy.png)
 - **Tags:** rrjeta::l2
 
 ### 036
@@ -302,6 +304,7 @@
 ### 058
 - **Front:** Radhit mesazhet e TCP 3-way handshake.
 - **Back:** Client SYN(seq=x) → server SYN+ACK(seq=y, ack=x+1) → client ACK(ack=y+1).
+- **Image:** ![assets/rrjeta/l3-tcp-handshake.png|700](/img/user/Semester%204/Rrjeta/assets/rrjeta/l3-tcp-handshake.png)
 - **Tags:** rrjeta::l3
 
 ### 059
@@ -379,6 +382,7 @@
 ### 073
 - **Front:** Cilat janë katër mesazhet kryesore DHCP?
 - **Back:** DHCP Discover, Offer, Request dhe ACK.
+- **Image:** ![assets/rrjeta/l4-dhcp.png|700](/img/user/Semester%204/Rrjeta/assets/rrjeta/l4-dhcp.png)
 - **Tags:** rrjeta::l4
 
 ### 074
@@ -466,6 +470,7 @@
 ### 090
 - **Front:** Çfarë reklamojnë BGP peers?
 - **Back:** Paths drejt destination network prefixes, përfshirë AS-PATH; peer-i premton t’i forward-ojë datagramet drejt atij destinacioni.
+- **Image:** ![assets/rrjeta/l5-bgp-basics.png|700](/img/user/Semester%204/Rrjeta/assets/rrjeta/l5-bgp-basics.png)
 - **Tags:** rrjeta::l5
 
 ### 091
@@ -558,6 +563,7 @@
 ### 108
 - **Front:** Çfarë bën ARP?
 - **Back:** Zbulon MAC address-in e një interface-i në të njëjtin LAN për një IP address të dhënë; request broadcast, reply zakonisht unicast, pastaj cache me TTL.
+- **Image:** ![assets/rrjeta/l6-arp.png|700](/img/user/Semester%204/Rrjeta/assets/rrjeta/l6-arp.png)
 - **Tags:** rrjeta::l6
 
 ### 109
@@ -635,6 +641,7 @@
 ### 123
 - **Front:** Cilat janë hapat bazë të 802.11 CSMA/CA kur mediumi është busy?
 - **Back:** Zgjedh random backoff; timeri numëron vetëm kur kanali është idle dhe kur arrin zero, host-i transmeton; receiver-i ACK-on pas SIFS.
+- **Image:** ![assets/rrjeta/l7-csma-ca.png|700](/img/user/Semester%204/Rrjeta/assets/rrjeta/l7-csma-ca.png)
 - **Tags:** rrjeta::l7
 
 ### 124

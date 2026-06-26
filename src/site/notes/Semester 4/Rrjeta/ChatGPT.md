@@ -6,7 +6,7 @@
 # Rrjetat kompjuterike — udhëzues për provim
 
 > [!abstract] Çfarë mbulon ky dokument
-> Shënime të detajuara nga shtatë ligjëratat: nga Interneti dhe HTTP, te TCP/IP, routing, Ethernet, Wi‑Fi dhe 4G/5G. Seksionet e para janë për rikujtim të shpejtë; pjesa **Shënime të zgjeruara** është materiali kryesor për studim. Përdore së bashku me [[Rrjeta — Flashcards\|Rrjeta — Flashcards]] për vetëtestim.
+> Shënime të detajuara nga shtatë ligjëratat: nga Interneti dhe HTTP, te TCP/IP, routing, Ethernet, Wi‑Fi dhe 4G/5G. Seksionet e para janë për rikujtim të shpejtë; pjesa **Shënime të zgjeruara** është materiali kryesor për studim. Përdore së bashku me [[Semester 4/Rrjeta/Flashcards\|Semester 4/Rrjeta/Flashcards]] për vetëtestim.
 
 ## Si të studiosh shpejt
 
