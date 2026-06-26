@@ -995,3 +995,19 @@ Prej këtu, tetë bitë të të dhënës kërkojnë 4 bitë për tu verifikuar.
 Në tri kolonat e para të Tab. 1 gjenden numrat e bitëve për verifikim (kontrollë) për gjatësi të ndryshme të fjalëve të të dhënave
 Tab. 1 Rritja e gjatësisë së fjalës me korrigjimin e gabimit
 ![Pasted image 20260625202007.png](/img/user/Pasted%20image%2020260625202007.png)
+
+Për lehtësi, ne do të dëshirojmë të gjenerojmë një sindromë 4-bitë për një fjalë të dhëne 8-bitë me karakteristikat e mëposhtme: 
+- Nëse sindromi përmban të gjitha 0, asnjë gabim nuk është zbuluar. 
+- Nëse sindromi përmban një dhe vetëm një bit të vendosur në 1, atëherë një gabim ka ndodhur në një nga 4 bitët verifikues (Nuk nevojitet korrigjim) 
+- Nëse sindromi përmban më shumë se një bit të vendosur në 1, atëherë vlera numerike e sindromes tregon pozicionin e bitit të të dhënave në gabim. Ky bit i të dhënave është invertuar për korrigjim.
+
+![Pasted image 20260625202154.png](/img/user/Pasted%20image%2020260625202154.png)
+
+Konsideroni tabelën e cila ka 15 pozicione. Të dhënat paraqiten (ruhen) në çdo pozicion përveç 1, 2, 4 dhe 8. Këto pozicione përdoren për të ruajtur bitët e paritetit (korrigjimi i gabimit).
+
+![Pasted image 20260625202329.png](/img/user/Pasted%20image%2020260625202329.png)
+
+Duke përdorur katër pozicionet e paritetit (bitet e korrigjimit të gabimit) mund të përfaqësojmë 15 vlera (1- 15).
+
+![Pasted image 20260625202353.png](/img/user/Pasted%20image%2020260625202353.png)
+
