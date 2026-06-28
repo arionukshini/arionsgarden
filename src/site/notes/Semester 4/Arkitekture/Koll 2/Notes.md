@@ -1011,3 +1011,61 @@ Duke përdorur katër pozicionet e paritetit (bitet e korrigjimit të gabimit) m
 
 ![Pasted image 20260625202353.png](/img/user/Pasted%20image%2020260625202353.png)
 
+# 6 - MEMORIA EKSTERNE
+
+## Disku magnetik
+
+Një pjatë rrethore e ndërtuar nga materiale jo magnetike të quajtura substrate.
+- Alumini (versionet e disqeve të mëhershme) 
+- Xham (versionet e reja përdorin substrat të xhamit
+- Të dy llojet e disqeve janë të veshura me një material magnetizues
+Substrati xhamit përdoret më shumë:
+- Uniformitet i përmirësuar i sipërfaqes së diskut (filmit magnetik) 
+	- Rrit besueshmërinë 
+- Reduktimi i defekteve të sipërfaqes së diskut 
+	- Reduktimet në gabimet e leximit / shkrimit 
+- Ngurtësi më e mirë – duke zvogëluar dinamikën e diskut 
+- Aftësi më e madhe për t'i bërë ballë goditjeve dhe dëmtimit
+
+### Mekanizimi i Shkrimit/Leximit në disk magnetik
+
+Incizimi dhe leximi nëpërmjet pështjellove përçuese e quajtur kokë për shkrim/lexim.
+Mund të jetë kokë e vetme për shkrim/lexim ose të veçanta.
+Gjatë kohës së leximit/shkrimit, koka është stacionare (e palëvizshme), ndërsa pjata rrotullohet.
+![Pasted image 20260627173717.png](/img/user/Pasted%20image%2020260627173717.png)
+
+| **Shkrimi**                                                                                                                                                                                                                                                                  | **Leximi**                                                                                                                                                                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Rryma nëpër pështjellë prodhon fushë magnetike                                                                                                                                                                                                                               | **Tradicional** <br>Fusha magnetike që lëviz në krahasim me pështjellë indukton rrymë. Kur sipërfaqja e diskut gjendet nën kokë ajo prodhon rrymë të njëjtit polaritet me atë që është regjistruar më herët.<br><br>Pështjella është e njëjta për lexim dhe shkrim |
+| Pulset dërgohen në kokë për shkrim duke rezultuar në paterna magnetike e cila incizohet (regjistrohet) në sipërfaqen poshtë me paterna te ndryshme për rrymë pozitive dhe negative.                                                                                          | **Bashkëkohor** <br>Kokë e ndarë leximi, e vendosur afër me kokën e shkrimit <br><br>Sensor magneto rezistiv (MR) i mbrojtur pjesërisht përdoret për të lexuar.                                                                                                    |
+| Një rrymë elektrike në përçues të telit shkakton një fushë magnetike përgjatë boshllëkut, e cila nga ana e tij magnetizon një zone (sipërfaqe) të vogël të mediumit për incizim. Ndërrimi i kahut të rrymës do të thotë ndërrim i kahut të magnetizimit në mediumin ruajtës. | Rezistenca elektrike e materialit MR varet nga kahu i fushës magnetike që lëviz nën të. <br>Operim me frekuencë të lartë.<br>Densitet dhe shpejtësi e lartë operuese.                                                                                              |
+### Organizimi dhe Formatimi i të dhënave
+
+![Pasted image 20260627174051.png](/img/user/Pasted%20image%2020260627174051.png)
+
+#### Shpejtësia e diskut magnetik
+
+Një disk rrotullues kalon një pikë fikse më ngadalë afër qendrës së rrotullimit sesa pak më larg nga ajo*. Prandaj, duhet të gjendet një mënyrë për të kompensuar ndryshimin në shpejtësi, në mënyrë që koka të lexojë të gjitha pjesët me shpejtësi të njëjtë.
+Kjo mund të bëhet duke rritur hapësirën midis pjesëve të informacionit të regjistruara në segmentet e diskut. Informacioni atëherë mund të skanohet me të njëjtën shpejtësi të rrotullimit të diskut me shpejtësi fikse, e njohur si **shpejtësi këndore konstante (CAV-Constant Angular Velocity)**
+
+![Pasted image 20260627174809.png](/img/user/Pasted%20image%2020260627174809.png)
+Fig. paraqet planin e diskut duke përdorur shpejtësi këndore konstante.
+
+Epërsitë e CAV:
+- Blloqet individuale të të dhënave mund të adresohen direkt nga trasetë (pistat) dhe sektorët. Për të zhvendosur kokën nga vendndodhja e saj aktuale në një adresë specifike, ajo bën vetëm një lëvizje të shkurtër të kokës në një pistë specifike dhe një pritje të shkurtër që sektori i duhur të rrotullohet nën kokë.
+Të metat e CAV: 
+- Sasia e të dhënave që mund të ruhen në trasetë e gjata të jashtme është e njëjta me ato që mund të ruhen në trasetë e brendshme më të shkurtra 
+- Pasi densiteti, në zona (pjesë) për inç linear, rritet në lëvizjen nga pista më e jashtme në pista më të brendshme (afër boshtit), aftësia e ruajtjes së diskut në një sistem CAV direkt është e kufizuar nga densiteti maksimal i regjistrimit (ruajtjes) që mund të arrihet në pista më të brendshme.
+
+#### Disku magnetik – regjistrimi në zona të shumëfishta
+
+Që të rritet densiteti, sitemet e disqeve modern përdorin të ashtuquajturat regjistrim në zona të shumëfishta në të cilën:
+- Sipërfaqja është e ndarë në një numër koncentrik të zonave (zakonisht 16) 
+- Brenda një zone, numri i bitëve për secilën trase është 
+- Zonat më larg nga qendra përmbajnë më shumë copa (më shumë sektorë) sesa ato më afër saj. 
+- Epërsia: Rritja e densitetit 
+- Të metat: Kërkojnë qarqe komplekse
+
+![Pasted image 20260627175118.png](/img/user/Pasted%20image%2020260627175118.png)
+
+#### Karakteristikat fizike të diskut magnetik
