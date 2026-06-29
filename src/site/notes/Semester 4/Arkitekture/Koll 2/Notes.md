@@ -1069,3 +1069,99 @@ Që të rritet densiteti, sitemet e disqeve modern përdorin të ashtuquajturat 
 ![Pasted image 20260627175118.png](/img/user/Pasted%20image%2020260627175118.png)
 
 #### Karakteristikat fizike të diskut magnetik
+
+Lëvizja e kokave 
+- Koka e fiksuar 
+	- Një kokë lexim/shkrim për trase 
+	- Kokat montohen të fiksuara në krahun e ngurtë të aktuatorit 
+- Kokat e luajtshme 
+	- Një kokë lexim/shkrim për anë 
+	- Montohen në një krah të luajtshëm 
+
+Disk i montuar me mundësi largimi 
+- Mund të largohet nga njësia dhe të zëvendësohet me një disk tjetër 
+- Ofron një kapacitet të pakufizuar të ruajtjes 
+- Transferimi i lehtë i të dhënave ndërmjet sistemeve 
+
+Disk i paluajtshëm 
+- i montuar në mënyrë permanente në njësi
+
+Në këtë rast, secila trase përmban 30 sektorë me gjatësi fikse prej 600 bajtësh secili. Secili sektor mban 512 bajt plus informacione kontrolli të dobishme për kontrolleri i diskut. Fusha ID është një identifikues ose adresë unike që përdoret për të gjetur një sektor të veçantë.
+Bajti SYNCH është një model i veçantë bit që ndan fillimin e një fushe. Numri I trasesë identifikon një trase ne një siperfaqe. Numri I kokës identifikon një kokë, pasi ky diska ka shumë sipërfaqe të shumfishta. The ID and data fields each contain an errordetecting aktualisht).
+![Pasted image 20260629124425.png](/img/user/Pasted%20image%2020260629124425.png)
+
+![Pasted image 20260629124459.png](/img/user/Pasted%20image%2020260629124459.png)
+
+Pjata të shumëfishta 
+- Një kokë për anë 
+- Kokat janë bashkuar dhe përshtatur 
+- Përshtatja e traseve në secilën pjatë në formë cilindrike 
+- Të dhënat “vijën nga cilindri” 
+	- Redukton lëvizjen e kokës 
+	- Rritje e shpejtësisë (norma e transferimit).
+
+#### Performasa e diskut magnetik
+
+Varet nga: Sistemi kompjuterik, SO, Natyra e kanalit I/O l, Hardueri kontrollerit të diskut.
+
+**Koha e përgjithshme e transferit I/O te diskut:**
+
+Koha e kërkimit (Seek time) paraqet kohën që kalon për të gjetur zonën në disk ku ruhen të dhënat që duhen lexuar → Lëvizja e kokës në trasenë korrekte 
+- Latenta (vonesa) e rrotullimit → Pritja që të dhënat të rrotullohen nën kokë 
+- Koha e qasjes = Seek time + Latenta 
+- Norma e transferit - koha e kërkuar për transfer të të dhënave
+
+![Pasted image 20260629125106.png](/img/user/Pasted%20image%2020260629125106.png)
+
+### Memoria virtuale –konceptet dhe “analogjia” me Cache
+
+- Cache ruan një nënbashkësi të hapësirave të adresave të RAM-it. 
+- Hapësira e adresave është bashkësi e adresave valide. 
+- Çdo adresë në Cache, ka një adresë korresponduse në RAM.
+
+Kjo nënbashkësi e adresave (dhe kopjet korresponduese të të dhënave) ndryshon në lidhje me kohen, varësisht nga sjellja e programit. 
+Cache shfrytëzohet për të mbajtur seksionet më të shpeshta të RAM-it, për qasje më të shpejtë në to. 
+Kjo është e nevojshme, sepse shpejtësia e CPU-së rritet më shpejt se sa shpejtësia e qasjes në memorie.
+Pasi RAM-i s’mund t’iu përshtatet CPU-së - shfrytëzohet Cache. 
+
+**Nëse do të kishte mundësi të iu qasemi RAM-it në 3 GHz, s’do të kishte ndonjë nevojë për Cache, sepse RAM-i do të mund të përshtatej.**
+
+Ideja e zgjerimit të memories quhet memorie virtuale. Quhet “virtuale” vetëm pse nuk është RAM.
+
+Epërsia e diskut është, mundësia e lehtë e shfrytëzimit të shumë hapësire memoruese për çmim të vogël. 
+Fillimisht, memoria virtuale u përdor për të zgjeruar RAM-in. Programet nuk do të duhej “ të kujdeseshim” që memoria është “ RAM real” ose “disk”. SO do të kuptoj se nga. 
+Më vonë, memoria virtuale u përdor si një mjet për të mbrojtur memorien. Çdo program shfrytëzon një rang të adresave që quhen hapësirë e adresave.
+
+Cili është roli i memories virtuale? Kur ju ekzekutoni ndonjë program, ai gjeneron adresa. Adresat gjenerohen në njërën prej tri mënyrave: 
+- A load instruction 
+- A store instruction 
+- Fetching an instruction
+
+Load & store krijojnë adresë të të dhënave, ndërsa fetching an instruction krijon instruksione të adresave. Natyrisht, RAM-i nuk bën dallim ndërmjet këtyre dy lloj adresave. Ai thjesht e “sheh si një adresë”. 
+**Çdo adresë e gjeneruar nga një program konsiderohet virtuale. Ajo duhet të përkthehet në adresë reale fizike. Prej këtu përkthimi ngjanë gjatë gjithë kohës.**
+
+Mund të mendohet ndoshta që përkthimi i secilës adresë nga virtuale në fizike është ide e “marrë”, për shkak të asaj se sa ngadalë bëhet ajo. **Megjithatë, prej përkthimit të adresave bëhet mbrojtja e memories.**
+
+## Paging –u (Faqosja)
+
+Në cache sjellen sasi të të dhënave që quhen blloqe ose cache lines.
+Këto zakonisht janë ndërmjet 4 dhe 64 bajtë.
+Ka një termonologji korrosponduese për memorien virtuale në cache line. Kjo
+quhet faqe.
+
+Një faqe është një sekuencë e N-bajtve ku N është një fuqi e 2-shit.
+
+Madhësia e faqeve ka qenë së paku 4 KB madhësi dhe mund të jetë 64KB ose më shumë.
+Memoria kryesore ndahet page frames ku mund të “mbajë” secila nga një faqe.
+
+**Madhësia e hapësirës së adresave të një procesi mund të jetë më e madhe se memoria kryesore.**
+
+Kur një faqe nuk është referencuar në memorie, ajo duhet të sjellët prej disku në memorie. Kjo është page fault (gabim faqeje).
+
+**Përkthimi prej adrese virtuale në adresë fizike kryhet nga hardueri.**
+![Pasted image 20260629140008.png](/img/user/Pasted%20image%2020260629140008.png)
+
+Në Fig. ** është paraqitur pasqyrimi në memorie virtuale dhe në memorie fizike për një program me katër faqe. 
+Kjo bazohet në katër faqe, A, B, C dhe D. Lokacioni aktual i tri prej katër blloqeve është në memorien fizike kryesore ndërsa tjetri është i lokacionuar në disk.
+![Pasted image 20260629140130.png](/img/user/Pasted%20image%2020260629140130.png)
+
