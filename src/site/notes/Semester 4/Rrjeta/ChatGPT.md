@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/semester-4/rrjeta/chat-gpt/","tags":["university/rrjeta","exam-study"]}
 ---
 
-
 # Rrjetat kompjuterike — udhëzues për provim
 
 > [!abstract] Çfarë mbulon ky dokument

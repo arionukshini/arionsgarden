@@ -581,7 +581,7 @@ Zgjedhja e funksionit të pasqyrimit përcakton se si është organizuar keshi M
 *Gjatë pasqyrimit në kesh, blloku i memories kryesore thjesht kopjohet në kesh dhe faktikisht nuk largohet prej memories kryesore.*
 
 ![chrome_VnWPe5vs8L.png](/img/user/Semester%204/Images/chrome_VnWPe5vs8L.png)
-![Pasted image 20260623223835.png](/img/user/Pasted%20image%2020260623223835.png)
+![Pasted image 20260623223835.png](/img/user/Semester%204/Images/Pasted%20image%2020260623223835.png)
 
 - Meqenëse ka më shumë blloqe në memorie se sa (blloqe) linja keshi, një linjë individuale nuk mund të jetë në mënyrë unike përherë e dedikuar për një bllok të veçantë. 
 - Prej këtu, çdo linjë e keshit ka një tag (etiketë) që identifikon bllokun aktual nga memoria kryesore që po ruhet në linjën (bllokun) e memories kesh. 
@@ -596,7 +596,7 @@ i - numri i linjës në memorien kesh
 j - numri i bllokut në memorien kryesore (adresa e bllokut të MM) 
 m - numri i tërësishëm i linjave në kesh
 
-![Pasted image 20260623224726.png](/img/user/Pasted%20image%2020260623224726.png)
+![Pasted image 20260623224726.png](/img/user/Semester%204/Images/Pasted%20image%2020260623224726.png)
 
 $m$ blloqet tjera të mëmories kryesore pasqyrohen ne kesh sipas të njëjtës mënyrë, bloku $B_{m}$ i memories pasqyrohet prapë në linjën $L_{0}$ , Blloku $B_{m +1}$ pasqyrohet në linjën $L_{1}$, e kështu më radhë.
 
@@ -608,17 +608,17 @@ Pasi CPU gjeneron një kërkesë në memorie
 - Në rastin e cache miss, fjala e kërkuar duhet të sillet nga memoria kryesore 
 - Ajo pastaj ruhet në kesh së bashku me tagun e ri duke zëvendësuar atë të mëparshmen.
 
-![Pasted image 20260624151028.png](/img/user/Pasted%20image%2020260624151028.png)
+![Pasted image 20260624151028.png](/img/user/Semester%204/Images/Pasted%20image%2020260624151028.png)
 
 Funksioni i pasqyrimit implementohet lehtë duke përdorur adresat e memories kryesore. **Me qëllim të qasjes në cache, çdo adresë fizike e memories kryesore mund të shihet si e përbërë nga tre fusha.**
 
-![Pasted image 20260624151356.png](/img/user/Pasted%20image%2020260624151356.png)
+![Pasted image 20260624151356.png](/img/user/Semester%204/Images/Pasted%20image%2020260624151356.png)
 
 **Bitët më pak domëthënës (ẘ)** identifikojnë një fjalë unike ose bajt brenda një blloku të memories kryesore.
 
 **Bitët e mbetur (s)** specifikojnë një prej $2^s$ blloqeve të memories kryesore.
 
-![Pasted image 20260624151728.png](/img/user/Pasted%20image%2020260624151728.png)
+![Pasted image 20260624151728.png](/img/user/Semester%204/Images/Pasted%20image%2020260624151728.png)
 
 ### Pasqyrimi asociativ 
 
@@ -631,18 +631,18 @@ Në pasqyrimin plotësisht asociativ:
 - Kjo e bën pasqyrimin plotësisht asociativ më fleksibilitet se pasqyrimin direkt.
 - Nëse kesh është i plotësuar, një algoritëm zëvendësues është i nevojshëm për të zëvendësuar një bllok. Algoritmi i zëvendësimit sugjeron që blloku të zëvendësohet nëse të gjitha linjat e cache janë zënë.
 
-![Pasted image 20260624163029.png](/img/user/Pasted%20image%2020260624163029.png)
+![Pasted image 20260624163029.png](/img/user/Semester%204/Images/Pasted%20image%2020260624163029.png)
 
-Në pasqyrimin plotësisht asiociativ, adresa fizike përbehet nga dy fusha: Tagu (etiketa = Block number) dhe Block offset-i (fjala).![Pasted image 20260624163205.png](/img/user/Pasted%20image%2020260624163205.png)
+Në pasqyrimin plotësisht asiociativ, adresa fizike përbehet nga dy fusha: Tagu (etiketa = Block number) dhe Block offset-i (fjala).![Pasted image 20260624163205.png](/img/user/Semester%204/Images/Pasted%20image%2020260624163205.png)
 
 Për të përcaktuar nëse një bllok është në cache, logjika e kontrollit të kesh-it duhet njëkohësisht të shqyrtojë etiketën (tagun) e çdo rreshti për një përshtatje.
 Në këtë rast, logjika e kontrollit të cache interpreton një adresë të memories thjesht si një etiketë dhe një fushë fjale.
-![Pasted image 20260624163706.png](/img/user/Pasted%20image%2020260624163706.png)
+![Pasted image 20260624163706.png](/img/user/Semester%204/Images/Pasted%20image%2020260624163706.png)
 
 Duhet theksuar se asnjëra nga dy fushat e adresës nuk ka kurrfarë lidhje me numrin e linjave të keshit, pra asnjëra fushë në adresë nuk korrespondon me numrin e linjës, kështu që numri e linjave në kesh nuk përcaktohet nga formati i adresës.
-![Pasted image 20260624164442.png](/img/user/Pasted%20image%2020260624164442.png)
+![Pasted image 20260624164442.png](/img/user/Semester%204/Images/Pasted%20image%2020260624164442.png)
 
-![Pasted image 20260624175242.png](/img/user/Pasted%20image%2020260624175242.png)
+![Pasted image 20260624175242.png](/img/user/Semester%204/Images/Pasted%20image%2020260624175242.png)
 
 Me ketë teknikë të pasqyrimit ka një fleksibilitet se cili blok do të zëvendësohet kur një bllok i ri lexohet në kesh. Algoritmet zëvendësuese, dizajnohen për të maksimizuar hit ratio. E metë e pasqyrimit asociativ është kërkesa për qark kompleks për të ekzaminuar etiketat e të gjitha linjave të keshit në paralel.
 
@@ -662,24 +662,24 @@ k = numri i linjave në secilin set
 
 Kur një blok vendoset në një set të restriktuar në kesh, cache është set asociativ. Në shembullin e mëposhtëm Set-i ka 2 blloqe. 
 Bloku 3 nga memoria kryesore (i cili bllok ka 4 fjalë) mund të shkojë vetëm në Cashe SET i = (3 MOD 2) = 1 në cache.
-![Pasted image 20260624181319.png](/img/user/Pasted%20image%2020260624181319.png)
+![Pasted image 20260624181319.png](/img/user/Semester%204/Images/Pasted%20image%2020260624181319.png)
 **(Adresa e Block-ut) MOD (numri i set-eve në cashe)**
 
 Pra këtu k = 2 atëherë kemi një pasqyrim 2-mënyrësh set asociativ.
 
-![Pasted image 20260624181412.png](/img/user/Pasted%20image%2020260624181412.png)
+![Pasted image 20260624181412.png](/img/user/Semester%204/Images/Pasted%20image%2020260624181412.png)
 
 Me pasqyrim set-asociativ, blloku $B_{j}$ mund të pasqyrohet në ndonjë linjë të set-it j.
 
-![Pasted image 20260624181814.png](/img/user/Pasted%20image%2020260624181814.png)
+![Pasted image 20260624181814.png](/img/user/Semester%204/Images/Pasted%20image%2020260624181814.png)
 
 Me pasqyrim asociativ, çdo fjalë pasqyrohet në shumë linja te keshit. Për pasqyrim set-asociativ, çdo fjalë pasqyrohet në të gjitha linjat e keshit në setin specifik, kështu që blloku Bo pasqyrohet në setin 0 dhe kështu me radhë, prandaj keshi set asociativ mundet fizikisht të implementohet si një k- set asociative kesh.
-![Pasted image 20260624182808.png](/img/user/Pasted%20image%2020260624182808.png)
+![Pasted image 20260624182808.png](/img/user/Semester%204/Images/Pasted%20image%2020260624182808.png)
 
-![Pasted image 20260624182914.png](/img/user/Pasted%20image%2020260624182914.png)
-![Pasted image 20260624182938.png](/img/user/Pasted%20image%2020260624182938.png)
+![Pasted image 20260624182914.png](/img/user/Semester%204/Images/Pasted%20image%2020260624182914.png)
+![Pasted image 20260624182938.png](/img/user/Semester%204/Images/Pasted%20image%2020260624182938.png)
 
-![Pasted image 20260624184422.png](/img/user/Pasted%20image%2020260624184422.png)
+![Pasted image 20260624184422.png](/img/user/Semester%204/Images/Pasted%20image%2020260624184422.png)
 
 ## Algoritmet e zëvendësimit
 
@@ -715,8 +715,8 @@ Jane dy teknika (strategji) bazike kur shkruhet ne cache:
 2. Write-back
 
 **Write –through.** Informata shkruhet në të dyja blloqet, në cache dhe në bllok të nivelit tjetër më poshtë në hierarki. Kjo teknikë mban koherencën ndërmjet informacionit në cache dhe kopjes së tij në memorie dhe e tërë kjo reflekton me koston e kohës shtesë për të shkruar informacion në memorie.
-![Pasted image 20260624224030.png](/img/user/Pasted%20image%2020260624224030.png)
-![Pasted image 20260624224043.png](/img/user/Pasted%20image%2020260624224043.png)
+![Pasted image 20260624224030.png](/img/user/Semester%204/Images/Pasted%20image%2020260624224030.png)
+![Pasted image 20260624224043.png](/img/user/Semester%204/Images/Pasted%20image%2020260624224043.png)
 
 Nevojitet një Write Buffer ndërmjet Cache-it dhe memories.
 Procesori: shkruan te dhënat edhe në Cache edhe në Write buffer
@@ -728,8 +728,8 @@ Write bufferi është vetëm një FIFO.
 Në momentin e zëvendësimit shikohet biti i “papastërtisë”, nëse është i vendosur atëherë shkruhet në memorien kryesore, përndryshe blloku mbishkruhet nga blloku i ri.
 Koherenca sigurohet vetëm në momentin e zëvendësimit.
 
-![Pasted image 20260624224239.png](/img/user/Pasted%20image%2020260624224239.png)
-![Pasted image 20260624224255.png](/img/user/Pasted%20image%2020260624224255.png)
+![Pasted image 20260624224239.png](/img/user/Semester%204/Images/Pasted%20image%2020260624224239.png)
+![Pasted image 20260624224255.png](/img/user/Semester%204/Images/Pasted%20image%2020260624224255.png)
 
 # 5 - Memoria Interne
 
@@ -743,7 +743,7 @@ Qelizat memoruese kanë veti të caktuara:
 - Janë të afta për të shkruar gjendjen binare 1 ose 0 (së paku njëherë).
 - Janë ta afta për t’u lexuar shumë herë dhe për të kuptuar gjendjen.
 
-![Pasted image 20260625095607.png](/img/user/Pasted%20image%2020260625095607.png)
+![Pasted image 20260625095607.png](/img/user/Semester%204/Images/Pasted%20image%2020260625095607.png)
 
 **Terminali për zgjedhje (select),** siç sugjeron emri -zgjedh një qelizë memoruese për një operacion leximi ose shkrimi. 
 **Terminali i kontrollit** paraqet lexim ose shkrim. 
@@ -754,7 +754,7 @@ Qelizat memoruese kanë veti të caktuara:
 Të gjitha llojet e memorieve që shqyrtohen në këtë kapitull janë random access, që nënkupton se fjalët individuale nga memoria arrihen drejtëprdrejtë përmes logjikës së adresimit me tela. 
 Tabela 1 liston llojet kryesore të mëmorieve gjysmëpërçuese. Të gjitha listimet në Tabelën 1 zakonisht referohen memorie me qasje të rastësishme (RAM). 
 Edhe leximi edhe shkrimi realizohen përmes përdorimit të sinjaleve elektrike.
-![Pasted image 20260625100456.png](/img/user/Pasted%20image%2020260625100456.png)
+![Pasted image 20260625100456.png](/img/user/Semester%204/Images/Pasted%20image%2020260625100456.png)
 
 Karakteristikë dalluese e RAM-it është se kjo memorie është volatile (e paqëndrueshme). Një RAM-i duhet siguruar në mënyrë të vazhdueshme furnizim elektrik, sepse në rast ndërprerje të dhënat nga RAM-i humben.
 
@@ -788,7 +788,7 @@ Celula e tillë është e njohur si celulë një transistorike.
 
 Gejti i transistorit është i lidhur në linjën e adresës (rreshtin e fjalës), ndërsa sorsi (drain) është i lidhur në linjën e bit-it.
 
-![Pasted image 20260625103906.png](/img/user/Pasted%20image%2020260625103906.png)
+![Pasted image 20260625103906.png](/img/user/Semester%204/Images/Pasted%20image%2020260625103906.png)
 *Gejti i transistorit është i lidhur në linjën e adresës (rreshtin e fjalës), ndërsa sorsi (drain) është i lidhur në linjën e bit-it.*
 
 | **Shkrimi në DRAM**                                                                                                                                                                           | **Leximi në DRAM**                                                                                                                                 |
@@ -805,7 +805,7 @@ Ruhen te dhenat aq kohe sa funizohet me energji.
 
 Në teknologjinë CMOS, çdo qelizë memoruese përbëhet nga 6 transistorë. Pra 6 transistorë shfrytëzohen për një bit.
 Qarku i qelizës memoruese është një flip-flop i përbërë nga dy invertorë të lidhur krahë për krahë (të kryqëzuar) dhe dy transitorëve kyçës (të kontrollit) $Q_{5}$ dhe $Q_{6}$.
-![Pasted image 20260625113849.png](/img/user/Pasted%20image%2020260625113849.png)
+![Pasted image 20260625113849.png](/img/user/Semester%204/Images/Pasted%20image%2020260625113849.png)
 
 #### Si kryhet operacioni i leximit?
 
@@ -816,7 +816,7 @@ Qarku i qelizës memoruese është një flip-flop i përbërë nga dy invertorë
 - Krijohet një diferencë tensioni ndërmjet **B** dhe **B’**, zakonisht **0.2 V ose më pak**, që tregon se është lexuar vlera **1**.
 
 Vërejmë se qeliza duhet të dizajnohet ashtu që gjendjet Q dhe $\frac{Q}{}$ të mos ndryshojnë gjatë leximit ose të ndryshojnë shumë pakëz ashtu që të mos ndërrohet gjendja (Fig. 4). Këtu është jashtëzakonisht e rëndësishme të theksohet se për të shmangur ndryshimin e gjendjes së flip-flop, domethënë që operacioni ynë për lexim të jetë jo-destruktiv, VQ nuk duhet të kalojë tensionin e pragut të invertorit Q3 - Q4.
-![Pasted image 20260625115401.png](/img/user/Pasted%20image%2020260625115401.png)
+![Pasted image 20260625115401.png](/img/user/Semester%204/Images/Pasted%20image%2020260625115401.png)
 
 #### Si kryhet operacioni i shkrimit?
 
@@ -826,7 +826,7 @@ Vërejmë se qeliza duhet të dizajnohet ashtu që gjendjet Q dhe $\frac{Q}{}$ t
 - Tensioni në **Q** ulet, ndërsa tensioni në **Q’** rritet.
 - Në fund, qeliza ruan **0**: Q = **0 V** dhe Q’ = **VDD**.
 
-![Pasted image 20260625115441.png](/img/user/Pasted%20image%2020260625115441.png)
+![Pasted image 20260625115441.png](/img/user/Semester%204/Images/Pasted%20image%2020260625115441.png)
 
 - Transistori **Q5** punon në ngopje dhe rryma **I5** mbush kapacitetin parazitar **CQ’**, duke rritur tensionin në **Q’**.
 - Njëkohësisht, linja **B = 0 V** shkarkon shpejt kapacitetin **CQ**, duke ulur tensionin në **Q**.
@@ -836,7 +836,7 @@ Vërejmë se qeliza duhet të dizajnohet ashtu që gjendjet Q dhe $\frac{Q}{}$ t
 
 #### DRAM në lidhje me SRAM
 
-![Pasted image 20260625115722.png](/img/user/Pasted%20image%2020260625115722.png)
+![Pasted image 20260625115722.png](/img/user/Semester%204/Images/Pasted%20image%2020260625115722.png)
 
 ## READ ONLY MEMORY (ROM)
 
@@ -892,7 +892,7 @@ Forma më atraktive e memorieve kryesisht të lexuara është Electrically Erasa
 
 ## LOGJIKA E ÇIPIT
 
-![Pasted image 20260625143600.png](/img/user/Pasted%20image%2020260625143600.png)
+![Pasted image 20260625143600.png](/img/user/Semester%204/Images/Pasted%20image%2020260625143600.png)
 
 Për memoriet gjysmëpërçuese, qeshtja kryesore gjatë projektimit është numri i bitëve të të dhënave që mund të lexohen/shkruhen në të njëjtën kohë.
 - Secili çip përmban matricë të qelizave memoruese 
@@ -917,16 +917,16 @@ Vini re (Fig. 7) se ekzistojnë vetëm 11 linja adresash (A0 – A10), gjysma e 
 
 Së pari, 11 sinjalet e adresave pasohen në chip për të përcaktuar adresën e rreshtit të zonës memoruese, dhe më pas 11 sinjalet e tjera të adresave janë paraqitur për adresën e kolonës. Këto sinjale shoqërohen me selektimin e rreshtit të adresës së zgjedhur (RAS) dhe selektimin e kolonës së adresës (CAS) për të siguruar kohën e duhur në chip. Pinat për të mundësuar shkrimin (ëE) dhe daljen (OE) përcaktojnë nëse shkruhet ose lexohet operacioni. Dy pinat e tjerë të cilët nuk paraqiten në Fig. 7 shërbejnë për tokëzim dhe një burim tensioni (Vcc).
 
-![Pasted image 20260625150643.png](/img/user/Pasted%20image%2020260625150643.png)
-![Pasted image 20260625150704.png](/img/user/Pasted%20image%2020260625150704.png)
-![Pasted image 20260625150725.png](/img/user/Pasted%20image%2020260625150725.png)
+![Pasted image 20260625150643.png](/img/user/Semester%204/Images/Pasted%20image%2020260625150643.png)
+![Pasted image 20260625150704.png](/img/user/Semester%204/Images/Pasted%20image%2020260625150704.png)
+![Pasted image 20260625150725.png](/img/user/Semester%204/Images/Pasted%20image%2020260625150725.png)
 
 ## Paketimi i çipave
 
 Një IC montohet në një paketim.
 Pinat përdoren për t’u lidhur me rrethinën e jashtme.
 
-![Pasted image 20260625175648.png](/img/user/Pasted%20image%2020260625175648.png)
+![Pasted image 20260625175648.png](/img/user/Semester%204/Images/Pasted%20image%2020260625175648.png)
 - Adresa e fjalës që iu qaset. Për 1M fjalë, nevojiten gjithsej 20 pina (220 = 1M) (A0 – A19). 
 - Të dhënat që duhen lexuar, që përbëhen nga 8 linja (D0 – D7). 
 - Furnizimi me energji elektrike në çip (Vcc). 
@@ -953,7 +953,7 @@ Dështimet hard dhe soft janë të padëshirueshme. Shumica e sistemeve moderne 
 - Kodi dhe të dhënat ruhen.
 - Nëse një fjalë e të dhënave është M – bitë duhet të ruhet edhe kodi me gjatësi K bitë, atëherë madhësia aktuale e fjalës së ruajtur është M + K bitë.
 
-![Pasted image 20260625181317.png](/img/user/Pasted%20image%2020260625181317.png)
+![Pasted image 20260625181317.png](/img/user/Semester%204/Images/Pasted%20image%2020260625181317.png)
 Kur lexohet fjala e ruajtur më parë, kodi përdoret për të zbuluar/mundësuar korrigjimin e gabimit.
 Një bashkësi e re e K bitëve të kodit gjenerohet nga M bitët e të dhënës dhe krahasohet më bitët e sjellë.
 
@@ -976,7 +976,7 @@ Me prerje të tre rrathëve janë shtatë ndarje (katër të brendshme dhe tri t
 Tani, nëse një gabim ndryshon një prej bitëve të të dhënës (Fig. 12.c), aj do të gjendet lehtë. Duke kontrolluar bitët e paritetit, mospërputhjet gjenden në rrethin A dhe rrethin C, por jo edhe në rrethin B. Vetëm një prej shtatë ndarjeve është në A dhe C por jo në B. 
 Gabimi mund të korrigjohet duke e ndryshuar këtë bit.
 
-![Pasted image 20260625182816.png](/img/user/Pasted%20image%2020260625182816.png)
+![Pasted image 20260625182816.png](/img/user/Semester%204/Images/Pasted%20image%2020260625182816.png)
 
 Për të sqaruar konceptet e përfshira, ne do të zhvillojmë një kod që mund të detektojë dhe korrigjojë gabimet me një bit në fjalët 8-bitëshe. 
 Së pari, le të përcaktojmë se sa bitë i gjatë është kodi. Sipas Fig. 11 logjika e krahasimit pranon në hyrje dy vlera K-bitë.
@@ -994,22 +994,22 @@ $$K=4:2^4-1>8+4$$
 Prej këtu, tetë bitë të të dhënës kërkojnë 4 bitë për tu verifikuar. 
 Në tri kolonat e para të Tab. 1 gjenden numrat e bitëve për verifikim (kontrollë) për gjatësi të ndryshme të fjalëve të të dhënave
 Tab. 1 Rritja e gjatësisë së fjalës me korrigjimin e gabimit
-![Pasted image 20260625202007.png](/img/user/Pasted%20image%2020260625202007.png)
+![Pasted image 20260625202007.png](/img/user/Semester%204/Images/Pasted%20image%2020260625202007.png)
 
 Për lehtësi, ne do të dëshirojmë të gjenerojmë një sindromë 4-bitë për një fjalë të dhëne 8-bitë me karakteristikat e mëposhtme: 
 - Nëse sindromi përmban të gjitha 0, asnjë gabim nuk është zbuluar. 
 - Nëse sindromi përmban një dhe vetëm një bit të vendosur në 1, atëherë një gabim ka ndodhur në një nga 4 bitët verifikues (Nuk nevojitet korrigjim) 
 - Nëse sindromi përmban më shumë se një bit të vendosur në 1, atëherë vlera numerike e sindromes tregon pozicionin e bitit të të dhënave në gabim. Ky bit i të dhënave është invertuar për korrigjim.
 
-![Pasted image 20260625202154.png](/img/user/Pasted%20image%2020260625202154.png)
+![Pasted image 20260625202154.png](/img/user/Semester%204/Images/Pasted%20image%2020260625202154.png)
 
 Konsideroni tabelën e cila ka 15 pozicione. Të dhënat paraqiten (ruhen) në çdo pozicion përveç 1, 2, 4 dhe 8. Këto pozicione përdoren për të ruajtur bitët e paritetit (korrigjimi i gabimit).
 
-![Pasted image 20260625202329.png](/img/user/Pasted%20image%2020260625202329.png)
+![Pasted image 20260625202329.png](/img/user/Semester%204/Images/Pasted%20image%2020260625202329.png)
 
 Duke përdorur katër pozicionet e paritetit (bitet e korrigjimit të gabimit) mund të përfaqësojmë 15 vlera (1- 15).
 
-![Pasted image 20260625202353.png](/img/user/Pasted%20image%2020260625202353.png)
+![Pasted image 20260625202353.png](/img/user/Semester%204/Images/Pasted%20image%2020260625202353.png)
 
 # 6 - MEMORIA EKSTERNE
 
@@ -1032,7 +1032,7 @@ Substrati xhamit përdoret më shumë:
 Incizimi dhe leximi nëpërmjet pështjellove përçuese e quajtur kokë për shkrim/lexim.
 Mund të jetë kokë e vetme për shkrim/lexim ose të veçanta.
 Gjatë kohës së leximit/shkrimit, koka është stacionare (e palëvizshme), ndërsa pjata rrotullohet.
-![Pasted image 20260627173717.png](/img/user/Pasted%20image%2020260627173717.png)
+![Pasted image 20260627173717.png](/img/user/Semester%204/Images/Pasted%20image%2020260627173717.png)
 
 | **Shkrimi**                                                                                                                                                                                                                                                                  | **Leximi**                                                                                                                                                                                                                                                         |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -1041,14 +1041,14 @@ Gjatë kohës së leximit/shkrimit, koka është stacionare (e palëvizshme), nd
 | Një rrymë elektrike në përçues të telit shkakton një fushë magnetike përgjatë boshllëkut, e cila nga ana e tij magnetizon një zone (sipërfaqe) të vogël të mediumit për incizim. Ndërrimi i kahut të rrymës do të thotë ndërrim i kahut të magnetizimit në mediumin ruajtës. | Rezistenca elektrike e materialit MR varet nga kahu i fushës magnetike që lëviz nën të. <br>Operim me frekuencë të lartë.<br>Densitet dhe shpejtësi e lartë operuese.                                                                                              |
 ### Organizimi dhe Formatimi i të dhënave
 
-![Pasted image 20260627174051.png](/img/user/Pasted%20image%2020260627174051.png)
+![Pasted image 20260627174051.png](/img/user/Semester%204/Images/Pasted%20image%2020260627174051.png)
 
 #### Shpejtësia e diskut magnetik
 
 Një disk rrotullues kalon një pikë fikse më ngadalë afër qendrës së rrotullimit sesa pak më larg nga ajo*. Prandaj, duhet të gjendet një mënyrë për të kompensuar ndryshimin në shpejtësi, në mënyrë që koka të lexojë të gjitha pjesët me shpejtësi të njëjtë.
 Kjo mund të bëhet duke rritur hapësirën midis pjesëve të informacionit të regjistruara në segmentet e diskut. Informacioni atëherë mund të skanohet me të njëjtën shpejtësi të rrotullimit të diskut me shpejtësi fikse, e njohur si **shpejtësi këndore konstante (CAV-Constant Angular Velocity)**
 
-![Pasted image 20260627174809.png](/img/user/Pasted%20image%2020260627174809.png)
+![Pasted image 20260627174809.png](/img/user/Semester%204/Images/Pasted%20image%2020260627174809.png)
 Fig. paraqet planin e diskut duke përdorur shpejtësi këndore konstante.
 
 Epërsitë e CAV:
@@ -1066,7 +1066,7 @@ Që të rritet densiteti, sitemet e disqeve modern përdorin të ashtuquajturat 
 - Epërsia: Rritja e densitetit 
 - Të metat: Kërkojnë qarqe komplekse
 
-![Pasted image 20260627175118.png](/img/user/Pasted%20image%2020260627175118.png)
+![Pasted image 20260627175118.png](/img/user/Semester%204/Images/Pasted%20image%2020260627175118.png)
 
 #### Karakteristikat fizike të diskut magnetik
 
@@ -1088,9 +1088,9 @@ Disk i paluajtshëm
 
 Në këtë rast, secila trase përmban 30 sektorë me gjatësi fikse prej 600 bajtësh secili. Secili sektor mban 512 bajt plus informacione kontrolli të dobishme për kontrolleri i diskut. Fusha ID është një identifikues ose adresë unike që përdoret për të gjetur një sektor të veçantë.
 Bajti SYNCH është një model i veçantë bit që ndan fillimin e një fushe. Numri I trasesë identifikon një trase ne një siperfaqe. Numri I kokës identifikon një kokë, pasi ky diska ka shumë sipërfaqe të shumfishta. The ID and data fields each contain an errordetecting aktualisht).
-![Pasted image 20260629124425.png](/img/user/Pasted%20image%2020260629124425.png)
+![Pasted image 20260629124425.png](/img/user/Semester%204/Images/Pasted%20image%2020260629124425.png)
 
-![Pasted image 20260629124459.png](/img/user/Pasted%20image%2020260629124459.png)
+![Pasted image 20260629124459.png](/img/user/Semester%204/Images/Pasted%20image%2020260629124459.png)
 
 Pjata të shumëfishta 
 - Një kokë për anë 
@@ -1111,7 +1111,7 @@ Koha e kërkimit (Seek time) paraqet kohën që kalon për të gjetur zonën në
 - Koha e qasjes = Seek time + Latenta 
 - Norma e transferit - koha e kërkuar për transfer të të dhënave
 
-![Pasted image 20260629125106.png](/img/user/Pasted%20image%2020260629125106.png)
+![Pasted image 20260629125106.png](/img/user/Semester%204/Images/Pasted%20image%2020260629125106.png)
 
 ### Memoria virtuale –konceptet dhe “analogjia” me Cache
 
@@ -1159,9 +1159,9 @@ Memoria kryesore ndahet page frames ku mund të “mbajë” secila nga një faq
 Kur një faqe nuk është referencuar në memorie, ajo duhet të sjellët prej disku në memorie. Kjo është page fault (gabim faqeje).
 
 **Përkthimi prej adrese virtuale në adresë fizike kryhet nga hardueri.**
-![Pasted image 20260629140008.png](/img/user/Pasted%20image%2020260629140008.png)
+![Pasted image 20260629140008.png](/img/user/Semester%204/Images/Pasted%20image%2020260629140008.png)
 
 Në Fig. ** është paraqitur pasqyrimi në memorie virtuale dhe në memorie fizike për një program me katër faqe. 
 Kjo bazohet në katër faqe, A, B, C dhe D. Lokacioni aktual i tri prej katër blloqeve është në memorien fizike kryesore ndërsa tjetri është i lokacionuar në disk.
-![Pasted image 20260629140130.png](/img/user/Pasted%20image%2020260629140130.png)
+![Pasted image 20260629140130.png](/img/user/Semester%204/Images/Pasted%20image%2020260629140130.png)
 
