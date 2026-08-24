@@ -6,8 +6,8 @@
 
 ## AOTY:
 
-**Octane - Don Toliver**
 **Half Blood (Bloodluxe) - Slayr**
+**Xperiment - Ken Carson (not really lol but its a vibe rn)**
 
 ## To Review:
 
