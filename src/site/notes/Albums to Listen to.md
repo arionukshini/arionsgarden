@@ -2,6 +2,11 @@
 {"dg-publish":true,"permalink":"/albums-to-listen-to/"}
 ---
 
+# Profiles
+[Spotify](https://open.spotify.com/user/313wkt44le2tbqmgsclryxo7ui4e?si=550df70795834a9c)
+[Last.fm](https://www.last.fm/user/ItsDiino)
+[Rate Your Music](https://rateyourmusic.com/~arionuk)
+[AOTY](https://www.albumoftheyear.org/user/arionuk/)
 # Albums
 
 ## AOTY:
@@ -17,7 +22,6 @@
 
 ### Ye
 
-Yeezus
 Life of Pablo
 Graduation
 Late Registration
@@ -55,10 +59,6 @@ Almost There
 sex money drugs
 GEMINI
 
-### Lucy
-
-SISTERHOOD
-
 ### 2hollis
 
 boy
@@ -77,7 +77,7 @@ Studio Addict
 B4SA
 B4TM
 
-### Under Underground
+### Others
 
 Get Rich or Die Sippin - Lil Shine
 
