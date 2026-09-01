@@ -16,12 +16,10 @@
 
 ## To Review:
 
-### Yeat
-
+### Yeat (already listened just to review)
 4L
-
+Up 2 Më
 ### Ye
-
 Life of Pablo
 Graduation
 Late Registration
