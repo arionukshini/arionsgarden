@@ -5,7 +5,6 @@
 # Profiles
 [Spotify](https://open.spotify.com/user/313wkt44le2tbqmgsclryxo7ui4e?si=550df70795834a9c)
 [Last.fm](https://www.last.fm/user/ItsDiino)
-[Rate Your Music](https://rateyourmusic.com/~arionuk)
 [AOTY](https://www.albumoftheyear.org/user/arionuk/)
 # Albums
 
@@ -30,6 +29,20 @@ Donda
 College Dropout
 Watch The Throne
 Donda 2
+
+### Drake
+
+Take Care
+Nothing Was The Same
+If you're reading this its too late
+What a Time to be Alive
+Views
+More Life
+Scorpion
+Certified Lover Boy (he like me fr 🥲)
+Her Loss
+For All The Dogs
+Some Sexy Songs 4 U
 
 ### Zukenee
 
@@ -220,7 +233,6 @@ White Tiger
 ### Others
 
 Get Rich or Die Sippin - Lil Shine
-Nine (Single) - Lucy & PrettiFun
 ROTY - Boohavinn
 SOLITUDE IN SILENCE - midwxst
 2fly. - cashyy
