@@ -21,11 +21,6 @@
 
 4L
 
-### Lucy
-
-SISTERHOOD (review)
-Unmusique (review)
-
 ### Ye
 
 Life of Pablo
