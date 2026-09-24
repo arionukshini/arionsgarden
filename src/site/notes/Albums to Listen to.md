@@ -11,14 +11,20 @@
 ## AOTY:
 
 **Half Blood (Bloodluxe) - Slayr**
-**Xperiment - Ken Carson (not really lol but its a vibe rn)**
+**c - Lucy Bedroque**
 
-## To Review:
+[Others Ranked](https://www.albumoftheyear.org/user/arionuk/ratings/highest/?y=2026)
+
+## To Listen:
 
 ### Yeat (already listened just to review)
 
 4L
-Up 2 Më
+
+### Lucy
+
+SISTERHOOD (review)
+Unmusique (review)
 
 ### Ye
 
@@ -29,14 +35,14 @@ Donda
 College Dropout
 Watch The Throne
 Donda 2
+MBDTF (re-review)
 
 ### Drake
 
-Take Care
+Thank Me Later
 Nothing Was The Same
 If you're reading this its too late
 What a Time to be Alive
-Views
 More Life
 Scorpion
 Certified Lover Boy (he like me fr 🥲)
@@ -44,9 +50,19 @@ Her Loss
 For All The Dogs
 Some Sexy Songs 4 U
 
+### Edward Skeletrix
+
+Museum Music
+Body of Work
+Skeletrix Language
+Fun (Single)
+Love U (Single)
+
 ### Zukenee
 
-
+SLAYTANIC
+ZUMINATI
+SGA (Single)
 
 ### yuck
 
@@ -73,6 +89,10 @@ If Looks Could Kill
 LOVE LASTS FORVER
 </3 (3)
 
+### bleood
+
+PROTAGONIST (relisten & review)
+
 ### Young Thug
 
 JEFFERY
@@ -85,7 +105,8 @@ NDA
 \#NDA
 A Love Letter To You 4
 A Love Letter To You 3
-MASNSION
+MANSION
+
 ### lucille 
 
 PEACE, YOU IDIOT
@@ -107,6 +128,7 @@ This Old Dog
 ### Future
 
 WRLD ON DRUGS (with Juice WRLD)
+HNDRXX
 FUTURE
 EVOL
 Purple Reign
@@ -121,10 +143,6 @@ Mixtape Pluto
 
 Molly And Her Week Of Wonders
 Molly Santana
-
-### overtonight
-
-ghostland forever
 
 ### Slayr
 
@@ -143,6 +161,9 @@ closed captions
 
 Trilogy
 My Dear Melancholy
+Starboy
+After Hours
+Hurry Up Tomorrow
 
 ### Don Toliver
 
@@ -162,6 +183,7 @@ Almost Back (Single)
 ### Nettspend
 
 BAD ASS FUCKING KID
+HIM
 
 ### d4vd
 
@@ -187,14 +209,12 @@ FunHouse Deluxe
 
 ### SoBluu
 
-Butterflies out the Window
 All The Reasons Why
 
 ### NineVictims
 
 Tumblr Music
 FOR NOTHING
-B4EM
 B4FN
 Studio Addict
 B4SA
@@ -229,6 +249,24 @@ boy
 star
 2
 White Tiger
+
+### vax
+
+B4VXN
+Blue Dawn
+
+### Good Kid
+
+Witches (Single)
+Tell Me You Know (Single)
+Good Kid
+Slingshot (Single)
+Everything Everything (Single)
+Good Kid 2
+Orbit (Single)
+Good Kid 3
+Good Kid 4
+Can We Hang Out Sometime?
 
 ### Others
 

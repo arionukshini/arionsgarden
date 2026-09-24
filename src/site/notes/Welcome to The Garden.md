@@ -7,7 +7,7 @@
 [[Albums to Listen to\|Albums to Listen to]]
 [[FL Studio Plugins\|FL Studio Plugins]]
 
-[What am I listening to right now?](https://arionukshini.github.io/playing-fm/)
+[What am I listening to right now?](https://arionukshini.github.io/listening-fm/)
 
 Portfolio: https://arionukshini.github.io/
 Github: https://github.com/arionukshini
