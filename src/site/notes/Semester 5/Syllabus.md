@@ -73,3 +73,37 @@ Provimi final 60%
 
 **VËREJTJE 1:** Në kollokviumin mund të marrin pjesë vetëm studentet që vijojnë ligjeratat me rregull. Për të hyrë ne kollokviumin e dyte duhet te keni minimum 15 pike ne kollokviumin e pare si dhe të keni të caktuar grupin dhe temën për projekt. 
 **VËREJTJE 2:** Nëse detyrat e kërkuara nuk dorëzohen dhe prezentohen me kohë, pikët maksimale që student mund të marrë në provimin final jane 60.
+
+# Sistemet Operative (SO)
+
+⚠️ Nuk ka syllabus nsems, i kum marr prej syllabusit te publikuar nga fakulteti, dmth mujn me ndryshu.
+
+**Metodat e mësimdhënies:** Ligjëratat, ushtrimet gjatë orëve të mësimit duke përdorë materiale të ndryshme, punë në grup prej 3- 4 studentëve në një projekt (punë e pavarur), detyrë shtëpie individuale. 30 orë ligjërata, 30 ushtrime laboratorike, afërsisht 90 orë punë të pavarur përfshirë detyrat e shtëpisë.
+
+**Metodat e vlerësimit:** 
+Pjesëmarrja/Aktiviteti në klasë 10%, 
+Seminar 10% 
+Projekti 20 % 
+Provimi final 60 %
+
+# Mikroprocesorët dhe mikrokontrollerët (MM)
+
+⚠️ Nuk ka syllabus nsems, i kum marr prej syllabusit te publikuar nga fakulteti, dmth mujn me ndryshu.
+
+**Metodat e mësimdhënies:** Ligjëratë e kombinuar me simulime dhe demonstrime, diskutime, ushtrime laboratorike, projekte.
+
+**Metodat e vlerësimit:** (Kufiri i kalueshmërisë së lëndës është 50%) 
+Vlerësimi i parë 15% 
+Vlerësimi i dytë 15% 
+Projekti 40% (24, 32, 40)
+Provimi final 15%+15%
+
+# Siguria në Internet (SI)
+
+⚠️ Nuk ka syllabus nsems, i kum marr prej syllabusit te publikuar nga fakulteti, dmth mujn me ndryshu.
+
+**Metodat e mësimdhënies:** 15 orë leksione + 60 orë ushtrime laboratorike. Afërsisht 50 orë studim personal, duke përfshirë tre detyra të projektit shtëpi/grup. 
+
+**Metodat e vlerësimit:**
+Vlerësimi në klasë 10%, tre detyra në grup shtëpiak 90%.
+Pjesëmarrja: Pjesëmarrja aktive në ligjërata - 5% Pjesëmarrja aktive në stërvitje - 5%
