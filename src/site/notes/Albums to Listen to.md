@@ -8,10 +8,13 @@
 [AOTY](https://www.albumoftheyear.org/user/arionuk/)
 # Albums
 
-## AOTY:
+## AOTY 2026:
 
 **Half Blood (Bloodluxe) - Slayr**
 **c - Lucy Bedroque**
+**xperiment - Ken Carson**
+**BLUNTS & BLADES - Zukenee**
+**B4EM - Nine Vicious**
 
 [Others Ranked](https://www.albumoftheyear.org/user/arionuk/ratings/highest/?y=2026)
 
@@ -23,11 +26,10 @@
 
 ### Ye
 
-Life of Pablo
 Graduation
 Late Registration
+Life of Pablo
 Donda
-College Dropout
 Watch The Throne
 Donda 2
 MBDTF (re-review)
@@ -205,7 +207,7 @@ FunHouse Deluxe
 
 All The Reasons Why
 
-### NineVictims
+### Nine Vicious
 
 Tumblr Music
 FOR NOTHING
