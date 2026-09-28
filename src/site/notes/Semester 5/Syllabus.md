@@ -98,12 +98,14 @@ Vlerësimi i dytë 15%
 Projekti 40% (24, 32, 40)
 Provimi final 15%+15%
 
-# Siguria në Internet (SI)
+# Sigurimi i Cilesise se Softuerit 
 
 ⚠️ Nuk ka syllabus nsems, i kum marr prej syllabusit te publikuar nga fakulteti, dmth mujn me ndryshu.
 
-**Metodat e mësimdhënies:** 15 orë leksione + 60 orë ushtrime laboratorike. Afërsisht 50 orë studim personal, duke përfshirë tre detyra të projektit shtëpi/grup. 
+**Metodat e mësimdhënies:** (Ligjëratat, ushtrimet gjatë orëve të mësimit duke përdorë materiale të ndryshme, punë në grup prej 2-3 studentëve në një projekt (punë e pavarur), detyrë shtëpie individuale). 
 
-**Metodat e vlerësimit:**
-Vlerësimi në klasë 10%, tre detyra në grup shtëpiak 90%.
-Pjesëmarrja: Pjesëmarrja aktive në ligjërata - 5% Pjesëmarrja aktive në stërvitje - 5%
+**Metodat e vlerësimit:** Kufiri i kalueshmërisë së lëndës është 50%.; 
+Vijueshmëria e studentit 5%; 
+Detyrat individuale të kryera në klasë 5%; 
+Projekti grupor 30%; 
+Provimi final 60%.
