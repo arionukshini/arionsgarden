@@ -20,10 +20,6 @@
 
 ## To Listen:
 
-### Yeat (already listened just to review)
-
-4L
-
 ### Ye
 
 Graduation
@@ -127,7 +123,6 @@ This Old Dog
 WRLD ON DRUGS (with Juice WRLD)
 HNDRXX
 FUTURE
-EVOL
 Purple Reign
 What a Time to be Alive
 High Off Life
@@ -218,7 +213,6 @@ B4TM
 
 ### OsamaSon
 
-Jump Out
 FLEX MUSIC
 Osama Season
 

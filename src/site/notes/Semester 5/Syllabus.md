@@ -109,3 +109,8 @@ Vijueshmëria e studentit 5%;
 Detyrat individuale të kryera në klasë 5%; 
 Projekti grupor 30%; 
 Provimi final 60%.
+
+
+# Koll
+
+fillim te nentorit amo me gjasa javen e dyte
