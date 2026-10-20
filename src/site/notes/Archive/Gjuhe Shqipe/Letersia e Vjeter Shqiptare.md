@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/letersia-e-vjeter-shqiptare/"}
+{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/letersia-e-vjeter-shqiptare/","dg-note-properties":{}}
 ---
 
 Ndahet ne tri pjese (kohe/peridhua):

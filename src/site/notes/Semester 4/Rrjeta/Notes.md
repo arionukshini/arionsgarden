@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/rrjeta/notes/"}
+{"dg-publish":true,"permalink":"/semester-4/rrjeta/notes/","dg-note-properties":{}}
 ---
 
 ## Çka përmban fusha `Value` te DNS Resource Records?

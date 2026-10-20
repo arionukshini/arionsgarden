@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/knk/important-patterns/"}
+{"dg-publish":true,"permalink":"/semester-4/knk/important-patterns/","dg-note-properties":{}}
 ---
 
 # Important KNK JavaFX patterns  

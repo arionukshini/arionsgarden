@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/mbiemrat/"}
+{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/mbiemrat/","dg-note-properties":{}}
 ---
 
 

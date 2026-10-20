@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/mp/notes/"}
+{"dg-publish":true,"permalink":"/semester-4/mp/notes/","dg-note-properties":{}}
 ---
 
 ***“Të gjitha arritjet më të mëdha të njerëzimit - nga ndërtimi i piramidave, te dërgimi i njeriut në Hënë e deri te krijimi i teknologjive moderne si aplikacionet dhe inteligjenca artificiale - kanë filluar si projekte.”***

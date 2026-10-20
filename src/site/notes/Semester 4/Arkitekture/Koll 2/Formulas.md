@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/arkitekture/koll-2/formulas/","tags":["formulas","arkitekture-kompjuterike","koll2"]}
+{"dg-publish":true,"permalink":"/semester-4/arkitekture/koll-2/formulas/","tags":["formulas","arkitekture-kompjuterike","koll2"],"dg-note-properties":{"tags":["formulas","arkitekture-kompjuterike","koll2"]}}
 ---
 
 

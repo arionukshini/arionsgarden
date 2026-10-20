@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/etike/notes/"}
+{"dg-publish":true,"permalink":"/archive/etike/notes/","dg-note-properties":{}}
 ---
 
 # Etike - LESI

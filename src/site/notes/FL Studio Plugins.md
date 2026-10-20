@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/fl-studio-plugins/"}
+{"dg-publish":true,"permalink":"/fl-studio-plugins/","dg-note-properties":{}}
 ---
 
 # Plugins I use

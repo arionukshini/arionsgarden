@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/ueb-2/notes/"}
+{"dg-publish":true,"permalink":"/semester-4/ueb-2/notes/","dg-note-properties":{}}
 ---
 
 # Hyrja

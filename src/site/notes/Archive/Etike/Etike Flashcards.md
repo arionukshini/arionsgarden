@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/etike/etike-flashcards/"}
+{"dg-publish":true,"permalink":"/archive/etike/etike-flashcards/","dg-note-properties":{}}
 ---
 
 # What are smartphones used for besides calls and messages? #card

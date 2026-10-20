@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/mp/chat-gpt/"}
+{"dg-publish":true,"permalink":"/semester-4/mp/chat-gpt/","dg-note-properties":{}}
 ---
 
 # Menaxhimi i Projekteve – përmbledhje e plotë për provim

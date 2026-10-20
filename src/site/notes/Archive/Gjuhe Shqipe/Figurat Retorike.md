@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/figurat-retorike/"}
+{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/figurat-retorike/","dg-note-properties":{}}
 ---
 
 

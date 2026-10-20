@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/albums-to-listen-to/"}
+{"dg-publish":true,"permalink":"/albums-to-listen-to/","dg-note-properties":{}}
 ---
 
 # Profiles

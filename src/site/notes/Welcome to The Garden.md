@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/welcome-to-the-garden/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/welcome-to-the-garden/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
 2 Alive is the best album ever made.

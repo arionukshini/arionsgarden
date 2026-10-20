@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/ndajfolje-dhe-rrethanor/"}
+{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/ndajfolje-dhe-rrethanor/","dg-note-properties":{}}
 ---
 
 

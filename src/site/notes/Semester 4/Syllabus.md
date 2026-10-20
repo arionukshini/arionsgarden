@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/syllabus/"}
+{"dg-publish":true,"permalink":"/semester-4/syllabus/","dg-note-properties":{}}
 ---
 
 # KNK

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/ueb-2/notes-k2/"}
+{"dg-publish":true,"permalink":"/semester-4/ueb-2/notes-k2/","dg-note-properties":{}}
 ---
 
 # Komunikimi me bazat e të dhënave PHP & MySQL

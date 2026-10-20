@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/arkitekture/flashcards/"}
+{"dg-publish":true,"permalink":"/semester-4/arkitekture/flashcards/","dg-note-properties":{}}
 ---
 
 # Flashcards – Arkitektura e Kompjuterëve

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/arkitekture/notes/"}
+{"dg-publish":true,"permalink":"/semester-4/arkitekture/notes/","dg-note-properties":{}}
 ---
 
 # Konceptet themelore te kompjuteret si sistem hierarkik

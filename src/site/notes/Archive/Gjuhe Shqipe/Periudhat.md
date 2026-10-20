@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/periudhat/"}
+{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/periudhat/","dg-note-properties":{}}
 ---
 
 

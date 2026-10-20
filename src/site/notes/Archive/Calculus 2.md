@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/calculus-2/"}
+{"dg-publish":true,"permalink":"/archive/calculus-2/","dg-note-properties":{}}
 ---
 
 # Derivatet parciale të funksioneve të përbëra #card

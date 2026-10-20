@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/rrjeta/exam-flashcards/","tags":["university/rrjeta","anki","exams"]}
+{"dg-publish":true,"permalink":"/semester-4/rrjeta/exam-flashcards/","tags":["university/rrjeta","anki","exams"],"dg-note-properties":{"tags":["university/rrjeta","anki","exams"]}}
 ---
 
 
@@ -270,7 +270,7 @@ Tags: rrjeta exam solved_bank source::afate_me_zgjidhje_2
 
 Përshkruani llojet e vonesave të paketave të shënimeve?
 
-![assets/exam-flashcards/2019qershor-p04-q20.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p04-q20.png)
+![assets/exam-flashcards/2019qershor-p04-q20.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p04-q20.png)
 
 ### Back
 
@@ -296,7 +296,7 @@ Tags: rrjeta exam solved_bank exam_form source::afate_me_zgjidhje_2 source::2019
 
 Përshkruani se si punon “Trace route” programi?
 
-![assets/exam-flashcards/afati-shkurt-2023-p02-q08.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p02-q08.png)
+![assets/exam-flashcards/afati-shkurt-2023-p02-q08.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p02-q08.png)
 
 ### Back
 
@@ -836,7 +836,7 @@ Tags: rrjeta exam solved_bank source::afate_me_zgjidhje_2
 Si e përcaktoni se rrugëtimin paketave neper rrjeta kompjuterike nëse i qasemi serverit www.uni-
 pr.edu (sistemi operativ është Windows)?
 
-![assets/exam-flashcards/2019shtatore-p03-q11.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019shtatore-p03-q11.png)
+![assets/exam-flashcards/2019shtatore-p03-q11.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019shtatore-p03-q11.png)
 
 ### Back
 
@@ -3142,7 +3142,7 @@ Tags: rrjeta exam solved_bank source::afate_me_zgjidhje_1
 
 Sa është shkalla e penetrimit të Internetit në Kosovë? Pse është ashtu sipas mendimit tuaj?
 
-![assets/exam-flashcards/afati-shkurt-2023-p01-q01.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p01-q01.png)
+![assets/exam-flashcards/afati-shkurt-2023-p01-q01.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p01-q01.png)
 
 ### Back
 
@@ -3167,7 +3167,7 @@ Internet protokolli sipas renditjes (top-down) përbehet nga këto 5 shtresa:
 4. ______________________
 5. ______________________
 
-![assets/exam-flashcards/afati-shkurt-2023-p01-q02.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p01-q02.png)
+![assets/exam-flashcards/afati-shkurt-2023-p01-q02.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p01-q02.png)
 
 ### Back
 
@@ -3190,7 +3190,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2023 source::afati_shkurt_2024 
 
 Çka është RTT (Round Trip Time)?
 
-![assets/exam-flashcards/afati-shkurt-2023-p01-q03.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p01-q03.png)
+![assets/exam-flashcards/afati-shkurt-2023-p01-q03.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p01-q03.png)
 
 ### Back
 
@@ -3210,7 +3210,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2023 source::download_5 source:
 
 Si punon NAT-i? (përdore faqen mbrapa, sipas nevojës, për skica)
 
-![assets/exam-flashcards/afati-shkurt-2023-p01-q04.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p01-q04.png)
+![assets/exam-flashcards/afati-shkurt-2023-p01-q04.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p01-q04.png)
 
 ### Back
 
@@ -3239,7 +3239,7 @@ Nëse aplikacioni gjeneron paketa 40 bajtëshe (bytes) të shënimeve çdo 20 ms
 enkapsulohet në TCP segment dhe pastaj në IP datagram. Sa për qind (%) e shënimeve janë
 overhead (mbingarkesë) dhe sa për qind (%) janë shënime të aplikacionit?
 
-![assets/exam-flashcards/afati-shkurt-2023-p02-q05.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p02-q05.png)
+![assets/exam-flashcards/afati-shkurt-2023-p02-q05.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p02-q05.png)
 
 ### Back
 
@@ -3260,7 +3260,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2023 source::download_5 source:
 Tek DHCP protokolli, i klienti i sapo ardhur në rrejt, dërgon paketën e parë me “destination
 address: 255.255.255.255”. Pse?
 
-![assets/exam-flashcards/afati-shkurt-2023-p02-q06.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p02-q06.png)
+![assets/exam-flashcards/afati-shkurt-2023-p02-q06.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p02-q06.png)
 
 ### Back
 
@@ -3284,7 +3284,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2023 source::afati_shkurt_2024 
 Tek MAC shtresa, gjatë dërgimit te datagramit ne Internet, nga kompjuteri A tek kompjuteri B,
 dërguesi (kompjuteri A) si MAC adrese vendosë ________________________?
 
-![assets/exam-flashcards/afati-shkurt-2023-p02-q07.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p02-q07.png)
+![assets/exam-flashcards/afati-shkurt-2023-p02-q07.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p02-q07.png)
 
 ### Back
 
@@ -3306,7 +3306,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2023 source::afati_shkurt_2024 
 
 Pse përdorim sot CDN?
 
-![assets/exam-flashcards/afati-shkurt-2023-p02-q09.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p02-q09.png)
+![assets/exam-flashcards/afati-shkurt-2023-p02-q09.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p02-q09.png)
 
 ### Back
 
@@ -3331,7 +3331,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2023 source::download_1 source:
 Një DNS “resource record” (Name, Value, Type, TTL) është i tipit MX (pra Type=MX). Çka
 përmban atëherë “Value”?
 
-![assets/exam-flashcards/afati-shkurt-2023-p02-q10.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p02-q10.png)
+![assets/exam-flashcards/afati-shkurt-2023-p02-q10.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p02-q10.png)
 
 ### Back
 
@@ -3354,7 +3354,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2023 source::download_1 source:
 Çka është ndryshimi ne mes te “Routing” dhe “Forwarding”. Përshkruani shkurtimisht secilin
 prej tyre.
 
-![assets/exam-flashcards/afati-shkurt-2023-p03-q11.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p03-q11.png)
+![assets/exam-flashcards/afati-shkurt-2023-p03-q11.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p03-q11.png)
 
 ### Back
 
@@ -3376,7 +3376,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2023 source::download_1 source:
 Përshkruaj dallimet kryesore ne mes Link-State (LS) vs. Distance-Vector (DV) Routing
 Algorithm ?
 
-![assets/exam-flashcards/afati-shkurt-2023-p03-q12.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p03-q12.png)
+![assets/exam-flashcards/afati-shkurt-2023-p03-q12.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p03-q12.png)
 
 ### Back
 
@@ -3411,7 +3411,7 @@ while True:
 message, client = serverSocket.recvfrom(2048)
 serverSocket.sendto(____________, _______)
 
-![assets/exam-flashcards/afati-shkurt-2023-p03-q13.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p03-q13.png)
+![assets/exam-flashcards/afati-shkurt-2023-p03-q13.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p03-q13.png)
 
 ### Back
 
@@ -3443,7 +3443,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2023 source::download_5 source:
 
 Çka dallon SMTP me POP3 protokollin?
 
-![assets/exam-flashcards/afati-shkurt-2023-p03-q14.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p03-q14.png)
+![assets/exam-flashcards/afati-shkurt-2023-p03-q14.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p03-q14.png)
 
 ### Back
 
@@ -3466,7 +3466,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2023 source::download_5 source:
 Plotësoje ARP tabelën për nyjën (kompjuterin) me IP adresë 10.20.30.40
 IP Address ??? TTL
 
-![assets/exam-flashcards/afati-shkurt-2023-p03-q15.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p03-q15.png)
+![assets/exam-flashcards/afati-shkurt-2023-p03-q15.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p03-q15.png)
 
 ### Back
 
@@ -3492,7 +3492,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2023 source::afati_shkurt_2025 
 
 Përshkruaj te paktën 3 standarde nga IEEE 802.11?
 
-![assets/exam-flashcards/afati-shkurt-2023-p04-q16.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p04-q16.png)
+![assets/exam-flashcards/afati-shkurt-2023-p04-q16.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p04-q16.png)
 
 ### Back
 
@@ -3519,7 +3519,7 @@ shtypësit në LAN dhe serverëve ne Internet se bashku me te gjitha IP adresat 
 lidhura
 (Shfrytëzo faqen mbrapa për skica! Kjo detyrë ka max. 6 pikë!)
 
-![assets/exam-flashcards/afati-shkurt-2023-p04-q17.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p04-q17.png)
+![assets/exam-flashcards/afati-shkurt-2023-p04-q17.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p04-q17.png)
 
 ### Back
 
@@ -3550,7 +3550,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2023 source::download_5 source:
 Çka duhet të konfigurohet shtesë te routeri nga detyra paraprake qe te kemi qasje ne ueb server
 nga çdo kompjuter të lidhur në Internet.
 
-![assets/exam-flashcards/afati-shkurt-2023-p04-q19.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p04-q19.png)
+![assets/exam-flashcards/afati-shkurt-2023-p04-q19.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p04-q19.png)
 
 ### Back
 
@@ -3572,7 +3572,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2023 source::afati_shkurt_2024 
 
 Shkruani formulën për vonesat ne Internet. Përshkruaj secilën komponentë.
 
-![assets/exam-flashcards/afati-shkurt-2023-p04-q20.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p04-q20.png)
+![assets/exam-flashcards/afati-shkurt-2023-p04-q20.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2023-p04-q20.png)
 
 ### Back
 
@@ -3597,7 +3597,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2023 source::download_5 source:
 
 Cilët janë dy protokollet mbi te cilët është ndërtuar Interneti?
 
-![assets/exam-flashcards/afati-shkurt-2024-p01-q01.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p01-q01.png)
+![assets/exam-flashcards/afati-shkurt-2024-p01-q01.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p01-q01.png)
 
 ### Back
 
@@ -3615,7 +3615,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2024
 
 Çka është DOCSIS?
 
-![assets/exam-flashcards/afati-shkurt-2024-p01-q03.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p01-q03.png)
+![assets/exam-flashcards/afati-shkurt-2024-p01-q03.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p01-q03.png)
 
 ### Back
 
@@ -3633,7 +3633,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2024
 
 Përshkruani vonesat router-in A:
 
-![assets/exam-flashcards/afati-shkurt-2024-p02-q05.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p02-q05.png)
+![assets/exam-flashcards/afati-shkurt-2024-p02-q05.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p02-q05.png)
 
 ### Back
 
@@ -3655,7 +3655,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2024
 
 Çka është “average throughput” në rrjeta kompjuterike?
 
-![assets/exam-flashcards/afati-shkurt-2024-p02-q08.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p02-q08.png)
+![assets/exam-flashcards/afati-shkurt-2024-p02-q08.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p02-q08.png)
 
 ### Back
 
@@ -3673,7 +3673,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2024
 
 Shpjegoni, me te paktën 3 fjali, si punon “Conditional GET”
 
-![assets/exam-flashcards/afati-shkurt-2024-p02-q09.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p02-q09.png)
+![assets/exam-flashcards/afati-shkurt-2024-p02-q09.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p02-q09.png)
 
 ### Back
 
@@ -3691,7 +3691,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2024
 
 Çka janë “fake emails”? Pse është e mundur? Si mund të mbrohemi?
 
-![assets/exam-flashcards/afati-shkurt-2024-p03-q10.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p03-q10.png)
+![assets/exam-flashcards/afati-shkurt-2024-p03-q10.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p03-q10.png)
 
 ### Back
 
@@ -3709,7 +3709,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2024
 
 Si quhet TLD e Kosovës?
 
-![assets/exam-flashcards/afati-shkurt-2024-p03-q11.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p03-q11.png)
+![assets/exam-flashcards/afati-shkurt-2024-p03-q11.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p03-q11.png)
 
 ### Back
 
@@ -3728,7 +3728,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2024
 What is the HOL blocking issue in HTTP/1.1? How does HTTP/2 attempt to
 solve it?
 
-![assets/exam-flashcards/afati-shkurt-2024-p03-q12.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p03-q12.png)
+![assets/exam-flashcards/afati-shkurt-2024-p03-q12.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p03-q12.png)
 
 ### Back
 
@@ -3746,7 +3746,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2024
 
 Why do HTTP, SMTP, and IMAP run on top of TCP rather than on UDP?
 
-![assets/exam-flashcards/afati-shkurt-2024-p03-q13.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p03-q13.png)
+![assets/exam-flashcards/afati-shkurt-2024-p03-q13.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p03-q13.png)
 
 ### Back
 
@@ -3764,7 +3764,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2024
 
 Source dhe destination port jane vlera:_______________
 
-![assets/exam-flashcards/afati-shkurt-2024-p03-q14.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p03-q14.png)
+![assets/exam-flashcards/afati-shkurt-2024-p03-q14.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p03-q14.png)
 
 ### Back
 
@@ -3783,7 +3783,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2024
 Plotësoje ARP tabelën për nyjën (kompjuterin) me IP adresë 192.168.1.10
 IP Address ??? TTL
 
-![assets/exam-flashcards/afati-shkurt-2024-p03-q15.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p03-q15.png)
+![assets/exam-flashcards/afati-shkurt-2024-p03-q15.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p03-q15.png)
 
 ### Back
 
@@ -3804,7 +3804,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2024
 
 Përshkruaj si arrin TCP ta implementoj “reliability”
 
-![assets/exam-flashcards/afati-shkurt-2024-p04-q16.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p04-q16.png)
+![assets/exam-flashcards/afati-shkurt-2024-p04-q16.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p04-q16.png)
 
 ### Back
 
@@ -3822,7 +3822,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2024
 
 Çka është dallimi ne mes algoritmeve te routimit: Link State vs. Distance Vector?
 
-![assets/exam-flashcards/afati-shkurt-2024-p04-q17.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p04-q17.png)
+![assets/exam-flashcards/afati-shkurt-2024-p04-q17.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p04-q17.png)
 
 ### Back
 
@@ -3845,7 +3845,7 @@ enabled) dhe ueb dhe email server. Vizatoni skemën e lidhjes se këtyre kompjut
 në LAN dhe serverëve ne Internet se bashku me te gjitha IP adresat e pajisjeve te lidhura
 (Shfrytëzo faqen mbrapa për skica!)
 
-![assets/exam-flashcards/afati-shkurt-2024-p04-q18.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p04-q18.png)
+![assets/exam-flashcards/afati-shkurt-2024-p04-q18.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2024-p04-q18.png)
 
 ### Back
 
@@ -3870,7 +3870,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2024
 
 Çka është Interneti?
 
-![assets/exam-flashcards/afati-shkurt-2025-p01-q01.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p01-q01.png)
+![assets/exam-flashcards/afati-shkurt-2025-p01-q01.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p01-q01.png)
 
 ### Back
 
@@ -3892,7 +3892,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2025
 
 Pse teknikat e “packet switching” përdoren per transmetim të shënimeve në Internet?
 
-![assets/exam-flashcards/afati-shkurt-2025-p01-q03.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p01-q03.png)
+![assets/exam-flashcards/afati-shkurt-2025-p01-q03.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p01-q03.png)
 
 ### Back
 
@@ -3910,7 +3910,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2025
 
 Si punon NAT-i? (përdore faqen mbrapa për skica)
 
-![assets/exam-flashcards/afati-shkurt-2025-p01-q04.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p01-q04.png)
+![assets/exam-flashcards/afati-shkurt-2025-p01-q04.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p01-q04.png)
 
 ### Back
 
@@ -3928,7 +3928,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2025
 
 Përshkruani 4 llojet e vonesave ne rrjeta kompjuterike:
 
-![assets/exam-flashcards/afati-shkurt-2025-p02-q05.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p02-q05.png)
+![assets/exam-flashcards/afati-shkurt-2025-p02-q05.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p02-q05.png)
 
 ### Back
 
@@ -3951,7 +3951,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2025
 Tek MAC shtresa, gjatë dërgimit te datagramit në Internet, nga kompjuteri A tek kompjuteri B,
 dërguesi (kompjuteri A) si MAC adresë vendosë vlerën: ________________________?
 
-![assets/exam-flashcards/afati-shkurt-2025-p02-q07.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p02-q07.png)
+![assets/exam-flashcards/afati-shkurt-2025-p02-q07.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p02-q07.png)
 
 ### Back
 
@@ -3970,7 +3970,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2025
 Çka shërben komanda:
 C:\Users\Blerim Rexha>ipconfig /all
 
-![assets/exam-flashcards/afati-shkurt-2025-p02-q08.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p02-q08.png)
+![assets/exam-flashcards/afati-shkurt-2025-p02-q08.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p02-q08.png)
 
 ### Back
 
@@ -3990,7 +3990,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2025
 
 Shpjegoni dallimin kryesor në mes të HTTP 1.1 vs. HTTP 2 protokollit?
 
-![assets/exam-flashcards/afati-shkurt-2025-p02-q09.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p02-q09.png)
+![assets/exam-flashcards/afati-shkurt-2025-p02-q09.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p02-q09.png)
 
 ### Back
 
@@ -4008,7 +4008,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2025
 
 SMTP protokolli bazohet me UDP, çka do të thotë kjo?
 
-![assets/exam-flashcards/afati-shkurt-2025-p02-q10.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p02-q10.png)
+![assets/exam-flashcards/afati-shkurt-2025-p02-q10.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p02-q10.png)
 
 ### Back
 
@@ -4026,7 +4026,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2025
 
 Çka përmban një DNS rekord?
 
-![assets/exam-flashcards/afati-shkurt-2025-p03-q11.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p03-q11.png)
+![assets/exam-flashcards/afati-shkurt-2025-p03-q11.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p03-q11.png)
 
 ### Back
 
@@ -4044,7 +4044,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2025
 
 Tek “Reliable data transfer protocol (rdt)” çka shërben timer-i?
 
-![assets/exam-flashcards/afati-shkurt-2025-p03-q12.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p03-q12.png)
+![assets/exam-flashcards/afati-shkurt-2025-p03-q12.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p03-q12.png)
 
 ### Back
 
@@ -4062,7 +4062,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2025
 
 Shënoni tri dallime ne mes te Go-Back-N vs. Selective repart?
 
-![assets/exam-flashcards/afati-shkurt-2025-p03-q13.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p03-q13.png)
+![assets/exam-flashcards/afati-shkurt-2025-p03-q13.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p03-q13.png)
 
 ### Back
 
@@ -4084,7 +4084,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2025
 
 Shenoni vleren per Seq:_____ dhe ACK =______
 
-![assets/exam-flashcards/afati-shkurt-2025-p03-q14.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p03-q14.png)
+![assets/exam-flashcards/afati-shkurt-2025-p03-q14.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p03-q14.png)
 
 ### Back
 
@@ -4104,7 +4104,7 @@ Tags: rrjeta exam exam_form source::afati_shkurt_2025
 
 Çka kushtëzon rregulla: “Longest prefix matching”?
 
-![assets/exam-flashcards/afati-shkurt-2025-p03-q16.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p03-q16.png)
+![assets/exam-flashcards/afati-shkurt-2025-p03-q16.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p03-q16.png)
 
 ### Back
 
@@ -4127,7 +4127,7 @@ shtypësit në LAN dhe serverëve ne Internet se bashku me te gjitha IP adresat 
 ne LAN.
 (Shfrytëzo faqen mbrapa për skica!)
 
-![assets/exam-flashcards/afati-shkurt-2025-p04-q18.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p04-q18.png)
+![assets/exam-flashcards/afati-shkurt-2025-p04-q18.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/afati-shkurt-2025-p04-q18.png)
 
 ### Back
 
@@ -4155,7 +4155,7 @@ IP -
 CSMA -
 DOCSIS -
 
-![assets/exam-flashcards/download-1-p01-q01.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p01-q01.png)
+![assets/exam-flashcards/download-1-p01-q01.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p01-q01.png)
 
 ### Back
 
@@ -4176,7 +4176,7 @@ Tags: rrjeta exam exam_form source::download_1
 Interneti, qe e njohim, bazohet ne komutimin me paketa (packet switching). Pse komutimi me
 paketa është me efecientë se komutimi me qarqe?
 
-![assets/exam-flashcards/download-1-p01-q03.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p01-q03.png)
+![assets/exam-flashcards/download-1-p01-q03.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p01-q03.png)
 
 ### Back
 
@@ -4199,7 +4199,7 @@ Tags: rrjeta exam exam_form source::download_1 source::download_2 source::downlo
 
 Cili aplikacion i njohur dëgjon në portin 66666?
 
-![assets/exam-flashcards/download-1-p02-q05.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p02-q05.png)
+![assets/exam-flashcards/download-1-p02-q05.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p02-q05.png)
 
 ### Back
 
@@ -4218,7 +4218,7 @@ Tags: rrjeta exam exam_form source::download_1
 
 Tek komunikimi klient-server çka paraqet RTT?
 
-![assets/exam-flashcards/download-1-p02-q08.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p02-q08.png)
+![assets/exam-flashcards/download-1-p02-q08.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p02-q08.png)
 
 ### Back
 
@@ -4239,7 +4239,7 @@ Tags: rrjeta exam exam_form source::download_1 source::download_2 source::downlo
 
 Ku është i implementuar “Link layer” protokolli?
 
-![assets/exam-flashcards/download-1-p03-q13.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p03-q13.png)
+![assets/exam-flashcards/download-1-p03-q13.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p03-q13.png)
 
 ### Back
 
@@ -4258,7 +4258,7 @@ Tags: rrjeta exam exam_form source::download_1
 Plotëso vlerat e munguara për X,
 Y dhe Z në figurë.
 
-![assets/exam-flashcards/download-1-p03-q14.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p03-q14.png)
+![assets/exam-flashcards/download-1-p03-q14.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p03-q14.png)
 
 ### Back
 
@@ -4282,7 +4282,7 @@ Tags: rrjeta exam exam_form source::download_1 source::download_2 source::downlo
 Plotësoje ARP tabelën për nyjën (kompjuterin) me IP adresë 10.10.100.100
 IP Address ??? TTL
 
-![assets/exam-flashcards/download-1-p03-q15.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p03-q15.png)
+![assets/exam-flashcards/download-1-p03-q15.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p03-q15.png)
 
 ### Back
 
@@ -4308,7 +4308,7 @@ kompjuterëve, shtypësit në LAN dhe serverëve ne Internet se bashku me te gji
 pajisjeve te lidhura.
 (Shfrytëzo faqen mbrapa për skica! Kjo detyrë ka max. 6 pikë!)
 
-![assets/exam-flashcards/download-1-p04-q17.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p04-q17.png)
+![assets/exam-flashcards/download-1-p04-q17.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p04-q17.png)
 
 ### Back
 
@@ -4334,7 +4334,7 @@ Tags: rrjeta exam exam_form source::download_1
 
 Me çfarë adrese i qaseni ueb dhe ftp serverit tuaj (nga detyra 17 & 18) nge shtëpia.
 
-![assets/exam-flashcards/download-1-p04-q19.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p04-q19.png)
+![assets/exam-flashcards/download-1-p04-q19.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p04-q19.png)
 
 ### Back
 
@@ -4358,7 +4358,7 @@ Nëse supozojmë se d është me e madhe se d në kohen t = d , ku është biti 
 prop trans trans
 paketës?
 
-![assets/exam-flashcards/download-1-p04-q20.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p04-q20.png)
+![assets/exam-flashcards/download-1-p04-q20.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-1-p04-q20.png)
 
 ### Back
 
@@ -4376,7 +4376,7 @@ Tags: rrjeta exam exam_form source::download_1
 
 Çka shërben TCP/IP protokolli?
 
-![assets/exam-flashcards/download-2-p01-q01.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p01-q01.png)
+![assets/exam-flashcards/download-2-p01-q01.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p01-q01.png)
 
 ### Back
 
@@ -4399,7 +4399,7 @@ Tags: rrjeta exam exam_form source::download_2 source::download_3 source::2020qe
 
 Si i qasemi remote (nga distanca) kompjuterit qe ka IP adresën: 127. 0.0.1?
 
-![assets/exam-flashcards/download-2-p01-q02.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p01-q02.png)
+![assets/exam-flashcards/download-2-p01-q02.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p01-q02.png)
 
 ### Back
 
@@ -4421,7 +4421,7 @@ Tags: rrjeta exam exam_form source::download_2 source::download_3 source::2020qe
 
 Përshkruani se si punon “ping” programi?
 
-![assets/exam-flashcards/download-2-p01-q05.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p01-q05.png)
+![assets/exam-flashcards/download-2-p01-q05.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p01-q05.png)
 
 ### Back
 
@@ -4447,7 +4447,7 @@ Tags: rrjeta exam exam_form source::download_2 source::download_3 source::2020qe
 
 Çka është DOCSIS? Ku përdoret, pse?
 
-![assets/exam-flashcards/download-2-p02-q06.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p02-q06.png)
+![assets/exam-flashcards/download-2-p02-q06.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p02-q06.png)
 
 ### Back
 
@@ -4470,7 +4470,7 @@ Tags: rrjeta exam exam_form source::download_2 source::download_3 source::downlo
 Cilat janë pesë shtresat e protokollit të Internetit, prej lartë poshtë (vizato skicën) dhe si quhet
 paketa (shënimi i) e proceduar në atë shtresë? (përdore faqen mbrapa për skica)
 
-![assets/exam-flashcards/download-2-p02-q07.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p02-q07.png)
+![assets/exam-flashcards/download-2-p02-q07.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p02-q07.png)
 
 ### Back
 
@@ -4497,7 +4497,7 @@ ___.___.___.___/___
 Shënoni 2 IP adresa te çfarëdoshme nga ky brez:
 ___.___.___.___ dhe ___.___.___.___
 
-![assets/exam-flashcards/download-2-p02-q10.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p02-q10.png)
+![assets/exam-flashcards/download-2-p02-q10.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p02-q10.png)
 
 ### Back
 
@@ -4523,7 +4523,7 @@ Tags: rrjeta exam exam_form source::download_2 source::download_3 source::2019qe
 (Për)Shkruaje përgjigjen e komandës:
 C:\>tracert www.uni-pr.edu
 
-![assets/exam-flashcards/download-2-p02-q11.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p02-q11.png)
+![assets/exam-flashcards/download-2-p02-q11.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p02-q11.png)
 
 ### Back
 
@@ -4543,7 +4543,7 @@ Tags: rrjeta exam exam_form source::download_2 source::download_3 source::2020qe
 
 Çka është praktikisht “link cost” në rrjeta kompjuterike?
 
-![assets/exam-flashcards/download-2-p03-q13.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p03-q13.png)
+![assets/exam-flashcards/download-2-p03-q13.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p03-q13.png)
 
 ### Back
 
@@ -4566,7 +4566,7 @@ Tags: rrjeta exam exam_form source::download_2 source::download_3 source::2020qe
 Plotësoje ARP tabelën për nyjën (kompjuterin) me IP adresë 192.168.0.1
 IP Address ??? TTL
 
-![assets/exam-flashcards/download-2-p03-q15.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p03-q15.png)
+![assets/exam-flashcards/download-2-p03-q15.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p03-q15.png)
 
 ### Back
 
@@ -4590,7 +4590,7 @@ Tags: rrjeta exam exam_form source::download_2 source::download_3 source::2020qe
 WLAN routeri, i blerë rishtazi, në shtëpi mbështet standardin 802.11 AC. Çka do të thotë kjo nga
 këndvështrimi i performancës dhe brezit frekuencor?
 
-![assets/exam-flashcards/download-2-p04-q16.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p04-q16.png)
+![assets/exam-flashcards/download-2-p04-q16.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p04-q16.png)
 
 ### Back
 
@@ -4615,7 +4615,7 @@ duhet ta dizajnoni rrjetën për një kompani me 5 kompjuter, ne brezin 10.20.30
 kompjuterëve, shtypësit në LAN dhe serverëve ne Internet se bashku me te gjitha IP adresat e
 pajisjeve te lidhura. (Shfrytëzo faqen mbrapa për skica! Kjo detyrë ka max. 6 pikë!)
 
-![assets/exam-flashcards/download-2-p04-q17.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p04-q17.png)
+![assets/exam-flashcards/download-2-p04-q17.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p04-q17.png)
 
 ### Back
 
@@ -4645,7 +4645,7 @@ Tags: rrjeta exam exam_form source::download_2 source::download_3 source::2020qe
 
 Përshkruaj llojet e vonesave në rrjeta kompjuterike? Cilat janë me të mëdha? Pse?
 
-![assets/exam-flashcards/download-2-p04-q20.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p04-q20.png)
+![assets/exam-flashcards/download-2-p04-q20.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-2-p04-q20.png)
 
 ### Back
 
@@ -4672,7 +4672,7 @@ Tags: rrjeta exam exam_form source::download_2 source::download_3 source::2020qe
 
 Çka është Internet-i? Prej çka përbehet? Përshkruani me fjalë të juaja si funksionon?
 
-![assets/exam-flashcards/download-4-p01-q01.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p01-q01.png)
+![assets/exam-flashcards/download-4-p01-q01.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p01-q01.png)
 
 ### Back
 
@@ -4697,7 +4697,7 @@ Klasa A: 10.___.___.___. deri ___.___.___.255
 Klasa B: 172.16.0.0 deri 172.31.___.____
 Klasa C: 192.___.___.___ deri 192.168.___.___
 
-![assets/exam-flashcards/download-4-p01-q02.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p01-q02.png)
+![assets/exam-flashcards/download-4-p01-q02.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p01-q02.png)
 
 ### Back
 
@@ -4719,7 +4719,7 @@ Tags: rrjeta exam exam_form source::download_4 source::2022qershor
 
 Çka është RTT ?
 
-![assets/exam-flashcards/download-4-p01-q03.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p01-q03.png)
+![assets/exam-flashcards/download-4-p01-q03.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p01-q03.png)
 
 ### Back
 
@@ -4738,7 +4738,7 @@ Tags: rrjeta exam exam_form source::download_4 source::2022qershor
 
 Skiconi se si punon NAT-i? Çfarë roli kanë portet?(përdore faqen mbrapa, sipas nevojës, për skica)
 
-![assets/exam-flashcards/download-4-p01-q04.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p01-q04.png)
+![assets/exam-flashcards/download-4-p01-q04.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p01-q04.png)
 
 ### Back
 
@@ -4757,7 +4757,7 @@ Tags: rrjeta exam exam_form source::download_4 source::2022qershor
 
 Cila fushë e IP datagramit zvogëlohet për një, sa herë që router-i e përpunon datagramin? Pse?
 
-![assets/exam-flashcards/download-4-p01-q05.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p01-q05.png)
+![assets/exam-flashcards/download-4-p01-q05.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p01-q05.png)
 
 ### Back
 
@@ -4777,7 +4777,7 @@ Tags: rrjeta exam exam_form source::download_4 source::2022qershor
 Tek kumutimi i paketave është supozuar që shfrytëzuesi është vetëm 10% te kohës aktiv. A është
 ky supozim i drejtë? Pse?
 
-![assets/exam-flashcards/download-4-p02-q07.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p02-q07.png)
+![assets/exam-flashcards/download-4-p02-q07.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p02-q07.png)
 
 ### Back
 
@@ -4799,7 +4799,7 @@ Tek lidhja 2 përdoret protokolli: _____
 Tek lidhja 4 përdoret protokolli: _____
 Tek lidhja 6 përdoret protokolli: _____
 
-![assets/exam-flashcards/download-4-p02-q08.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p02-q08.png)
+![assets/exam-flashcards/download-4-p02-q08.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p02-q08.png)
 
 ### Back
 
@@ -4819,7 +4819,7 @@ Tags: rrjeta exam exam_form source::download_4 source::2022qershor
 Tek DHCP protokolli, i klienti i sapo ardhur në rrjet, dërgon paketën e parë me “destination
 address: 255.255.255.255”. Pse?
 
-![assets/exam-flashcards/download-4-p02-q09.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p02-q09.png)
+![assets/exam-flashcards/download-4-p02-q09.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p02-q09.png)
 
 ### Back
 
@@ -4838,7 +4838,7 @@ Tags: rrjeta exam exam_form source::download_4 source::2022qershor
 
 Shënoni tri parimet themelore të “Network Neutrality”?
 
-![assets/exam-flashcards/download-4-p03-q10.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p03-q10.png)
+![assets/exam-flashcards/download-4-p03-q10.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p03-q10.png)
 
 ### Back
 
@@ -4862,7 +4862,7 @@ Tags: rrjeta exam exam_form source::download_4 source::2022qershor
 WLAN routeri, i blerë rishtazi, në shtëpi mbështet standardin IEEE 802.11 AX. Çka do të thotë
 kjo nga këndvështrimi i performancës dhe brezit frekuencor?
 
-![assets/exam-flashcards/download-4-p03-q11.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p03-q11.png)
+![assets/exam-flashcards/download-4-p03-q11.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p03-q11.png)
 
 ### Back
 
@@ -4884,7 +4884,7 @@ plotëso fushat?
 Seq=____, ___ bytes of data
 ACK = ____
 
-![assets/exam-flashcards/download-4-p03-q13.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p03-q13.png)
+![assets/exam-flashcards/download-4-p03-q13.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p03-q13.png)
 
 ### Back
 
@@ -4906,7 +4906,7 @@ Hosti A fillon te transmetoj paketën me gjatësi L [bit] ne kohen t = 0. Në
 kohen t = d , ku është biti i fundit i paketës?
 trans
 
-![assets/exam-flashcards/download-4-p03-q14.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p03-q14.png)
+![assets/exam-flashcards/download-4-p03-q14.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p03-q14.png)
 
 ### Back
 
@@ -4928,7 +4928,7 @@ kompjueri A ne datagrame-in e vet ?
 IP src: 111.111.111.111, MAC src: 74-29-9C-E8-FF-55
 IP dest: 222.222.222.222, MAC dest: _________________________
 
-![assets/exam-flashcards/download-4-p04-q15.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p04-q15.png)
+![assets/exam-flashcards/download-4-p04-q15.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p04-q15.png)
 
 ### Back
 
@@ -4948,7 +4948,7 @@ Tags: rrjeta exam exam_form source::download_4 source::2022qershor
 Videon me madhësi 320 MByte e ngarkoni (upload) përmes lidhjes asimetrike 200Mbps të
 Internetit, me download (shkarkim) 180 Mbps. Sa kohë ju nevojitet për ta ngarkuar këtë këngë?
 
-![assets/exam-flashcards/download-4-p04-q17.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p04-q17.png)
+![assets/exam-flashcards/download-4-p04-q17.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p04-q17.png)
 
 ### Back
 
@@ -4974,7 +4974,7 @@ ueb server dhe një ftp server. Vizatoni skemën e lidhjes se këtyre kompjuter�
 LAN dhe serverëve ne Internet se bashku me te gjitha IP adresat e pajisjeve te lidhura. (Shfrytëzo
 faqen mbrapa për skica!)
 
-![assets/exam-flashcards/download-4-p04-q18.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p04-q18.png)
+![assets/exam-flashcards/download-4-p04-q18.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p04-q18.png)
 
 ### Back
 
@@ -5003,7 +5003,7 @@ Tags: rrjeta exam exam_form source::download_4 source::2022qershor
 Cila është adresa e ueb dhe ftp serverit tuaj (nga detyra 18 dhe 19) për shfrytëzuesit nga jashtë
 (nga Interneti) dhe nga brenda rrjetit (Intraneti)?
 
-![assets/exam-flashcards/download-4-p04-q20.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p04-q20.png)
+![assets/exam-flashcards/download-4-p04-q20.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/download-4-p04-q20.png)
 
 ### Back
 
@@ -5023,7 +5023,7 @@ Tags: rrjeta exam exam_form source::download_4 source::2022qershor
 Si ka mundësi ne Internet qe me miliarda pajisje (softeurike dhe harduerike), te prodhuesve te
 ndryshëm, te lidhen se bashku dhe te komunikojnë?
 
-![assets/exam-flashcards/2019qershor-p01-q01.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p01-q01.png)
+![assets/exam-flashcards/2019qershor-p01-q01.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p01-q01.png)
 
 ### Back
 
@@ -5042,7 +5042,7 @@ Tags: rrjeta exam exam_form source::2019qershor source::2019shtatore
 
 Si quhet kompjuteri qe ka IP adresën: 127. 0.0.1?
 
-![assets/exam-flashcards/2019qershor-p01-q02.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p01-q02.png)
+![assets/exam-flashcards/2019qershor-p01-q02.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p01-q02.png)
 
 ### Back
 
@@ -5063,7 +5063,7 @@ Tags: rrjeta exam exam_form source::2019qershor source::2019shtatore
 
 Si është ndare brezi frekuencor te DSL?
 
-![assets/exam-flashcards/2019qershor-p02-q06.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p02-q06.png)
+![assets/exam-flashcards/2019qershor-p02-q06.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p02-q06.png)
 
 ### Back
 
@@ -5085,7 +5085,7 @@ Tags: rrjeta exam exam_form source::2019qershor source::2019shtatore
 Cilat janë pesë shtresat e protokollit të Internetit, prej lartë poshtë (vizato skicën) dhe si quhet
 paketa (shënimi i) e proceduar në atë shtresë?
 
-![assets/exam-flashcards/2019qershor-p02-q07.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p02-q07.png)
+![assets/exam-flashcards/2019qershor-p02-q07.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p02-q07.png)
 
 ### Back
 
@@ -5111,7 +5111,7 @@ Tek lidhja 2 përdoret protokolli: _____
 Tek lidhja 4 përdoret protokolli: _____
 Tek lidhja 6 përdoret protokolli: _____
 
-![assets/exam-flashcards/2019qershor-p02-q08.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p02-q08.png)
+![assets/exam-flashcards/2019qershor-p02-q08.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p02-q08.png)
 
 ### Back
 
@@ -5134,7 +5134,7 @@ Tags: rrjeta exam exam_form source::2019qershor source::2019shtatore
 
 Përshkruaj principet se si arrihet besueshmëri e transmetimit të shënimeve në nivelin TCP-së?
 
-![assets/exam-flashcards/2019qershor-p03-q13.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p03-q13.png)
+![assets/exam-flashcards/2019qershor-p03-q13.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p03-q13.png)
 
 ### Back
 
@@ -5153,7 +5153,7 @@ Tags: rrjeta exam exam_form source::2019qershor source::2019shtatore
 
 Pershkruaj rolin e ketyre parametrave: base, nextseqnum dhe N.
 
-![assets/exam-flashcards/2019qershor-p03-q14.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p03-q14.png)
+![assets/exam-flashcards/2019qershor-p03-q14.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p03-q14.png)
 
 ### Back
 
@@ -5176,7 +5176,7 @@ Tags: rrjeta exam exam_form source::2019qershor source::2019shtatore
 Plotësoje ARP tabelën për nyjën (kompjuterin) me IP adresë 10.10.10.10
 IP Address ??? TTL
 
-![assets/exam-flashcards/2019qershor-p04-q15.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p04-q15.png)
+![assets/exam-flashcards/2019qershor-p04-q15.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p04-q15.png)
 
 ### Back
 
@@ -5197,7 +5197,7 @@ Tags: rrjeta exam exam_form source::2019qershor
 
 Përshkruani me te paktën tri fjali CSMA/CD protokollin.
 
-![assets/exam-flashcards/2019qershor-p04-q16.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p04-q16.png)
+![assets/exam-flashcards/2019qershor-p04-q16.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p04-q16.png)
 
 ### Back
 
@@ -5222,7 +5222,7 @@ shtypës (network enabled), një ueb server dhe një ftp server. Vizatoni skemë
 kompjuterëve, shtypësit në LAN dhe serverëve ne Internet se bashku me te gjitha IP adresat e
 pajisjeve te lidhura. (Shfrytëzo faqen mbrapa për skica! Kjo detyrë ka max. 6 pikë!)
 
-![assets/exam-flashcards/2019qershor-p04-q17.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p04-q17.png)
+![assets/exam-flashcards/2019qershor-p04-q17.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p04-q17.png)
 
 ### Back
 
@@ -5249,7 +5249,7 @@ Tags: rrjeta exam exam_form source::2019qershor
 Cila është adresa e ueb dhe ftp serverit tuaj (nga detyra 17 & 18) për shfrytëzuesit nga jashtë (nga
 Interneti) dhe nga brenda rrjetit (Intraneti)?
 
-![assets/exam-flashcards/2019qershor-p04-q19.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p04-q19.png)
+![assets/exam-flashcards/2019qershor-p04-q19.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019qershor-p04-q19.png)
 
 ### Back
 
@@ -5268,7 +5268,7 @@ Tags: rrjeta exam exam_form source::2019qershor
 Një DNS “resource record” (Name, Value, Type, TTL) është i tipit CNAME (pra Type=
 CNAME). Çka përmban atëherë “Value”?
 
-![assets/exam-flashcards/2019shtatore-p02-q09.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019shtatore-p02-q09.png)
+![assets/exam-flashcards/2019shtatore-p02-q09.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019shtatore-p02-q09.png)
 
 ### Back
 
@@ -5290,7 +5290,7 @@ ___.___.___.___/___
 Shënoni 2 IP adresa te çfarëdoshme nga ky brez:
 ___.___.___.___ dhe ___.___.___.___
 
-![assets/exam-flashcards/2019shtatore-p02-q10.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019shtatore-p02-q10.png)
+![assets/exam-flashcards/2019shtatore-p02-q10.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019shtatore-p02-q10.png)
 
 ### Back
 
@@ -5313,7 +5313,7 @@ Tags: rrjeta exam exam_form source::2019shtatore
 Plotësoje ARP tabelën për nyjën (kompjuterin) me IP adresë 192.168.10.10
 IP Address ??? TTL
 
-![assets/exam-flashcards/2019shtatore-p04-q15.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019shtatore-p04-q15.png)
+![assets/exam-flashcards/2019shtatore-p04-q15.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019shtatore-p04-q15.png)
 
 ### Back
 
@@ -5338,7 +5338,7 @@ duhet ta dizajnoni rrjetën për një kompani me 5 kompjuter, ne brezin 192.168.
 kompjuterëve, shtypësit në LAN dhe serverëve ne Internet se bashku me te gjitha IP adresat e
 pajisjeve te lidhura. (Shfrytëzo faqen mbrapa për skica! Kjo detyrë ka max. 6 pikë!)
 
-![assets/exam-flashcards/2019shtatore-p04-q17.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019shtatore-p04-q17.png)
+![assets/exam-flashcards/2019shtatore-p04-q17.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019shtatore-p04-q17.png)
 
 ### Back
 
@@ -5366,7 +5366,7 @@ Nëse supozojmë se d është me e madhe se d në kohen t = d , ku është biti 
 prop trans trans
 paketës?
 
-![assets/exam-flashcards/2019shtatore-p04-q20.png|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019shtatore-p04-q20.png)
+![assets/exam-flashcards/2019shtatore-p04-q20.png\|900](/img/user/Semester%204/Rrjeta/assets/exam-flashcards/2019shtatore-p04-q20.png)
 
 ### Back
 

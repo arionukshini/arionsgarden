@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/rima/"}
+{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/rima/","dg-note-properties":{}}
 ---
 
 

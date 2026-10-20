@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/mat-3/mat-3-teori/"}
+{"dg-publish":true,"permalink":"/archive/mat-3/mat-3-teori/","dg-note-properties":{}}
 ---
 
 # Perkufizimi i Relacionit. Relacioni i ekuivalences #card 

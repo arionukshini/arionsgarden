@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/knk/flashcards/"}
+{"dg-publish":true,"permalink":"/semester-4/knk/flashcards/","dg-note-properties":{}}
 ---
 
 # KNK Flashcards

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/peremrat/"}
+{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/peremrat/","dg-note-properties":{}}
 ---
 
 

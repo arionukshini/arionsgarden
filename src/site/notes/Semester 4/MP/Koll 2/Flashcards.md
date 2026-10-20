@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/mp/koll-2/flashcards/"}
+{"dg-publish":true,"permalink":"/semester-4/mp/koll-2/flashcards/","dg-note-properties":{}}
 ---
 
 # Flashcards – Menaxhimi i Projekteve

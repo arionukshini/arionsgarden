@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/arkitekture/koll-2/notes/"}
+{"dg-publish":true,"permalink":"/semester-4/arkitekture/koll-2/notes/","dg-note-properties":{}}
 ---
 
 # 3 - FUNKSIONI I KOMPJUTERIT DHE INTERKONEKSIONI

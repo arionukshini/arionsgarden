@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/ligjerimi/"}
+{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/ligjerimi/","dg-note-properties":{}}
 ---
 
 

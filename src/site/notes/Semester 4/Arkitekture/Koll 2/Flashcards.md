@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/arkitekture/koll-2/flashcards/","tags":["flashcards","arkitekture-kompjuterike","koll2"]}
+{"dg-publish":true,"permalink":"/semester-4/arkitekture/koll-2/flashcards/","tags":["flashcards","arkitekture-kompjuterike","koll2"],"dg-note-properties":{"tags":["flashcards","arkitekture-kompjuterike","koll2"]}}
 ---
 
 

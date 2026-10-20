@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/java/java-2-coding/"}
+{"dg-publish":true,"permalink":"/archive/java/java-2-coding/","dg-note-properties":{}}
 ---
 
 # Java OOP Complete Guide

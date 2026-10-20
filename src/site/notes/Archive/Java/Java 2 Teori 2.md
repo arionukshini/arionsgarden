@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/java/java-2-teori-2/"}
+{"dg-publish":true,"permalink":"/archive/java/java-2-teori-2/","dg-note-properties":{}}
 ---
 
 # Java OOP – Advanced Topics (Syllabus 10–15)

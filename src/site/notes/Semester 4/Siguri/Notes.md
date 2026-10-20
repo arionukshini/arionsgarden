@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/siguri/notes/"}
+{"dg-publish":true,"permalink":"/semester-4/siguri/notes/","dg-note-properties":{}}
 ---
 
 # RSA

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/knk/notes/"}
+{"dg-publish":true,"permalink":"/semester-4/knk/notes/","dg-note-properties":{}}
 ---
 
 

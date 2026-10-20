@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/lidhezat/"}
+{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/lidhezat/","dg-note-properties":{}}
 ---
 
 

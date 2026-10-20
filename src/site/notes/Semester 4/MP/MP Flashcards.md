@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/mp/mp-flashcards/"}
+{"dg-publish":true,"permalink":"/semester-4/mp/mp-flashcards/","dg-note-properties":{}}
 ---
 
 Çka është projekti? #card

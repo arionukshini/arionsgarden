@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/java/java-coding/"}
+{"dg-publish":true,"permalink":"/archive/java/java-coding/","dg-note-properties":{}}
 ---
 
 # Java Coding – Notes & Examples

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/etike-quick/etike-quick/"}
+{"dg-publish":true,"permalink":"/archive/etike-quick/etike-quick/","dg-note-properties":{}}
 ---
 
 # What are smartphones used for besides calls and messages? #card

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/arkitekture/koll-2/chat-gpt/"}
+{"dg-publish":true,"permalink":"/semester-4/arkitekture/koll-2/chat-gpt/","dg-note-properties":{}}
 ---
 
 # Kapitulli 3 - Funksioni i kompjuterit dhe interkoneksioni

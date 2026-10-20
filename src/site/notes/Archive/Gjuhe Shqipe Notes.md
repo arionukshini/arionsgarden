@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe-notes/"}
+{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe-notes/","dg-note-properties":{}}
 ---
 
 

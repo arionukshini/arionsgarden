@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/rrjeta/chat-gpt/","tags":["university/rrjeta","exam-study"]}
+{"dg-publish":true,"permalink":"/semester-4/rrjeta/chat-gpt/","tags":["university/rrjeta","exam-study"],"dg-note-properties":{"tags":["university/rrjeta","exam-study"],"aliases":["Rrjetat kompjuterike - përmbledhje provimi"]}}
 ---
 
 # Rrjetat kompjuterike — udhëzues për provim
@@ -244,7 +244,7 @@ Përgatitur nga `Ligjerata 1.pptx` deri te `Ligjerata 7.pptx` në `E:\Other\Univ
 
 ## Shënime të zgjeruara — Ligjerata 1
 
-![assets/rrjeta/l1-encapsulation.png|1000](/img/user/Semester%204/Rrjeta/assets/rrjeta/l1-encapsulation.png)
+![assets/rrjeta/l1-encapsulation.png\|1000](/img/user/Semester%204/Rrjeta/assets/rrjeta/l1-encapsulation.png)
 
 *Figura nga Ligjerata 1, slide 90: encapsulation dhe decapsulation nga message te frame.*
 
@@ -291,7 +291,7 @@ Internet stack: application, transport, network, link, physical. Dërguesi krijo
 
 ## Shënime të zgjeruara — Ligjerata 2
 
-![assets/rrjeta/l2-dns-hierarchy.png|1000](/img/user/Semester%204/Rrjeta/assets/rrjeta/l2-dns-hierarchy.png)
+![assets/rrjeta/l2-dns-hierarchy.png\|1000](/img/user/Semester%204/Rrjeta/assets/rrjeta/l2-dns-hierarchy.png)
 
 *Figura nga Ligjerata 2, slide 69: DNS hierarchy — root, TLD dhe authoritative name servers.*
 
@@ -340,7 +340,7 @@ Video përdor spatial dhe temporal compression. Client-side playout buffer absor
 
 ## Shënime të zgjeruara — Ligjerata 3
 
-![assets/rrjeta/l3-tcp-handshake.png|1000](/img/user/Semester%204/Rrjeta/assets/rrjeta/l3-tcp-handshake.png)
+![assets/rrjeta/l3-tcp-handshake.png\|1000](/img/user/Semester%204/Rrjeta/assets/rrjeta/l3-tcp-handshake.png)
 
 *Figura nga Ligjerata 3, slide 106: TCP 3-way handshake dhe state në client/server.*
 
@@ -400,7 +400,7 @@ QUIC e vendos reliability, encryption dhe congestion control në user space mbi 
 
 ## Shënime të zgjeruara — Ligjerata 4
 
-![assets/rrjeta/l4-dhcp.png|1000](/img/user/Semester%204/Rrjeta/assets/rrjeta/l4-dhcp.png)
+![assets/rrjeta/l4-dhcp.png\|1000](/img/user/Semester%204/Rrjeta/assets/rrjeta/l4-dhcp.png)
 
 *Figura nga Ligjerata 4, slide 53: qëllimi i DHCP dhe katër hapat Discover, Offer, Request, ACK.*
 
@@ -432,7 +432,7 @@ IPv6 ka 128-bit addresses dhe header më të thjeshtë; nuk ka header checksum d
 
 ## Shënime të zgjeruara — Ligjerata 5
 
-![assets/rrjeta/l5-bgp-basics.png|1000](/img/user/Semester%204/Rrjeta/assets/rrjeta/l5-bgp-basics.png)
+![assets/rrjeta/l5-bgp-basics.png\|1000](/img/user/Semester%204/Rrjeta/assets/rrjeta/l5-bgp-basics.png)
 
 *Figura nga Ligjerata 5, slide 65: BGP advertisement ndërmjet Autonomous Systems.*
 
@@ -464,7 +464,7 @@ SDN ndan control plane nga data plane: control apps (routing, firewall, load bal
 
 ## Shënime të zgjeruara — Ligjerata 6
 
-![assets/rrjeta/l6-arp.png|1000](/img/user/Semester%204/Rrjeta/assets/rrjeta/l6-arp.png)
+![assets/rrjeta/l6-arp.png\|1000](/img/user/Semester%204/Rrjeta/assets/rrjeta/l6-arp.png)
 
 *Figura nga Ligjerata 6, slide 45: ARP broadcast për të gjetur MAC address-in e hostit lokal.*
 
@@ -486,7 +486,7 @@ Ethernet frame: preamble, destination MAC, source MAC, type, payload, CRC. Switc
 
 ## Shënime të zgjeruara — Ligjerata 7
 
-![assets/rrjeta/l7-csma-ca.png|1000](/img/user/Semester%204/Rrjeta/assets/rrjeta/l7-csma-ca.png)
+![assets/rrjeta/l7-csma-ca.png\|1000](/img/user/Semester%204/Rrjeta/assets/rrjeta/l7-csma-ca.png)
 
 *Figura nga Ligjerata 7, slide 29: IEEE 802.11 CSMA/CA, DIFS/SIFS, data dhe ACK.*
 

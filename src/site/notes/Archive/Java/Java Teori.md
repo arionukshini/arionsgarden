@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/java/java-teori/"}
+{"dg-publish":true,"permalink":"/archive/java/java-teori/","dg-note-properties":{}}
 ---
 
 # Modifiers në Java – Përmbledhje

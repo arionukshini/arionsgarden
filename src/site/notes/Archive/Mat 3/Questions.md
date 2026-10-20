@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/mat-3/questions/"}
+{"dg-publish":true,"permalink":"/archive/mat-3/questions/","dg-note-properties":{}}
 ---
 
 Perkufizimi i Relacionit. Relacioni i renditjes dhe Diagrami Hasse - 8

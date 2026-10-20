@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/calculus-2-theory-questions/"}
+{"dg-publish":true,"permalink":"/archive/calculus-2-theory-questions/","dg-note-properties":{}}
 ---
 
 # Pyetjet me te shpeshta:

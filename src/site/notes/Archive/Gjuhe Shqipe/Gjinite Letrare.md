@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/gjinite-letrare/"}
+{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/gjinite-letrare/","dg-note-properties":{}}
 ---
 
 

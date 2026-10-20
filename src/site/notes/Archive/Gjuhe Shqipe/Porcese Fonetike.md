@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/porcese-fonetike/"}
+{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/porcese-fonetike/","dg-note-properties":{}}
 ---
 
 

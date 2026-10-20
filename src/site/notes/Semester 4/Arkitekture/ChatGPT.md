@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/arkitekture/chat-gpt/"}
+{"dg-publish":true,"permalink":"/semester-4/arkitekture/chat-gpt/","dg-note-properties":{}}
 ---
 
 **ARKITEKTURA E KOMPJUTERËVE**

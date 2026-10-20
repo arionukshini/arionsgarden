@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/mp/koll-2/chat-gpt/"}
+{"dg-publish":true,"permalink":"/semester-4/mp/koll-2/chat-gpt/","dg-note-properties":{}}
 ---
 
 # VLERËSIMI I KOHËS DHE KOSTOS SË PROJEKTIT

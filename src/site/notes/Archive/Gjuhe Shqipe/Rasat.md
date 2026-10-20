@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/rasat/"}
+{"dg-publish":true,"permalink":"/archive/gjuhe-shqipe/rasat/","dg-note-properties":{}}
 ---
 
 

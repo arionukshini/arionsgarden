@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-5/syllabus/"}
+{"dg-publish":true,"permalink":"/semester-5/syllabus/","dg-note-properties":{}}
 ---
 
 # Inxhinieria Softuerike (IS)

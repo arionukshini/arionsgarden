@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/siguri/chat-gpt/"}
+{"dg-publish":true,"permalink":"/semester-4/siguri/chat-gpt/","dg-note-properties":{}}
 ---
 
 # Siguria e te dhenave - permbledhje per provim

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/semester-4/siguri/flashcards/"}
+{"dg-publish":true,"permalink":"/semester-4/siguri/flashcards/","dg-note-properties":{}}
 ---
 
 # Flashcards - Siguria e te dhenave
