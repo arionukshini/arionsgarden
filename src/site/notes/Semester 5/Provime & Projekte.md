@@ -22,6 +22,8 @@ Arkitekture -
 
 ## Nderrmarresi
 
+Dorezimi 1.12.2026
+
 Materiale dhe dorezimi - https://classroom.google.com/c/ODg1MDIzNjAyNjQ2/a/ODg5OTMwMDI4MTkz/details
 
 Grupet - https://docs.google.com/spreadsheets/d/1SXTn2ei6RgQ9yQ03veIPGKCTRhVprjQzp9UJfeCi71Q/edit?gid=0#gid=0
@@ -29,6 +31,8 @@ Grupet - https://docs.google.com/spreadsheets/d/1SXTn2ei6RgQ9yQ03veIPGKCTRhVprjQ
 ## DAA
 
 Dorezimi - Fillim dhjetorit
+
+Optimizim me kaggle, 30 ore ne jave, ben checkpoint qe me vazhdu javen tjeter, perdor gpu ne vend te cpu
 
 Grupet - https://docs.google.com/spreadsheets/d/1MPZ1cv4wG7CHqPb01HlFzT9ZfZB3P5902S7RqJiNigc/edit?gid=875364720#gid=875364720
 
@@ -53,6 +57,9 @@ TBA
 
 Faza 1 - Done
 Faza 2 - 15 Nentor (15 pike)
+
+- https://classroom.google.com/c/ODg2ODk2Mjc2MjMz/a/ODkzNjI5MDU0NDIy/details
+
 Faza 3 - 27 Dhjetor (20 pike)
 
 Grupet - https://docs.google.com/spreadsheets/d/1vD-cOy9AYM_0ylYRvTYB_guWz4wEt5XZEcOqKG9Wjdo/edit?gid=0#gid=0
