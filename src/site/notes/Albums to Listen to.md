@@ -11,10 +11,10 @@
 ## AOTY 2026:
 
 **Half Blood (Bloodluxe) - Slayr**
+**U - underscores**
 **c - Lucy Bedroque**
+**Luh Leakyz Vol. 1 - Yeat**
 **xperiment - Ken Carson**
-**BLUNTS & BLADES - Zukenee**
-**B4EM - Nine Vicious**
 
 [Others Ranked](https://www.albumoftheyear.org/user/arionuk/ratings/highest/?y=2026)
 
@@ -38,7 +38,7 @@ If you're reading this its too late
 What a Time to be Alive
 More Life
 Scorpion
-Certified Lover Boy (he like me fr 🥲)
+Certified Lover Boy (he like me fr)
 Her Loss
 For All The Dogs
 Some Sexy Songs 4 U
