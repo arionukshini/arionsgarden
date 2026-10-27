@@ -71,7 +71,6 @@ XTENDED
 ### Lil Uzi Vert
 
 Maverick EP
-Pink Tape
 Eternal Atake
 
 ### Destroy Lonely
