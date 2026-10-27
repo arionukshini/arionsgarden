@@ -308,4 +308,95 @@ Zakonisht, afati i të drejtës së autorit lidhet me jetën e autorit, plus 70 
 Ndërmarrësit mund të preferojnë ta mbajnë një proces apo ide si konfidenciale dhe ta mbajnë atë si një sekret tregtar. Sekreti tregtar ka jetë aq sa ideja apo procesi mbetet sekret. 
 Me daljen në publik të ndonjë informate që lidhet me të, ai më nuk është sekret tregtar. Sekreti tregtar nuk është i mbuluar me ndonjë ligj të veçantë, por mund të rregullohet në kuadër të ligjeve tjera.
 
+## 5 - Rreziku dhe ndërmarrësia
+
+Rreziku asnjëherë nuk eliminohet tërësisht; ai vetëm mund të minimizohet.
+I ashtuquajturi *rrezik residual* gjithmonë ekziston: niveli i rrezikut që mbetet edhe përkundër të gjitha masave të ndërmarra për ta trajtuar.
+
+**Rreziku është një situatë që mund të shkaktojë fitime më të vogla se ato të pritura, ose mund të përfundojë me humbjen e mjeteve materiale dhe financiare të ndërmarrjes. Rreziku gjithashtu nënkupton ballafaqimin me ndryshimet në treg, konkurrentët e rinj dhe ndryshimet teknologjike.**
+
+## LLOJET E RREZIKUT
+
+Disa nga llojet e rreziqeve janë: 
+- Rreziku i pastër 
+- Rreziku spekulativ 
+- Rreziku i pashmangshëm 
+- Rreziku financiar 
+- Rreziku i karrierës 
+- Rreziku familjar dhe shoqëror 
+- Rreziku psikologjik
+
+![Pasted image 20261027222553.png](/img/user/Pasted%20image%2020261027222553.png)
+
+## MENAXHIMI I RREZIKUT
+
+Menaxhimi i rrezikut paraqet pjesë integrale dhe shumë të rëndësishme të menaxhimit të përgjithshëm të ndërmarrjes.
+
+Menaxhimi i rrezikut përfshin aktivitetet që lidhen me trajtimin e rreziqeve, si: 
+- Planifikimi 
+- Identifikimi i rrezikut 
+- Analiza dhe vlerësimi 
+- Përpilimi i strategjive proaktive dhe reaktive 
+- Monitorimi 
+- Kontrollimi i rreziqeve
+
+Përfitimet nga menaxhimi i rrezikut mund të listohen si në vijim: 
+- Më pak befasi dhe më pak shpenzime 
+- Vendimmarrje më e mirë 
+- Përmirësim i reputacionit 
+- Identifikim dhe shfrytëzim i mundësive
+
+## PROCESI I MENAXHIMIT ME RREZIQE
+
+1. Definimi i kontekstit te rrezikur 
+2. Identifikimi i rrezikut 
+3. Analiza dhe vlerësimi i rrezikut 
+4. Trajtimi i rrezikut 
+5. Monitorimi dhe rishikimi
+
+## IDENTIFIKIMI I RREZIKUT
+
+Komponentët që ndihmojnë në identifikim: 
+- Burimi i rrezikut
+- Ndodhia apo incidenti 
+- Pasojat 
+- Arsyeja: çka dhe pse 
+- Kontrolli dhe niveli i efektivitetit të tij 
+- Koha dhe vendi
+
+Ndërmarrësi ka në dispozicion dy qasje për identifikimin e rrezikut: 
+- **Qasja retrospektive:** Bazohet në rreziqet që kanë ndodhur në të kaluarën. Është më e lehtë, sepse shkaqet dhe pasojat e rreziqeve të ngjashme zakonisht njihen. 
+- **Qasja prospektive:** Bazohet në rreziqe që ende nuk kanë ndodhur, por mund të ndodhin në të ardhmen. Kërkon që rreziqet kryesore të regjistrohen dhe të monitorohen.
+
+Rreziqet vlerësohen në bazë të: 
+- **Pasojave** që mund të shkaktojnë (**kritike, të rëndësishme ose të parëndësishme**). 
+- **Gjasave** për të ndodhur.
+
+Pasojat nga një rrezik i caktuar mund të karakterizohen si në vijim: 
+- **[1] Të parëndësishme** – rreziku nuk shkakton ndryshime në qëllimet e biznesit. 
+- **[2] Minore** – rreziku mund të trajtohet me resurset ekzistuese. 
+- **[3] Mesatare** – rreziku mund të trajtohet, por nevojiten disa resurse shtesë. 
+- **[4] Të mëdha** – trajtimi i rrezikut kërkon resurse të konsiderueshme shtesë nga sektorët apo burimet tjera. 
+- **[5] Signifikante** – rreziku mund të shkaktojë mosrealizimin e qëllimeve të ndërmarrjes, e në disa raste edhe të jetë fatal për ndërmarrjen.
+
+Gjasat për të ndodhur një rrezik mund të karakterizohen si në vijim: 
+- **[5] Pothuajse i sigurt** – rreziku pritet të ndodhë në të shumtën e rasteve, respektivisht ndodh shumë shpesh gjatë vitit përkatës. Probabiliteti që të ndodh është 95- 100%. 
+- **[4] I pritshëm** – rreziku mund të ndodh së paku një here gjatë vitit. Probabiliteti që të ndodh është 70-95%.
+- **[3] I mundshëm** – rreziku mund të ndodhë ndonjëherë, p.sh. një herë në 3 vjet. Probabiliteti që të ndodh është 30-70%. 
+- **[2] Jo i pritshëm** – rreziku mund të ndodh ndonjëherë, p.sh. një herë në 5 vjet. Probabiliteti që të ndodh është 5-30%. 
+- **[1] I rrallë** – rreziku mund të ndodhë vetëm në rrethana të jashtë-zakonshme. Një rrezik i tillë ka ndodhur diku tjetër dhe mund të ndodh një herë në çdo 5+ vjet. Probabiliteti që të ndodh është më pak se 5%.
+
+![Pasted image 20261027224534.png](/img/user/Pasted%20image%2020261027224534.png)
+![Pasted image 20261027224549.png](/img/user/Pasted%20image%2020261027224549.png)
+
+Ndërmarrësit gjatë trajtimit të rrezikut mund të përdorin njërin nga këto opsione, ose një kombinim të tyre: 
+- Shmangia e rrezikut 
+- Reduktimi i rrezikut 
+- Anticipimi i rrezikut / vetësigurimi 
+- Transferimi i rrezikut 
+- Pranimi i rrezikut
+
+Çdo proces i menaxhimit të rrezikut duhet të regjistrohet në detaje. Kjo ndihmon nëse një rrezik i ngjashëm përsëritet në të ardhmen.
+
+Komunikimi duhet të bëhet në çdo fazë të procesit të menaxhimit të rrezikut.
 
