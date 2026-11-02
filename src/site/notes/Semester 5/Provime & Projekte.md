@@ -4,9 +4,9 @@
 
 # Kollokfiume
 
-Java e fundit e nentorit - SO (amo po don profi met 14)
+9 Nentor 6:30 411 - DAA
 4 Nentor - Nderrmarresi
-6-13 Nentor - DAA
+14 Nentor - SO
 
 # Provime
 
