@@ -400,3 +400,163 @@ Ndërmarrësit gjatë trajtimit të rrezikut mund të përdorin njërin nga kët
 
 Komunikimi duhet të bëhet në çdo fazë të procesit të menaxhimit të rrezikut.
 
+# 7 - Opsione për hyrje në ndërmarrësi
+
+Ekzistojnë katër opcione të mundshme për fillimin e një biznesi ndërmarrës:
+1. Themelimi i ndërmarrjes së re, 
+2. Blerja e ndërmarrjes ekzistuese, 
+3. Trashëgimia e biznesit nga familja dhe 
+4. Blerja e franshizës.
+
+Trendet (tendencat) shpesh ofrojnë një mundësi të shkëlqyer informacioni për fillimin e një biznesi të ri.
+Trendet kryesore që krijojnë mundësi ndërmarrëse janë: 
+- Inteligjenca artificiale dhe automatizimi. 
+- Digjitalizimi dhe tregtia elektronike. 
+- Ekonomia e gjelbër dhe qëndrueshmëria. 
+- Pagesat digjitale dhe teknologjitë financiare. 
+- Shëndetësia digjitale.
+- Interneti i Gjërave (IoT).
+
+## THEMELIMI I NDËRMARRJES SË RE 
+
+### IDENTIFIKIMI I MUNDËSISË
+
+Një nga aspektet kyçe për themelimin e një ndërmarrjeje të re, është aftësia e ndërmarrësit potencial për të identifikuar një mundësi në treg.
+
+Pyetjet që zakonisht kërkojnë përgjigje janë këto në vazhdim: 
+- A është kjo një mundësi për mua? 
+- A kam njohuri dhe aftësi për të korrur suksese nga kjo mundësi? 
+- A kam qasje në resurset e nevojshme për të dalë me sukses nga kjo situatë?
+
+### DRITARJA E MUNDËSISË
+
+Dritarja e mundësisë është periudha gjatë së cilës një ide apo produkt i ri ka potencial për t'u shfrytëzuar me sukses në treg. 
+- **Hapja e dritares:** Shfaqet një nevojë ose mundësi e re në treg. 
+- **Shfrytëzimi i mundësisë:** Ndërmarrësi hyn në treg dhe synon të krijojë përparësi konkurruese. 
+- **Ngushtimi i dritares:** Konkurrenca, ndryshimet teknologjike ose nevojat e konsumatorëve mund ta zvogëlojnë mundësinë fillestare. 
+- **Mesazhi kryesor:** Koha e hyrjes në treg mund të ndikojë në suksesin e ndërmarrjes.
+
+### VENDIMI PËR NDËRMARRJE TË RE
+
+- Dëshira për t'u bërë ndërmarrës. 
+- Mundësia reale për ta realizuar idenë. 
+- Rrethanat personale dhe profesionale që nxisin ndryshimin.
+
+Dy burime të rëndësishme të përvojës janë: 
+- Hulumtimi dhe zhvillimi - njohuritë teknologjike dhe inovacioni. 
+- Marketingu - njohja e tregut dhe nevojave të konsumatorëve.
+
+Dëshirueshmëria lidhet me motivimin personal për t'u bërë ndërmarrës. Në këtë motivim ndikojnë: 
+- Kultura: Qëndrimet e shoqërisë ndaj ndërmarrësisë. 
+- Subkultura: Ndikimi i komunitetit dhe mjedisit profesional. 
+- Familja: Përvoja dhe mbështetja familjare. 
+- Mësimdhënësit: Inkurajimi nga profesorët dhe mentorët. 
+- Kolegët: Ndikimi i miqve dhe bashkëpunëtorëve.
+
+Mundësia e themelimit lidhet me aftësinë dhe burimet që ka individi për të realizuar një ide biznesi. Faktorët kryesorë janë: 
+- Qeveria: Politikat dhe programet mbështetëse. 
+- Përvoja dhe arsimimi: Njohuritë, aftësitë dhe kontaktet profesionale. 
+- Vetëefikasiteti: Besimi i individit në aftësinë e tij për të realizuar biznesin. 
+- Burimet: Kapitali, teknologjia dhe burimet njerëzore. 
+- Modelet e suksesit: Ndikimi i ndërmarrësve të tjerë
+
+Vendimi për themelimin e ndërmarrjes së re mbështetet në studimin e fizibilitetit. Në studimin e fizibilitetit zakonisht bëhet analiza e këtyre katër faktorëve: 
+1. Tregut, 
+2. Lokacionit, 
+3. Kërkesave financiare 
+4. Kërkesave juridike
+
+## PËRPARËSITË DHE DOBËSITË E THEMELIMIT TË NDËRMARRJES SË RE
+
+### PERPARESI
+
+- Mundësia për të zgjedhur lokacionin. 
+- Liria për të përcaktuar fushëveprimin e biznesit. 
+- Krijimi i strukturës organizative sipas nevojave. 
+- Përzgjedhja e personelit.
+- Zgjedhja e pajisjeve dhe teknologjisë.
+- Fillimi pa trashëguar problemet organizative të një biznesi ekzistues.
+
+### DOBESITE
+
+- Ide e paprovuar 
+- Nivel i lartë i dështimit 
+- Punë e vështirë dhe e vetme 
+- Mungesa e emrit të mirë “goodwill” 
+- Pengesa për hyrje në biznes 
+- Vështirësia e parashikimit 
+- Vështirësia e financimit.
+
+## BLERJA E NDËRMARRJES EKZISTUESE
+
+![Pasted image 20261103155158.png](/img/user/Pasted%20image%2020261103155158.png)
+
+
+## VLERËSIMI I BIZNESIT
+
+Analiza e faktorëve për blerjen e ndërmarrjes ekzistuese përfshin studimin e këtyre faktorëve: 
+1. Arsyet e shitjes së biznesit. 
+2. Fitimi dhe fluksi i parasë. 
+3. Pasuritë dhe detyrimet. 
+4. Pozita në treg dhe konkurrenca. 
+5. Dokumentacioni dhe detyrimet juridike.
+
+## PËRPARËSITË DHE DOBËSITË E BLERJES SË NDËRMARRJES EKZISTUESE
+
+### PERPARESI
+
+- Lokacioni i ndërmarrjes 
+- Më pak mjete qarkulluese. 
+- Blerja e klientëve. 
+- Ulja e pasigurisë në punë. 
+- Profiti realizohet më herët 
+- Objektet, pajisja dhe resurset tjera janë të njohura që më parë. 
+- Rreziku më i vogël në punë 
+- Planifikimi më i lehtë.
+
+### DOBESI
+
+- Çmimi i shitjes 
+- Lokacioni jo i mirë. 
+- Rritja e shpenzimeve 
+- Emri i keq (bad-will). 
+- Politika e gabuar afariste. 
+- Rezervat joadekuate
+
+## KATEGORITE E BIZNESIT FAMILJAR
+
+![Pasted image 20261103155927.png](/img/user/Pasted%20image%2020261103155927.png)
+
+
+### FAZAT E PROCESIT TË SUKCESIONIT JANË
+
+1) Faza para-biznesore. 
+2) Faza hyrëse 
+3) Faza hyrëse-funksionale 
+4) Faza funksionale 
+5) Faza funksionale e përparuar (avancuar) 
+6) Faza e sukcesionit të hershëm 
+7) Faza e sukcesionit të pjekur.
+
+## PËRPARËSITË DHE DOBËSITË E BIZNESIT FAMILJAR
+
+### PERPARESIT
+
+- Përkushtim i lartë i anëtarëve të familjes ndaj biznesit. 
+- Vazhdimësi e pronësisë ndërmjet gjeneratave. 
+- Besim dhe bashkëpunim ndërmjet anëtarëve të familjes. 
+- Marrëdhënie afatgjata me klientët. 
+- Orientim drejt ruajtjes dhe zhvillimit afatgjatë të biznesit
+
+### DOBESIT
+
+- Konfliktet familjare mund të ndikojnë në vendimmarrjen e biznesit. 
+- Punësimi i anëtarëve të familjes pa kualifikimet e nevojshme (nepotizmi). 
+- Vështirësitë në ndarjen e marrëdhënieve familjare nga ato profesionale. 
+- Rezistenca e gjeneratës aktuale ndaj dorëzimit të drejtimit. 
+- Vështirësitë në përzgjedhjen dhe përgatitjen e pasardhësve.
+
+
+
+
+
