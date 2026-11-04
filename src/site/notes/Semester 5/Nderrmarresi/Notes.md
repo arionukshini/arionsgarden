@@ -269,7 +269,9 @@ Në lidhje me përfitimet nga kreativiteti dhe inovacionet është konstruktuar 
 Inovatori, i njohur si lëvizësi i parë, si rezultat i të qenit i pari në treg me ofrimin e një produkti, shërbimi apo procesi të ri siguron avantazhe konkurruese në krahasim me konkurrentët tjerë. 
 **Avantazhet e hyrësit të parë – First Mover** 
 - fiton përvojë më herët; 
-- mund të krijojë reputacion;  mund të sigurojë resurse/pozicion në treg;  mund të përfitojë nga ekonomitë e shkallës.
+- mund të krijojë reputacion; 
+- mund të sigurojë resurse/pozicion në treg; 
+- mund të përfitojë nga ekonomitë e shkallës.
 
 ### PERFITIMET E IMITUESVE-HYRESVE TE MEVONSHEM
 
