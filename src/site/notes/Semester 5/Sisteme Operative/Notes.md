@@ -527,10 +527,10 @@ Ushtrimi i përditësuar për Ubuntu thekson përfshirjen e saktë të hederëve
 
 Sjellja kryesore e **fork()**:
 
-| Vlera e kthyer | Kuptimi |
-| --- | --- |
-| më e vogël se 0 | Krijimi dështoi. |
-| 0 | Jemi në procesin fëmijë. |
+| Vlera e kthyer  | Kuptimi                                              |
+| --------------- | ---------------------------------------------------- |
+| më e vogël se 0 | Krijimi dështoi.                                     |
+| 0               | Jemi në procesin fëmijë.                             |
 | më e madhe se 0 | Jemi në procesin prind; vlera është PID-i i fëmijës. |
 
 Të dy proceset vazhdojnë pas fork(). Fëmija mund të thërrasë **execlp("ls", "ls", (char *)NULL)** për ta zëvendësuar imazhin e programit të vet me **ls**, duke e kërkuar përmes PATH-it. Nëse exec ka sukses, kodi i vjetër i fëmijës nuk vazhdon më; kodi pas thirrjes shërben për trajtimin e dështimit. Prindi mund të thërrasë **wait(NULL)** për të pritur përfundimin e fëmijës.
@@ -585,23 +585,3 @@ Qëllimet e ushtrimit janë:
 - **Pse folderi i përbashkët nuk duket pas rinisjes?** Montimi manual humbet pas rinisjes; duhet montim automatik ose konfigurim i përhershëm.
 - **Pse sudo touch fajlli mund të sjellë problem?** Fajlli mund të krijohet me pronar root, prandaj përdoruesi i zakonshëm mund të mos ketë të drejtë ta ndryshojë.
 - **Pse dy thirrje të njëpasnjëshme fork() japin katër procese?** Thirrjen e dytë e ekzekutojnë të dy proceset që ekzistojnë pas thirrjes së parë. Formula **2ⁿ** vlen kur të gjitha thirrjet kanë sukses dhe çdo proces i ekzekuton të gjitha thirrjet.
-
-## 10. Materialet burimore
-
-Ligjëratat e përfshira:
-
-- *SO-Java1_Introduction.pdf*
-- *SO-Java2_Funksionet e Sistemit Operativ.pdf*
-- *SO-Java3_Shërbimet e Sistemit Operativ.pdf*
-- *SO-Java4_Operating System Structures.pdf*
-- *SO-Java5_Processes.pdf*
-- *SO-Java6_IPC.pdf*
-
-Materialet e ushtrimeve të përfshira:
-
-- *1. Install Ubuntu - Java 1 (1).pdf*
-- *Sistemet Operative - Ushtrime Ubuntu, terminali dhe C.pdf*
-- *Transferimi i fajllave dhe Implementimi i një programi në gjuhën C.pdf*
-- *4_Kopjimi_i_fajllave_Ubuntu_26.04.pdf*
-- *Krijimi_i_proceseve_1_Ubuntu_26.04.pdf*
-- *Shtimi i system calls_ubuntu.pdf*
