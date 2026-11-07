@@ -45,6 +45,8 @@ E ki ni ide dhe e zhvillon ne krejt fazat, faza e trete punon grupi jem me idene
 
 # Dizajni dhe Analiza e Algoritmeve (DAA)
 
+PS. qishtu e qet te file per syllabus edhe pse sjam qishtu
+
 Kufiri i kalueshmërisë së lëndës është 50%. 
 Vijueshmëria e studentit 5%; 
 Detyrat individuale të kryera në klasë 5%; 

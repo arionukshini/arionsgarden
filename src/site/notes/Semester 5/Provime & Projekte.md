@@ -5,7 +5,7 @@
 # Kollokfiume
 
 9 Nentor 6:30 411 - DAA
-4 Nentor - Nderrmarresi
+4 Nentor - Nderrmarresi ✅
 14 Nentor 10:00 411 - SO
 
 # Provime
