@@ -6,7 +6,7 @@
 
 9 Nentor 6:30 411 - DAA
 4 Nentor - Nderrmarresi
-14 Nentor - SO
+14 Nentor 10:00 411 - SO
 
 # Provime
 
@@ -45,7 +45,7 @@ https://github.com/Lindi1111/Lind-Mjekiqi--Luna-Tomato-Logistics
 
 ## MM
 
-???
+2 fleta me formula and shit mujna mi marr nkollokfium
 
 ## Testimi
 
