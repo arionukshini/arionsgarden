@@ -33,17 +33,17 @@ Orinetimi ndermarrës inkorporon në vehte pesë dimensione:
 
 ## PROCESI I NDËRMARRËSISË
 
-![Pasted image 20261027124303.png](/img/user/Pasted%20image%2020261027124303.png)
-![Pasted image 20261027124424.png](/img/user/Pasted%20image%2020261027124424.png)
+![Pasted image 20261027124303.png](/img/user/Images/Pasted%20image%2020261027124303.png)
+![Pasted image 20261027124424.png](/img/user/Images/Pasted%20image%2020261027124424.png)
 
 ## PROFILI I NDËRMARRËSVE
 
-![Pasted image 20261027124550.png](/img/user/Pasted%20image%2020261027124550.png)
+![Pasted image 20261027124550.png](/img/user/Images/Pasted%20image%2020261027124550.png)
 
 ## TIPET E NDËRMARRËSVE
 
-![Pasted image 20261027124637.png](/img/user/Pasted%20image%2020261027124637.png)
-![Pasted image 20261027124647.png](/img/user/Pasted%20image%2020261027124647.png)
+![Pasted image 20261027124637.png](/img/user/Images/Pasted%20image%2020261027124637.png)
+![Pasted image 20261027124647.png](/img/user/Images/Pasted%20image%2020261027124647.png)
 
 ## MONITORI GLOBAL I NDËRMARRËSISË
 
@@ -58,17 +58,17 @@ GEM përdorë tre indikatorë kryesorë për matjen e aktivitetit ndërmarrës n
 - TEA indikatori i bazuar në mundësi paraqet përqindjen e popullsisë së rritur që është duke u përpjekur për të filluar ose ka filluar një biznes foshnje në bazë të shfrytëzimit të një mundësie të perceptuar. 
 - TEA indikatori i bazuar në nevojë paraqet përqindjen e popullsisë së rritur që është duke u përpjekur për të filluar ose ka nisur një biznes foshnje, pasi që të gjitha opsionet tjera për punë mungojnë ose janë të pavolitshme.
 
-![Pasted image 20261027125127.png](/img/user/Pasted%20image%2020261027125127.png)
+![Pasted image 20261027125127.png](/img/user/Images/Pasted%20image%2020261027125127.png)
 
 # 3 - Natyra e biznesit të vogël
 
 ### Klasifikimi i bizneseve të vogla në Unionin Evropian
 
-![Pasted image 20261027125544.png](/img/user/Pasted%20image%2020261027125544.png)
+![Pasted image 20261027125544.png](/img/user/Images/Pasted%20image%2020261027125544.png)
 
 ### Sipas madhësisë ndërmarrjet në Kosovë klasifikohen si:
 
-![Pasted image 20261027125611.png](/img/user/Pasted%20image%2020261027125611.png)
+![Pasted image 20261027125611.png](/img/user/Images/Pasted%20image%2020261027125611.png)
 
 ## PËRPARËSITË E BIZNESIT TË VOGËL
 
@@ -178,7 +178,7 @@ Pronari i biznesit të vogël gjatë marrjes së vendimit në lidhje me formën 
 - shpërndarja e profiteve dhe humbjeve, 
 - atraktiviteti për të tërheq kapital shtesë.
 
-![Pasted image 20261027134915.png](/img/user/Pasted%20image%2020261027134915.png)
+![Pasted image 20261027134915.png](/img/user/Images/Pasted%20image%2020261027134915.png)
 
 ### STARTUP-ET TEKNOLOGJIKE
 
@@ -256,11 +256,11 @@ Inovacionet, në bazë të thellësisë së ndryshimit të shkaktuar, mund të j
 
 ## FAZAT E PROCESIT TË INOVACIONIT
 
-![Pasted image 20261027161657.png](/img/user/Pasted%20image%2020261027161657.png)
+![Pasted image 20261027161657.png](/img/user/Images/Pasted%20image%2020261027161657.png)
 
 ### PËRFITIMET NGA KREATIVITETI DHE INOVACIONI 
 
-![Pasted image 20261027162230.png](/img/user/Pasted%20image%2020261027162230.png)
+![Pasted image 20261027162230.png](/img/user/Images/Pasted%20image%2020261027162230.png)
 
 Në lidhje me përfitimet nga kreativiteti dhe inovacionet është konstruktuar një model I njohur si **BCF Modeli (better, cheaper and faster)** që nënkupton se inovacionet i mundësojnë ndërmarrjeve të prodhojnë produkte dhe shërbime më të mira (B-better), me shpenzime më të ulëta (C-cheaper) dhe për një kohë më të shkurtër (F-faster).
 
@@ -298,7 +298,7 @@ Pas skadimit të këtij afati të caktuar kohor, shpikja merr karakter publik, r
 
 Marka tregtare është një fjalë, simbol, dizajn, slogan apo edhe një tingull i veçantë që identifikon prodhuesin apo ofruesin e produkteve apo shërbimeve të caktuara. 
 Ndryshe nga patenta, një markë tregtare mund të mbrohet për një kohë të pacaktuar, respektivisht për aq kohë sa ajo të jetë duke u përdorur për qëllime komerciale nga individi apo kompania përkatëse.
-![Pasted image 20261027165516.png](/img/user/Pasted%20image%2020261027165516.png)
+![Pasted image 20261027165516.png](/img/user/Images/Pasted%20image%2020261027165516.png)
 
 ### E DREJTA E AUTORIT
 
@@ -328,7 +328,7 @@ Disa nga llojet e rreziqeve janë:
 - Rreziku familjar dhe shoqëror 
 - Rreziku psikologjik
 
-![Pasted image 20261027222553.png](/img/user/Pasted%20image%2020261027222553.png)
+![Pasted image 20261027222553.png](/img/user/Images/Pasted%20image%2020261027222553.png)
 
 ## MENAXHIMI I RREZIKUT
 
@@ -388,8 +388,8 @@ Gjasat për të ndodhur një rrezik mund të karakterizohen si në vijim:
 - **[2] Jo i pritshëm** – rreziku mund të ndodh ndonjëherë, p.sh. një herë në 5 vjet. Probabiliteti që të ndodh është 5-30%. 
 - **[1] I rrallë** – rreziku mund të ndodhë vetëm në rrethana të jashtë-zakonshme. Një rrezik i tillë ka ndodhur diku tjetër dhe mund të ndodh një herë në çdo 5+ vjet. Probabiliteti që të ndodh është më pak se 5%.
 
-![Pasted image 20261027224534.png](/img/user/Pasted%20image%2020261027224534.png)
-![Pasted image 20261027224549.png](/img/user/Pasted%20image%2020261027224549.png)
+![Pasted image 20261027224534.png](/img/user/Images/Pasted%20image%2020261027224534.png)
+![Pasted image 20261027224549.png](/img/user/Images/Pasted%20image%2020261027224549.png)
 
 Ndërmarrësit gjatë trajtimit të rrezikut mund të përdorin njërin nga këto opsione, ose një kombinim të tyre: 
 - Shmangia e rrezikut 
@@ -491,7 +491,7 @@ Vendimi për themelimin e ndërmarrjes së re mbështetet në studimin e fizibil
 
 ## BLERJA E NDËRMARRJES EKZISTUESE
 
-![Pasted image 20261103155158.png](/img/user/Pasted%20image%2020261103155158.png)
+![Pasted image 20261103155158.png](/img/user/Images/Pasted%20image%2020261103155158.png)
 
 
 ## VLERËSIMI I BIZNESIT
@@ -527,7 +527,7 @@ Analiza e faktorëve për blerjen e ndërmarrjes ekzistuese përfshin studimin e
 
 ## KATEGORITE E BIZNESIT FAMILJAR
 
-![Pasted image 20261103155927.png](/img/user/Pasted%20image%2020261103155927.png)
+![Pasted image 20261103155927.png](/img/user/Images/Pasted%20image%2020261103155927.png)
 
 
 ### FAZAT E PROCESIT TË SUKCESIONIT JANË

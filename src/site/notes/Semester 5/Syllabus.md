@@ -58,7 +58,7 @@ Provimi final 60%
 
 # Ndërmarrësia dhe Inovacioni
 
-![Pasted image 20260924153137.png](/img/user/Pasted%20image%2020260924153137.png)
+![Pasted image 20260924153137.png](/img/user/Images/Pasted%20image%2020260924153137.png)
 
 koll 1 - 4/5 nentor 
 
