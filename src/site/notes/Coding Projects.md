@@ -2,9 +2,7 @@
 {"dg-publish":true,"permalink":"/coding-projects/","dg-note-properties":{}}
 ---
 
-# Coding Projects
-
-## Working on
+# <span style="color:rgb(200, 170, 40)">Working on</span>
 
 - [[Coding/FIEK Hub\|FIEK Hub]]
 - [[Coding/Spicetify Star Ratings\|Spicetify Star Ratings]]
@@ -12,17 +10,17 @@
 - [[Coding/Diino's Terminal\|Diino's Toolbox]]
 - [[Coding/Whitelist Lock In\|Whitelist]]
 
-## Finished
+# <span style="color:rgb(30, 180, 30)">Finished</span>
 
 - [[Coding/Listening FM\|Listening FM]]
 - [[Coding/Salah Times App\|Salah Times]] - want to give it a revamp later.
 
-## On pause
+# <span style="color:rgb(160, 30, 30)">On pause</span>
 
 - [[Coding/Yeat Vault\|Yeat Vault]]
 - [[Coding/SpotiTag\|SpotiTag]]
 
-## Ideas
+# <span style="color:rgb(195, 90, 150)">Ideas</span>
 
 - [[Coding/Salah Times App\|Salah Times revamp]] - Quran player, and maybe iOS/Android versions later.
 - [[Coding/Spicetify QOL\|Spicetify QOL extension]] - the useful little Spotify fixes in one place. Name undecided: SpicyLife / Spiced / SpicedUp / SpotifyQOL.
