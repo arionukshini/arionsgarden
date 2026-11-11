@@ -195,3 +195,44 @@ Other types of IPC mechanisms are:
 
 IPC using shared memory requires communicating processes to establish a region of shared memory. 
 Processes can then exchange information by reading and writing data to the shared region.
+
+**Message passing** may be either blocking or non-blocking.
+
+**Blocking** is considered synchronous: 
+- Blocking send - the sender is blocked until the message is received. 
+- Blocking receive - the receiver is blocked until a message is available.
+**Non-blocking** is considered asynchronous: 
+- Non-blocking send - the sender sends the message and continue. 
+- Non-blocking receive - the receiver receives a valid message, or null message.
+
+### Pipes
+
+A pipe is an IPC mechanism that allows data to flow unidirectionally or bidirectionally between processes.
+
+#### On UNIX Systems: 
+fd\[0] is the read end 
+fd\[1] is the write end 
+
+**System calls:** 
+read() and write() 
+pipe() - create a pipe
+close() – close a pipe
+
+#### On Windows systems: 
+ReadFile() - reading to the pipe 
+WriteFile() - writing to the pipe 
+CreatePipe() - create new pipe
+
+### Sockets
+
+A socket is defined as an endpoint for communication. 
+A pair of processes communicating over a network employs a pair of sockets - one for each process. 
+Socket is identified by an IP address concatenated with a port number.
+![Pasted image 20261111122956.png](/img/user/Pasted%20image%2020261111122956.png)
+
+### Remote Procedure Calls (RPCs)
+
+RPC is a powerful technique for constructing distributed, client-server-based applications. It is also known as a function call or a subroutine call.
+The main idea of an RPC is to allow a local machine (client) to remotely call procedures on a different machine (server). 
+RPC is when a computer program causes a procedure to execute in a different address space, coded as a local procedure call, without the programmer explicitly stating the details for the remote interaction.
+![Pasted image 20261111131540.png](/img/user/Pasted%20image%2020261111131540.png)
