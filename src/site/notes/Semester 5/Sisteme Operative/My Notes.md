@@ -180,3 +180,18 @@ A **zombie** process is a process that has completed execution (via the exit sys
 A process whose parent process has terminated without waiting - if a parent did not invoke wait() for its child process to terminate, is called an **orphan** process.
 ![Pasted image 20261110160052.png](/img/user/Pasted%20image%2020261110160052.png)
 
+## IPC
+
+Two fundamental models of IPC: 
+- Shared Memory 
+- Message Passing
+
+Other types of IPC mechanisms are: 
+- Pipes 
+- Semaphores 
+- Signals 
+- Sockets
+- Remote procedure Calls (RPCs)
+
+IPC using shared memory requires communicating processes to establish a region of shared memory. 
+Processes can then exchange information by reading and writing data to the shared region.

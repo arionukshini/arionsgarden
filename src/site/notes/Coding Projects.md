@@ -26,3 +26,4 @@
 - [[Coding/Spicetify QOL\|Spicetify QOL extension]] - the useful little Spotify fixes in one place. Name undecided: SpicyLife / Spiced / SpicedUp / SpotifyQOL.
 - [[Coding/Who Gets The Aux\|Who Gets The Aux?]] - compare two people's Last.fm music taste and decide who gets the aux.
 - [[Coding/Numpad Soundboard\|Numpad Soundboard]] - use my laptop's numpad as a soundboard in games and Discord.
+- SemsID - Find the person through an ID. Can be apart of fiekhub too. Or two separate things that link to each other.
