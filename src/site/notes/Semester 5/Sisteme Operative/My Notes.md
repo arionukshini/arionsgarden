@@ -21,7 +21,15 @@ Type of Interrupts
 
 ![Pasted image 20261109131254.png](/img/user/Pasted%20image%2020261109131254.png)
 
-A **clustered system** is a group of two or more computers (nodes) that work together and are connected through a network to provide services as a coordinated system.
+A **clustered system** is a group of two or more computers (nodes) that work together and are connected through a network to provide services as a coordinated system. Usually sharing storage via a Storage-Area Network. Are for load balancing tasks.
+
+**Multiprogramming** is an OS technique where multiple programs are kept in main memory (RAM) at the same time, allowing the CPU to switch between them. 
+- The goal is to maximize CPU utilization.
+
+**Timesharing**, also called **multitasking**, is an OS technique that allows multiple processes or applications to share the CPU by giving each one a small amount of CPU time. 
+- The goal is to provide fast response and interactive use.
+
+
 
 To support this distinction in process requirements, most CPUs support two modes of operation: 
 - user mode 
@@ -38,7 +46,7 @@ The mode bit is set to 1 in the user mode. It is changed from 1 to 0 when switch
 The system starts in kernel mode when it boots and after the OS is loaded, it executes applications in user mode. 
 There are some privileged instructions that can only be executed in kernel mode.
 	→ These are interrupt instructions, input/output management, etc. 
- Whenever the OS gains control of the computer, it is in kernel mode. 
+Whenever the OS gains control of the computer, it is in kernel mode. 
 If the privileged instructions are executed in user mode, it is illegal, and a trap is generated.
 
 
@@ -158,9 +166,11 @@ Context switching happens in the following scenarios:
 **Long-term Scheduler (Job Scheduler)** 
 - Controls which processes are admitted from the job pool (disk) into main memory.
 	→ This type of scheduling does not happen very frequently because a process needs some time in the system to be executed. 
+
 **Short-term Scheduler (CPU Scheduler)** 
 - Selects a process from the ready queue to execute on the CPU. 
 	→ A process may execute for only a few milliseconds before waiting for an I/O request. 
+
 **Medium-term Scheduler (Swapper)** 
 - This scheduler is invoked when there is a need to swap out processes from memory to disk (i.e., suspend them) and later swap them back in based on factors such as memory pressure and process priority.
 
@@ -201,6 +211,7 @@ Processes can then exchange information by reading and writing data to the share
 **Blocking** is considered synchronous: 
 - Blocking send - the sender is blocked until the message is received. 
 - Blocking receive - the receiver is blocked until a message is available.
+
 **Non-blocking** is considered asynchronous: 
 - Non-blocking send - the sender sends the message and continue. 
 - Non-blocking receive - the receiver receives a valid message, or null message.

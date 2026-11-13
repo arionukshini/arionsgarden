@@ -8,6 +8,8 @@
 4 Nentor - Nderrmarresi ✅
 14 Nentor 10:00 411 - SO
 
+9 Dhjetor - Nderrmarresi
+
 # Provime
 
 Elektronike -
@@ -42,6 +44,7 @@ https://github.com/arionukshini/Luna-Tomato-Logistics
 Others me teme te njejte - https://github.com/Albion-Mazrekaj/Albion_Mazrekaj-Luna_Tomato_Logistics
 https://github.com/oltamorina24/Olta-Morina-Luna-Tomato-Logistics
 https://github.com/Lindi1111/Lind-Mjekiqi--Luna-Tomato-Logistics
+https://github.com/oltamorina24/Luna-Tomato-Logistics
 
 ## MM
 
