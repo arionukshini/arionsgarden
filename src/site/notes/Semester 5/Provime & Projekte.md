@@ -6,7 +6,7 @@
 
 9 Nentor 6:30 411 - DAA ✅
 4 Nentor - Nderrmarresi ✅
-14 Nentor 10:00 411 - SO
+14 Nentor 10:00 411 - SO ✅
 
 9 Dhjetor - Nderrmarresi
 
@@ -19,7 +19,10 @@ Arkitekture -
 
 ## SO 
 
-(Ushtrime) - TBA
+Ushtrime - https://docs.google.com/document/d/14tyFpyaleOgrpfFmV7DLu1YP0Z0991dK/edit
+20%
+Dorezimi: 20.12
+
 (Ligjerata) - Nuk kam marre, 3 jave spjegim tani prezantim
 
 ## Nderrmarresi
@@ -52,16 +55,14 @@ https://github.com/oltamorina24/Luna-Tomato-Logistics
 
 ## Testimi
 
-TBA
+https://docs.google.com/spreadsheets/d/1KPNW8YzQTbVEkSjJN-qnfcYa41ODGP6GzGyuai7aCsU/edit?gid=0#gid=0
 
 ## IS
 
 1 Projekte, 3 Faza
 
 Faza 1 - Done
-Faza 2 - 15 Nentor (15 pike)
-
-- https://classroom.google.com/c/ODg2ODk2Mjc2MjMz/a/ODkzNjI5MDU0NDIy/details
+Faza 2 - Done
 
 Faza 3 - 27 Dhjetor (20 pike)
 

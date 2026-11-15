@@ -85,10 +85,6 @@ LOVE LASTS FORVER
 
 PROTAGONIST (relisten & review)
 
-### Young Thug
-
-JEFFERY
-
 ### Trippie Redd
 
 LIFE'S A TRIP
