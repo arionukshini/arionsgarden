@@ -1,11 +1,12 @@
 {
   "/": [
+    "Welcome to The Garden",
+    "Albums to Listen to",
+    "Coding Projects",
     "Archive",
     "Semester 4",
     "Semester 5",
-    "Albums to Listen to",
-    "FL Studio Plugins",
-    "Welcome to The Garden"
+    "FL Studio Plugins"
   ],
   "/Archive": [
     "Etike",
@@ -100,6 +101,22 @@
     "Notes K2"
   ],
   "/Semester 5": [
-    "Syllabus"
+    "Syllabus",
+    "Nderrmarresi",
+    "Sisteme Operative",
+    "Provime & Projekte"
+  ],
+  "/Semester 5/Nderrmarresi": [
+    "Flashcards",
+    "Notes"
+  ],
+  "/Semester 5/Sisteme Operative": [
+    "Koll 1"
+  ],
+  "/Semester 5/Sisteme Operative/Koll 1": [
+    "Konceptet kryesore (GPT)",
+    "My Notes",
+    "Notes (GPT)",
+    "OS Structures"
   ]
 }
