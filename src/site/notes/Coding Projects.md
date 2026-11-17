@@ -28,4 +28,5 @@
 - [[Coding/Numpad Soundboard\|Numpad Soundboard]] - use my laptop's numpad as a soundboard in games and Discord.
 - SemsID - Find the person through an ID. Can be apart of fiekhub too. Or two separate things that link to each other.
 - ? - Search pharmacy stuff I forgot the name, their price and stuff using the public Kosovo list of drugs.
-- Better Local Files - a section inside of spotify for better and organized local files, actual albums, artist page etc.
+- Better Local Files - custom app, a section inside of spotify for better and organized local files, actual albums, artist page etc.
+- ArtistGrid - custom app for spotify which is https://artistgrid.cx/ for unreleased music, play, download and everything, with settings
