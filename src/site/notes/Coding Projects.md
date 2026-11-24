@@ -26,7 +26,7 @@
 - [[Coding/Salah Times App\|Salah Times revamp]] - Quran player, and maybe iOS/Android versions later.
 - [[Coding/Who Gets The Aux\|Who Gets The Aux?]] - compare two people's Last.fm music taste and decide who gets the aux.
 - [[Coding/Numpad Soundboard\|Numpad Soundboard]] - use my laptop's numpad as a soundboard in games and Discord.
-- SemsID - Find the person through an ID. Can be apart of fiekhub too. Or two separate things that link to each other.
+- SemsID - Find the person through an ID. Can be apart of fiekhub too. Or two separate things that link to each other, can send pdf or excel with table and it translates it.
 - ? - Search pharmacy stuff I forgot the name, their price and stuff using the public Kosovo list of drugs.
 - Better Local Files - custom app, a section inside of spotify for better and organized local files, actual albums, artist page etc.
 - ArtistGrid - custom app for spotify which is https://artistgrid.cx/ for unreleased music, play, download and everything, with settings

@@ -9,6 +9,9 @@
 14 Nentor 10:00 411 - SO ✅
 
 9 Dhjetor - Nderrmarresi
+8 Dhjetor - Dorezimi DAA
+~26 Dhjetor - SO
+~20 Dhjetor - Mbrojta DAA
 
 # Provime
 
